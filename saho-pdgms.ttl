@@ -1,0 +1,6386 @@
+
+#TTL FROM INPUT FILE:
+# data/saho//saho-pdgms.edn
+@prefix rdf:	 <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:	 <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix aama:	 <http://id.oi.uchicago.edu/aama/2013/> .
+@prefix aamas:	 <http://id.oi.uchicago.edu/aama/2013/schema/> .
+@prefix sah:   <http://id.oi.uchicago.edu/aama/2013/saho/> .
+
+#SCHEMATA:
+
+aama:Saho a aamas:Language .
+aama:Saho rdfs:label "Saho" .
+
+#SCHEMATA: gender
+sah:gender aamas:lang aama:Saho .
+sah:Gender aamas:lang aama:Saho .
+sah:gender rdfs:domain aamas:Term .
+sah:Gender rdfs:label "gender exponents" .
+sah:gender rdfs:label "gender" .
+sah:gender rdfs:range sah:Gender .
+sah:Gender rdfs:subClassOf sah:MuExponent .
+sah:gender rdfs:subPropertyOf sah:muProperty .
+sah:Common aamas:lang aama:Saho .
+sah:Common rdf:type sah:Gender .
+sah:Common rdfs:label "Common".
+sah:Fem aamas:lang aama:Saho .
+sah:Fem rdf:type sah:Gender .
+sah:Fem rdfs:label "Fem".
+sah:Masc aamas:lang aama:Saho .
+sah:Masc rdf:type sah:Gender .
+sah:Masc rdfs:label "Masc".
+
+#SCHEMATA: nonFiniteForm
+sah:nonFiniteForm aamas:lang aama:Saho .
+sah:Nonfiniteform aamas:lang aama:Saho .
+sah:nonFiniteForm rdfs:domain aamas:Term .
+sah:Nonfiniteform rdfs:label "nonFiniteForm exponents" .
+sah:nonFiniteForm rdfs:label "nonFiniteForm" .
+sah:nonFiniteForm rdfs:range sah:Nonfiniteform .
+sah:Nonfiniteform rdfs:subClassOf sah:MuExponent .
+sah:nonFiniteForm rdfs:subPropertyOf sah:muProperty .
+sah:Participle aamas:lang aama:Saho .
+sah:Participle rdf:type sah:Nonfiniteform .
+sah:Participle rdfs:label "Participle".
+
+#SCHEMATA: polarity
+sah:polarity aamas:lang aama:Saho .
+sah:Polarity aamas:lang aama:Saho .
+sah:polarity rdfs:domain aamas:Term .
+sah:Polarity rdfs:label "polarity exponents" .
+sah:polarity rdfs:label "polarity" .
+sah:polarity rdfs:range sah:Polarity .
+sah:Polarity rdfs:subClassOf sah:MuExponent .
+sah:polarity rdfs:subPropertyOf sah:muProperty .
+sah:Affirmative aamas:lang aama:Saho .
+sah:Affirmative rdf:type sah:Polarity .
+sah:Affirmative rdfs:label "Affirmative".
+sah:Negative aamas:lang aama:Saho .
+sah:Negative rdf:type sah:Polarity .
+sah:Negative rdfs:label "Negative".
+
+#SCHEMATA: case
+sah:case aamas:lang aama:Saho .
+sah:Case aamas:lang aama:Saho .
+sah:case rdfs:domain aamas:Term .
+sah:Case rdfs:label "case exponents" .
+sah:case rdfs:label "case" .
+sah:case rdfs:range sah:Case .
+sah:Case rdfs:subClassOf sah:MuExponent .
+sah:case rdfs:subPropertyOf sah:muProperty .
+sah:Emphatic aamas:lang aama:Saho .
+sah:Emphatic rdf:type sah:Case .
+sah:Emphatic rdfs:label "Emphatic".
+sah:Independent aamas:lang aama:Saho .
+sah:Independent rdf:type sah:Case .
+sah:Independent rdfs:label "Independent".
+sah:Object aamas:lang aama:Saho .
+sah:Object rdf:type sah:Case .
+sah:Object rdfs:label "Object".
+sah:ObjectIndirect aamas:lang aama:Saho .
+sah:ObjectIndirect rdf:type sah:Case .
+sah:ObjectIndirect rdfs:label "ObjectIndirect".
+sah:Possessive aamas:lang aama:Saho .
+sah:Possessive rdf:type sah:Case .
+sah:Possessive rdfs:label "Possessive".
+
+#SCHEMATA: tenseName
+sah:tenseName aamas:lang aama:Saho .
+sah:Tensename aamas:lang aama:Saho .
+sah:tenseName rdfs:domain aamas:Term .
+sah:Tensename rdfs:label "tenseName exponents" .
+sah:tenseName rdfs:label "tenseName" .
+sah:tenseName rdfs:range sah:Tensename .
+sah:Tensename rdfs:subClassOf sah:MuExponent .
+sah:tenseName rdfs:subPropertyOf sah:muProperty .
+sah:Conjunctive aamas:lang aama:Saho .
+sah:Conjunctive rdf:type sah:Tensename .
+sah:Conjunctive rdfs:label "Conjunctive".
+sah:Future1 aamas:lang aama:Saho .
+sah:Future1 rdf:type sah:Tensename .
+sah:Future1 rdfs:label "Future1".
+sah:Future2 aamas:lang aama:Saho .
+sah:Future2 rdf:type sah:Tensename .
+sah:Future2 rdfs:label "Future2".
+sah:Future3 aamas:lang aama:Saho .
+sah:Future3 rdf:type sah:Tensename .
+sah:Future3 rdfs:label "Future3".
+sah:ImperfectNegative aamas:lang aama:Saho .
+sah:ImperfectNegative rdf:type sah:Tensename .
+sah:ImperfectNegative rdfs:label "ImperfectNegative".
+sah:ImperfectSubordinate aamas:lang aama:Saho .
+sah:ImperfectSubordinate rdf:type sah:Tensename .
+sah:ImperfectSubordinate rdfs:label "ImperfectSubordinate".
+sah:JussiveNegative aamas:lang aama:Saho .
+sah:JussiveNegative rdf:type sah:Tensename .
+sah:JussiveNegative rdfs:label "JussiveNegative".
+sah:PerfectNegative aamas:lang aama:Saho .
+sah:PerfectNegative rdf:type sah:Tensename .
+sah:PerfectNegative rdfs:label "PerfectNegative".
+sah:PerfectSubordinate aamas:lang aama:Saho .
+sah:PerfectSubordinate rdf:type sah:Tensename .
+sah:PerfectSubordinate rdfs:label "PerfectSubordinate".
+sah:Perfective aamas:lang aama:Saho .
+sah:Perfective rdf:type sah:Tensename .
+sah:Perfective rdfs:label "Perfective".
+sah:Pluperfect aamas:lang aama:Saho .
+sah:Pluperfect rdf:type sah:Tensename .
+sah:Pluperfect rdfs:label "Pluperfect".
+
+#SCHEMATA: conjClass
+sah:conjClass aamas:lang aama:Saho .
+sah:Conjclass aamas:lang aama:Saho .
+sah:conjClass rdfs:domain aamas:Term .
+sah:Conjclass rdfs:label "conjClass exponents" .
+sah:conjClass rdfs:label "conjClass" .
+sah:conjClass rdfs:range sah:Conjclass .
+sah:Conjclass rdfs:subClassOf sah:MuExponent .
+sah:conjClass rdfs:subPropertyOf sah:muProperty .
+sah:Irregular aamas:lang aama:Saho .
+sah:Irregular rdf:type sah:Conjclass .
+sah:Irregular rdfs:label "Irregular".
+sah:Pref-irreg aamas:lang aama:Saho .
+sah:Pref-irreg rdf:type sah:Conjclass .
+sah:Pref-irreg rdfs:label "Pref-irreg".
+sah:Prefix aamas:lang aama:Saho .
+sah:Prefix rdf:type sah:Conjclass .
+sah:Prefix rdfs:label "Prefix".
+sah:Suffix aamas:lang aama:Saho .
+sah:Suffix rdf:type sah:Conjclass .
+sah:Suffix rdfs:label "Suffix".
+sah:SuffixIrregular aamas:lang aama:Saho .
+sah:SuffixIrregular rdf:type sah:Conjclass .
+sah:SuffixIrregular rdfs:label "SuffixIrregular".
+
+#SCHEMATA: pos
+sah:pos aamas:lang aama:Saho .
+sah:Pos aamas:lang aama:Saho .
+sah:pos rdfs:domain aamas:Term .
+sah:Pos rdfs:label "pos exponents" .
+sah:pos rdfs:label "pos" .
+sah:pos rdfs:range sah:Pos .
+sah:Pos rdfs:subClassOf sah:MuExponent .
+sah:pos rdfs:subPropertyOf sah:muProperty .
+sah:Pronoun aamas:lang aama:Saho .
+sah:Pronoun rdf:type sah:Pos .
+sah:Pronoun rdfs:label "Pronoun".
+sah:Verb aamas:lang aama:Saho .
+sah:Verb rdf:type sah:Pos .
+sah:Verb rdfs:label "Verb".
+
+#SCHEMATA: person
+sah:person aamas:lang aama:Saho .
+sah:Person aamas:lang aama:Saho .
+sah:person rdfs:domain aamas:Term .
+sah:Person rdfs:label "person exponents" .
+sah:person rdfs:label "person" .
+sah:person rdfs:range sah:Person .
+sah:Person rdfs:subClassOf sah:MuExponent .
+sah:person rdfs:subPropertyOf sah:muProperty .
+sah:Common aamas:lang aama:Saho .
+sah:Common rdf:type sah:Person .
+sah:Common rdfs:label "Common".
+sah:Person1 aamas:lang aama:Saho .
+sah:Person1 rdf:type sah:Person .
+sah:Person1 rdfs:label "Person1".
+sah:Person2 aamas:lang aama:Saho .
+sah:Person2 rdf:type sah:Person .
+sah:Person2 rdfs:label "Person2".
+sah:Person3 aamas:lang aama:Saho .
+sah:Person3 rdf:type sah:Person .
+sah:Person3 rdfs:label "Person3".
+
+#SCHEMATA: derivedStem
+sah:derivedStem aamas:lang aama:Saho .
+sah:Derivedstem aamas:lang aama:Saho .
+sah:derivedStem rdfs:domain aamas:Term .
+sah:Derivedstem rdfs:label "derivedStem exponents" .
+sah:derivedStem rdfs:label "derivedStem" .
+sah:derivedStem rdfs:range sah:Derivedstem .
+sah:Derivedstem rdfs:subClassOf sah:MuExponent .
+sah:derivedStem rdfs:subPropertyOf sah:muProperty .
+sah:B aamas:lang aama:Saho .
+sah:B rdf:type sah:Derivedstem .
+sah:B rdfs:label "B".
+sah:B-Intens aamas:lang aama:Saho .
+sah:B-Intens rdf:type sah:Derivedstem .
+sah:B-Intens rdfs:label "B-Intens".
+sah:M aamas:lang aama:Saho .
+sah:M rdf:type sah:Derivedstem .
+sah:M rdfs:label "M".
+sah:S1 aamas:lang aama:Saho .
+sah:S1 rdf:type sah:Derivedstem .
+sah:S1 rdfs:label "S1".
+sah:S1-Intens aamas:lang aama:Saho .
+sah:S1-Intens rdf:type sah:Derivedstem .
+sah:S1-Intens rdfs:label "S1-Intens".
+sah:S1T aamas:lang aama:Saho .
+sah:S1T rdf:type sah:Derivedstem .
+sah:S1T rdfs:label "S1T".
+sah:S2 aamas:lang aama:Saho .
+sah:S2 rdf:type sah:Derivedstem .
+sah:S2 rdfs:label "S2".
+sah:T aamas:lang aama:Saho .
+sah:T rdf:type sah:Derivedstem .
+sah:T rdfs:label "T".
+sah:T-Intens aamas:lang aama:Saho .
+sah:T-Intens rdf:type sah:Derivedstem .
+sah:T-Intens rdfs:label "T-Intens".
+
+#SCHEMATA: morphClass
+sah:morphClass aamas:lang aama:Saho .
+sah:Morphclass aamas:lang aama:Saho .
+sah:morphClass rdfs:domain aamas:Term .
+sah:Morphclass rdfs:label "morphClass exponents" .
+sah:morphClass rdfs:label "morphClass" .
+sah:morphClass rdfs:range sah:Morphclass .
+sah:Morphclass rdfs:subClassOf sah:MuExponent .
+sah:morphClass rdfs:subPropertyOf sah:muProperty .
+sah:TENSEFORMATION aamas:lang aama:Saho .
+sah:TENSEFORMATION rdf:type sah:Morphclass .
+sah:TENSEFORMATION rdfs:label "TENSEFORMATION".
+
+#SCHEMATA: proClass
+sah:proClass aamas:lang aama:Saho .
+sah:Proclass aamas:lang aama:Saho .
+sah:proClass rdfs:domain aamas:Term .
+sah:Proclass rdfs:label "proClass exponents" .
+sah:proClass rdfs:label "proClass" .
+sah:proClass rdfs:range sah:Proclass .
+sah:Proclass rdfs:subClassOf sah:MuExponent .
+sah:proClass rdfs:subPropertyOf sah:muProperty .
+sah:Independent aamas:lang aama:Saho .
+sah:Independent rdf:type sah:Proclass .
+sah:Independent rdfs:label "Independent".
+
+#SCHEMATA: tam
+sah:tam aamas:lang aama:Saho .
+sah:Tam aamas:lang aama:Saho .
+sah:tam rdfs:domain aamas:Term .
+sah:Tam rdfs:label "tam exponents" .
+sah:tam rdfs:label "tam" .
+sah:tam rdfs:range sah:Tam .
+sah:Tam rdfs:subClassOf sah:MuExponent .
+sah:tam rdfs:subPropertyOf sah:muProperty .
+sah:Copula aamas:lang aama:Saho .
+sah:Copula rdf:type sah:Tam .
+sah:Copula rdfs:label "Copula".
+sah:Imperative aamas:lang aama:Saho .
+sah:Imperative rdf:type sah:Tam .
+sah:Imperative rdfs:label "Imperative".
+sah:Imperfect aamas:lang aama:Saho .
+sah:Imperfect rdf:type sah:Tam .
+sah:Imperfect rdfs:label "Imperfect".
+sah:ImperfectInni aamas:lang aama:Saho .
+sah:ImperfectInni rdf:type sah:Tam .
+sah:ImperfectInni rdfs:label "ImperfectInni".
+sah:ImperfectLi aamas:lang aama:Saho .
+sah:ImperfectLi rdf:type sah:Tam .
+sah:ImperfectLi rdfs:label "ImperfectLi".
+sah:ImperfectM aamas:lang aama:Saho .
+sah:ImperfectM rdf:type sah:Tam .
+sah:ImperfectM rdfs:label "ImperfectM".
+sah:ImperfectMa aamas:lang aama:Saho .
+sah:ImperfectMa rdf:type sah:Tam .
+sah:ImperfectMa rdfs:label "ImperfectMa".
+sah:Jussive aamas:lang aama:Saho .
+sah:Jussive rdf:type sah:Tam .
+sah:Jussive rdfs:label "Jussive".
+sah:JussiveKi aamas:lang aama:Saho .
+sah:JussiveKi rdf:type sah:Tam .
+sah:JussiveKi rdfs:label "JussiveKi".
+sah:JussiveLi aamas:lang aama:Saho .
+sah:JussiveLi rdf:type sah:Tam .
+sah:JussiveLi rdfs:label "JussiveLi".
+sah:JussiveMa aamas:lang aama:Saho .
+sah:JussiveMa rdf:type sah:Tam .
+sah:JussiveMa rdfs:label "JussiveMa".
+sah:MaStemInniCopula aamas:lang aama:Saho .
+sah:MaStemInniCopula rdf:type sah:Tam .
+sah:MaStemInniCopula rdfs:label "MaStemInniCopula".
+sah:Past aamas:lang aama:Saho .
+sah:Past rdf:type sah:Tam .
+sah:Past rdfs:label "Past".
+sah:Perfect aamas:lang aama:Saho .
+sah:Perfect rdf:type sah:Tam .
+sah:Perfect rdfs:label "Perfect".
+sah:PerfectH aamas:lang aama:Saho .
+sah:PerfectH rdf:type sah:Tam .
+sah:PerfectH rdfs:label "PerfectH".
+sah:PerfectInniImperfect aamas:lang aama:Saho .
+sah:PerfectInniImperfect rdf:type sah:Tam .
+sah:PerfectInniImperfect rdfs:label "PerfectInniImperfect".
+sah:PerfectInniPerfect aamas:lang aama:Saho .
+sah:PerfectInniPerfect rdf:type sah:Tam .
+sah:PerfectInniPerfect rdfs:label "PerfectInniPerfect".
+sah:PerfectM aamas:lang aama:Saho .
+sah:PerfectM rdf:type sah:Tam .
+sah:PerfectM rdfs:label "PerfectM".
+sah:_NULL aamas:lang aama:Saho .
+sah:_NULL rdf:type sah:Tam .
+sah:_NULL rdfs:label "_NULL".
+
+#SCHEMATA: number
+sah:number aamas:lang aama:Saho .
+sah:Number aamas:lang aama:Saho .
+sah:number rdfs:domain aamas:Term .
+sah:Number rdfs:label "number exponents" .
+sah:number rdfs:label "number" .
+sah:number rdfs:range sah:Number .
+sah:Number rdfs:subClassOf sah:MuExponent .
+sah:number rdfs:subPropertyOf sah:muProperty .
+sah:Common aamas:lang aama:Saho .
+sah:Common rdf:type sah:Number .
+sah:Common rdfs:label "Common".
+sah:Plural aamas:lang aama:Saho .
+sah:Plural rdf:type sah:Number .
+sah:Plural rdfs:label "Plural".
+sah:Singular aamas:lang aama:Saho .
+sah:Singular rdf:type sah:Number .
+sah:Singular rdfs:label "Singular".
+
+#SCHEMATA: verbMorphClass
+sah:verbMorphClass aamas:lang aama:Saho .
+sah:Verbmorphclass aamas:lang aama:Saho .
+sah:verbMorphClass rdfs:domain aamas:Term .
+sah:Verbmorphclass rdfs:label "verbMorphClass exponents" .
+sah:verbMorphClass rdfs:label "verbMorphClass" .
+sah:verbMorphClass rdfs:range sah:Verbmorphclass .
+sah:Verbmorphclass rdfs:subClassOf sah:MuExponent .
+sah:verbMorphClass rdfs:subPropertyOf sah:muProperty .
+sah:TenseFormation aamas:lang aama:Saho .
+sah:TenseFormation rdf:type sah:Verbmorphclass .
+sah:TenseFormation rdfs:label "TenseFormation".
+
+#MORPHEMES:
+
+aama:Saho-PRO a aamas:Morpheme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "PRO" ;
+	rdfs:comment "[x]" ;
+	rdfs:comment "[y]" ;
+	.
+
+#LEXEMES:
+
+aama:Saho-ubl a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "ubl" ;
+	aamas:gloss "see" ;
+	aamas:lemma "ubl-" ;
+	.
+aama:Saho-infili a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "infili" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "be separated (M)" ;
+	aamas:lemma "infili- (M)" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-edhet a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "edhet" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "chew" ;
+	aamas:lemma "eḥet-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-isniq a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "isniq" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "strangle" ;
+	aamas:lemma "isniq-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-emeet a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "emeet" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "come" ;
+	aamas:lemma "emeet-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-idhen a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "idhen" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "grind" ;
+	aamas:lemma "iɗḥen-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-biil a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "biil" ;
+	sah:conjClass sah:Suffix ;
+	aamas:gloss "bleed" ;
+	aamas:lemma "biil-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-ak a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "ak" ;
+	sah:conjClass sah:Suffix ;
+	aamas:gloss "say" ;
+	aamas:lemma "ak-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-ul a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "ul" ;
+	sah:conjClass sah:Suffix ;
+	aamas:gloss "draw water" ;
+	aamas:lemma "ʕul-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-edh a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "edh" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "say" ;
+	aamas:lemma "eɗḥ-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-igdil a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "igdil" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "break" ;
+	aamas:lemma "igdil-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-engeeg a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "engeeg" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "be mistaken (M)" ;
+	aamas:lemma "engeeg- (M)" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-ookom a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "ookom" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "win over" ;
+	aamas:lemma "ookom-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-fi a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "fi" ;
+	sah:conjClass sah:Suffix ;
+	aamas:gloss "sweep" ;
+	aamas:lemma "fi-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-oofo a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "oofo" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "breathe" ;
+	aamas:lemma "oofo-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-yaysadad a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "yaysadad" ;
+	aamas:gloss "[x]" ;
+	aamas:lemma "[y]" ;
+	.
+aama:Saho-eemeg a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "eemeg" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "fill" ;
+	aamas:lemma "eemeg-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-aymaa a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "aymaa" ;
+	aamas:gloss "[x]" ;
+	aamas:lemma "[y]" ;
+	.
+aama:Saho-uhfus a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "uhfus" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "scoop up" ;
+	aamas:lemma "uḥfus-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-bolol a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "bolol" ;
+	aamas:gloss "[x]" ;
+	aamas:lemma "[y]" ;
+	.
+aama:Saho-abaar a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "abaar" ;
+	sah:conjClass sah:Suffix ;
+	aamas:gloss "curse" ;
+	aamas:lemma "abaar-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-enge a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "enge" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "fight" ;
+	aamas:lemma "engeʕ-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-fak a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "fak" ;
+	sah:conjClass sah:Suffix ;
+	aamas:gloss "open" ;
+	aamas:lemma "fak-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-anga a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "anga" ;
+	aamas:gloss "[x]" ;
+	aamas:lemma "[y]" ;
+	.
+aama:Saho-gur a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "gur" ;
+	sah:conjClass sah:Suffix ;
+	aamas:gloss "want" ;
+	aamas:lemma "gur-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-emmeng a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "emmeng" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "be many (M)" ;
+	aamas:lemma "emmeng- (M)" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-ibbid a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "ibbid" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "hold" ;
+	aamas:lemma "ibbiɗ-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-udud a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "udud" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "shorten" ;
+	aamas:lemma "uɗuɗ-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-rab a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "rab" ;
+	sah:conjClass sah:Suffix ;
+	aamas:gloss "die" ;
+	aamas:lemma "rab-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-hab- a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "hab-" ;
+	aamas:gloss "leave" ;
+	aamas:lemma "ḥab-" ;
+	.
+aama:Saho-ki a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "ki" ;
+	sah:conjClass sah:Suffix ;
+	aamas:gloss "be" ;
+	aamas:lemma "ki-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-meenge a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "meenge" ;
+	aamas:gloss "[x]" ;
+	aamas:lemma "[y]" ;
+	.
+aama:Saho-uru a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "uru" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "tie" ;
+	aamas:lemma "uru- (!)" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-eefe a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "eefe" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "give water to" ;
+	aamas:lemma "eefeʕ-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-abaas a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "abaas" ;
+	sah:conjClass sah:Suffix ;
+	aamas:gloss "finish" ;
+	aamas:lemma "abaas-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-ehet a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "ehet" ;
+	aamas:gloss "[x]" ;
+	aamas:lemma "[y]" ;
+	.
+aama:Saho-do a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "do" ;
+	sah:conjClass sah:Suffix ;
+	aamas:gloss "suck on" ;
+	aamas:lemma "ɗo-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-oho a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "oho" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "give" ;
+	aamas:lemma "oḥo- (?)" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-alaa a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "alaa" ;
+	sah:conjClass sah:Suffix ;
+	aamas:gloss "cook" ;
+	aamas:lemma "alaa-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-eemen a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "eemen" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "believe" ;
+	aamas:lemma "eemen-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-fah a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "fah" ;
+	sah:conjClass sah:Suffix ;
+	aamas:gloss "boil" ;
+	aamas:lemma "faḥ-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-urkut a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "urkut" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "become thin" ;
+	aamas:lemma "urkut-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-uyku a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "uyku" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "carry" ;
+	aamas:lemma "uykuʕ- (S1?)" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-imbiddil a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "imbiddil" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "be charged (M)" ;
+	aamas:lemma "imbiddil- (M)" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-eqri a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "eqri" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "read Koran" ;
+	aamas:lemma "eqri-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-fad a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "fad" ;
+	sah:conjClass sah:Suffix ;
+	aamas:gloss "want" ;
+	aamas:lemma "faɗ-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-hab a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "hab" ;
+	aamas:gloss "[x]" ;
+	aamas:lemma "[y]" ;
+	.
+aama:Saho-holol a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "holol" ;
+	sah:conjClass sah:Suffix ;
+	aamas:gloss "blaze up" ;
+	aamas:lemma "bolol-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-usul a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "usul" ;
+	aamas:gloss "[x]" ;
+	aamas:lemma "[y]" ;
+	.
+aama:Saho-abah a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "abah" ;
+	aamas:gloss "[x]" ;
+	aamas:lemma "[y]" ;
+	.
+aama:Saho-alif a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "alif" ;
+	sah:conjClass sah:Suffix ;
+	aamas:gloss "close (open?)" ;
+	aamas:lemma "alif-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-immillik a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "immillik" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "surrender (M)" ;
+	aamas:lemma "immillik- (M)" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-TENSEFORMATION a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "TENSEFORMATION" ;
+	aamas:gloss "[x]" ;
+	aamas:lemma "[y]" ;
+	.
+aama:Saho-yaysud a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "yaysud" ;
+	aamas:gloss "[x]" ;
+	aamas:lemma "[y]" ;
+	.
+aama:Saho-eedeg a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "eedeg" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "know" ;
+	aamas:lemma "eeɗeg-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-edirir a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "edirir" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "eat supper" ;
+	aamas:lemma "edirir-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-edebb a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "edebb" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "repay" ;
+	aamas:lemma "edebb-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-ult a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "ult" ;
+	aamas:gloss "[x]" ;
+	aamas:lemma "[y]" ;
+	.
+aama:Saho-oosol a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "oosol" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "laugh" ;
+	aamas:lemma "oosol-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-ifteh a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "ifteh" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "untie" ;
+	aamas:lemma "ifteḥ-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-ootob a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "ootob" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "repent" ;
+	aamas:lemma "ootob-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-efe a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "efe" ;
+	aamas:gloss "[x]" ;
+	aamas:lemma "[y]" ;
+	.
+aama:Saho-iggire a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "iggire" ;
+	aamas:gloss "[x]" ;
+	aamas:lemma "[y]" ;
+	.
+aama:Saho-ooob a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "ooob" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "drink" ;
+	aamas:lemma "ooʕob-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-ifriy a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "ifriy" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "bear fruit" ;
+	aamas:lemma "ifriy-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-beet a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "beet" ;
+	sah:conjClass sah:Suffix ;
+	aamas:gloss "eat" ;
+	aamas:lemma "beet-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-err a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "err" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "load" ;
+	aamas:lemma "err-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-defee a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "defee" ;
+	sah:conjClass sah:Suffix ;
+	aamas:gloss "set down" ;
+	aamas:lemma "defee-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-ekett a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "ekett" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "gather" ;
+	aamas:lemma "ekett-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-ew a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "ew" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "go out" ;
+	aamas:lemma "ewʕ-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-eebeh a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "eebeh" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "sell" ;
+	aamas:lemma "eebeḥ-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-eeneb a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "eeneb" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "grow" ;
+	aamas:lemma "eeneb-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-emlelekke a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "emlelekke" ;
+	aamas:gloss "[x]" ;
+	aamas:lemma "[y]" ;
+	.
+aama:Saho-ebh a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "ebh" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "say" ;
+	aamas:lemma "ebḥ-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-ekkel a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "ekkel" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "think" ;
+	aamas:lemma "ekkel-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-hankbit a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "hankbit" ;
+	sah:conjClass sah:Suffix ;
+	aamas:gloss "be frightened" ;
+	aamas:lemma "hankabit- (T)" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-eeley a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "eeley" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "become lost" ;
+	aamas:lemma "eeley-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-iskir a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "iskir" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "get drunk" ;
+	aamas:lemma "iskir-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-erd a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "erd" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "run" ;
+	aamas:lemma "erd-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-eheeseb a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "eheeseb" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "think about" ;
+	aamas:lemma "eḥeeseb-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-iksib a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "iksib" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "profit" ;
+	aamas:lemma "iksib-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-onqoomot a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "onqoomot" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "pay attention (M)" ;
+	aamas:lemma "onqoomot- (M)" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-uruf a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "uruf" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "rest" ;
+	aamas:lemma "uʕruf-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-oorof a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "oorof" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "sew" ;
+	aamas:lemma "oorof-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-deer a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "deer" ;
+	sah:conjClass sah:Suffix ;
+	aamas:gloss "cry out" ;
+	aamas:lemma "deer-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-daam a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "daam" ;
+	sah:conjClass sah:Suffix ;
+	aamas:gloss "buy" ;
+	aamas:lemma "ɗaam-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-hankabit a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "hankabit" ;
+	aamas:gloss "[x]" ;
+	aamas:lemma "[y]" ;
+	.
+aama:Saho-obb a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "obb" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "hear" ;
+	aamas:lemma "obb-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-fuu a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "fuu" ;
+	sah:conjClass sah:Suffix ;
+	aamas:gloss "suck" ;
+	aamas:lemma "fuuʕ-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-igre a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "igre" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "cut off" ;
+	aamas:lemma "igreʕ-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-ehlif a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "ehlif" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "be annihilated" ;
+	aamas:lemma "eḥlif-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-emlelekk a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "emlelekk" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "be mistaken (M)" ;
+	aamas:lemma "emlelekk- (M)" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-ifrid a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "ifrid" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "judge" ;
+	aamas:lemma "ifrid-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-eney a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "eney" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "flay" ;
+	aamas:lemma "eney- (?)" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-enzewer a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "enzewer" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "travel (M)" ;
+	aamas:lemma "enzewer- (M)" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-eyteher a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "eyteher" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "cleanse" ;
+	aamas:lemma "eyṭeher-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-uuluus a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "uuluus" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "knead" ;
+	aamas:lemma "uuluus- (?)" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-abad a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "abad" ;
+	sah:conjClass sah:Suffix ;
+	aamas:gloss "spoil" ;
+	aamas:lemma "abaḥ-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-suu a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "suu" ;
+	sah:conjClass sah:Suffix ;
+	aamas:gloss "hide" ;
+	aamas:lemma "suʕu-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-emmeeed a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "emmeeed" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "stretch self (M)" ;
+	aamas:lemma "emmeʕeʕed- (M)" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-di a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "di" ;
+	sah:conjClass sah:Suffix ;
+	aamas:gloss "be able" ;
+	aamas:lemma "ɗiʕ-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-ooog a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "ooog" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "bury" ;
+	aamas:lemma "ooʕog-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-ed a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "ed" ;
+	sah:conjClass sah:Pref-irreg ;
+	aamas:gloss "go" ;
+	aamas:lemma "ed-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-unqusu a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "unqusu" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "be sprained (M)" ;
+	aamas:lemma "unqusuʕ- (M)" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-bad a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "bad" ;
+	sah:conjClass sah:Suffix ;
+	aamas:gloss "die (of an animal or fire)" ;
+	aamas:lemma "bad-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-ab a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "ab" ;
+	sah:conjClass sah:Suffix ;
+	aamas:gloss "do" ;
+	aamas:lemma "ab-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-eeit a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "eeit" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "step on" ;
+	aamas:lemma "eeʕit-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-igziy a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "igziy" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "rule over" ;
+	aamas:lemma "igziy-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-eyme a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "eyme" ;
+	aamas:gloss "[x]" ;
+	aamas:lemma "[y]" ;
+	.
+aama:Saho-eehet a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "eehet" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "chew" ;
+	aamas:lemma "eeḥet-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-inni a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "inni" ;
+	sah:conjClass sah:SuffixIrregular ;
+	aamas:gloss "be in" ;
+	aamas:lemma "inni-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-hay a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "hay" ;
+	sah:conjClass sah:Suffix ;
+	aamas:gloss "dress" ;
+	aamas:lemma "hay-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-dufu a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "dufu" ;
+	sah:conjClass sah:Suffix ;
+	aamas:gloss "push" ;
+	aamas:lemma "dufu-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-ehzen a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "ehzen" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "be sad" ;
+	aamas:lemma "eḥzen-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-eelem a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "eelem" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "weave" ;
+	aamas:lemma "eelem-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-sa a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "sa" ;
+	sah:conjClass sah:Suffix ;
+	aamas:gloss "enter" ;
+	aamas:lemma "sa-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-iklib a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "iklib" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "turn over" ;
+	aamas:lemma "iklib-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-igdif a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "igdif" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "kill" ;
+	aamas:lemma "igdif-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-ad a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "ad" ;
+	sah:conjClass sah:Suffix ;
+	aamas:gloss "pour out" ;
+	aamas:lemma "ḥaɗ-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-inebe a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "inebe" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "hate" ;
+	aamas:lemma "inebeʕ-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-fu a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "fu" ;
+	aamas:gloss "[x]" ;
+	aamas:lemma "[y]" ;
+	.
+aama:Saho-baah a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "baah" ;
+	sah:conjClass sah:Suffix ;
+	aamas:gloss "bring" ;
+	aamas:lemma "baah-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-ikfil a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "ikfil" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "repay" ;
+	aamas:lemma "ikfil-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-oosoom a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "oosoom" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "fast" ;
+	aamas:lemma "oosoom-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-uysuku a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "uysuku" ;
+	aamas:gloss "[x]" ;
+	aamas:lemma "[y]" ;
+	.
+aama:Saho-ineeb a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "ineeb" ;
+	aamas:gloss "[x]" ;
+	aamas:lemma "[y]" ;
+	.
+aama:Saho-ootok a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "ootok" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "hit" ;
+	aamas:lemma "ootok-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-li a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "li" ;
+	aamas:gloss "have" ;
+	aamas:lemma "li-" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-Aad a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "Aad" ;
+	aamas:gloss "[x]" ;
+	aamas:lemma "[y]" ;
+	.
+aama:Saho-eymee a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "eymee" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "repair" ;
+	aamas:lemma "eymeeʕ- (S1 frm meʕe)" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-oysoom a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "oysoom" ;
+	sah:conjClass sah:Prefix ;
+	aamas:gloss "spoil" ;
+	aamas:lemma "oysoom- (S1 frm um-)" ;
+	sah:pos sah:Verb ;
+	.
+aama:Saho-ewe a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "ewe" ;
+	aamas:gloss "[x]" ;
+	aamas:lemma "[y]" ;
+	.
+aama:Saho-biaak a aamas:Lexeme ;
+	aamas:lang aama:Saho ;
+	rdfs:label "biaak" ;
+	sah:conjClass sah:Suffix ;
+	aamas:gloss "injure" ;
+	aamas:lemma "biaak-" ;
+	sah:pos sah:Verb ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffJuss-ab
+
+aama:ID5880df1d-9fd8-44a0-a464-bce72a113808 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-ab ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Jussive ;
+	sah:number sah:Singular ;
+	sah:token "ábto" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImperf-inni-ubl
+
+aama:IDd3fe1d9f-e176-43bf-b900-61030c738222 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Masc ;
+	sah:token-gloss "he has seen (it)" ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ubl ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person3 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:ImperfectInni ;
+	sah:number sah:Singular ;
+	sah:token "yubléhane" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffJuss-ul
+
+aama:ID6a7cf7a3-b3e4-443b-90d8-b5c960058d0d a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ult ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Jussive ;
+	sah:number sah:Plural ;
+	sah:token "ʕúlton" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImperf-ubl
+
+aama:ID92992e0a-73f3-4e6f-83cd-7c94cb123a6a a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:token-gloss "show" ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ubl ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:S1 ;
+	sah:tam sah:Imperfect ;
+	sah:number sah:Singular ;
+	sah:token "ayballe" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImperf-enge
+
+aama:IDca5f65a8-c9cc-40b6-83ac-87fb9eda3614 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-anga ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperfect ;
+	sah:number sah:Singular ;
+	sah:token "angaʕe" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-oorof
+
+aama:ID091ae572-49ad-4d57-b7a6-c31dcc76e14c a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-oorof ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "oorofe" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-ookom
+
+aama:IDa29644c4-cef7-42c5-a2e7-4158edb721af a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ookom ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:M ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "yommokoome" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffJuss-urkut
+
+aama:ID97c5bde3-afb0-475a-ae93-83b8a82d7c3d a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Fem ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-urkut ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person3 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Jussive ;
+	sah:number sah:Singular ;
+	sah:token "tarkáto" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-oorof
+
+aama:ID15895c5e-0ffc-4d2c-9461-5e6621fe210a a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-oorof ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "uruf" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-ifrid
+
+aama:IDe6e47940-2071-4f20-a5a2-d0a32777eef5 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ifrid ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S1 ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "iyfrid" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-alaa
+
+aama:IDa16c444f-5e77-4b13-9318-914146cb2064 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-alaa ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S1 ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "alas" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffJuss-ki-ehzen
+
+aama:IDa6c2fa2a-7ca9-48b7-9ced-58d11d359a2b a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ehzen ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S1 ;
+	sah:tam sah:JussiveKi ;
+	sah:number sah:Plural ;
+	sah:token "tasḥazánon-kitin" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-emmeeed-
+
+aama:IDceb3f8cd-9840-41fd-bc98-d3bce9049bc8 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-emmeeed ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:M ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "yemmeʕeʕede (M)" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImperf-m-uruf
+
+aama:ID985684a8-3198-4e35-8696-a9662a32624e a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:token-gloss "(I want) to rest (subordinate)" ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-uruf ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:ImperfectM ;
+	sah:number sah:Singular ;
+	sah:token "aʕrufe-m" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-uhfus
+
+aama:ID231893a7-e88b-4b43-bba5-879f561abe53 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-uhfus ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "uḥfus" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffJuss-ki-uruf
+
+aama:ID9e7bbc8b-f1f2-4930-996e-d62bbc1488c3 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Masc ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-uruf ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:JussiveKi ;
+	sah:number sah:Singular ;
+	sah:token "yaʕráfo-kinni" ;
+	.
+
+#TERMCLUSTER: saho-VSuff-ki
+
+aama:IDa4757e37-b6cd-4d6f-ae35-9e1e916a8811 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-ki ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Copula ;
+	sah:token "kio" ;
+	sah:person sah:Person1 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Common ;
+	.
+aama:IDfbdc8e2b-aab4-4a15-bb8e-56845d0d5fe4 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-ki ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Copula ;
+	sah:token "kinu" ;
+	sah:person sah:Person1 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	.
+aama:ID994d5598-5c2c-488c-bc6e-cafae8ec13e4 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-ki ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Copula ;
+	sah:token "kitin" ;
+	sah:person sah:Person2 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	.
+aama:ID11e3fbbb-be92-4f9f-9a1c-f6f269ab7059 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-ki ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Copula ;
+	sah:token "kinni" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Fem ;
+	.
+aama:ID90c9bf91-a410-444f-8bb2-453dc72be67a a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-ki ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Copula ;
+	sah:token "kinun" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	.
+aama:IDbd5d7461-b50a-4f4a-ac62-ce5bd172b024 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-ki ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Copula ;
+	sah:token "kito" ;
+	sah:person sah:Person2 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Common ;
+	.
+aama:ID7f19e00e-abb1-4f49-b4fd-0d91185b3f94 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-ki ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Copula ;
+	sah:token "kinni" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Masc ;
+	.
+
+#TERMCLUSTER: saho-VPrefNegImprtv-enge
+
+aama:ID9fd93107-afb6-4a11-9756-7ee3695da279 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Negative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-meenge ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "méengeʕin" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffPerf-biil
+
+aama:ID6e269645-dba5-48ef-8199-1a0b25279380 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-biil ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "biile" ;
+	.
+
+#TERMCLUSTER: saho-VSuffNegPerf-daam
+
+aama:IDd54f18be-b568-4fd6-aa4b-de08e0e62588 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:token-gloss "I didn’t buy (it)" ;
+	sah:polarity sah:Negative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-daam ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Singular ;
+	sah:token "máɗaaminnio " ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-uru- (!)
+
+aama:ID0d2817f1-eb9d-4a0a-9102-2bb487f05844 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-uru ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "uru" ;
+	.
+
+#TERMCLUSTER: saho-VSuffNegImprtv-suu
+
+aama:IDe6d96279-472b-4e2d-8edb-b2ce1ecf3dac a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Negative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-suu ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:T ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "másuʕutin" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffPerf-daam
+
+aama:ID53478d2f-35d3-4434-bc46-06e3f1f6b514 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-daam ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:M ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "ɗaamime" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-eeneb
+
+aama:ID6af2abd1-8b22-4c02-a95a-55fcdfe8d379 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-eeneb ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "eenebe" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-engeeg-
+
+aama:ID3a20b0ed-c1b5-495c-9b9f-005ef00ae989 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-engeeg ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:M ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "yengeege (M)" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffPart-fi
+
+aama:IDb640a04f-4f33-4540-9b75-6221cdefb004 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:nonFiniteForm sah:Participle ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-fi ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:number sah:Common ;
+	sah:token "fía" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffPart-dufu
+
+aama:ID3aadf051-778f-4296-9e00-e65df2b65c3a a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:nonFiniteForm sah:Participle ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-dufu ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:number sah:Common ;
+	sah:token "dufúa" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-eehet
+
+aama:ID2f116208-9323-404d-8b97-5b126998e710 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-eehet ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "eḥet" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-eelem
+
+aama:ID13104876-fafa-43ac-a885-c77f6d741105 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-eelem ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "eeleme" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-eehet
+
+aama:ID4aab7db3-17bd-48a3-b459-fcc51da55e56 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-eehet ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "eeḥete" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-uru- (!)
+
+aama:IDa6b3bf8e-a2b9-438a-97b9-8b9103e59b12 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-uru ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "urue (!)" ;
+	.
+
+#TERMCLUSTER: saho-VSuffNegImprtv-daam
+
+aama:ID9ff88908-b6a5-4790-8ea6-94d5b8166e7c a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Negative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-daam ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "máɗaamin" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-ebh
+
+aama:IDf2fc2a6e-e3ec-4b3c-941a-582751fab1fa a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ebh ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "ebeḥ" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-eeley
+
+aama:ID1a5969e5-8af1-4106-906b-c2eea2646446 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-eeley ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S1-Intens ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "eyleley" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffJuss-ki-ubl
+
+aama:ID1d39a2cb-6e89-4e54-989f-e09319eb35ab a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ubl ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:JussiveKi ;
+	sah:number sah:Plural ;
+	sah:token "náblo-kinu" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPart-ifriy
+
+aama:IDd73cd1ff-cbc1-46e6-bf05-a034609b1068 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:nonFiniteForm sah:Participle ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ifriy ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:number sah:Common ;
+	sah:token "afríyi" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-eefe
+
+aama:IDa0ffd707-855e-49d9-9c72-79eff48c85af a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-efe ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "efeʕ" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImperf-udud
+
+aama:IDe9296dda-7491-4d60-9788-559286cd5d92 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Masc ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-yaysud ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person3 ;
+	sah:derivedStem sah:S1 ;
+	sah:tam sah:Imperfect ;
+	sah:number sah:Singular ;
+	sah:token "yaysuɗuɗe" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffImperf-inni-beet
+
+aama:IDb40a57fb-fc59-406c-a853-7ad6ed4d948f a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:token-gloss "we have eaten it" ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-beet ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:ImperfectInni ;
+	sah:number sah:Plural ;
+	sah:token "bennéhane" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-immillik-
+
+aama:IDa46cedf4-06b9-44c3-b1b8-b78dbb4e8756 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-immillik ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:M ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "yimmillike (M)" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-enge
+
+aama:IDadee03e8-f009-437f-af4b-f74bad2b84a0 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-enge ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "engeʕ" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-uhfus
+
+aama:ID59557596-9845-4906-bb6f-be8740cfbd42 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-uhfus ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "uḥfuse" ;
+	.
+
+#TERMCLUSTER: saho-VSuffJuss-ak
+
+aama:ID2ca64c1c-e986-406c-90c9-d57c039f490b a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-ak ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Jussive ;
+	sah:token "akkóowa ~ óowa " ;
+	sah:person sah:Person1 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Common ;
+	.
+aama:IDecb6b243-0c62-48ce-a19d-8347f9ff5d5e a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-ak ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Jussive ;
+	sah:token "akkóowa ~ óowa " ;
+	sah:person sah:Person3 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Masc ;
+	.
+aama:ID364e63ee-153a-4744-8ce3-951f05a45546 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-ak ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Jussive ;
+	sah:token "aktóowan" ;
+	sah:person sah:Person2 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	.
+aama:ID3ca8d41c-2392-4bc8-b0e2-28a7ab6a2385 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-ak ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Jussive ;
+	sah:token "akóowan" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	.
+aama:ID4792d9cc-a418-4a37-95f8-e0b7cf095c0b a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-ak ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Jussive ;
+	sah:token "aknóowa" ;
+	sah:person sah:Person1 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	.
+aama:ID1b3d4f6e-73f2-4083-a847-550f2330a3fe a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-ak ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Jussive ;
+	sah:token "aktóowa" ;
+	sah:person sah:Person2 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Common ;
+	.
+aama:IDec93e7c1-ecfb-4724-a505-49b86d576757 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-ak ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Jussive ;
+	sah:token "aktóowa" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Fem ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffJuss-li-daam
+
+aama:ID32709e5a-40ac-4940-a351-32660cafe612 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:token-gloss "(I guess) I’ll buy it" ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-daam ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:JussiveLi ;
+	sah:number sah:Singular ;
+	sah:token "ɗáamo-lio" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-oosoom
+
+aama:IDcf9cff27-c0ee-4cd3-811c-32f08ee6e899 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-oosoom ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "osom" ;
+	.
+
+#TERMCLUSTER: saho-VSuffPast-ubl-
+
+aama:IDec778769-33dc-4903-9ae8-82c9f60f85d2 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-ubl ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Past ;
+	sah:token "yublin" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	.
+aama:IDf5f43fe5-377a-424a-9e79-12fd2882bc16 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-ubl ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Past ;
+	sah:token "uble" ;
+	sah:person sah:Person1 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Common ;
+	.
+aama:IDaed11e97-3254-4930-b05b-7524ae950ab0 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-ubl ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Past ;
+	sah:token "yuble" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Masc ;
+	.
+aama:IDd37f2264-ab35-4905-8017-0785185fa4bb a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-ubl ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Past ;
+	sah:token "tublin" ;
+	sah:person sah:Person2 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	.
+aama:ID00fee69f-22c7-40f3-9d2b-10ddd5d356b4 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-ubl ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Past ;
+	sah:token "tuble" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Fem ;
+	.
+aama:IDb15c0934-1b20-426b-b0a2-fd86b3dbb0b7 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-ubl ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Past ;
+	sah:token "nuble" ;
+	sah:person sah:Person1 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	.
+aama:IDf23bf139-524c-4185-ad9a-c51589216161 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-ubl ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Past ;
+	sah:token "tuble" ;
+	sah:person sah:Person2 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Common ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImperf-eney-
+
+aama:ID50f53abb-04de-4648-841c-b98ac299f9d9 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-eney ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperfect ;
+	sah:number sah:Singular ;
+	sah:token "anaye" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffPerf-beet
+
+aama:ID3c8abe98-da2f-4e79-8f8f-43947bfe90f6 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-beet ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:M ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "beetime" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-alif
+
+aama:ID0434704b-70c4-4906-a2f5-276b2c2d40ec a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-alif ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:M ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "alifime" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-edebb
+
+aama:ID5beea5fb-c8ab-45be-9017-1e5a4ba68ad8 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-edebb ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "edebba" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-eefe
+
+aama:ID400a315a-e47d-4046-aebf-283f17cdb904 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-eefe ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "eefeʕe" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImperf-oosol
+
+aama:IDc64e779c-39bc-4eef-ae51-670ae9c24e87 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-oosol ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person3 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperfect ;
+	sah:number sah:Plural ;
+	sah:token "yasulen" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-igdif
+
+aama:ID7eb3827a-9f3c-4e43-925a-a50ba48d6e4c a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-igdif ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S1 ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "iygidif" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-emlelekke-
+
+aama:ID9cf10a21-e66b-439f-b8a2-6779997c4af6 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-emlelekke ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:M ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "yemlelekkee (M)" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-eelem
+
+aama:ID9c052f83-5e18-46bc-9b6d-971404d32565 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-eelem ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "ilim" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImperf-inni{perf}-ubl
+
+aama:ID5be16ff7-174b-4578-922d-957b1d3d9f2a a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Masc ;
+	sah:token-gloss "he had seen (it)" ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ubl ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person3 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:ImperfectInni ;
+	sah:number sah:Singular ;
+	sah:token "yubléhine " ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-idhen
+
+aama:ID873b80e2-ad0b-4617-a43f-87e12eeb7135 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-idhen ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "iɗḥene" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-emeet
+
+aama:ID7ea70582-e40a-4b99-83f1-40d58e952ee7 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-emeet ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "emet (?)" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImperf-eeneb
+
+aama:ID22c9c867-77ee-4a3d-b41a-506e2da029e7 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-eeneb ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperfect ;
+	sah:number sah:Singular ;
+	sah:token "anabe" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffImprtv-biil
+
+aama:IDf49fca95-c8d9-4861-b960-311b8efd756d a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-biil ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "bil" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-ookom
+
+aama:ID4724b525-9318-467d-ae3a-7441864670de a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ookom ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S1-Intens ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "oysokokom" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-iklib
+
+aama:ID109f569b-0092-4a95-aaa4-a8be3da8fad0 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-iklib ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:M ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "inkilibe" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-ibbid
+
+aama:ID405a6b88-ac19-4cc9-b75e-a52108cfaf45 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ibbid ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "ibbiɗe" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImperf-urkut
+
+aama:ID4c93316f-7f80-40c5-9b5e-d4af4150b387 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Fem ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-urkut ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person3 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperfect ;
+	sah:number sah:Singular ;
+	sah:token "tarkute" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-eymee
+
+aama:IDf1865c06-5dfb-4632-b093-1ec493f34038 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-eyme ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S1 ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "eymeʕ" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-eemeg
+
+aama:IDbfa846ba-f210-4423-90bf-63f929fab941 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-eemeg ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:M ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "yemmege" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-oofo
+
+aama:IDcad1c0e4-6c8a-4304-bf10-dfa874a31d56 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-oofo ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S1 ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "oymooofo" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-enge
+
+aama:ID9c05aaae-c0dc-4125-8c27-20de5e356b2a a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-enge ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "engeʕe" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffImperf-dufu
+
+aama:ID1a984e06-9882-434a-8a8c-5624a7c8ee98 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-dufu ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person3 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperfect ;
+	sah:number sah:Plural ;
+	sah:token "dufuan" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImperf-edebb
+
+aama:IDcb0d4367-51a7-4d58-a311-6ee74dd1c37e a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-edebb ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperfect ;
+	sah:number sah:Singular ;
+	sah:token "adabbe" ;
+	.
+
+#TERMCLUSTER: saho-VPrefNegPerf-erd
+
+aama:ID671442c9-8f85-4d0a-a575-902d6a285296 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:token-gloss "they didn’t run" ;
+	sah:polarity sah:Negative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-erd ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person3 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Plural ;
+	sah:token "méerdinnun" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-eedeg
+
+aama:IDde64fe33-5761-46c6-824f-233f9d3208ff a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-eedeg ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S1 ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "iysiɗig" ;
+	.
+
+#TERMCLUSTER: saho-VPrefNegImperf-ubl
+
+aama:IDfb53b0d6-4f04-4264-9051-d98195ae0c86 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Negative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ubl ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperfect ;
+	sah:number sah:Plural ;
+	sah:token "mánable" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffPerf-do
+
+aama:IDb9675e86-f4c2-4e59-9caf-5a466e85b536 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-do ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "ɗoe" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-ootok
+
+aama:ID4032437a-b4ed-4a5a-ab6b-d235687372c2 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ootok ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "ootoke" ;
+	.
+
+#TERMCLUSTER: saho-VPrefNegImperf-ifriy
+
+aama:IDb7f10856-3f4b-442a-bbbf-30dadb6556dd a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Fem ;
+	sah:polarity sah:Negative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ifriy ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person3 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperfect ;
+	sah:number sah:Singular ;
+	sah:token "mátafriye" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-edh
+
+aama:ID32186dc7-7cd0-4cad-b023-1e475576c757 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-edh ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "eɗḥe" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffJuss-eedeg
+
+aama:ID870872b2-1233-4298-9bbc-0053c407c16b a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-eedeg ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Jussive ;
+	sah:number sah:Singular ;
+	sah:token "aɗgo" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-igziy
+
+aama:IDf3bb6419-3f35-427c-b93a-7c864d589c9a a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-igziy ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "igzi" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffPerf-deer
+
+aama:IDb0a5c958-0f28-4f51-90df-4c0b903f9309 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-deer ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "deere" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffJuss-udud
+
+aama:IDa2dbf26f-6506-41f3-985a-265e1a34100e a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Masc ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-yaysadad ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person3 ;
+	sah:derivedStem sah:S1 ;
+	sah:tam sah:Jussive ;
+	sah:number sah:Singular ;
+	sah:token "yaysaɗáɗon" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-edirir-
+
+aama:IDbfc9faad-230c-4614-acb8-9198d57d2d24 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-edirir ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:T ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "iddirir" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-idhen
+
+aama:ID55678caf-d2bd-4494-b1d0-c51ad907629a a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-idhen ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "iɗḥen" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-ehzen-
+
+aama:ID694aa64b-9573-4cc9-bc15-5ec335ff79ec a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ehzen ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S1 ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "esḥezin" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffImperf-daam
+
+aama:ID73bc4231-0c29-4441-9287-3501ba54b8e6 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-daam ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperfect ;
+	sah:number sah:Singular ;
+	sah:token "ɗaama" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-eeit
+
+aama:ID46a450e9-72f7-426e-a327-a3428936f6db a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-eeit ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "eʕit" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-erd
+
+aama:ID1c354bd5-4cbc-4bf4-85c9-915eba3505be a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-erd ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "erde" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-ootob
+
+aama:ID88ab6204-b5f8-4a12-a639-881fc4a835f3 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ootob ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S1 ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "oytob" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-eqri
+
+aama:ID1df60735-485d-441d-852c-ba2c9bad761d a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:token-gloss "read Koran to oneself" ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-eqri ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B-Intens ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "eqriri" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-eebeh
+
+aama:IDb639cc6b-7732-40d3-ad82-a76264269c9a a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-eebeh ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "eebeḥe" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImperf-ekkel
+
+aama:ID255f8efe-a2af-4886-9644-41401c530647 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ekkel ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperfect ;
+	sah:number sah:Singular ;
+	sah:token "akkale" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-eemen
+
+aama:ID8c940ad0-779f-4b35-94de-e8fa83f93e7b a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-eemen ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "imin" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-edh
+
+aama:ID26c38e7e-a586-4f16-936d-39465f53c577 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-edh ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "eɗeḥ" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffImperf-inni-hankabit
+
+aama:ID87c611d9-8d71-4148-827f-95bc1b298450 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:token-gloss "you have been frightened" ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-hankabit ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:T ;
+	sah:tam sah:ImperfectInni ;
+	sah:number sah:Plural ;
+	sah:token "ḥankabittéhane" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-emeet
+
+aama:IDef5d9145-654b-492b-8293-ce6adc0f3290 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-emeet ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "emeete" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-ubl
+
+aama:ID89f42a45-ffc8-4275-8a7f-3b410022fe5b a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ubl ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "uble" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-ifriy
+
+aama:ID0c3c9a3b-5259-4a31-9e37-a72daabf9227 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ifriy ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "ifriye" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-ew
+
+aama:ID773f3ae1-7ea3-4d18-a2aa-249bbb675766 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ewe ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "eweʕ" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImperf-ehzen
+
+aama:IDdba4c4ed-ca3f-4e8e-8ff3-4799cc51f3bc a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ehzen ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S1 ;
+	sah:tam sah:Imperfect ;
+	sah:number sah:Plural ;
+	sah:token "tasḥezinin" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImperf-emlelekk
+
+aama:ID6e5fb9e5-c82c-43d2-bf4c-75a04b6b6a1b a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-emlelekk ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperfect ;
+	sah:number sah:Singular ;
+	sah:token "amlalakke" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImperf-emeet
+
+aama:ID4e54e749-8c5f-4429-b035-fcd5e2ebef3d a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-emeet ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperfect ;
+	sah:number sah:Singular ;
+	sah:token "amate" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffImprtv-beet
+
+aama:ID3fc0bbbf-ec5d-4062-b6c0-56b1bad8dfd4 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-beet ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S2 ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "bessis" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-err
+
+aama:ID9b76f39a-b50d-444c-9493-d75b96a5f2fd a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-err ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "erre" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-ooog
+
+aama:ID3b9b676a-2e93-432e-a770-cccaa52a0f5c a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ooog ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:M ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "yumuʕuge" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImperf-ul
+
+aama:ID83cdebdf-41a1-487c-a414-8007a02abf9c a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ult ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperfect ;
+	sah:number sah:Plural ;
+	sah:token "ʕultan" ;
+	.
+
+#TERMCLUSTER: saho-VSuffNegImperf-ab
+
+aama:IDe046ad31-addc-4937-89b9-004da7d7dd00 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Negative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-ab ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person3 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperfect ;
+	sah:number sah:Plural ;
+	sah:token "máaban" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-eney-
+
+aama:ID88a63048-9966-4050-805f-0bf96d8e2208 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-eney ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "ene" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImperf-eedeg
+
+aama:IDc05d3f37-45c5-492c-a3cb-fbcc840f02b6 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-eedeg ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperfect ;
+	sah:number sah:Singular ;
+	sah:token "aɗige" ;
+	.
+
+#TERMCLUSTER: saho-VIrreg-li
+
+aama:ID028e56d9-3807-473a-8665-fa55a9f2d88e a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Irregular ;
+	aamas:lexeme aama:Saho-li ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Copula ;
+	sah:token "linni" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Fem ;
+	.
+aama:ID7f7d38a8-26b6-4152-add5-2376eb42576d a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Irregular ;
+	aamas:lexeme aama:Saho-li ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Copula ;
+	sah:token "litin" ;
+	sah:person sah:Person2 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	.
+aama:ID0612b61c-32af-4f46-93de-1c0cbd3a3bc4 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Irregular ;
+	aamas:lexeme aama:Saho-li ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Copula ;
+	sah:token "linun" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	.
+aama:ID2c075d0c-7f63-4f79-9c14-785cb77ec0fb a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Irregular ;
+	aamas:lexeme aama:Saho-li ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Copula ;
+	sah:token "lio" ;
+	sah:person sah:Person1 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Common ;
+	.
+aama:IDff7f4e9d-fbae-413f-9404-32bf85c296f7 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Irregular ;
+	aamas:lexeme aama:Saho-li ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Copula ;
+	sah:token "linni" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Masc ;
+	.
+aama:ID0eb12f22-624c-43e2-84be-c80dc416d37b a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Irregular ;
+	aamas:lexeme aama:Saho-li ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Copula ;
+	sah:token "lito" ;
+	sah:person sah:Person2 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Common ;
+	.
+aama:ID89559ce7-3f56-43a6-8878-1a247807fe3f a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Irregular ;
+	aamas:lexeme aama:Saho-li ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Copula ;
+	sah:token "linu" ;
+	sah:person sah:Person1 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-eebeh
+
+aama:ID08e2a619-1cf8-4a04-9d68-7b7e3e4bdd0e a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-eebeh ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "ibiiḥ" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-igdif
+
+aama:ID70336275-31d2-4602-b5cb-d5af5d80efc7 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-igdif ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:M ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "ingidife" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffPerf-di
+
+aama:ID8f95b633-a58b-403f-963b-311ccd86339b a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-di ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "ɗiʕe" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffPart-gur
+
+aama:ID7b5c9e1e-512f-4aa4-bb6c-7e6b4e874dad a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:nonFiniteForm sah:Participle ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-gur ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:number sah:Common ;
+	sah:token "gúra" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-ootob
+
+aama:ID8009103e-cccd-46d4-b781-a5b86889a03d a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ootob ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "ootobe" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-oosol
+
+aama:ID47e10a4d-0149-40cd-bf11-71a7c9ab89c6 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-oosol ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "usul" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-oofo
+
+aama:IDd07a8e57-c146-45e3-8690-97e1e50e672d a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-oofo ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:M ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "yomoofoe" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffImprtv-di
+
+aama:ID66f1d2c7-5c2f-4ca9-ab73-6a9a56e2d9d9 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-di ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "ɗiʕ" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPart-ehet
+
+aama:IDc989aa80-5945-4a88-9bd6-2aa9ffae13b9 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:nonFiniteForm sah:Participle ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ehet ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:number sah:Common ;
+	sah:token "aḥati" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-eeneb
+
+aama:ID53271fdc-eb26-4697-bddb-f8584b2ff624 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-eeneb ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S1 ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "eyneb" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-ehlif
+
+aama:ID3e63e0c3-3648-4d66-bb75-8295ac459792 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ehlif ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "eḥlif" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-igdil
+
+aama:ID2dd9f827-fe8b-48fc-bbdc-9a9a4c43cdf4 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-igdil ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "igdile" ;
+	.
+
+#TERMCLUSTER: saho-VPrefPerf-inni
+
+aama:ID8b5f7df9-ff14-4cc4-b94c-48ee5ee8ff51 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-inni ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Perfect ;
+	sah:token "yinen" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	.
+aama:ID76188b23-f8ff-4534-88a5-4648f120f550 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-inni ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Perfect ;
+	sah:token "tine" ;
+	sah:person sah:Person2 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Common ;
+	.
+aama:ID89250728-0976-42d9-a91f-0df0620304a9 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-inni ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Perfect ;
+	sah:token "tinen" ;
+	sah:person sah:Person2 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	.
+aama:ID3922d71b-3582-42d4-af4f-59297c37bbcb a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-inni ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Perfect ;
+	sah:token "ine" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Masc ;
+	.
+aama:IDe69bfd14-c5a9-4074-b830-8e3175563a6e a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-inni ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Perfect ;
+	sah:token "tine" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Fem ;
+	.
+aama:ID552fba43-d676-44a6-bfd6-f3faa3e5a822 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-inni ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Perfect ;
+	sah:token "ine" ;
+	sah:person sah:Person1 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Common ;
+	.
+aama:IDca7f7699-1a33-4f0e-aa4a-bb621458c30b a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-inni ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Perfect ;
+	sah:token "nine" ;
+	sah:person sah:Person1 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-edebb
+
+aama:IDf08b0705-97b8-44f3-84e4-73703176ac56 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-edebb ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "edebbe" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffPerf-baah
+
+aama:ID243c3da2-6e91-42b9-b18a-1206daf94dc0 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-baah ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "baahe" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-usul
+
+aama:ID309e633c-0444-49fb-85aa-0618903f71c8 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-usul ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S1-Intens ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "uysulul" ;
+	.
+
+#TERMCLUSTER: saho-VPrefNegImprtv-erd
+
+aama:ID4268e5e2-47db-4bee-a85b-b52b1f9dadd6 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Negative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-erd ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "méerdin" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-uuluus-
+
+aama:ID8b8a5979-3ff1-4325-8ca0-acd6aaf0c733 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-uuluus ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "ulus" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-ifrid
+
+aama:ID736e3e89-9505-4954-94aa-bf02c16a4f39 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ifrid ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "ifride" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImperf-eymee
+
+aama:ID2287cbc2-0cf1-4597-9a45-c1fba573f24c a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-aymaa ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:S1 ;
+	sah:tam sah:Imperfect ;
+	sah:number sah:Singular ;
+	sah:token "aymaaʕe" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-onqoomot-
+
+aama:ID5e72dd9e-6157-459d-9d54-46ee3eb5efb2 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-onqoomot ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:M ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "yonqoomote (M)" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-igre
+
+aama:IDdcebffe8-6e7a-4cc0-8800-e6788629e22b a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-iggire ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:T ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "iggireʕ" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-eedeg
+
+aama:ID9cfa7d36-368a-49bc-bb61-08f0aff466f1 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-eedeg ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "eeɗege" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-ifteh
+
+aama:ID58edb692-d42e-4ff7-9dd2-16163131fb54 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ifteh ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:M ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "yimfiteḥe" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-ekkel
+
+aama:ID7939ef95-0fab-4161-aff2-c6b0dfda0d46 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ekkel ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "ekkel" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffPerf-abaas
+
+aama:IDfdd985f5-9024-4d10-803a-0d294a899987 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-abaas ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "abaase" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-oosoom
+
+aama:ID306aa8f7-6cdf-455a-b4a5-ec69973e38e7 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-oosoom ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "oosoome" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImperf-uruf
+
+aama:ID0bfbc469-c2f1-4b38-9332-183ffebfe5d6 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Masc ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-uruf ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person3 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperfect ;
+	sah:number sah:Singular ;
+	sah:token "yaʕrufe" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-uyku
+
+aama:IDb72d0961-b9c4-43b1-8636-e4c4a512071d a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-uysuku ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S1 ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "uysukuʕ" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffImprtv-baah
+
+aama:IDe9490340-c4e7-44d2-8173-16c04c6651c9 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-baah ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "bah" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffImprtv-fah
+
+aama:IDea60a807-0f76-4492-a8f4-133a15c0057e a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-fah ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S1 ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "faḥis" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-imbiddil-
+
+aama:ID315f881d-0a41-4a33-8939-79bfa895b120 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-imbiddil ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:M ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "yimbiddile (M)" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-infili-
+
+aama:ID7874a487-33e7-4cbc-b041-ca0a1f1fcc00 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-infili ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:M ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "yinfiliye (M)" ;
+	.
+
+#TERMCLUSTER: saho-VPrefNegImperf-eedeg
+
+aama:IDe749461e-0f20-4dbb-acfa-59742f0356dd a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Negative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-eedeg ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperfect ;
+	sah:number sah:Singular ;
+	sah:token "máɗige" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-eemeg
+
+aama:ID7d11dbd0-d382-4d85-8966-f02b8576acf3 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-eemeg ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "emeg" ;
+	.
+
+#TERMCLUSTER: saho-VSuffNegJuss-daam
+
+aama:ID51b94d1a-779b-413d-8b11-754dcfb682d3 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:token-gloss "I didn’t (?) buy it" ;
+	sah:polarity sah:Negative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-daam ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Jussive ;
+	sah:number sah:Singular ;
+	sah:token "maɗáamo-ine" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffImprtv-bad
+
+aama:IDcbf72347-3614-47f1-8942-f7813ee5ecc1 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-bad ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S1 ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "badis" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-iksib
+
+aama:IDeb5cca23-8cec-4d0c-a92a-d27328650a3c a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-iksib ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S1 ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "iskisib" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImperf-li-emeet
+
+aama:ID18c40f84-6526-4387-a282-cd679dce0c86 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:token-gloss "we will come (future)" ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-emeet ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:ImperfectLi ;
+	sah:number sah:Plural ;
+	sah:token "nemeeté-lio" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-ooob
+
+aama:ID9d0a4f1d-2de5-41fc-b968-3af255f61dd0 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ooob ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "ooʕobe" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffImprtv-abaas
+
+aama:IDafc5679c-08a2-4fdd-b8f5-864fb183bdc0 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-abaas ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "abas" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffPerf-m-rab
+
+aama:IDe23d4fcf-af72-4c4b-9eb1-68456288569d a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Fem ;
+	sah:token-gloss "rabtem mango ‘many died’" ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-rab ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person3 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:PerfectM ;
+	sah:number sah:Singular ;
+	sah:token "rabte-m" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImperf-eehet
+
+aama:ID67ec674c-0ab3-42b6-b468-dec555a52232 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-eehet ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperfect ;
+	sah:number sah:Singular ;
+	sah:token "aḥate" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-enzewer-
+
+aama:IDdfd5fad5-e2e7-4a05-876e-1c3be4331111 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-enzewer ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:M ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "yenzewere (M)" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffJuss-ifriy
+
+aama:IDb1686cbe-262f-401d-ba34-8999d24d936b a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Fem ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ifriy ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person3 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Jussive ;
+	sah:number sah:Singular ;
+	sah:token "tafráo" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffPerf-abaar
+
+aama:ID6a35bb04-da5b-40d4-a63c-6969435e1c62 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-abaar ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "abaare" ;
+	.
+
+#TERMCLUSTER: saho-VSuffPerf-ak
+
+aama:ID9cd95530-9abe-425d-bc34-c698d6ecd169 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-ak ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Perfect ;
+	sah:token "adte" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Fem ;
+	.
+aama:ID6ab36f46-383f-4b13-8cbe-7a22e7874864 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-ak ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Perfect ;
+	sah:token "akten" ;
+	sah:person sah:Person2 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	.
+aama:ID0351a344-790b-4be5-a663-1c3f7239561f a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-ak ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Perfect ;
+	sah:token "akken" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	.
+aama:ID2c4eb40e-0696-4258-99d6-b51eb8ba13f3 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-ak ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Perfect ;
+	sah:token "akie" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Masc ;
+	.
+aama:ID72d1c781-da6b-4701-ba08-a6cf0bee4be4 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-ak ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Perfect ;
+	sah:token "akke" ;
+	sah:person sah:Person1 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Common ;
+	.
+aama:IDedee54fa-72c5-4c34-bf24-945a3496d8d0 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-ak ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Perfect ;
+	sah:token "akne" ;
+	sah:person sah:Person1 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	.
+aama:ID5d6a3995-0055-4de7-b137-5d341478fb83 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-ak ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Perfect ;
+	sah:token "akte" ;
+	sah:person sah:Person2 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Common ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPart-uruf
+
+aama:ID955edf63-da0c-4ffa-89e9-53a1a4182cc3 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:nonFiniteForm sah:Participle ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-uruf ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:number sah:Common ;
+	sah:token "aʕrúfi" ;
+	.
+
+#TERMCLUSTER: saho-VPrefNegPerf-iskir
+
+aama:ID8de834ea-4552-4874-b48c-86ea874031a8 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Masc ;
+	sah:token-gloss "he didn’t get drunk" ;
+	sah:polarity sah:Negative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-iskir ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person3 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Singular ;
+	sah:token "míiskirinna" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-eemen
+
+aama:IDea5ada88-2a16-45cf-8d87-4aa1ba7332c3 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-eemen ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "eemene" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-oysoom
+
+aama:IDddaefefa-4e5f-49ab-9679-32f1c2067a60 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-oysoom ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:S1 ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "oysom" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffPerf-biaak
+
+aama:ID3935e312-3b3c-43a5-b555-bf2d58cd60eb a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-biaak ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "biaake" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffImprtv-abaar
+
+aama:ID19706a82-854b-411f-a419-e4dd4bcc858b a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-abaar ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "abar" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffPerf-had
+
+aama:IDf6a597ba-61dc-4df2-94a7-8fbb973c7b57 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-Aad ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:M ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "ḥaɗime" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-igziy
+
+aama:IDaa03c3f5-adcb-4304-b46e-5b69357af8f8 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-igziy ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "igziye" ;
+	.
+
+#TERMCLUSTER: saho-VPref-ed
+
+aama:IDe4e7c0d1-2693-49f2-9ac0-ec80edc9e36c a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ed ;
+	sah:nonFiniteForm sah:Participle ;
+	sah:pos sah:Verb ;
+	sah:token "adie" ;
+	sah:tam sah:Imperfect ;
+	sah:person sah:Person1 ;
+	sah:number sah:Singular ;
+	.
+aama:ID95dd0a0e-5976-4d72-a6e8-c8f509bbfdab a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ed ;
+	sah:nonFiniteForm sah:Participle ;
+	sah:pos sah:Verb ;
+	sah:token "adáo" ;
+	sah:tam sah:Jussive ;
+	sah:person sah:Person1 ;
+	sah:number sah:Singular ;
+	.
+aama:IDfd8488eb-4617-4993-b313-ad56ecf0d345 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ed ;
+	sah:nonFiniteForm sah:Participle ;
+	sah:pos sah:Verb ;
+	sah:token "adu" ;
+	sah:tam sah:Imperative ;
+	sah:person sah:Person2 ;
+	sah:number sah:Singular ;
+	.
+aama:ID48d0577f-04da-478b-92c3-22e2a67860db a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ed ;
+	sah:nonFiniteForm sah:Participle ;
+	sah:pos sah:Verb ;
+	sah:token "adíi" ;
+	sah:tam sah:_NULL ;
+	sah:person sah:Common ;
+	sah:number sah:Common ;
+	.
+aama:ID2eefe43d-2df4-4224-8434-e2c5d41b211f a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ed ;
+	sah:nonFiniteForm sah:Participle ;
+	sah:pos sah:Verb ;
+	sah:token "ede" ;
+	sah:tam sah:Perfect ;
+	sah:person sah:Person1 ;
+	sah:number sah:Singular ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-inebe
+
+aama:ID56bef6f7-2338-4f83-87c8-ab2918945f99 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ineeb ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "ineʕeb" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffPerf-fuu
+
+aama:IDed7d55df-ace7-482b-9380-41277dc07c5f a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-fuu ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "fuuʕe" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-ekett
+
+aama:IDc2c93ed0-75ac-4731-8efd-23d6e5dd9d01 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ekett ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S1 ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "esketta" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImperf-ekett
+
+aama:ID7f80eec3-8296-4781-a5df-037c56cfe640 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ekett ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperfect ;
+	sah:number sah:Singular ;
+	sah:token "akatte" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffPart-daam
+
+aama:IDbbbc9814-eab6-4fba-acdb-44de1b3acdc6 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:nonFiniteForm sah:Participle ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-daam ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:number sah:Common ;
+	sah:token "ɗáama" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-eeley
+
+aama:IDe52a50d5-810c-46ca-ae5e-82cf1501339a a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-eeley ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "eeleye" ;
+	.
+
+#TERMCLUSTER: saho-VPrefNegImprtv-igdil
+
+aama:IDdb74532f-8b77-407b-9e30-e69960e0db5f a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Negative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-igdil ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S1 ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "míisgidilin" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffPerf-fah
+
+aama:ID59c04e9a-ab63-42f3-8b10-4371809d041b a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-fah ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:M ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "faḥime" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImperf-eeley
+
+aama:ID651c80b7-6033-4c30-bd9d-200f05b1a57c a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-eeley ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperfect ;
+	sah:number sah:Singular ;
+	sah:token "alaye" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-uuluus-
+
+aama:ID799b7c79-7364-40e1-84f1-8b7d18fc48c7 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-uuluus ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "uuluuse (?)" ;
+	.
+
+#TERMCLUSTER: saho-VSuffNegImperf-daam
+
+aama:ID9ff88622-2338-4074-bb70-eab65324ae28 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Negative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-daam ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperfect ;
+	sah:number sah:Singular ;
+	sah:token "máɗaama" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffImprtv-defee
+
+aama:ID3974ad98-acb2-4700-8033-fd1d0dd908a6 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-defee ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S1 ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "defes" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffPerf-bad
+
+aama:ID2c8acc63-9690-44ea-b7b8-32fabe4a55a4 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-bad ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "bade" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-isniq
+
+aama:ID8fbd88e9-e895-471c-b0b2-fd67fd1365ef a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-isniq ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:M ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "insiniqe" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffImprtv-hay
+
+aama:ID12887d21-c896-4a33-b312-9330f58bcc6c a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-hay ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S1T ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "haysit" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffImperf-ab
+
+aama:IDd1f1ebed-c163-437b-bf0a-5c2cdd9fcf9e a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-ab ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperfect ;
+	sah:number sah:Singular ;
+	sah:token "abta" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffJuss-ki-alif
+
+aama:ID3a756bae-d362-484c-b019-2b32185a2f22 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-alif ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:JussiveKi ;
+	sah:number sah:Plural ;
+	sah:token "alífno-kinu" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffImprtv-do
+
+aama:IDdff1aca8-9d75-490e-9fda-b381833674cf a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-do ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "ɗo" ;
+	.
+
+#TERMCLUSTER: saho-VPrefNegImprtv-iskir
+
+aama:IDc66fdd55-64b0-43d0-946e-e76150bf2b3b a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Negative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-iskir ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "míiskirin" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffPart-sa
+
+aama:IDb04c85c7-f498-4b57-a046-2b6fca9920e0 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:nonFiniteForm sah:Participle ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-sa ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:number sah:Common ;
+	sah:token "sáa" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-m-emeet
+
+aama:ID5a3a8a22-4eec-41f0-bed4-54e1b9c839be a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:token-gloss "temeetem uble ‘I saw you coming’" ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-emeet ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:PerfectM ;
+	sah:number sah:Singular ;
+	sah:token "temeete-m " ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-ibbid
+
+aama:ID6e1955ac-7427-4aa5-8ae5-50f43aff6ad8 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ibbid ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S1 ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "iyɗibiɗ" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-ootok
+
+aama:ID4b9244b9-8018-44a4-a75a-e7af63f906c8 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ootok ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S1 ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "uysutuk" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-emlelekk
+
+aama:ID528de655-ae5c-4a74-83c6-3e637a9f5d78 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-emlelekk ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "emlelekka" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffImprtv-daam
+
+aama:IDae1f6d8c-e860-419b-ac81-758a5f2a9ea8 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-daam ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "ɗaamit" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-ehlif
+
+aama:IDe7517a86-8426-41d5-817b-928b448c483e a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ehlif ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "eḥlife" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-inebe
+
+aama:ID90ee7fc9-eb72-4305-8764-18e0300c6799 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-inebe ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "inebeʕe" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-ifteh
+
+aama:ID1f65ef84-1dde-47a3-a282-9eda22e65c85 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ifteh ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S1 ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "ihfiteḥ" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-obb
+
+aama:ID923153b6-b54c-4eeb-9c53-27c14f2f6811 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-obb ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "obbe" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-eeit
+
+aama:ID1a90a713-74f2-4f9c-b3bc-02ffea3aca5e a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-eeit ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "eeʕite" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImperf-oho-
+
+aama:ID8c89be85-f797-4587-aa3e-92019b49e7fa a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-oho ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperfect ;
+	sah:number sah:Singular ;
+	sah:token "aḥaye" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-oosol
+
+aama:ID4258e3e8-6969-42f8-94e1-85f50f22cdfa a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-oosol ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "oosole" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffJuss-edh
+
+aama:ID57220a1a-df2a-4b28-afa9-76e9bb5f4a8f a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Masc ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-edh ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person3 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Jussive ;
+	sah:number sah:Singular ;
+	sah:token "yáɗho" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-oho-
+
+aama:IDe94dd6c6-aa75-4d1b-9b35-87a45ba92490 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-oho ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "oḥoe (?)" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-ibbid
+
+aama:ID71f3c3ca-1f55-4e74-a62f-696b1e4486de a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ibbid ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "ibbiɗ" ;
+	.
+
+#TERMCLUSTER: saho-VSuffNegImprtv-fak
+
+aama:ID35b8eb8a-3a4d-4b68-b753-bd8bc28724d9 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Negative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-fak ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "máfakin" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffPerf-abah
+
+aama:ID57264d3c-c99a-41cd-bb78-76ada054c5ca a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-abah ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "abaḥe" ;
+	.
+
+#TERMCLUSTER: saho-VPrefImperf-inni
+
+aama:ID5e1bc02c-0eec-4395-aa14-d388c7593fa1 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-inni ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Imperfect ;
+	sah:token "tane" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Fem ;
+	.
+aama:ID6fd24c36-1323-437e-95ff-ee664062917c a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-inni ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Imperfect ;
+	sah:token "nane ~ nanino" ;
+	sah:person sah:Person1 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	.
+aama:ID8bef92c2-f927-414a-af2a-a610a3f1be37 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-inni ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Imperfect ;
+	sah:token "tane ~ tanito" ;
+	sah:person sah:Person2 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Common ;
+	.
+aama:IDaf00c054-e4b3-4966-8157-fb24c7470874 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-inni ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Imperfect ;
+	sah:token "ane ~ anio" ;
+	sah:person sah:Person1 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Common ;
+	.
+aama:ID6940b458-ce89-4b04-88a5-89f6bc225f29 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-inni ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Imperfect ;
+	sah:token "yanin" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	.
+aama:IDd4a764f7-4b0b-4ed3-aca6-59776dcda175 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-inni ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Imperfect ;
+	sah:token "tanitin" ;
+	sah:person sah:Person2 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	.
+aama:IDec1b355c-ef56-42de-a92f-dd4ad3c3b474 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-inni ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Imperfect ;
+	sah:token "yane" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Masc ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffJuss-ehzen
+
+aama:ID42fc7c8b-726d-4c6d-8c9d-c089be3d2cad a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ehzen ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S1 ;
+	sah:tam sah:Jussive ;
+	sah:number sah:Plural ;
+	sah:token "tasḥazánon" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-eney-
+
+aama:ID7040f0a0-e62b-4f96-854a-78c1f1526705 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-eney ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "eneye (?)" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffJuss-dufu
+
+aama:IDf5eb6b58-145a-45b2-b902-c811e1a100cb a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-dufu ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person3 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Jussive ;
+	sah:number sah:Plural ;
+	sah:token "dufúon" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-eheeseb
+
+aama:IDf50b0412-62ae-4e5e-aea9-cd077fc72880 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-eheeseb ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:M ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "yemḥeesebe" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffImperf-m-rab
+
+aama:IDde7b29ab-8eea-46d2-bab6-9f999730cd62 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Fem ;
+	sah:token-gloss "rabtam mango ‘many are dying’ (subordinate)" ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-rab ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person3 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:ImperfectM ;
+	sah:number sah:Singular ;
+	sah:token "rabta-m" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffPerf-ab
+
+aama:ID118281f0-2660-4982-af1b-b70ffdac85eb a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-ab ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "abe" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-igre
+
+aama:ID26d09f81-5a93-41be-8eee-74f3014ca09c a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-igre ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "igreʕe" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffImprtv-ab
+
+aama:ID769407d9-fff3-490f-a280-7eb8d446c6f4 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-ab ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "ab" ;
+	.
+
+#TERMCLUSTER: saho-VPrefNegImperf-oosol
+
+aama:ID3648eb49-6c14-4fdf-a64c-d543b77f41c0 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Negative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-oosol ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person3 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperfect ;
+	sah:number sah:Plural ;
+	sah:token "máyasulen" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffImprtv-biaak
+
+aama:IDb4238eec-72e2-46bf-8268-4613dd8cc53b a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-biaak ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:T ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "biaakit" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-ooob
+
+aama:ID972319bd-70ad-473e-8b88-13a7c7af7e71 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ooob ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "uʕub" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffJuss-uruf
+
+aama:IDd0200607-659a-4751-b8c7-4d9566e2cad6 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Masc ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-uruf ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person3 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Jussive ;
+	sah:number sah:Singular ;
+	sah:token "yaʕráfo" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-ubl
+
+aama:ID09a9bc7f-9d17-4133-973d-b02a8f626236 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:token-gloss "show" ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ubl ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S1 ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "uybullu" ;
+	.
+aama:IDe8680eec-bac7-4582-a42f-565eb713acfd a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:token-gloss "show" ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ubl ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S1 ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "uybulla" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImperf-oysoom
+
+aama:ID60504af1-24f6-41cd-ba49-367ba9e556e8 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-oysoom ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperfect ;
+	sah:number sah:Singular ;
+	sah:token "aysaame" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-ooog
+
+aama:IDccba8d89-59c2-4976-830b-1ec4b55107a0 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ooog ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "uʕug" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffImprtv-deer
+
+aama:IDb9c9fc31-0d74-442d-94c7-916b4dc5c3bc a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-deer ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "der" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-igdil
+
+aama:IDf211f9ac-479f-4824-86a9-765edee4ce0c a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-igdil ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:T-Intens ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "eggedeedel" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-ifriy
+
+aama:ID777fbd99-af42-42fd-b4d4-eb2698b35318 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ifriy ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S1 ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "iyfiri" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-ekkel
+
+aama:IDe4938610-6de8-495c-a425-5929bc8e4367 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ekkel ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "ekkele" ;
+	.
+
+#TERMCLUSTER: saho-VPrefCopula-inni
+
+aama:IDec58a2e3-dc4b-48b7-abfd-3cfe8ea600c9 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-inni ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Copula ;
+	sah:token "innitin" ;
+	sah:person sah:Person2 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	.
+aama:ID6dbf29a0-1322-4066-a763-51171366fcad a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-inni ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Copula ;
+	sah:token "innito" ;
+	sah:person sah:Person2 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Common ;
+	.
+aama:IDef29de69-a0da-45b6-8305-bd1fe7ab3119 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-inni ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Copula ;
+	sah:token "inna" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Masc ;
+	.
+aama:ID2d0ab822-3075-4a65-92fd-ae3395530731 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-inni ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Copula ;
+	sah:token "innio" ;
+	sah:person sah:Person1 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Common ;
+	.
+aama:ID5f856a44-c3a0-4fba-a8e6-975c0549bee0 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-inni ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Copula ;
+	sah:token "innun" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	.
+aama:ID58b99e9a-0d57-48da-a39c-93ac740303b0 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-inni ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Copula ;
+	sah:token "inna" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Fem ;
+	.
+aama:ID7b07080e-1ff0-40e4-a97f-dd86051e3294 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-inni ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Copula ;
+	sah:token "innino" ;
+	sah:person sah:Person1 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImperf-ifriy
+
+aama:ID6dbc0114-7f0c-415e-83ed-8a0106bed937 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Fem ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ifriy ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person3 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperfect ;
+	sah:number sah:Singular ;
+	sah:token "tafriye" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffJuss-ubl
+
+aama:ID639deb21-7356-402c-ac37-06823d72c4fc a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ubl ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Jussive ;
+	sah:number sah:Plural ;
+	sah:token "náblo" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffImprtv-bolol
+
+aama:ID31096992-5b6a-4838-bdbf-975de2cde05e a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:token-gloss "have someone set fire" ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-bolol ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S2 ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "bololsis" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-ekett
+
+aama:IDe4881c3e-59f1-4a61-9de5-86f63d68b069 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ekett ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "ekette" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-oho-
+
+aama:ID4483c6c1-4faa-4ebe-a2b3-b2709c197d42 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-oho ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "uḥu" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-erd
+
+aama:ID76de4921-2d91-4f89-9e99-6b883b0a042b a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-erd ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "erda" ;
+	.
+aama:ID6b0a121b-1626-4840-9348-0bfa0682eaba a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-erd ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "erda" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffImperf-alif
+
+aama:ID75d916a4-46d7-44ba-83f7-f5062a47dc44 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-alif ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperfect ;
+	sah:number sah:Plural ;
+	sah:token "alifna" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffJuss-daam
+
+aama:ID51a73764-3b45-40c7-a4cf-41815ee721eb a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:token-gloss "ɗamo gura/faɗá-iane ‘I want to buy it’" ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-daam ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Jussive ;
+	sah:number sah:Singular ;
+	sah:token "ɗáamo" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-ikfil
+
+aama:ID1412fa7c-57e2-4416-a31b-f5098e6adfd1 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ikfil ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:M ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "inkifile" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-ew
+
+aama:ID26d3e68b-787d-4050-bac3-0f5693c5bdb7 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-ew ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "ewʕe" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffImprtv-fuu
+
+aama:ID56ac66bc-2e00-4285-88b4-5d3e2ff9c353 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-fu ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "fuʕ" ;
+	.
+
+#TERMCLUSTER: saho-VSuffPast-hab-
+
+aama:IDb428a107-ff61-4050-bead-98d5e8c5aea6 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-hab ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Past ;
+	sah:token "ḥaben" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	.
+aama:ID6883989c-ab65-4175-93e3-4c31a398dfa1 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-hab ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Past ;
+	sah:token "ḥabten" ;
+	sah:person sah:Person2 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	.
+aama:ID58c5bbeb-485d-45e1-b0e5-e20959906c24 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-hab ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Past ;
+	sah:token "ḥabe" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Masc ;
+	.
+aama:IDf050d446-6969-4c96-bb52-eef5032bb1b8 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-hab ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Past ;
+	sah:token "ḥabte" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Fem ;
+	.
+aama:IDc631eb68-d134-4537-975a-82156ec3b104 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-hab ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Past ;
+	sah:token "ḥabte" ;
+	sah:person sah:Person2 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Common ;
+	.
+aama:IDaacb9f13-c669-4047-a9b2-9d32684b3014 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-hab ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Past ;
+	sah:token "ḥabne" ;
+	sah:person sah:Person1 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	.
+aama:IDb9a7aa91-353b-4b9d-a27f-076a6a2944ad a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-hab ;
+	sah:pos sah:Verb ;
+	sah:tam sah:Past ;
+	sah:token "ḥabe" ;
+	sah:person sah:Person1 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Common ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-emmeng-
+
+aama:ID46ae250f-bd1f-4c68-b41e-486f21e09bca a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-emmeng ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:M ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "yemmenge (M)" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPerf-unqusu-
+
+aama:ID0dbc35ee-0a05-4443-8e25-e5bbd797ea7e a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-unqusu ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:M ;
+	sah:tam sah:Perfect ;
+	sah:number sah:Common ;
+	sah:token "yunqusuʕe (M)" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-oofo-
+
+aama:ID662cf1fe-df45-4c47-86cf-00ff7bcae764 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-oofo ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S1 ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "uysyfuʕ" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-eyteher
+
+aama:ID454e09a6-8ca4-4de1-ad24-be3cb6b5010a a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-eyteher ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:T ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "eṭṭeher" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffPart-emeet
+
+aama:IDa3a7f356-69eb-45e2-a821-b552e6db6510 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:nonFiniteForm sah:Participle ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-emeet ;
+	sah:pos sah:Verb ;
+	sah:person sah:Common ;
+	sah:derivedStem sah:B ;
+	sah:number sah:Common ;
+	sah:token "amáti" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffJuss-ki-daam
+
+aama:IDa062757c-157a-4df0-bdb9-8cde97988e0b a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:token-gloss "I will buy it" ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-daam ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:JussiveKi ;
+	sah:number sah:Singular ;
+	sah:token "ɗáamo-kio" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-err
+
+aama:ID9061f97a-0f82-4f0d-bc9b-ae6c49f4d706 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-err ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "erra" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffJuss-alif
+
+aama:ID541778b2-eb14-4f2c-9b91-97211ce2d905 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-alif ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Jussive ;
+	sah:number sah:Plural ;
+	sah:token "alífno" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImprtv-obb
+
+aama:ID8452fdee-1f87-4045-b4f2-be7def7adc1f a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-obb ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S1 ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "oysobba" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffImperf-edh
+
+aama:IDeab595e5-7607-474d-9292-348a36b493d3 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Masc ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-edh ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person3 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperfect ;
+	sah:number sah:Singular ;
+	sah:token "yaɗḥe" ;
+	.
+
+#TERMCLUSTER: saho-VPrefAffJuss-oosol
+
+aama:ID54365a19-5df5-446c-87cb-5a5090534318 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-oosol ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person3 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Jussive ;
+	sah:number sah:Plural ;
+	sah:token "yasálon" ;
+	.
+
+#TERMCLUSTER: saho-VSuffAffImprtv-abah
+
+aama:IDd1f0b389-c2d3-4cba-b968-657ebd5ba7c8 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	sah:gender sah:Common ;
+	sah:polarity sah:Affirmative ;
+	sah:conjClass sah:Suffix ;
+	aamas:lexeme aama:Saho-abah ;
+	sah:pos sah:Verb ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:tam sah:Imperative ;
+	sah:number sah:Singular ;
+	sah:token "abaḥ" ;
+	.
+
+#MUTERMCLUSTER: saho-PInd
+
+aama:ID954d7bda-ef63-4b02-b21e-52b623557db7 a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "anu" ;
+	sah:person sah:Person1 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Common ;
+	sah:case sah:Independent ;
+	.
+aama:ID1f71a2a5-ccc9-4464-afbc-d7166035a773 a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "kóya" ;
+	sah:person sah:Person2 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Common ;
+	sah:case sah:Emphatic ;
+	.
+aama:ID36a849ef-c13d-45bd-ac23-6c452b01d9ff a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "yoh" ;
+	sah:person sah:Person1 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Common ;
+	sah:case sah:ObjectIndirect ;
+	.
+aama:IDfe10c270-00cb-47d4-95fb-d47ada70494c a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "te" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Fem ;
+	sah:case sah:Object ;
+	.
+aama:IDe75fca13-f0f9-48f0-ae6f-4a256a975ee9 a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "koh" ;
+	sah:person sah:Person2 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Common ;
+	sah:case sah:ObjectIndirect ;
+	.
+aama:IDe98716f8-8957-4473-b72b-340dee642777 a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "téyah" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Fem ;
+	sah:case sah:ObjectIndirect ;
+	.
+aama:ID1a371f7b-388d-44cc-8708-c8040dc152f6 a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "yi" ;
+	sah:person sah:Person1 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Common ;
+	sah:case sah:Possessive ;
+	.
+aama:IDb2117e3a-a242-4890-9328-baf26f61de9e a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "tee" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Fem ;
+	sah:case sah:Possessive ;
+	.
+aama:IDedefa5f9-8c6f-4005-b0b0-908e4e83af1d a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "yóya" ;
+	sah:person sah:Person1 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Common ;
+	sah:case sah:Emphatic ;
+	.
+aama:ID936d13bc-1341-4e46-9c94-a3e52f7f660c a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "sin" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	sah:case sah:Object ;
+	.
+aama:IDd98d8b17-87de-48f5-8d5c-8243cff4bf9d a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "sínah" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	sah:case sah:ObjectIndirect ;
+	.
+aama:ID12011661-564e-4a6a-87d6-0a592ebbba84 a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "ten" ;
+	sah:person sah:Person2 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	sah:case sah:Possessive ;
+	.
+aama:IDaf5bf849-d2eb-4a55-8847-dc1653fcf2d1 a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "átin" ;
+	sah:person sah:Person2 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	sah:case sah:Independent ;
+	.
+aama:IDf19da4c3-4464-4b8e-afce-ea55c1e08a8a a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "úsun" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	sah:case sah:Independent ;
+	.
+aama:ID63ddef49-bd09-4e6b-8049-40815a4081c0 a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "ka" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Masc ;
+	sah:case sah:Object ;
+	.
+aama:ID9d64c10b-023b-4d1f-a722-c5a5fe72c6ce a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "nóya" ;
+	sah:person sah:Person1 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	sah:case sah:Emphatic ;
+	.
+aama:ID8fda7bfe-169f-497b-ba49-4f3acc5c5039 a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "ku" ;
+	sah:person sah:Person2 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Common ;
+	sah:case sah:Possessive ;
+	.
+aama:IDf36881a0-66c0-49ac-a4cf-d2ef5d555a2f a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "ni" ;
+	sah:person sah:Person1 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	sah:case sah:Possessive ;
+	.
+aama:ID075d7c53-b330-4fbc-af7b-9f8802d6f5f7 a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "ten" ;
+	sah:person sah:Person2 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	sah:case sah:Object ;
+	.
+aama:ID0b32100d-d2a6-4ade-be40-e2f5d040c925 a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "atu" ;
+	sah:person sah:Person2 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Common ;
+	sah:case sah:Independent ;
+	.
+aama:IDec853edb-841a-466e-a667-6fd14628c1d3 a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "téna" ;
+	sah:person sah:Person2 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	sah:case sah:Emphatic ;
+	.
+aama:ID26950a52-e2d1-42aa-a900-7c99aa2d48fd a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "nanu" ;
+	sah:person sah:Person1 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	sah:case sah:Independent ;
+	.
+aama:IDe47868ca-bf52-42cb-a651-8bf1fcb8b091 a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "ténah" ;
+	sah:person sah:Person2 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	sah:case sah:ObjectIndirect ;
+	.
+aama:ID40c6f5be-30d7-4fbf-a4a4-44c802eb655b a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "káya" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Masc ;
+	sah:case sah:Emphatic ;
+	.
+aama:ID1e401342-ed31-486e-afd5-e92ded2221b1 a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "yi" ;
+	sah:person sah:Person1 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Common ;
+	sah:case sah:Object ;
+	.
+aama:ID22142c4f-7650-4c89-9f65-c56e3c5df9f4 a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "nóyah" ;
+	sah:person sah:Person1 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	sah:case sah:ObjectIndirect ;
+	.
+aama:ID1e2cd9b0-349f-4bac-889f-a4991b45a7aa a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "sína" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	sah:case sah:Emphatic ;
+	.
+aama:IDdd05c58c-2c01-4ac1-be78-b131e80e93fc a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "ku" ;
+	sah:person sah:Person2 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Common ;
+	sah:case sah:Object ;
+	.
+aama:ID58beb9eb-9766-4528-9ad3-890f38780773 a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "íse" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Fem ;
+	sah:case sah:Independent ;
+	.
+aama:ID56b3ce01-f6dc-4917-bac1-b6406582c215 a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "úsuk" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Masc ;
+	sah:case sah:Independent ;
+	.
+aama:ID7d89509b-1877-44db-aed4-41085d7d59e0 a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "ni" ;
+	sah:person sah:Person1 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	sah:case sah:Object ;
+	.
+aama:ID88de4f81-dd44-4d16-9cad-188e9e9f4edd a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "téya" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Fem ;
+	sah:case sah:Emphatic ;
+	.
+aama:IDa6e5e9da-fa73-455b-ad97-96cc33cd1f1c a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "sin" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Plural ;
+	sah:gender sah:Common ;
+	sah:case sah:Possessive ;
+	.
+aama:ID838a95f9-f345-4000-aaca-6552736208a5 a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "kaa" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Masc ;
+	sah:case sah:Possessive ;
+	.
+aama:ID8d522f94-a0a1-480c-b27b-be1629f02358 a aamas:Muterm ;
+	aamas:lang aama:Saho ;
+	aamas:morpheme aama:Saho-PRO ;
+	sah:pos sah:Pronoun ;
+	sah:proClass sah:Independent ;
+	sah:token "ákah" ;
+	sah:person sah:Person3 ;
+	sah:number sah:Singular ;
+	sah:gender sah:Masc ;
+	sah:case sah:ObjectIndirect ;
+	.
