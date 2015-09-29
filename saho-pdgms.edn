@@ -1,6 +1,9 @@
 {
 :lang :saho
 :sgpref "sah"
+:datasource "Welmers1952 Banti-Vergari2003"
+:geodemoURL "http://www.ethnologue.com/language/ssy"
+:geodemoTXT "Varieties and subdialects of Saho are spoken in Eritrea and Ethiopia (Irob dialect only). The language is very closely related to Afar."
 :schemata {
 	  :conjClass [:Irregular, :PrefIrregular, :Prefix, :Suffix, :SuffixIrregular]
 	  :derivedStem [:B, :B_Intens, :M, :S1, :S1_Intens, :S1T, :S2, :T, :T_Intens]
@@ -16,6 +19,12 @@
 	  :tenseName [:Conjunctive, :Future1, :Future2, :Future3, :ImperfectNegative, :ImperfectSubordinate, :JussiveNegative, :PerfectNegative, :PerfectSubordinate, :Perfective, :Pluperfect]
 	  :verbMorphClass [:TenseFormation]
 	  }
+:pclass {
+           :pngClass [:person :number :gender ]
+           :synsemClass [:case  :derivedStem :polarity :pos :proClass :tam ]
+           :inflClass [:conjClass  ]
+           :otherClass [ ]
+          }
 :morphemes {
   :PRO {:gloss "[x]", :lemma "[y]", }
 }
@@ -1326,7 +1335,7 @@
     :terms [[:token]  ;; schema
 	    ["bil"]]
     }
-    {:label "saho-VPrefAffPerf-uru- (!)"
+    {:label "saho-VPrefAffPerf-uru-spec"
     :note "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m."
     :common {:conjClass :Prefix,
@@ -3250,7 +3259,7 @@
     :terms [[:token]  ;; schema
 	    ["baahe"]]
     }
-    {:label "saho-VPrefAffImprtv-uru- (!)"
+    {:label "saho-VPrefAffImprtv-uru-spec"
     :note "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m."
     :common {:conjClass :Prefix,
@@ -3810,7 +3819,7 @@
     :terms [[:token]  ;; schema
 	    ["afríyi"]]
     }
-    {:label "saho-VPrefAffImperf-inni{perf}-ubl"
+    {:label "saho-VPrefAffImperf-inniPerf-ubl"
     :note "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m."
     :common {:conjClass :Prefix,
