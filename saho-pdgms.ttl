@@ -1386,11 +1386,11 @@ aama:Saho-edh a aamas:Lexeme ;
 
 sah:saho-VPrefAffPerf-eeneb a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-eeneb" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID56b256c9-7fa1-49cc-891c-cfcf1fac7550 a aamas:Term ;
+aama:IDdd8adf1d-250b-48cc-b0f5-7d3a1dd864b3 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eeneb ;
 	sah:person sah:Unmarked ;
@@ -1409,11 +1409,11 @@ aama:ID56b256c9-7fa1-49cc-891c-cfcf1fac7550 a aamas:Term ;
 
 sah:saho-VSuffAffImperf-ab a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImperf-ab" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDae1dc4d3-6066-49f3-aa48-d06454acbba0 a aamas:Term ;
+aama:IDc1bcc0c9-d822-423d-9629-cbeea7334e28 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImperf-ab ;
 	sah:person sah:Person2 ;
@@ -1433,11 +1433,11 @@ aama:IDae1dc4d3-6066-49f3-aa48-d06454acbba0 a aamas:Term ;
 
 sah:saho-VPrefAffImperf-enge a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-enge" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDd027187d-6714-4766-b145-2e2831be231c a aamas:Term ;
+aama:IDe882db10-25c1-41ea-8594-e232b8e4b308 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-enge ;
 	sah:person sah:Person1 ;
@@ -1457,11 +1457,11 @@ aama:IDd027187d-6714-4766-b145-2e2831be231c a aamas:Term ;
 
 sah:saho-VSuffAffImprtv-biil a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-biil" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID054b6deb-a26a-44b0-919e-37a76aba22a1 a aamas:Term ;
+aama:ID07fd35f6-f51f-4109-b8ce-7ac5f3b04ed4 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-biil ;
 	sah:person sah:Person2 ;
@@ -1481,11 +1481,11 @@ aama:ID054b6deb-a26a-44b0-919e-37a76aba22a1 a aamas:Term ;
 
 sah:saho-VSuffAffImprtv-di a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-di" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDa2a03266-6dae-4954-91b2-c93de431eba5 a aamas:Term ;
+aama:ID28349376-ff66-45de-89a9-12ed9dbb9a04 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-di ;
 	sah:person sah:Person2 ;
@@ -1505,11 +1505,11 @@ aama:IDa2a03266-6dae-4954-91b2-c93de431eba5 a aamas:Term ;
 
 sah:saho-VPrefAffPerf-eehet a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-eehet" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID102352b5-8c41-412b-876b-d8bdedc431ec a aamas:Term ;
+aama:IDeb14fce3-a270-4fa6-891e-71b6302afcaa a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eehet ;
 	sah:person sah:Unmarked ;
@@ -1528,11 +1528,11 @@ aama:ID102352b5-8c41-412b-876b-d8bdedc431ec a aamas:Term ;
 
 sah:saho-VPrefAffImperf-eedeg a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-eedeg" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDc59e61c5-9a15-4215-8463-45a379270508 a aamas:Term ;
+aama:ID3bfbbd9a-8649-4d6e-8f4b-838567a308ac a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-eedeg ;
 	sah:person sah:Person1 ;
@@ -1552,11 +1552,11 @@ aama:IDc59e61c5-9a15-4215-8463-45a379270508 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-ifrid a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-ifrid" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID836b4982-8e64-45d8-b56c-bb7a32117662 a aamas:Term ;
+aama:ID972bd715-c88a-4342-9cf5-985724a55911 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ifrid ;
 	sah:person sah:Person2 ;
@@ -1576,11 +1576,11 @@ aama:ID836b4982-8e64-45d8-b56c-bb7a32117662 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-emlelekk a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-emlelekk" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID69483fb7-0f00-43cc-8be8-3ff48243fc47 a aamas:Term ;
+aama:ID0999f0ea-b948-4bff-806e-525cc768d38d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-emlelekk ;
 	sah:person sah:Person2 ;
@@ -1600,11 +1600,11 @@ aama:ID69483fb7-0f00-43cc-8be8-3ff48243fc47 a aamas:Term ;
 
 sah:saho-VPrefAffImperf-udud a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-udud" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDdd5386c6-b222-44ef-af82-b65a2d82d360 a aamas:Term ;
+aama:ID91586176-8c2d-4310-97f5-92a62f454096 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-udud ;
 	sah:person sah:Person3 ;
@@ -1624,11 +1624,11 @@ aama:IDdd5386c6-b222-44ef-af82-b65a2d82d360 a aamas:Term ;
 
 sah:saho-VSuffAffJuss-daam a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffJuss-daam" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID2e06193c-758c-4149-b886-b45a8671a7af a aamas:Term ;
+aama:IDb8aeee32-46e7-4e22-920e-124fd82dd9c4 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffJuss-daam ;
 	sah:person sah:Person1 ;
@@ -1649,11 +1649,11 @@ aama:ID2e06193c-758c-4149-b886-b45a8671a7af a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-ehzen- a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-ehzen-" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID7c333e8b-e52f-47a4-91cf-83918cfb069f a aamas:Term ;
+aama:ID53f32f50-458a-44c6-9eb6-ae88d00195fa a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ehzen- ;
 	sah:person sah:Person2 ;
@@ -1673,11 +1673,11 @@ aama:ID7c333e8b-e52f-47a4-91cf-83918cfb069f a aamas:Term ;
 
 sah:saho-VPrefAffPerf-obb a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-obb" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDac7bb06b-72cf-4625-a990-b00e1c2da16c a aamas:Term ;
+aama:IDf42f0313-5b36-44f5-b8b6-ff1d4a3b7784 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-obb ;
 	sah:person sah:Unmarked ;
@@ -1696,11 +1696,11 @@ aama:IDac7bb06b-72cf-4625-a990-b00e1c2da16c a aamas:Term ;
 
 sah:saho-VSuffAffJuss-ki-alif a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffJuss-ki-alif" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID0dee3070-abb8-4e5a-94a9-827973a9c853 a aamas:Term ;
+aama:IDcbb23bed-b11b-44e1-96e7-17121ceba1ab a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffJuss-ki-alif ;
 	sah:person sah:Person1 ;
@@ -1723,7 +1723,7 @@ sah:saho-VSuffPast-hab- a aamas:Termcluster ;
 	rdfs:comment "Welmers1952b p. 236" 
 	.
 
-aama:ID3441dec7-b1c5-45f0-98b9-001cb04863de a aamas:Term ;
+aama:ID7f322b37-2fa1-4264-b0ac-d41696995337 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-hab- ;
 	sah:conjClass sah:Suffix ;
@@ -1736,7 +1736,7 @@ aama:ID3441dec7-b1c5-45f0-98b9-001cb04863de a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID3d68b596-d3f5-4bb6-b682-f8b51746357a a aamas:Term ;
+aama:ID615fb186-9632-4760-b61f-7d0cdc9e879a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-hab- ;
 	sah:conjClass sah:Suffix ;
@@ -1749,7 +1749,7 @@ aama:ID3d68b596-d3f5-4bb6-b682-f8b51746357a a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID1f4f7e76-4255-4c2c-983d-25f1f73ddc68 a aamas:Term ;
+aama:IDf6e970bb-9400-4563-a9a7-bc08702cc638 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-hab- ;
 	sah:conjClass sah:Suffix ;
@@ -1762,7 +1762,7 @@ aama:ID1f4f7e76-4255-4c2c-983d-25f1f73ddc68 a aamas:Term ;
 	sah:gender sah:Masc ;
 	.
 
-aama:IDd6f5619e-55b5-4e9c-aca1-599e8e9a45d1 a aamas:Term ;
+aama:ID136a1410-0c2b-4d7f-8894-572ee684ec56 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-hab- ;
 	sah:conjClass sah:Suffix ;
@@ -1775,7 +1775,7 @@ aama:IDd6f5619e-55b5-4e9c-aca1-599e8e9a45d1 a aamas:Term ;
 	sah:gender sah:Fem ;
 	.
 
-aama:IDc0c255a6-d6bf-43d9-b625-8866d0dc52c2 a aamas:Term ;
+aama:ID76529163-cd90-4249-9e45-4f60935584cf a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-hab- ;
 	sah:conjClass sah:Suffix ;
@@ -1788,7 +1788,7 @@ aama:IDc0c255a6-d6bf-43d9-b625-8866d0dc52c2 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID05f51c1a-7d57-4dbf-ae5f-564e1f45fead a aamas:Term ;
+aama:ID801a99d9-2720-4043-a333-0b36cd6ca099 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-hab- ;
 	sah:conjClass sah:Suffix ;
@@ -1801,7 +1801,7 @@ aama:ID05f51c1a-7d57-4dbf-ae5f-564e1f45fead a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID34144a54-456e-43a8-af89-4088492d0b7f a aamas:Term ;
+aama:ID1f750094-67b6-446a-90b4-19926a6f83f0 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-hab- ;
 	sah:conjClass sah:Suffix ;
@@ -1818,11 +1818,11 @@ aama:ID34144a54-456e-43a8-af89-4088492d0b7f a aamas:Term ;
 
 sah:saho-VPrefAffPerf-edebb a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-edebb" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID43b0b815-b52a-4bbe-b7a9-dc1dff1faf64 a aamas:Term ;
+aama:ID42e82632-c351-4faf-94d1-a8f973c07914 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-edebb ;
 	sah:person sah:Unmarked ;
@@ -1841,11 +1841,11 @@ aama:ID43b0b815-b52a-4bbe-b7a9-dc1dff1faf64 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-ekkel a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-ekkel" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID4a98a857-861f-46fa-96ae-83fd804ea8b5 a aamas:Term ;
+aama:ID8b9d3cea-18bc-44b2-81ed-432c4def525d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ekkel ;
 	sah:person sah:Person2 ;
@@ -1865,11 +1865,11 @@ aama:ID4a98a857-861f-46fa-96ae-83fd804ea8b5 a aamas:Term ;
 
 sah:saho-VSuffAffImprtv-baah a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-baah" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID4cf74df0-168a-425d-8a89-35fa53f27355 a aamas:Term ;
+aama:ID4951158c-2cf0-4a8d-973b-317bc7cfab05 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-baah ;
 	sah:person sah:Person2 ;
@@ -1889,11 +1889,11 @@ aama:ID4cf74df0-168a-425d-8a89-35fa53f27355 a aamas:Term ;
 
 sah:saho-VSuffAffImprtv-fuu a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-fuu" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID85988c5f-ce5a-4fb2-9937-e5ced8afac33 a aamas:Term ;
+aama:ID29b8b274-0539-45c8-a239-55a3c4eb811e a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-fuu ;
 	sah:person sah:Person2 ;
@@ -1913,11 +1913,11 @@ aama:ID85988c5f-ce5a-4fb2-9937-e5ced8afac33 a aamas:Term ;
 
 sah:saho-VSuffAffPerf-fuu a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPerf-fuu" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID63d92c75-61c6-4dc6-a475-f483f1e06bca a aamas:Term ;
+aama:IDccc0b89d-84b1-4677-bd1e-6d6687d992c0 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-fuu ;
 	sah:person sah:Unmarked ;
@@ -1936,11 +1936,11 @@ aama:ID63d92c75-61c6-4dc6-a475-f483f1e06bca a aamas:Term ;
 
 sah:saho-VPrefAffPerf-ubl a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-ubl" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDeff5e239-1380-42b8-9453-4506567131dd a aamas:Term ;
+aama:ID3f8d7ee3-fedb-458d-9588-24194f27eafb a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ubl ;
 	sah:person sah:Unmarked ;
@@ -1959,11 +1959,11 @@ aama:IDeff5e239-1380-42b8-9453-4506567131dd a aamas:Term ;
 
 sah:saho-VSuffAffPart-fi a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPart-fi" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID52a07ea6-02d2-45ae-a448-9abc2db05734 a aamas:Term ;
+aama:ID2af28196-ba2d-4bbe-9c0a-98caa8fd8f69 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPart-fi ;
 	sah:conjClass sah:Suffix ;
@@ -1981,11 +1981,11 @@ aama:ID52a07ea6-02d2-45ae-a448-9abc2db05734 a aamas:Term ;
 
 sah:saho-VPrefAffImperf-ekett a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-ekett" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDfd9f8851-8cd2-4259-b710-45365b0b54fe a aamas:Term ;
+aama:IDf2896f24-1817-4814-8dc7-a6e522237268 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-ekett ;
 	sah:person sah:Person1 ;
@@ -2005,11 +2005,11 @@ aama:IDfd9f8851-8cd2-4259-b710-45365b0b54fe a aamas:Term ;
 
 sah:saho-VPrefAffPerf-iklib a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-iklib" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID078b2255-80c8-4c8d-bfa9-ec3995edc508 a aamas:Term ;
+aama:IDc2002f7a-f4ad-408c-a574-20b127b3a9f2 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-iklib ;
 	sah:person sah:Unmarked ;
@@ -2028,11 +2028,11 @@ aama:ID078b2255-80c8-4c8d-bfa9-ec3995edc508 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-eeneb a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-eeneb" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDef4d76ed-a800-4c73-82ed-d9378f1b0b93 a aamas:Term ;
+aama:ID68b2214d-b52a-414f-823c-d9a3c4a6e27a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eeneb ;
 	sah:person sah:Person2 ;
@@ -2052,11 +2052,11 @@ aama:IDef4d76ed-a800-4c73-82ed-d9378f1b0b93 a aamas:Term ;
 
 sah:saho-VPrefAffPerf-eemeg a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-eemeg" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID6b38e140-3f0b-4be0-83ca-6bb3723cdd52 a aamas:Term ;
+aama:IDac1fd929-6e9d-4b29-a8af-02733f7ad1d7 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eemeg ;
 	sah:person sah:Unmarked ;
@@ -2075,11 +2075,11 @@ aama:ID6b38e140-3f0b-4be0-83ca-6bb3723cdd52 a aamas:Term ;
 
 sah:saho-VSuffAffImperf-m-rab a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImperf-m-rab" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID51c749e9-7905-4d32-bd3e-8babbf71cf76 a aamas:Term ;
+aama:ID4459ae7c-7157-4eb3-b12b-babafc6a6064 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImperf-m-rab ;
 	sah:person sah:Person3 ;
@@ -2100,11 +2100,11 @@ aama:ID51c749e9-7905-4d32-bd3e-8babbf71cf76 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-ookom a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-ookom" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDb3e901c5-6af9-4cad-9d1d-02a56c669a50 a aamas:Term ;
+aama:ID72192320-75ec-4aeb-8b78-bde3bf94b646 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ookom ;
 	sah:person sah:Person2 ;
@@ -2124,11 +2124,11 @@ aama:IDb3e901c5-6af9-4cad-9d1d-02a56c669a50 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-edirir- a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-edirir-" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID1ea1b9e1-cb34-4186-9eb5-1e9818e6b41d a aamas:Term ;
+aama:ID2eaa6fe4-e367-4c0c-9db3-ba89c4e9bbe8 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-edirir- ;
 	sah:person sah:Person2 ;
@@ -2148,11 +2148,11 @@ aama:ID1ea1b9e1-cb34-4186-9eb5-1e9818e6b41d a aamas:Term ;
 
 sah:saho-VPrefAffPerf-ifteh a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-ifteh" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID9a5b7bde-0627-4548-a463-8a805569bb41 a aamas:Term ;
+aama:ID040a7ebe-7b52-4682-898e-683250f47007 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ifteh ;
 	sah:person sah:Unmarked ;
@@ -2171,11 +2171,11 @@ aama:ID9a5b7bde-0627-4548-a463-8a805569bb41 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-igziy a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-igziy" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDda440800-d66d-4477-b036-25d006551071 a aamas:Term ;
+aama:IDebac187c-a362-4a37-8749-bc561bc5157d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-igziy ;
 	sah:person sah:Person2 ;
@@ -2195,11 +2195,11 @@ aama:IDda440800-d66d-4477-b036-25d006551071 a aamas:Term ;
 
 sah:saho-VSuffAffPerf-beet a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPerf-beet" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDbc0362d8-c868-4337-8705-56a9e52cb639 a aamas:Term ;
+aama:ID45c68c2f-d332-4575-9e6f-eca8355520a4 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-beet ;
 	sah:person sah:Unmarked ;
@@ -2218,11 +2218,11 @@ aama:IDbc0362d8-c868-4337-8705-56a9e52cb639 a aamas:Term ;
 
 sah:saho-VSuffAffImperf-alif a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImperf-alif" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDc8386637-37df-4abb-aba5-32fb0c9c52f9 a aamas:Term ;
+aama:IDfe8e79d4-7244-44b2-8d48-5b226858e9db a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImperf-alif ;
 	sah:person sah:Person1 ;
@@ -2242,11 +2242,11 @@ aama:IDc8386637-37df-4abb-aba5-32fb0c9c52f9 a aamas:Term ;
 
 sah:saho-VPrefAffPerf-inebe a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-inebe" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID623a03a5-bdc9-420e-b031-c7eb83e0cc8a a aamas:Term ;
+aama:ID40fa338a-aafd-4cf9-8f65-4ffb7cf9c501 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-inebe ;
 	sah:person sah:Unmarked ;
@@ -2265,11 +2265,11 @@ aama:ID623a03a5-bdc9-420e-b031-c7eb83e0cc8a a aamas:Term ;
 
 sah:saho-VPrefAffJuss-ubl a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffJuss-ubl" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID21e7f526-bc73-4bc1-bfc8-c517bf83b3e5 a aamas:Term ;
+aama:IDa6b1c113-1ddb-47fe-9fff-285cf882e07d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-ubl ;
 	sah:person sah:Person1 ;
@@ -2289,11 +2289,11 @@ aama:ID21e7f526-bc73-4bc1-bfc8-c517bf83b3e5 a aamas:Term ;
 
 sah:saho-VPrefAffJuss-ul a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffJuss-ul" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDf5b71bec-0bdc-4483-bb42-20d1fdc7545b a aamas:Term ;
+aama:ID8594a35e-81e5-4a56-afce-e470b1e21424 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-ul ;
 	sah:person sah:Person2 ;
@@ -2313,11 +2313,11 @@ aama:IDf5b71bec-0bdc-4483-bb42-20d1fdc7545b a aamas:Term ;
 
 sah:saho-VPrefAffPerf-eelem a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-eelem" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID11dc8e20-c43d-4750-a54b-99a7a34c3a3b a aamas:Term ;
+aama:ID71cea968-0f7b-4a15-870e-7c88cddcd3af a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eelem ;
 	sah:person sah:Unmarked ;
@@ -2336,11 +2336,11 @@ aama:ID11dc8e20-c43d-4750-a54b-99a7a34c3a3b a aamas:Term ;
 
 sah:saho-VPrefAffImperf-m-uruf a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-m-uruf" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID469a240c-c93e-4a3a-9038-53dce64dacc5 a aamas:Term ;
+aama:ID8cf91903-2017-4fb2-ac37-d1df82160bc2 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-m-uruf ;
 	sah:person sah:Person1 ;
@@ -2361,11 +2361,11 @@ aama:ID469a240c-c93e-4a3a-9038-53dce64dacc5 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-ifriy a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-ifriy" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID9d5d7ccc-dfb0-4832-b12a-22492ade5554 a aamas:Term ;
+aama:IDa3198e55-953b-42cd-bb11-929bf4f78d08 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ifriy ;
 	sah:person sah:Person2 ;
@@ -2385,11 +2385,11 @@ aama:ID9d5d7ccc-dfb0-4832-b12a-22492ade5554 a aamas:Term ;
 
 sah:saho-VSuffAffImperf-inni-beet a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImperf-inni-beet" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDddaaaa0a-d437-4685-b595-348e5efbd06b a aamas:Term ;
+aama:ID90397a30-454e-446d-87e1-88ba28a7bdf2 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImperf-inni-beet ;
 	sah:person sah:Person1 ;
@@ -2410,11 +2410,11 @@ aama:IDddaaaa0a-d437-4685-b595-348e5efbd06b a aamas:Term ;
 
 sah:saho-VPrefAffPerf-ifriy a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-ifriy" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID386a667b-e5a7-4a74-a876-fd2b24b69821 a aamas:Term ;
+aama:ID839bbaae-afc8-4e58-ac24-9f68b437ca9d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ifriy ;
 	sah:person sah:Unmarked ;
@@ -2433,11 +2433,11 @@ aama:ID386a667b-e5a7-4a74-a876-fd2b24b69821 a aamas:Term ;
 
 sah:saho-VSuffAffImprtv-do a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-do" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID2a8d1a21-4499-4fdb-ab2c-963f18fc20e6 a aamas:Term ;
+aama:ID799ce01f-957a-4dfa-b8bd-d19abe4c09e1 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-do ;
 	sah:person sah:Person2 ;
@@ -2457,11 +2457,11 @@ aama:ID2a8d1a21-4499-4fdb-ab2c-963f18fc20e6 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-usul a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-usul" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID1283e7c7-fe5c-4e46-b913-c488b9f6671c a aamas:Term ;
+aama:ID75520fdf-5d1a-4b10-a040-492d0c35b1eb a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-usul ;
 	sah:person sah:Person2 ;
@@ -2481,11 +2481,11 @@ aama:ID1283e7c7-fe5c-4e46-b913-c488b9f6671c a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-oofo- a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-oofo-" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID9155ce33-a5fb-4a86-afdd-6ee3a2183e6e a aamas:Term ;
+aama:IDb400bc26-912e-4786-a77a-4cf7ffb1be65 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-oofo- ;
 	sah:person sah:Person2 ;
@@ -2505,11 +2505,11 @@ aama:ID9155ce33-a5fb-4a86-afdd-6ee3a2183e6e a aamas:Term ;
 
 sah:saho-VPrefAffJuss-oosol a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffJuss-oosol" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID8f465585-b8a8-4c50-92d2-5ad21aae5764 a aamas:Term ;
+aama:ID983871b2-25f1-4044-95d3-92bda14143c4 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-oosol ;
 	sah:person sah:Person3 ;
@@ -2529,11 +2529,11 @@ aama:ID8f465585-b8a8-4c50-92d2-5ad21aae5764 a aamas:Term ;
 
 sah:saho-VPrefAffPerf-ooob a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-ooob" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID4d886d43-8a9b-4ddb-9c61-b03c4430bfe6 a aamas:Term ;
+aama:ID3e3e0e59-aac1-4550-8464-dff8170b6a9a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ooob ;
 	sah:person sah:Unmarked ;
@@ -2552,11 +2552,11 @@ aama:ID4d886d43-8a9b-4ddb-9c61-b03c4430bfe6 a aamas:Term ;
 
 sah:saho-VSuffAffJuss-li-daam a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffJuss-li-daam" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDd0b09c5c-8368-41d7-8724-8fe8838aa2a7 a aamas:Term ;
+aama:ID1499bbb3-fdf0-4a4a-8af2-1ccc8a789578 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffJuss-li-daam ;
 	sah:person sah:Person1 ;
@@ -2577,11 +2577,11 @@ aama:IDd0b09c5c-8368-41d7-8724-8fe8838aa2a7 a aamas:Term ;
 
 sah:saho-VPrefAffImperf-eeneb a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-eeneb" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID3278b194-9e91-4549-a6b9-a71b47e46bc8 a aamas:Term ;
+aama:IDddbafa2a-ad66-4105-a624-cf89accd041d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-eeneb ;
 	sah:person sah:Person1 ;
@@ -2604,7 +2604,7 @@ sah:saho-VPref-ed a aamas:Termcluster ;
 	rdfs:comment "Welmers1952b p. 249" 
 	.
 
-aama:ID0ed1a6fb-6664-4848-abd2-8de8b73e214f a aamas:Term ;
+aama:ID4a832a6b-27e9-49c9-b44c-7d8be2c9229a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPref-ed ;
 	sah:conjClass sah:Prefix ;
@@ -2619,7 +2619,7 @@ aama:ID0ed1a6fb-6664-4848-abd2-8de8b73e214f a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:IDd8653de5-0fca-4566-8943-c7b615afe5ce a aamas:Term ;
+aama:IDe1cafc82-48e1-4c17-b5c8-ee1bb01250bc a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPref-ed ;
 	sah:conjClass sah:Prefix ;
@@ -2634,7 +2634,7 @@ aama:IDd8653de5-0fca-4566-8943-c7b615afe5ce a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:IDb15eb580-b053-41dc-9fc4-ac7a8db5dd98 a aamas:Term ;
+aama:IDa1c26c6d-599d-4987-ba01-8bf9ecb458d2 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPref-ed ;
 	sah:conjClass sah:Prefix ;
@@ -2649,7 +2649,7 @@ aama:IDb15eb580-b053-41dc-9fc4-ac7a8db5dd98 a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:ID9cf967c5-a981-403c-9ea4-6c7485722fd8 a aamas:Term ;
+aama:IDb62e8e77-d327-4ac3-b7e2-7e27bd691322 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPref-ed ;
 	sah:conjClass sah:Prefix ;
@@ -2668,11 +2668,11 @@ aama:ID9cf967c5-a981-403c-9ea4-6c7485722fd8 a aamas:Term ;
 
 sah:saho-VSuffAffPerf-m-rab a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPerf-m-rab" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDcb8ffd89-7280-41ed-bd9a-685ebdc7f5e4 a aamas:Term ;
+aama:ID162f16fc-1118-4a7b-b5f4-d5ae523644b1 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-m-rab ;
 	sah:person sah:Person3 ;
@@ -2693,11 +2693,11 @@ aama:IDcb8ffd89-7280-41ed-bd9a-685ebdc7f5e4 a aamas:Term ;
 
 sah:saho-VSuffAffImprtv-bad a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-bad" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDacd3f446-862c-45d0-a75b-a64ecd89c7ac a aamas:Term ;
+aama:ID433473b1-4fe1-4c0d-996e-935f1cc4854c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-bad ;
 	sah:person sah:Person2 ;
@@ -2717,11 +2717,11 @@ aama:IDacd3f446-862c-45d0-a75b-a64ecd89c7ac a aamas:Term ;
 
 sah:saho-VPrefAffPerf-oho- a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-oho-" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID54815dc4-01fd-475a-9db7-15f74924953b a aamas:Term ;
+aama:ID52e836d2-7337-4bbd-99a2-eafafd1876cf a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-oho- ;
 	sah:person sah:Unmarked ;
@@ -2743,7 +2743,7 @@ sah:saho-VPrefPerf-inni a aamas:Termcluster ;
 	rdfs:comment "Welmers1952b p. 249" 
 	.
 
-aama:ID7aa80172-bc5d-41b4-af70-acd0b92cd939 a aamas:Term ;
+aama:IDdec9b05f-9c51-4050-9555-9166a66b8f98 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefPerf-inni ;
 	sah:conjClass sah:Prefix ;
@@ -2756,7 +2756,7 @@ aama:ID7aa80172-bc5d-41b4-af70-acd0b92cd939 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:IDf1d81733-46c3-49d2-bfb2-75157a5ba4cd a aamas:Term ;
+aama:ID1119e966-d656-4dff-bf58-42ceefa10cda a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefPerf-inni ;
 	sah:conjClass sah:Prefix ;
@@ -2769,7 +2769,7 @@ aama:IDf1d81733-46c3-49d2-bfb2-75157a5ba4cd a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID106ac6a6-b76e-474d-8194-402b54a06bf8 a aamas:Term ;
+aama:IDad4d0540-0a06-43eb-a82e-2b7a014fce06 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefPerf-inni ;
 	sah:conjClass sah:Prefix ;
@@ -2782,7 +2782,7 @@ aama:ID106ac6a6-b76e-474d-8194-402b54a06bf8 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID59393417-d2f5-41bf-a32b-7574ce860f4e a aamas:Term ;
+aama:IDf620876f-c5bc-4094-a229-d18b729a9ed1 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefPerf-inni ;
 	sah:conjClass sah:Prefix ;
@@ -2795,7 +2795,7 @@ aama:ID59393417-d2f5-41bf-a32b-7574ce860f4e a aamas:Term ;
 	sah:gender sah:Masc ;
 	.
 
-aama:ID0ff03fab-b3bf-4d3f-ae6e-2a71b0c823a0 a aamas:Term ;
+aama:IDa85ba7ee-26ec-4527-a913-d6a998ead02a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefPerf-inni ;
 	sah:conjClass sah:Prefix ;
@@ -2808,7 +2808,7 @@ aama:ID0ff03fab-b3bf-4d3f-ae6e-2a71b0c823a0 a aamas:Term ;
 	sah:gender sah:Fem ;
 	.
 
-aama:IDcaaabe38-ebe4-4c03-9f93-a60b538c896d a aamas:Term ;
+aama:IDe4ab9eb9-93f8-4432-9a98-a60b1c731bc5 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefPerf-inni ;
 	sah:conjClass sah:Prefix ;
@@ -2821,7 +2821,7 @@ aama:IDcaaabe38-ebe4-4c03-9f93-a60b538c896d a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID060e7c8b-0476-465e-9cb7-1c6def0c30a7 a aamas:Term ;
+aama:IDbf3b2fdd-a885-4fec-bcb8-a3ae8713e7f9 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefPerf-inni ;
 	sah:conjClass sah:Prefix ;
@@ -2838,11 +2838,11 @@ aama:ID060e7c8b-0476-465e-9cb7-1c6def0c30a7 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-edebb a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-edebb" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID26e36ec0-b1e8-4092-870c-c043611f4739 a aamas:Term ;
+aama:ID68cd78c9-1a35-46d9-bf06-310ad344d554 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-edebb ;
 	sah:person sah:Person2 ;
@@ -2862,11 +2862,11 @@ aama:ID26e36ec0-b1e8-4092-870c-c043611f4739 a aamas:Term ;
 
 sah:saho-VPrefAffPerf-ifrid a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-ifrid" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID095ac399-0b7a-4886-b319-f01274dac0c3 a aamas:Term ;
+aama:ID200a6b53-3520-4a72-942e-35c387edba37 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ifrid ;
 	sah:person sah:Unmarked ;
@@ -2888,7 +2888,7 @@ sah:saho-VSuffJuss-ak a aamas:Termcluster ;
 	rdfs:comment "Welmers1952b p. 249" 
 	.
 
-aama:ID11809785-2e5d-411c-9326-d745c14ceb90 a aamas:Term ;
+aama:ID74a0bc66-a0f3-4707-a140-9c8caca78d1d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffJuss-ak ;
 	sah:conjClass sah:Suffix ;
@@ -2901,7 +2901,7 @@ aama:ID11809785-2e5d-411c-9326-d745c14ceb90 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID59a96d06-838b-42e2-b386-ed48d90d7655 a aamas:Term ;
+aama:ID8d498757-cee2-4050-977a-1ffb0ffb771d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffJuss-ak ;
 	sah:conjClass sah:Suffix ;
@@ -2914,7 +2914,7 @@ aama:ID59a96d06-838b-42e2-b386-ed48d90d7655 a aamas:Term ;
 	sah:gender sah:Masc ;
 	.
 
-aama:ID61c5e59d-1feb-45e3-8b2c-35b439e5adc4 a aamas:Term ;
+aama:IDebfc743c-2e83-47ac-a2ad-e1d99ddf9cae a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffJuss-ak ;
 	sah:conjClass sah:Suffix ;
@@ -2927,7 +2927,7 @@ aama:ID61c5e59d-1feb-45e3-8b2c-35b439e5adc4 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:IDdad55da9-0ae1-4ed5-85bc-67bec967aba8 a aamas:Term ;
+aama:ID9e6fb54a-3504-4b92-8cd0-d3e4167facf7 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffJuss-ak ;
 	sah:conjClass sah:Suffix ;
@@ -2940,7 +2940,7 @@ aama:IDdad55da9-0ae1-4ed5-85bc-67bec967aba8 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID9876bb15-347f-4dc8-b0b0-db493171b48f a aamas:Term ;
+aama:IDc1564fd0-6151-4282-a8b2-f4ee4667cc26 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffJuss-ak ;
 	sah:conjClass sah:Suffix ;
@@ -2953,7 +2953,7 @@ aama:ID9876bb15-347f-4dc8-b0b0-db493171b48f a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID996d052b-0494-4eed-941a-d5356a920cb8 a aamas:Term ;
+aama:ID4b26e6ec-28d0-42c3-bab0-8d8a95591062 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffJuss-ak ;
 	sah:conjClass sah:Suffix ;
@@ -2966,7 +2966,7 @@ aama:ID996d052b-0494-4eed-941a-d5356a920cb8 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:IDa596539c-e70d-4ae1-bed5-f249c0046aa3 a aamas:Term ;
+aama:ID2e0f6de8-8c4f-42e4-a7e0-36a52bfe26af a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffJuss-ak ;
 	sah:conjClass sah:Suffix ;
@@ -2983,11 +2983,11 @@ aama:IDa596539c-e70d-4ae1-bed5-f249c0046aa3 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-oofo a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-oofo" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDe9a8cb9e-f427-4455-afe3-d918880bdc59 a aamas:Term ;
+aama:ID7004cba6-1417-4ed5-a18a-0023d7d6f015 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-oofo ;
 	sah:person sah:Person2 ;
@@ -3007,11 +3007,11 @@ aama:IDe9a8cb9e-f427-4455-afe3-d918880bdc59 a aamas:Term ;
 
 sah:saho-VSuffAffPart-gur a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPart-gur" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID4c1ae747-f035-4dce-ba1a-215d84176493 a aamas:Term ;
+aama:IDd253f141-72f6-4f63-a122-0ddf7de50074 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPart-gur ;
 	sah:conjClass sah:Suffix ;
@@ -3029,11 +3029,11 @@ aama:ID4c1ae747-f035-4dce-ba1a-215d84176493 a aamas:Term ;
 
 sah:saho-VPrefNegImprtv-igdil a aamas:Termcluster ;
 	rdfs:label "saho-VPrefNegImprtv-igdil" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID94bc6cdb-8e0a-4564-8a75-551fa9c81455 a aamas:Term ;
+aama:IDf5cd8250-34b2-4e27-9f3b-8dd82201aa17 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefNegImprtv-igdil ;
 	sah:person sah:Person2 ;
@@ -3053,11 +3053,11 @@ aama:ID94bc6cdb-8e0a-4564-8a75-551fa9c81455 a aamas:Term ;
 
 sah:saho-VSuffAffJuss-ab a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffJuss-ab" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID17cef93e-d5c9-4b39-8ddf-503801ec78c4 a aamas:Term ;
+aama:ID22c4a5bd-a55e-497a-bbda-c1d3f1a44edd a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffJuss-ab ;
 	sah:person sah:Person2 ;
@@ -3077,11 +3077,11 @@ aama:ID17cef93e-d5c9-4b39-8ddf-503801ec78c4 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-eymee a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-eymee" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID6b16c1a5-c4dd-40f6-a4bd-a2cebd6f9c5a a aamas:Term ;
+aama:IDf777c271-cec6-405f-985d-ad46e9559a74 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eymee ;
 	sah:person sah:Person2 ;
@@ -3101,11 +3101,11 @@ aama:ID6b16c1a5-c4dd-40f6-a4bd-a2cebd6f9c5a a aamas:Term ;
 
 sah:saho-VPrefAffPerf-eeley a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-eeley" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID6ab45b0b-311c-4260-a0f0-3a3859297322 a aamas:Term ;
+aama:ID24fdfd95-72b7-49b4-8fa9-66463382f467 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eeley ;
 	sah:person sah:Unmarked ;
@@ -3124,11 +3124,11 @@ aama:ID6ab45b0b-311c-4260-a0f0-3a3859297322 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-eedeg a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-eedeg" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDf4012e64-530b-4fdf-9f43-8986b59ae5dc a aamas:Term ;
+aama:ID9e045276-81d8-4d0d-bd95-2b7f7f1f4b2c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eedeg ;
 	sah:person sah:Person2 ;
@@ -3148,11 +3148,11 @@ aama:IDf4012e64-530b-4fdf-9f43-8986b59ae5dc a aamas:Term ;
 
 sah:saho-VPrefAffPerf-ootob a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-ootob" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID7f34eb83-3b37-49a9-a511-871508f902b7 a aamas:Term ;
+aama:IDf53d7cab-1d19-4296-879a-1bc7729624d4 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ootob ;
 	sah:person sah:Unmarked ;
@@ -3171,11 +3171,11 @@ aama:ID7f34eb83-3b37-49a9-a511-871508f902b7 a aamas:Term ;
 
 sah:saho-VSuffAffPerf-do a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPerf-do" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID49f23b08-58f5-4ee7-9c0e-3976d71d84a0 a aamas:Term ;
+aama:ID12881efd-64a7-4f76-8c1b-937d20c8e2a5 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-do ;
 	sah:person sah:Unmarked ;
@@ -3194,11 +3194,11 @@ aama:ID49f23b08-58f5-4ee7-9c0e-3976d71d84a0 a aamas:Term ;
 
 sah:saho-VSuffNegImperf-ab a aamas:Termcluster ;
 	rdfs:label "saho-VSuffNegImperf-ab" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID15f338b7-d521-4da4-8c08-af3d60545c8e a aamas:Term ;
+aama:ID2409dec8-0a44-40d2-89a6-7ff594f883b0 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffNegImperf-ab ;
 	sah:person sah:Person3 ;
@@ -3221,7 +3221,7 @@ sah:saho-VSuffPerf-ak a aamas:Termcluster ;
 	rdfs:comment "Welmers1952b p. 249" 
 	.
 
-aama:ID0c7b6590-46b0-468c-b11e-9624bb671297 a aamas:Term ;
+aama:IDdd017f4f-caf5-47ef-b11e-0d2c3d0c1bc1 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPerf-ak ;
 	sah:conjClass sah:Suffix ;
@@ -3234,7 +3234,7 @@ aama:ID0c7b6590-46b0-468c-b11e-9624bb671297 a aamas:Term ;
 	sah:gender sah:Fem ;
 	.
 
-aama:IDcf8cbca7-a39f-4b3c-a535-e727ca696f18 a aamas:Term ;
+aama:IDacffdc0a-11f2-4f9c-83da-c43e3c968f87 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPerf-ak ;
 	sah:conjClass sah:Suffix ;
@@ -3247,7 +3247,7 @@ aama:IDcf8cbca7-a39f-4b3c-a535-e727ca696f18 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID18aa56a7-bb07-4983-a054-24983c3a3ac2 a aamas:Term ;
+aama:ID0eb9e18a-39ef-4b9c-bd2b-a10827436ca9 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPerf-ak ;
 	sah:conjClass sah:Suffix ;
@@ -3260,7 +3260,7 @@ aama:ID18aa56a7-bb07-4983-a054-24983c3a3ac2 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID2c5b3154-6f4d-4c29-bcd9-6aa5d097979c a aamas:Term ;
+aama:ID81854422-ba3e-4982-be17-ef1585c98cfa a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPerf-ak ;
 	sah:conjClass sah:Suffix ;
@@ -3273,7 +3273,7 @@ aama:ID2c5b3154-6f4d-4c29-bcd9-6aa5d097979c a aamas:Term ;
 	sah:gender sah:Masc ;
 	.
 
-aama:ID273a3e85-d13d-4c64-8d50-7b0127e0db21 a aamas:Term ;
+aama:ID4352e1a8-9e9f-4d1d-b404-f0a7ab9fe01d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPerf-ak ;
 	sah:conjClass sah:Suffix ;
@@ -3286,7 +3286,7 @@ aama:ID273a3e85-d13d-4c64-8d50-7b0127e0db21 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID4787c622-e1cc-4a0e-bf03-6c863eea870e a aamas:Term ;
+aama:ID8f243e5b-f32a-40d8-ab39-53ba36b3b1f4 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPerf-ak ;
 	sah:conjClass sah:Suffix ;
@@ -3299,7 +3299,7 @@ aama:ID4787c622-e1cc-4a0e-bf03-6c863eea870e a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:IDc2c3f3c3-b6e2-4e2f-a506-d19fa49ff3cf a aamas:Term ;
+aama:ID1eac8f0c-78a3-4844-b52c-595be58bc047 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPerf-ak ;
 	sah:conjClass sah:Suffix ;
@@ -3319,7 +3319,7 @@ sah:saho-VIrreg-li a aamas:Termcluster ;
 	rdfs:comment "Welmers1952b p. 250" 
 	.
 
-aama:ID1a2df123-2452-4ec2-984b-f5ab5bd91164 a aamas:Term ;
+aama:ID75bd5547-ad44-4432-9b1d-c386ffada3b9 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VIrreg-li ;
 	sah:conjClass sah:Irregular ;
@@ -3332,7 +3332,7 @@ aama:ID1a2df123-2452-4ec2-984b-f5ab5bd91164 a aamas:Term ;
 	sah:gender sah:Fem ;
 	.
 
-aama:IDd74b59e2-900f-4dc4-8101-36ac64758e5c a aamas:Term ;
+aama:IDf05eda9c-cd08-4f8b-8ecb-9e9200088021 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VIrreg-li ;
 	sah:conjClass sah:Irregular ;
@@ -3345,7 +3345,7 @@ aama:IDd74b59e2-900f-4dc4-8101-36ac64758e5c a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:IDcbf6ec20-81f6-4fa8-81b7-313e89f1d5af a aamas:Term ;
+aama:ID8a091880-ac55-419d-b44d-e7a960c71ee0 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VIrreg-li ;
 	sah:conjClass sah:Irregular ;
@@ -3358,7 +3358,7 @@ aama:IDcbf6ec20-81f6-4fa8-81b7-313e89f1d5af a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID19903080-b2e9-47b8-94e1-bebe9c476a23 a aamas:Term ;
+aama:ID3022f6b8-d167-439a-b2fb-c492dc77bf58 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VIrreg-li ;
 	sah:conjClass sah:Irregular ;
@@ -3371,7 +3371,7 @@ aama:ID19903080-b2e9-47b8-94e1-bebe9c476a23 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID36b54afd-63f8-4e0b-8cd4-b0c572abc518 a aamas:Term ;
+aama:IDe3e536cb-d65e-4a25-93ad-f54d44ea654f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VIrreg-li ;
 	sah:conjClass sah:Irregular ;
@@ -3384,7 +3384,7 @@ aama:ID36b54afd-63f8-4e0b-8cd4-b0c572abc518 a aamas:Term ;
 	sah:gender sah:Masc ;
 	.
 
-aama:IDe3c394d5-410a-4672-adf8-e2b01ae2e81f a aamas:Term ;
+aama:ID76847302-ce17-488d-86d6-58664c536e02 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VIrreg-li ;
 	sah:conjClass sah:Irregular ;
@@ -3397,7 +3397,7 @@ aama:IDe3c394d5-410a-4672-adf8-e2b01ae2e81f a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID74b39a2a-99ff-4dde-ac46-668f76acaa93 a aamas:Term ;
+aama:IDba1ada9e-35c3-4b90-b532-ac9fb74b5256 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VIrreg-li ;
 	sah:conjClass sah:Irregular ;
@@ -3414,11 +3414,11 @@ aama:ID74b39a2a-99ff-4dde-ac46-668f76acaa93 a aamas:Term ;
 
 sah:saho-VPrefAffImperf-edh a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-edh" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID6433c855-4a88-4430-82e2-4ea0b35c2228 a aamas:Term ;
+aama:ID29602190-5e07-49a4-be59-552ec5386342 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-edh ;
 	sah:person sah:Person3 ;
@@ -3438,11 +3438,11 @@ aama:ID6433c855-4a88-4430-82e2-4ea0b35c2228 a aamas:Term ;
 
 sah:saho-VPrefAffJuss-ehzen a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffJuss-ehzen" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID64b6a3ae-d674-418b-96f3-b445ab5235b7 a aamas:Term ;
+aama:ID3369301f-2464-479f-b76b-c0e3bb714162 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-ehzen ;
 	sah:person sah:Person2 ;
@@ -3462,11 +3462,11 @@ aama:ID64b6a3ae-d674-418b-96f3-b445ab5235b7 a aamas:Term ;
 
 sah:saho-VPrefAffPerf-ehlif a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-ehlif" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID24828c72-ed53-47ac-beda-ee84e0a96eda a aamas:Term ;
+aama:IDae7c99b6-4f61-4359-bf61-f3c4db87f55d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ehlif ;
 	sah:person sah:Unmarked ;
@@ -3485,11 +3485,11 @@ aama:ID24828c72-ed53-47ac-beda-ee84e0a96eda a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-ooob a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-ooob" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDa78ca637-c308-478e-9a6a-ebc7b5036869 a aamas:Term ;
+aama:IDbc91244d-adf7-4117-bb52-0959478eeb48 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ooob ;
 	sah:person sah:Person2 ;
@@ -3509,11 +3509,11 @@ aama:IDa78ca637-c308-478e-9a6a-ebc7b5036869 a aamas:Term ;
 
 sah:saho-VSuffAffImperf-daam a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImperf-daam" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID79a94621-fbf8-44ac-a65e-1659997b03e0 a aamas:Term ;
+aama:IDe573630c-e583-4f4d-937c-dc0d7e776e9f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImperf-daam ;
 	sah:person sah:Person1 ;
@@ -3533,11 +3533,11 @@ aama:ID79a94621-fbf8-44ac-a65e-1659997b03e0 a aamas:Term ;
 
 sah:saho-VSuffNegPerf-daam a aamas:Termcluster ;
 	rdfs:label "saho-VSuffNegPerf-daam" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID1593a58c-f860-43e4-9caf-8ac5a211f77f a aamas:Term ;
+aama:ID2bc327ff-0fb0-4c2f-a8ce-84fda6ee7b55 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffNegPerf-daam ;
 	sah:person sah:Person1 ;
@@ -3558,11 +3558,11 @@ aama:ID1593a58c-f860-43e4-9caf-8ac5a211f77f a aamas:Term ;
 
 sah:saho-VPrefNegPerf-erd a aamas:Termcluster ;
 	rdfs:label "saho-VPrefNegPerf-erd" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDdcfead3e-b207-461a-9bdf-f7412f6a4383 a aamas:Term ;
+aama:ID8690779d-c7a5-47d4-a161-6cdfb53a2f04 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefNegPerf-erd ;
 	sah:person sah:Person3 ;
@@ -3583,11 +3583,11 @@ aama:IDdcfead3e-b207-461a-9bdf-f7412f6a4383 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-eemen a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-eemen" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDac3fbbfd-1d69-4715-96f1-82760f3cda30 a aamas:Term ;
+aama:IDe66c3ed3-290a-4b2e-835b-1796a9c1310f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eemen ;
 	sah:person sah:Person2 ;
@@ -3607,11 +3607,11 @@ aama:IDac3fbbfd-1d69-4715-96f1-82760f3cda30 a aamas:Term ;
 
 sah:saho-VPrefAffImperf-ubl a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-ubl" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID21c4605e-aca8-4ddc-ad97-1647c9f469c5 a aamas:Term ;
+aama:ID6ddb1c93-ffcd-4c68-a3cc-e28b608b03ee a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-ubl ;
 	sah:person sah:Person1 ;
@@ -3632,11 +3632,11 @@ aama:ID21c4605e-aca8-4ddc-ad97-1647c9f469c5 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-eehet a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-eehet" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID67beda9f-d9d8-4beb-8b01-770ae151cc35 a aamas:Term ;
+aama:ID5a903121-1556-482e-bfb3-f7b4c7366769 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eehet ;
 	sah:person sah:Person2 ;
@@ -3656,11 +3656,11 @@ aama:ID67beda9f-d9d8-4beb-8b01-770ae151cc35 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-alaa a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-alaa" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID198dbf8c-cb0a-441e-b211-b34d377e81f2 a aamas:Term ;
+aama:ID87331552-ad73-424a-b768-2952f4779b77 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-alaa ;
 	sah:person sah:Person2 ;
@@ -3680,11 +3680,11 @@ aama:ID198dbf8c-cb0a-441e-b211-b34d377e81f2 a aamas:Term ;
 
 sah:saho-VPrefAffPart-emeet a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPart-emeet" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID52f63a0b-5c37-4973-a855-7264b056bfc9 a aamas:Term ;
+aama:IDf4667561-8901-4fa5-8983-c5afdd0de33b a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPart-emeet ;
 	sah:conjClass sah:Prefix ;
@@ -3702,11 +3702,11 @@ aama:ID52f63a0b-5c37-4973-a855-7264b056bfc9 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-ubl a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-ubl" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDd0253296-4d93-425e-97ac-1b98f8973177 a aamas:Term ;
+aama:ID73cab44c-5717-42f0-b9bd-772f456e0bad a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ubl ;
 	sah:person sah:Person2 ;
@@ -3730,7 +3730,7 @@ sah:saho-VPrefParticiple-ed a aamas:Termcluster ;
 	rdfs:comment "Welmers1952b p. 249" 
 	.
 
-aama:IDb8fb1c80-a54a-44f2-a4e6-a4d88f0c4d3a a aamas:Term ;
+aama:ID5ba83769-e731-46c1-a885-40cd7393d0d8 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefParticiple-ed ;
 	sah:conjClass sah:Prefix ;
@@ -3747,11 +3747,11 @@ aama:IDb8fb1c80-a54a-44f2-a4e6-a4d88f0c4d3a a aamas:Term ;
 
 sah:saho-VSuffAffImprtv-daam a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-daam" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID39d7a0aa-37c3-4496-b084-ee97c47e926e a aamas:Term ;
+aama:IDf2b38cb2-f870-4f76-a58c-393ff644d373 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-daam ;
 	sah:person sah:Person2 ;
@@ -3771,11 +3771,11 @@ aama:ID39d7a0aa-37c3-4496-b084-ee97c47e926e a aamas:Term ;
 
 sah:saho-VPrefAffPerf-eeit a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-eeit" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID01a9d8f9-8fb1-4043-a3cc-af7a7f2befe7 a aamas:Term ;
+aama:ID335a634b-9101-4ed2-8ba7-f3f831e33293 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eeit ;
 	sah:person sah:Unmarked ;
@@ -3794,11 +3794,11 @@ aama:ID01a9d8f9-8fb1-4043-a3cc-af7a7f2befe7 a aamas:Term ;
 
 sah:saho-VSuffAffPerf-biil a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPerf-biil" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDdd1b2d04-3aaf-4598-8640-7ffe5fd67bf4 a aamas:Term ;
+aama:IDccf714c4-345e-4b96-a819-cf444cee734b a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-biil ;
 	sah:person sah:Unmarked ;
@@ -3817,11 +3817,11 @@ aama:IDdd1b2d04-3aaf-4598-8640-7ffe5fd67bf4 a aamas:Term ;
 
 sah:saho-VPrefAffImperf-eehet a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-eehet" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID72c5864c-aa01-4dd5-9a7e-7c627cfbd336 a aamas:Term ;
+aama:ID26751cd9-546e-4841-97c7-1af9135f528e a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-eehet ;
 	sah:person sah:Person1 ;
@@ -3841,11 +3841,11 @@ aama:ID72c5864c-aa01-4dd5-9a7e-7c627cfbd336 a aamas:Term ;
 
 sah:saho-VSuffAffImprtv-deer a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-deer" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID524a7f44-b978-4ef8-a953-7fdbd08923bc a aamas:Term ;
+aama:ID4c1c3aa0-2150-40d8-b17f-3cb24ddb68f2 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-deer ;
 	sah:person sah:Person2 ;
@@ -3865,11 +3865,11 @@ aama:ID524a7f44-b978-4ef8-a953-7fdbd08923bc a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-err a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-err" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID8b2e7566-f548-4dbf-9b3b-d8fd0c58ac0b a aamas:Term ;
+aama:ID9403ac53-da4a-4941-a693-4d1bf406fee2 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-err ;
 	sah:person sah:Person2 ;
@@ -3889,11 +3889,11 @@ aama:ID8b2e7566-f548-4dbf-9b3b-d8fd0c58ac0b a aamas:Term ;
 
 sah:saho-VPrefAffPerf-infili- a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-infili-" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID3ba6e30a-8687-4a1a-becf-8207423fa1c0 a aamas:Term ;
+aama:IDb1f0cefb-38e6-42cd-af9b-43a941d62a8b a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-infili- ;
 	sah:person sah:Unmarked ;
@@ -3912,11 +3912,11 @@ aama:ID3ba6e30a-8687-4a1a-becf-8207423fa1c0 a aamas:Term ;
 
 sah:saho-VSuffAffPerf-bad a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPerf-bad" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID39f50e2e-dc2b-48c4-a3f7-fa0c1017d70b a aamas:Term ;
+aama:IDfc1db6cd-6567-410c-87d9-7b86580770ef a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-bad ;
 	sah:person sah:Unmarked ;
@@ -3935,11 +3935,11 @@ aama:ID39f50e2e-dc2b-48c4-a3f7-fa0c1017d70b a aamas:Term ;
 
 sah:saho-VPrefAffPerf-eebeh a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-eebeh" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID1416bd57-e0fe-46c7-b02a-f1e2c1130b34 a aamas:Term ;
+aama:IDffd42daa-94f6-4d47-8c58-daacd50a3c8d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eebeh ;
 	sah:person sah:Unmarked ;
@@ -3961,7 +3961,7 @@ sah:saho-VPrefImperf-inni a aamas:Termcluster ;
 	rdfs:comment "Welmers1952b p. 249" 
 	.
 
-aama:ID3406c1cf-9d74-46ae-960b-aac72f699b9d a aamas:Term ;
+aama:IDa6f17165-2918-4649-bbd5-dda580c21614 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefImperf-inni ;
 	sah:conjClass sah:Prefix ;
@@ -3974,7 +3974,7 @@ aama:ID3406c1cf-9d74-46ae-960b-aac72f699b9d a aamas:Term ;
 	sah:gender sah:Fem ;
 	.
 
-aama:ID1a60ebd9-59bb-40f9-a50b-80bcb52b7f26 a aamas:Term ;
+aama:ID411987ca-addd-4b84-ab28-6b12e45ff552 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefImperf-inni ;
 	sah:conjClass sah:Prefix ;
@@ -3987,7 +3987,7 @@ aama:ID1a60ebd9-59bb-40f9-a50b-80bcb52b7f26 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:IDc0e011d6-0454-4015-969f-ec058a587e98 a aamas:Term ;
+aama:ID13ce6a37-de61-4dbb-882e-0195888583f7 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefImperf-inni ;
 	sah:conjClass sah:Prefix ;
@@ -4000,7 +4000,7 @@ aama:IDc0e011d6-0454-4015-969f-ec058a587e98 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID46fabd27-9a79-4658-8d82-fbd857c2277e a aamas:Term ;
+aama:ID234a5ea1-be94-461c-bb8c-11f229be395b a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefImperf-inni ;
 	sah:conjClass sah:Prefix ;
@@ -4013,7 +4013,7 @@ aama:ID46fabd27-9a79-4658-8d82-fbd857c2277e a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID5362b6fe-a926-425f-b78c-2929a322efef a aamas:Term ;
+aama:ID469f036d-d400-4488-84a1-2d271a453702 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefImperf-inni ;
 	sah:conjClass sah:Prefix ;
@@ -4026,7 +4026,7 @@ aama:ID5362b6fe-a926-425f-b78c-2929a322efef a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID68e5ee4e-aa0d-4679-b641-730930e64841 a aamas:Term ;
+aama:IDe7548c84-b343-4414-b750-c82b2e2e67de a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefImperf-inni ;
 	sah:conjClass sah:Prefix ;
@@ -4039,7 +4039,7 @@ aama:ID68e5ee4e-aa0d-4679-b641-730930e64841 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:IDc13e965d-992b-4295-8d80-16a763b04df4 a aamas:Term ;
+aama:ID4b3186c7-ae5f-48f3-9318-418e118de852 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefImperf-inni ;
 	sah:conjClass sah:Prefix ;
@@ -4056,11 +4056,11 @@ aama:IDc13e965d-992b-4295-8d80-16a763b04df4 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-enge a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-enge" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDf04009f9-fb49-4d82-8566-456de10e2035 a aamas:Term ;
+aama:ID5731a2c1-e3c5-4e68-a3e2-393eb248c259 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-enge ;
 	sah:person sah:Person2 ;
@@ -4080,11 +4080,11 @@ aama:IDf04009f9-fb49-4d82-8566-456de10e2035 a aamas:Term ;
 
 sah:saho-VPrefNegImperf-oosol a aamas:Termcluster ;
 	rdfs:label "saho-VPrefNegImperf-oosol" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID4f0daa11-2645-4c11-b969-7ba48cb97fa8 a aamas:Term ;
+aama:ID246f98bc-63cc-4322-885a-76207a5f9cc9 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefNegImperf-oosol ;
 	sah:person sah:Person3 ;
@@ -4104,11 +4104,11 @@ aama:ID4f0daa11-2645-4c11-b969-7ba48cb97fa8 a aamas:Term ;
 
 sah:saho-VPrefAffPerf-eedeg a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-eedeg" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID927f05f0-b2f4-48a1-8897-12e90113b266 a aamas:Term ;
+aama:IDe4326cf3-c5ad-402e-8f3d-4d99f367dc4d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eedeg ;
 	sah:person sah:Unmarked ;
@@ -4127,11 +4127,11 @@ aama:ID927f05f0-b2f4-48a1-8897-12e90113b266 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-uhfus a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-uhfus" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID1891e984-4370-4994-a29a-1c392f00cd10 a aamas:Term ;
+aama:ID296d55e5-2bba-4c4e-88b6-2dec3aae458f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-uhfus ;
 	sah:person sah:Person2 ;
@@ -4151,11 +4151,11 @@ aama:ID1891e984-4370-4994-a29a-1c392f00cd10 a aamas:Term ;
 
 sah:saho-VPrefAffImperf-edebb a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-edebb" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID7a08e81e-af1a-48b0-a3f4-aca0ff008c2b a aamas:Term ;
+aama:ID4817f19f-b94d-44d8-862d-d9e7669b7c66 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-edebb ;
 	sah:person sah:Person1 ;
@@ -4175,11 +4175,11 @@ aama:ID7a08e81e-af1a-48b0-a3f4-aca0ff008c2b a aamas:Term ;
 
 sah:saho-VSuffAffImprtv-defee a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-defee" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID932e2722-6038-4a0e-a36d-8a98808de88a a aamas:Term ;
+aama:ID5ab89349-aa7a-4b1b-b7ef-7f4425957883 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-defee ;
 	sah:person sah:Person2 ;
@@ -4199,11 +4199,11 @@ aama:ID932e2722-6038-4a0e-a36d-8a98808de88a a aamas:Term ;
 
 sah:saho-VPrefNegImperf-ifriy a aamas:Termcluster ;
 	rdfs:label "saho-VPrefNegImperf-ifriy" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID2bd8bc84-aac6-4398-8b05-28374b3bf9eb a aamas:Term ;
+aama:ID281cdae1-de10-4eb8-8a45-13b009682837 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefNegImperf-ifriy ;
 	sah:person sah:Person3 ;
@@ -4223,11 +4223,11 @@ aama:ID2bd8bc84-aac6-4398-8b05-28374b3bf9eb a aamas:Term ;
 
 sah:saho-VPrefAffImperf-emlelekk a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-emlelekk" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDd3cd2c9d-9d2f-4709-ab72-a97c4f9c9d27 a aamas:Term ;
+aama:IDcadf9c49-08ee-4030-98c9-f11a461d5e21 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-emlelekk ;
 	sah:person sah:Person1 ;
@@ -4247,11 +4247,11 @@ aama:IDd3cd2c9d-9d2f-4709-ab72-a97c4f9c9d27 a aamas:Term ;
 
 sah:saho-VPrefAffPerf-ookom a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-ookom" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDc7301fdc-fee3-4ad0-9b4a-ffd5f2ec0b68 a aamas:Term ;
+aama:ID0eefc9a7-b928-4483-b52d-0d7a5e220cbe a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ookom ;
 	sah:person sah:Unmarked ;
@@ -4270,11 +4270,11 @@ aama:IDc7301fdc-fee3-4ad0-9b4a-ffd5f2ec0b68 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-iksib a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-iksib" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDc4e13f05-3296-425e-9d96-703adad128c9 a aamas:Term ;
+aama:ID32e91491-d656-4152-a897-317b569655c6 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-iksib ;
 	sah:person sah:Person2 ;
@@ -4294,11 +4294,11 @@ aama:IDc4e13f05-3296-425e-9d96-703adad128c9 a aamas:Term ;
 
 sah:saho-VPrefAffPerf-alif a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-alif" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID35b5433f-556e-41d1-9574-6c3119de7505 a aamas:Term ;
+aama:ID8d5c1c71-9b9a-413e-92e0-f0b7924eb382 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-alif ;
 	sah:person sah:Unmarked ;
@@ -4317,11 +4317,11 @@ aama:ID35b5433f-556e-41d1-9574-6c3119de7505 a aamas:Term ;
 
 sah:saho-VPrefAffImperf-oosol a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-oosol" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDac298fbd-06ce-4d98-83ca-42526ce3e24d a aamas:Term ;
+aama:ID8b09ec51-55b2-497d-9535-87e62b5a419f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-oosol ;
 	sah:person sah:Person3 ;
@@ -4341,11 +4341,11 @@ aama:IDac298fbd-06ce-4d98-83ca-42526ce3e24d a aamas:Term ;
 
 sah:saho-VPrefAffPerf-idhen a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-idhen" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID538aa46a-66c5-435b-ba14-406d903f6262 a aamas:Term ;
+aama:IDbd7d0c5b-98dd-41c8-a524-bada18d6c1c9 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-idhen ;
 	sah:person sah:Unmarked ;
@@ -4364,11 +4364,11 @@ aama:ID538aa46a-66c5-435b-ba14-406d903f6262 a aamas:Term ;
 
 sah:saho-VPrefAffPerf-ibbid a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-ibbid" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID30b649ed-be18-47d9-ba5c-cd35f2968084 a aamas:Term ;
+aama:IDed0655b4-2718-4291-8e11-3a64a8f4f1aa a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ibbid ;
 	sah:person sah:Unmarked ;
@@ -4387,11 +4387,11 @@ aama:ID30b649ed-be18-47d9-ba5c-cd35f2968084 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-oosoom a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-oosoom" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID2297b967-553e-41a3-b059-0b4ccddf846e a aamas:Term ;
+aama:ID51f72230-ef19-4706-80a1-c27b2897bfaf a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-oosoom ;
 	sah:person sah:Person2 ;
@@ -4411,11 +4411,11 @@ aama:ID2297b967-553e-41a3-b059-0b4ccddf846e a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-eemeg a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-eemeg" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID9d5f69f6-446f-4bfb-8d53-bcfe7f64be05 a aamas:Term ;
+aama:ID7f2969a4-5515-4f2a-b458-6894e07c92a2 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eemeg ;
 	sah:person sah:Person2 ;
@@ -4435,11 +4435,11 @@ aama:ID9d5f69f6-446f-4bfb-8d53-bcfe7f64be05 a aamas:Term ;
 
 sah:saho-VPrefAffPerf-emlelekke- a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-emlelekke-" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID5428849e-85ca-4ac3-ae48-1e2aa1ba32f3 a aamas:Term ;
+aama:ID2384e1b8-ff15-4da2-914c-f1ea74c76b0d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-emlelekke- ;
 	sah:person sah:Unmarked ;
@@ -4458,11 +4458,11 @@ aama:ID5428849e-85ca-4ac3-ae48-1e2aa1ba32f3 a aamas:Term ;
 
 sah:saho-VPrefAffPart-uruf a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPart-uruf" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDdc2d8d73-5497-4ff0-bf3c-67ff524dfadd a aamas:Term ;
+aama:IDa8c7f1dd-3478-44f8-a1ea-e3adf1c793e6 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPart-uruf ;
 	sah:conjClass sah:Prefix ;
@@ -4480,11 +4480,11 @@ aama:IDdc2d8d73-5497-4ff0-bf3c-67ff524dfadd a aamas:Term ;
 
 sah:saho-VSuffAffPerf-abaas a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPerf-abaas" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDc800306c-f1a4-4ec3-86df-2a37a371c5a8 a aamas:Term ;
+aama:ID9b0a78f7-05a3-4259-bf4e-7f51f6fd036b a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-abaas ;
 	sah:person sah:Unmarked ;
@@ -4503,11 +4503,11 @@ aama:IDc800306c-f1a4-4ec3-86df-2a37a371c5a8 a aamas:Term ;
 
 sah:saho-VPrefAffPerf-igre a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-igre" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID82604c3a-86d3-427a-b622-f2b05c80dc51 a aamas:Term ;
+aama:IDb04f6c72-fe64-4c11-803b-42f186c5b4bc a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-igre ;
 	sah:person sah:Unmarked ;
@@ -4526,11 +4526,11 @@ aama:ID82604c3a-86d3-427a-b622-f2b05c80dc51 a aamas:Term ;
 
 sah:saho-VSuffAffImprtv-bolol a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-bolol" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID2372b82c-cbe8-4fce-ba31-96cee53bec03 a aamas:Term ;
+aama:ID241ec5a6-acd6-449f-a8c2-4db68ac50320 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-bolol ;
 	sah:person sah:Person2 ;
@@ -4551,11 +4551,11 @@ aama:ID2372b82c-cbe8-4fce-ba31-96cee53bec03 a aamas:Term ;
 
 sah:saho-VSuffAffJuss-dufu a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffJuss-dufu" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID75dd969d-6aa2-4a33-80db-91c439a16dd5 a aamas:Term ;
+aama:IDe1a693af-deb1-4ce3-a5d1-d20f738ffbb3 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffJuss-dufu ;
 	sah:person sah:Person3 ;
@@ -4575,11 +4575,11 @@ aama:ID75dd969d-6aa2-4a33-80db-91c439a16dd5 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-ew a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-ew" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID25183c6b-9d1c-4049-a99a-48f10880920a a aamas:Term ;
+aama:IDea32f9c9-fc0f-4778-91c0-13dbfafed06b a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ew ;
 	sah:person sah:Person2 ;
@@ -4599,11 +4599,11 @@ aama:ID25183c6b-9d1c-4049-a99a-48f10880920a a aamas:Term ;
 
 sah:saho-VPrefAffPerf-eney- a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-eney-" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID86b9282b-43ff-4493-978e-f34222b5bc17 a aamas:Term ;
+aama:IDa1b5ed20-c8c8-4fff-9233-5d34341eb6f8 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eney- ;
 	sah:person sah:Unmarked ;
@@ -4622,11 +4622,11 @@ aama:ID86b9282b-43ff-4493-978e-f34222b5bc17 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-eyteher a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-eyteher" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDbed3d6f4-8c47-4350-b57b-42ac12abe7e4 a aamas:Term ;
+aama:ID855d7e13-62de-49dc-9b68-f7571452e242 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eyteher ;
 	sah:person sah:Person2 ;
@@ -4646,11 +4646,11 @@ aama:IDbed3d6f4-8c47-4350-b57b-42ac12abe7e4 a aamas:Term ;
 
 sah:saho-VPrefAffPerf-oorof a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-oorof" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID47fda9bc-29a8-4876-ba65-761d5936d452 a aamas:Term ;
+aama:IDc8bbd6ab-5cfb-4c2b-a4c3-0fe6e743a436 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-oorof ;
 	sah:person sah:Unmarked ;
@@ -4669,11 +4669,11 @@ aama:ID47fda9bc-29a8-4876-ba65-761d5936d452 a aamas:Term ;
 
 sah:saho-VSuffAffImperf-dufu a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImperf-dufu" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID311d33d3-91a6-47b7-ace4-b298524b8b27 a aamas:Term ;
+aama:ID44ebf13c-44d0-4da8-b532-245805669dca a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImperf-dufu ;
 	sah:person sah:Person3 ;
@@ -4693,11 +4693,11 @@ aama:ID311d33d3-91a6-47b7-ace4-b298524b8b27 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-eqri a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-eqri" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDffabb3fa-7af2-491b-82d3-190ac5897db4 a aamas:Term ;
+aama:IDdcbc76f0-5e75-4054-b0d8-263909e4aa2e a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eqri ;
 	sah:person sah:Person2 ;
@@ -4718,11 +4718,11 @@ aama:IDffabb3fa-7af2-491b-82d3-190ac5897db4 a aamas:Term ;
 
 sah:saho-VSuffAffPerf-daam a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPerf-daam" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID6e23e69a-85c3-405f-b2e8-1fbc0bd64a49 a aamas:Term ;
+aama:ID6813a3be-adc4-4de6-8215-7115f6c6db8c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-daam ;
 	sah:person sah:Unmarked ;
@@ -4741,11 +4741,11 @@ aama:ID6e23e69a-85c3-405f-b2e8-1fbc0bd64a49 a aamas:Term ;
 
 sah:saho-VSuffAffPerf-abah a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPerf-abah" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDf4a7bf9f-d5ea-43b9-bbdd-77a0be2bf17d a aamas:Term ;
+aama:ID72654849-b11e-4010-84d2-e660e4264de0 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-abah ;
 	sah:person sah:Unmarked ;
@@ -4764,11 +4764,11 @@ aama:IDf4a7bf9f-d5ea-43b9-bbdd-77a0be2bf17d a aamas:Term ;
 
 sah:saho-VPrefNegImprtv-enge a aamas:Termcluster ;
 	rdfs:label "saho-VPrefNegImprtv-enge" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID90d39850-4bba-47a2-a34f-341b1d1d860d a aamas:Term ;
+aama:IDf727e731-2ecc-4563-a3c1-7fa599361637 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefNegImprtv-enge ;
 	sah:person sah:Person2 ;
@@ -4788,11 +4788,11 @@ aama:ID90d39850-4bba-47a2-a34f-341b1d1d860d a aamas:Term ;
 
 sah:saho-VPrefAffPerf-m-emeet a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-m-emeet" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID057fd306-2c95-4afc-8859-f8ec55aa4098 a aamas:Term ;
+aama:IDbb40d602-1975-4859-b784-2b0a9f1815c7 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-m-emeet ;
 	sah:person sah:Person2 ;
@@ -4813,11 +4813,11 @@ aama:ID057fd306-2c95-4afc-8859-f8ec55aa4098 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-ifteh a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-ifteh" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID42d77192-3215-4641-a4ba-ff643d2be353 a aamas:Term ;
+aama:IDf919d7a7-7500-4ba9-addf-057da5783c14 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ifteh ;
 	sah:person sah:Person2 ;
@@ -4837,11 +4837,11 @@ aama:ID42d77192-3215-4641-a4ba-ff643d2be353 a aamas:Term ;
 
 sah:saho-VPrefAffJuss-ki-ubl a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffJuss-ki-ubl" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID99a601b2-eb1e-4cf0-a42f-7323092eac57 a aamas:Term ;
+aama:ID83f23216-a09d-4ac2-9bfd-b83f7296197c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-ki-ubl ;
 	sah:person sah:Person1 ;
@@ -4861,11 +4861,11 @@ aama:ID99a601b2-eb1e-4cf0-a42f-7323092eac57 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-ooog a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-ooog" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID53076c19-1e5d-4765-915a-b783c6561b5b a aamas:Term ;
+aama:IDbccded4b-0a08-474e-ab2c-2530a09e1ab1 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ooog ;
 	sah:person sah:Person2 ;
@@ -4885,11 +4885,11 @@ aama:ID53076c19-1e5d-4765-915a-b783c6561b5b a aamas:Term ;
 
 sah:saho-VPrefAffImperf-eney- a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-eney-" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDd7bc85d9-d4b0-4ae3-aef3-94555c4f6d9e a aamas:Term ;
+aama:ID6975718d-f592-4d90-a6ce-cad42b6f31fc a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-eney- ;
 	sah:person sah:Person1 ;
@@ -4909,11 +4909,11 @@ aama:IDd7bc85d9-d4b0-4ae3-aef3-94555c4f6d9e a aamas:Term ;
 
 sah:saho-VPrefAffImperf-uruf a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-uruf" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID3f920f66-dba3-4e85-955a-e3658add47cb a aamas:Term ;
+aama:ID86bf445f-ac8d-4e51-b071-15057e86a99d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-uruf ;
 	sah:person sah:Person3 ;
@@ -4933,11 +4933,11 @@ aama:ID3f920f66-dba3-4e85-955a-e3658add47cb a aamas:Term ;
 
 sah:saho-VPrefNegImperf-eedeg a aamas:Termcluster ;
 	rdfs:label "saho-VPrefNegImperf-eedeg" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDc2f7abd1-9eb6-49fe-b3b6-1c482186b429 a aamas:Term ;
+aama:ID00b7450d-0bb0-4485-b56f-ec1abde32641 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefNegImperf-eedeg ;
 	sah:person sah:Person1 ;
@@ -4957,11 +4957,11 @@ aama:IDc2f7abd1-9eb6-49fe-b3b6-1c482186b429 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-uru-spec a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-uru-spec" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID2fee5aed-4ee4-418d-b9cf-3770ffb2a7fc a aamas:Term ;
+aama:ID2a2336d8-2e1f-4b73-b65d-ecbc30a80bb2 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-uru-spec ;
 	sah:person sah:Person2 ;
@@ -4981,11 +4981,11 @@ aama:ID2fee5aed-4ee4-418d-b9cf-3770ffb2a7fc a aamas:Term ;
 
 sah:saho-VPrefAffPerf-ekett a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-ekett" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDa579c95c-4c92-43f7-9da8-aab364743f08 a aamas:Term ;
+aama:ID66cea2c6-facc-4d9b-a969-a2083fc56b72 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ekett ;
 	sah:person sah:Unmarked ;
@@ -5004,11 +5004,11 @@ aama:IDa579c95c-4c92-43f7-9da8-aab364743f08 a aamas:Term ;
 
 sah:saho-VSuffAffImprtv-beet a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-beet" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID37bd1542-7ee3-4876-a912-20be40884542 a aamas:Term ;
+aama:ID99c324c3-7190-4333-96ba-02cb1447b595 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-beet ;
 	sah:person sah:Person2 ;
@@ -5028,11 +5028,11 @@ aama:ID37bd1542-7ee3-4876-a912-20be40884542 a aamas:Term ;
 
 sah:saho-VPrefAffImperf-ul a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-ul" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID9bcfb643-7b93-45e1-a4df-a6231d087854 a aamas:Term ;
+aama:ID65d82b72-af78-4ba7-b845-4f1201c2b0c9 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-ul ;
 	sah:person sah:Person2 ;
@@ -5052,11 +5052,11 @@ aama:ID9bcfb643-7b93-45e1-a4df-a6231d087854 a aamas:Term ;
 
 sah:saho-VPrefAffJuss-edh a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffJuss-edh" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID9970f8ef-8f62-4c9a-8fa7-109a6f415ae9 a aamas:Term ;
+aama:ID43ff379d-afc9-46b7-8b4e-5e82b2a31274 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-edh ;
 	sah:person sah:Person3 ;
@@ -5076,11 +5076,11 @@ aama:ID9970f8ef-8f62-4c9a-8fa7-109a6f415ae9 a aamas:Term ;
 
 sah:saho-VSuffAffPerf-ab a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPerf-ab" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID9f254ded-eabe-4d3d-b4db-eee01f7fdbfd a aamas:Term ;
+aama:ID4be8852e-2733-4c80-a259-cbc028f54889 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-ab ;
 	sah:person sah:Unmarked ;
@@ -5099,11 +5099,11 @@ aama:ID9f254ded-eabe-4d3d-b4db-eee01f7fdbfd a aamas:Term ;
 
 sah:saho-VSuffNegImperf-daam a aamas:Termcluster ;
 	rdfs:label "saho-VSuffNegImperf-daam" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID595c1157-e7aa-4cb7-afd6-04291b761ea1 a aamas:Term ;
+aama:IDfe4f11ad-d85a-41e5-a70b-c24c8dd39584 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffNegImperf-daam ;
 	sah:person sah:Person1 ;
@@ -5123,11 +5123,11 @@ aama:ID595c1157-e7aa-4cb7-afd6-04291b761ea1 a aamas:Term ;
 
 sah:saho-VPrefAffPerf-ew a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-ew" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID955868ce-ae26-4c34-9d0d-231d2e694240 a aamas:Term ;
+aama:IDb915aabf-ac8b-48d0-83d9-c2e7df2bb77f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ew ;
 	sah:person sah:Unmarked ;
@@ -5146,11 +5146,11 @@ aama:ID955868ce-ae26-4c34-9d0d-231d2e694240 a aamas:Term ;
 
 sah:saho-VPrefNegImperf-ubl a aamas:Termcluster ;
 	rdfs:label "saho-VPrefNegImperf-ubl" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID13725325-b3b9-4fcb-a88a-68ee5ff3b7ab a aamas:Term ;
+aama:IDddf39dc0-2d36-48ac-a7f1-fd7c27bed87b a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefNegImperf-ubl ;
 	sah:person sah:Person1 ;
@@ -5170,11 +5170,11 @@ aama:ID13725325-b3b9-4fcb-a88a-68ee5ff3b7ab a aamas:Term ;
 
 sah:saho-VPrefAffPerf-eheeseb a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-eheeseb" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID644b2054-b7e1-4753-9077-54822c9ffff2 a aamas:Term ;
+aama:IDd6a03347-dbd6-4ba9-b87e-ba1db1455734 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eheeseb ;
 	sah:person sah:Unmarked ;
@@ -5193,11 +5193,11 @@ aama:ID644b2054-b7e1-4753-9077-54822c9ffff2 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-oosol a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-oosol" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID6c240268-5865-415c-8c5d-1feb74167266 a aamas:Term ;
+aama:ID708566fc-d3f0-4c01-bf54-e8efc9c282f5 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-oosol ;
 	sah:person sah:Person2 ;
@@ -5217,11 +5217,11 @@ aama:ID6c240268-5865-415c-8c5d-1feb74167266 a aamas:Term ;
 
 sah:saho-VPrefAffImperf-li-emeet a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-li-emeet" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID9f21b0e6-cc7e-4daa-b6af-a556391fa104 a aamas:Term ;
+aama:ID4aa01e34-dc34-4247-9c05-b6f129cd570f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-li-emeet ;
 	sah:person sah:Person1 ;
@@ -5242,11 +5242,11 @@ aama:ID9f21b0e6-cc7e-4daa-b6af-a556391fa104 a aamas:Term ;
 
 sah:saho-VSuffAffImperf-inni-hankabit a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImperf-inni-hankabit" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDeb4eae3c-0c39-4e65-a4fd-b4f6f321a8f8 a aamas:Term ;
+aama:ID3231624f-30a5-4837-a5be-78ecaf9b7117 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImperf-inni-hankabit ;
 	sah:person sah:Person2 ;
@@ -5267,11 +5267,11 @@ aama:IDeb4eae3c-0c39-4e65-a4fd-b4f6f321a8f8 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-oho- a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-oho-" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID81531351-5661-47ed-8476-a588ee5dc6f1 a aamas:Term ;
+aama:ID4f71f3c7-d2ce-47db-8eb2-c6bc2885aaad a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-oho- ;
 	sah:person sah:Person2 ;
@@ -5291,11 +5291,11 @@ aama:ID81531351-5661-47ed-8476-a588ee5dc6f1 a aamas:Term ;
 
 sah:saho-VPrefAffImperf-inniPerf-ubl a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-inniPerf-ubl" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDd4ac4318-5f33-4cc7-9330-e3f4ad64feb5 a aamas:Term ;
+aama:ID594df8a2-d4c4-4106-a862-1691414c5053 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-inniPerf-ubl ;
 	sah:person sah:Person3 ;
@@ -5316,11 +5316,11 @@ aama:IDd4ac4318-5f33-4cc7-9330-e3f4ad64feb5 a aamas:Term ;
 
 sah:saho-VPrefAffPerf-edh a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-edh" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID5ee6fd96-807b-49b2-8dfc-9015c8be6543 a aamas:Term ;
+aama:IDbbf952ee-4924-498b-9756-60ad2d65e2ef a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-edh ;
 	sah:person sah:Unmarked ;
@@ -5339,11 +5339,11 @@ aama:ID5ee6fd96-807b-49b2-8dfc-9015c8be6543 a aamas:Term ;
 
 sah:saho-VPrefAffPerf-uru-spec a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-uru-spec" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDff344a57-4529-4fe9-a0fd-f09ec238a50e a aamas:Term ;
+aama:IDe2cf2202-8ea7-4213-93b1-d425b71cee73 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-uru-spec ;
 	sah:person sah:Unmarked ;
@@ -5362,11 +5362,11 @@ aama:IDff344a57-4529-4fe9-a0fd-f09ec238a50e a aamas:Term ;
 
 sah:saho-VPrefAffPerf-oosol a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-oosol" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID3515f5b1-9b86-4949-98ee-b91efae5657a a aamas:Term ;
+aama:ID1f9a7c38-05be-4d63-9c01-5c9c1565afb6 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-oosol ;
 	sah:person sah:Unmarked ;
@@ -5385,11 +5385,11 @@ aama:ID3515f5b1-9b86-4949-98ee-b91efae5657a a aamas:Term ;
 
 sah:saho-VPrefAffPerf-oosoom a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-oosoom" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDd44aea31-2de7-4d23-992a-e03cce2193df a aamas:Term ;
+aama:ID41fc1eef-4772-40cc-945a-55e72d847d81 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-oosoom ;
 	sah:person sah:Unmarked ;
@@ -5408,11 +5408,11 @@ aama:IDd44aea31-2de7-4d23-992a-e03cce2193df a aamas:Term ;
 
 sah:saho-VPrefAffPerf-ikfil a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-ikfil" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID4d501786-fb36-4720-b35e-b7171352e36c a aamas:Term ;
+aama:ID94d2a0b9-dccd-4a21-86a1-1c72ae3e4422 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ikfil ;
 	sah:person sah:Unmarked ;
@@ -5431,11 +5431,11 @@ aama:ID4d501786-fb36-4720-b35e-b7171352e36c a aamas:Term ;
 
 sah:saho-VSuffNegJuss-daam a aamas:Termcluster ;
 	rdfs:label "saho-VSuffNegJuss-daam" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID617afefe-ba62-403d-a856-dd5a090358d7 a aamas:Term ;
+aama:ID9f77fe15-0133-4077-aa7c-ca29ffc17cef a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffNegJuss-daam ;
 	sah:person sah:Person1 ;
@@ -5456,11 +5456,11 @@ aama:ID617afefe-ba62-403d-a856-dd5a090358d7 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-uuluus- a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-uuluus-" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDed9be490-378d-4f39-b310-a2e2221b2041 a aamas:Term ;
+aama:IDbad98e4c-5110-4d8f-ab8c-e560008ea49f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-uuluus- ;
 	sah:person sah:Person2 ;
@@ -5480,11 +5480,11 @@ aama:IDed9be490-378d-4f39-b310-a2e2221b2041 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-eney- a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-eney-" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID6f07d9a7-2e76-4d52-afe5-5b1196732759 a aamas:Term ;
+aama:ID38f6d6d8-f8cf-4bc0-ac10-69c34649b0c2 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eney- ;
 	sah:person sah:Person2 ;
@@ -5504,11 +5504,11 @@ aama:ID6f07d9a7-2e76-4d52-afe5-5b1196732759 a aamas:Term ;
 
 sah:saho-VPrefAffJuss-ki-ehzen a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffJuss-ki-ehzen" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDc12e2cff-d8fe-4f94-af87-3ed236c870b4 a aamas:Term ;
+aama:IDd3a9ad8a-6b52-4d81-b380-cc833deb6b17 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-ki-ehzen ;
 	sah:person sah:Person2 ;
@@ -5528,11 +5528,11 @@ aama:IDc12e2cff-d8fe-4f94-af87-3ed236c870b4 a aamas:Term ;
 
 sah:saho-VSuffAffJuss-alif a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffJuss-alif" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID2ab8d34a-447e-4ba4-b75a-3f9a760b6d9c a aamas:Term ;
+aama:ID8bb1db02-85ac-41fa-9952-d4dfbe57ebd4 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffJuss-alif ;
 	sah:person sah:Person1 ;
@@ -5552,11 +5552,11 @@ aama:ID2ab8d34a-447e-4ba4-b75a-3f9a760b6d9c a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-oysoom a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-oysoom" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID095630c0-dba8-48c7-9da5-4146fbd0becc a aamas:Term ;
+aama:ID10cf017d-92ba-4b99-b076-fe80831f4238 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-oysoom ;
 	sah:person sah:Unmarked ;
@@ -5576,11 +5576,11 @@ aama:ID095630c0-dba8-48c7-9da5-4146fbd0becc a aamas:Term ;
 
 sah:saho-VSuffNegImprtv-suu a aamas:Termcluster ;
 	rdfs:label "saho-VSuffNegImprtv-suu" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID3e2dad60-3054-436d-9407-446a27c414e6 a aamas:Term ;
+aama:ID1bad851c-8fe9-4a7a-bff5-a8d48011d908 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffNegImprtv-suu ;
 	sah:person sah:Person2 ;
@@ -5600,11 +5600,11 @@ aama:ID3e2dad60-3054-436d-9407-446a27c414e6 a aamas:Term ;
 
 sah:saho-VPrefAffPerf-engeeg- a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-engeeg-" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID0da24178-2e80-490b-bb2a-9ae52b375a44 a aamas:Term ;
+aama:ID5f341e1f-dba7-4792-a8e8-cfc7d81397b2 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-engeeg- ;
 	sah:person sah:Unmarked ;
@@ -5623,11 +5623,11 @@ aama:ID0da24178-2e80-490b-bb2a-9ae52b375a44 a aamas:Term ;
 
 sah:saho-VPrefAffPerf-erd a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-erd" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDe78f1596-5ee1-40bc-b61c-f9de9e1a962d a aamas:Term ;
+aama:ID2aaa871b-eaeb-4ab3-8221-4f5ba3a82408 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-erd ;
 	sah:person sah:Unmarked ;
@@ -5646,11 +5646,11 @@ aama:IDe78f1596-5ee1-40bc-b61c-f9de9e1a962d a aamas:Term ;
 
 sah:saho-VPrefAffJuss-eedeg a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffJuss-eedeg" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDf3049ede-79ed-4928-acab-516d8b1ae93a a aamas:Term ;
+aama:IDd2e151af-b445-4790-be95-92648c160390 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-eedeg ;
 	sah:person sah:Person1 ;
@@ -5670,11 +5670,11 @@ aama:IDf3049ede-79ed-4928-acab-516d8b1ae93a a aamas:Term ;
 
 sah:saho-VSuffAffImprtv-hay a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-hay" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID16e83ee5-590e-42e8-b41f-18f08ee87349 a aamas:Term ;
+aama:IDa08a0eac-f2f8-41dc-b8ef-c84e38427abe a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-hay ;
 	sah:person sah:Person2 ;
@@ -5694,11 +5694,11 @@ aama:ID16e83ee5-590e-42e8-b41f-18f08ee87349 a aamas:Term ;
 
 sah:saho-VPrefAffPerf-oofo a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-oofo" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID7d4b6aa7-2e1c-4795-a2a2-8a730a56fee6 a aamas:Term ;
+aama:IDce19f99a-6473-41c4-bfa3-288a637f9ecf a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-oofo ;
 	sah:person sah:Unmarked ;
@@ -5717,11 +5717,11 @@ aama:ID7d4b6aa7-2e1c-4795-a2a2-8a730a56fee6 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-eelem a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-eelem" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDc09fb2b3-05bb-40c3-b886-46fa41777a8d a aamas:Term ;
+aama:ID4ca4c6d1-04c6-4339-92ea-6b0a5d7aa0c1 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eelem ;
 	sah:person sah:Person2 ;
@@ -5741,11 +5741,11 @@ aama:IDc09fb2b3-05bb-40c3-b886-46fa41777a8d a aamas:Term ;
 
 sah:saho-VPrefAffJuss-udud a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffJuss-udud" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID9ccc673a-c21c-4b9c-b694-f1da465ccfa8 a aamas:Term ;
+aama:IDb93d593d-abe1-4353-bd93-d440674ce8b1 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-udud ;
 	sah:person sah:Person3 ;
@@ -5765,11 +5765,11 @@ aama:ID9ccc673a-c21c-4b9c-b694-f1da465ccfa8 a aamas:Term ;
 
 sah:saho-VSuffAffImprtv-biaak a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-biaak" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID089cebdd-60a9-44a8-ba46-b47bdb7529ae a aamas:Term ;
+aama:IDa2db2534-8f82-4c8a-828d-aeefe648ab5b a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-biaak ;
 	sah:person sah:Person2 ;
@@ -5789,11 +5789,11 @@ aama:ID089cebdd-60a9-44a8-ba46-b47bdb7529ae a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-ibbid a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-ibbid" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID9752cae1-cc75-40aa-90e6-7c447cba3bb4 a aamas:Term ;
+aama:ID767029c7-f93a-429a-bf53-7796fc7977a7 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ibbid ;
 	sah:person sah:Person2 ;
@@ -5813,11 +5813,11 @@ aama:ID9752cae1-cc75-40aa-90e6-7c447cba3bb4 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-oorof a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-oorof" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID0ac91b16-6d15-4bca-b00e-104b23c28c4a a aamas:Term ;
+aama:IDaa28d365-5ac8-4b39-9fe6-8432c9ebddd2 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-oorof ;
 	sah:person sah:Person2 ;
@@ -5837,11 +5837,11 @@ aama:ID0ac91b16-6d15-4bca-b00e-104b23c28c4a a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-erd a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-erd" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID3a247f5a-3acf-4019-a9fc-bbb1beae36e1 a aamas:Term ;
+aama:IDb547d968-b729-4d80-8c90-6b97e92cd262 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-erd ;
 	sah:person sah:Person2 ;
@@ -5864,7 +5864,7 @@ sah:saho-VPrefCopula-inni a aamas:Termcluster ;
 	rdfs:comment "Welmers1952b p. 249" 
 	.
 
-aama:ID31155586-0092-4abd-8547-a8cf014158f6 a aamas:Term ;
+aama:ID4028593b-f362-46a0-a07a-03db644b09b0 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefCopula-inni ;
 	sah:conjClass sah:Prefix ;
@@ -5877,7 +5877,7 @@ aama:ID31155586-0092-4abd-8547-a8cf014158f6 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID9b18fbae-8ebf-4d7c-9c55-e5ad45bab278 a aamas:Term ;
+aama:IDe07a8fd8-dafb-4117-b67c-47a1ba47cb25 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefCopula-inni ;
 	sah:conjClass sah:Prefix ;
@@ -5890,7 +5890,7 @@ aama:ID9b18fbae-8ebf-4d7c-9c55-e5ad45bab278 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID4678e807-14b5-498b-ae93-d260e854ac9c a aamas:Term ;
+aama:ID70ce6ba8-adc9-4edc-a7e1-8639238d8287 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefCopula-inni ;
 	sah:conjClass sah:Prefix ;
@@ -5903,7 +5903,7 @@ aama:ID4678e807-14b5-498b-ae93-d260e854ac9c a aamas:Term ;
 	sah:gender sah:Masc ;
 	.
 
-aama:ID86c3b027-b580-42d4-bd0a-445b9374ffcd a aamas:Term ;
+aama:ID9cd5dfaa-cf9c-42fb-8a33-f563b33e26bc a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefCopula-inni ;
 	sah:conjClass sah:Prefix ;
@@ -5916,7 +5916,7 @@ aama:ID86c3b027-b580-42d4-bd0a-445b9374ffcd a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID41ce3f8a-dd82-49d5-976a-2f0d1c0b9a63 a aamas:Term ;
+aama:IDfbbf249f-f9c7-40ed-a7a2-0774ca9d32b6 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefCopula-inni ;
 	sah:conjClass sah:Prefix ;
@@ -5929,7 +5929,7 @@ aama:ID41ce3f8a-dd82-49d5-976a-2f0d1c0b9a63 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID4bc46284-fb7a-46a5-8549-cbfff20f0c71 a aamas:Term ;
+aama:IDd3a4c95b-c36d-43c6-b2e8-3114cc26727f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefCopula-inni ;
 	sah:conjClass sah:Prefix ;
@@ -5942,7 +5942,7 @@ aama:ID4bc46284-fb7a-46a5-8549-cbfff20f0c71 a aamas:Term ;
 	sah:gender sah:Fem ;
 	.
 
-aama:ID31a329f5-339f-4a1e-b25e-79334864e839 a aamas:Term ;
+aama:ID9c85557b-b19e-465b-a92b-c36d86630d98 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefCopula-inni ;
 	sah:conjClass sah:Prefix ;
@@ -5959,11 +5959,11 @@ aama:ID31a329f5-339f-4a1e-b25e-79334864e839 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-edh a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-edh" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDc0ebdbb2-d25c-41af-b981-e746f5564e3b a aamas:Term ;
+aama:IDd9a3ecc3-502c-47d1-823b-284fe8d4898f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-edh ;
 	sah:person sah:Person2 ;
@@ -5983,11 +5983,11 @@ aama:IDc0ebdbb2-d25c-41af-b981-e746f5564e3b a aamas:Term ;
 
 sah:saho-VPrefAffPerf-emmeng- a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-emmeng-" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID587d9022-ad9a-4bb8-9c38-6c014cb6922b a aamas:Term ;
+aama:ID0f743143-1f70-4526-8dee-0d3c626f2c87 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-emmeng- ;
 	sah:person sah:Unmarked ;
@@ -6006,11 +6006,11 @@ aama:ID587d9022-ad9a-4bb8-9c38-6c014cb6922b a aamas:Term ;
 
 sah:saho-VPrefAffImperf-urkut a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-urkut" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID9e8f3e76-73df-4131-a26a-a905718e3436 a aamas:Term ;
+aama:IDd88accca-bb2c-4ba1-b23a-8a47527c9672 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-urkut ;
 	sah:person sah:Person3 ;
@@ -6030,11 +6030,11 @@ aama:ID9e8f3e76-73df-4131-a26a-a905718e3436 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-ootok a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-ootok" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID15569c74-864e-4354-b8f7-4756d6af3cca a aamas:Term ;
+aama:ID8b1261ce-e4e5-4906-90da-58d30bfdb5dc a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ootok ;
 	sah:person sah:Person2 ;
@@ -6054,11 +6054,11 @@ aama:ID15569c74-864e-4354-b8f7-4756d6af3cca a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-inebe a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-inebe" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID98826122-c405-4705-a94d-2a6672c69875 a aamas:Term ;
+aama:IDf0b35481-5d98-40d5-95c9-27d6bb448dee a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-inebe ;
 	sah:person sah:Person2 ;
@@ -6078,11 +6078,11 @@ aama:ID98826122-c405-4705-a94d-2a6672c69875 a aamas:Term ;
 
 sah:saho-VPrefAffImperf-inni-ubl a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-inni-ubl" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID5dd611b9-8dff-4527-9950-9315b7f2458a a aamas:Term ;
+aama:ID0efb6eed-6c9c-4782-9547-4d1486cbdfba a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-inni-ubl ;
 	sah:person sah:Person3 ;
@@ -6103,11 +6103,11 @@ aama:ID5dd611b9-8dff-4527-9950-9315b7f2458a a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-ibbid a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-ibbid" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID770f6cc5-ca26-47f7-8b66-3f9faf339873 a aamas:Term ;
+aama:ID28ca569e-aa8a-4ec8-af8e-6f32db3c15f6 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ibbid ;
 	sah:person sah:Person2 ;
@@ -6127,11 +6127,11 @@ aama:ID770f6cc5-ca26-47f7-8b66-3f9faf339873 a aamas:Term ;
 
 sah:saho-VPrefAffImperf-ifriy a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-ifriy" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID436f31d6-00f2-4a44-b22d-02bc83f6fcb3 a aamas:Term ;
+aama:ID886b4592-a153-48c4-8c91-7e0ccb07570c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-ifriy ;
 	sah:person sah:Person3 ;
@@ -6151,11 +6151,11 @@ aama:ID436f31d6-00f2-4a44-b22d-02bc83f6fcb3 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-obb a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-obb" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID13468482-51a1-4a4b-9e3d-17d2618e9dc3 a aamas:Term ;
+aama:IDfbc15cfe-c00a-48be-9ee8-be0a77be41a8 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-obb ;
 	sah:person sah:Person2 ;
@@ -6175,11 +6175,11 @@ aama:ID13468482-51a1-4a4b-9e3d-17d2618e9dc3 a aamas:Term ;
 
 sah:saho-VSuffAffImprtv-abaar a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-abaar" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID2f515d8b-5d06-45c7-ae8e-97cff1b67e4d a aamas:Term ;
+aama:ID7ad0d108-aef7-4d6f-9daa-d1ef22d8ecb1 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-abaar ;
 	sah:person sah:Person2 ;
@@ -6199,11 +6199,11 @@ aama:ID2f515d8b-5d06-45c7-ae8e-97cff1b67e4d a aamas:Term ;
 
 sah:saho-VPrefAffPerf-eefe a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-eefe" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDd60fcc01-aaef-4ed2-b043-c067c7847e0d a aamas:Term ;
+aama:IDb6c4d47d-aa7d-4367-a852-ca34796edfb4 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eefe ;
 	sah:person sah:Unmarked ;
@@ -6222,11 +6222,11 @@ aama:IDd60fcc01-aaef-4ed2-b043-c067c7847e0d a aamas:Term ;
 
 sah:saho-VPrefAffPerf-uhfus a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-uhfus" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID5e42f0f0-3198-4110-a3ec-18a541ff43ea a aamas:Term ;
+aama:ID0f8bdcd8-4d4d-45b1-8994-4a5309b85fb4 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-uhfus ;
 	sah:person sah:Unmarked ;
@@ -6245,11 +6245,11 @@ aama:ID5e42f0f0-3198-4110-a3ec-18a541ff43ea a aamas:Term ;
 
 sah:saho-VPrefAffPerf-isniq a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-isniq" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID93959f4e-ac7f-45ea-9111-8d75a7d292ca a aamas:Term ;
+aama:IDd5eb3dab-99d1-4add-b50c-c0a6528b187b a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-isniq ;
 	sah:person sah:Unmarked ;
@@ -6268,11 +6268,11 @@ aama:ID93959f4e-ac7f-45ea-9111-8d75a7d292ca a aamas:Term ;
 
 sah:saho-VPrefAffImperf-oho- a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-oho-" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDc8cb1560-0572-40e0-bd2b-8cf632416e60 a aamas:Term ;
+aama:IDb4100e0f-6e2d-4552-a240-e64dd0b8f11b a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-oho- ;
 	sah:person sah:Person1 ;
@@ -6292,11 +6292,11 @@ aama:IDc8cb1560-0572-40e0-bd2b-8cf632416e60 a aamas:Term ;
 
 sah:saho-VPrefAffImperf-ehzen a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-ehzen" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID2ef09165-08c2-4d8f-a6d7-fb98a35c35f2 a aamas:Term ;
+aama:IDac148c5b-dcf5-4977-8f83-2880717b658c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-ehzen ;
 	sah:person sah:Person2 ;
@@ -6316,11 +6316,11 @@ aama:ID2ef09165-08c2-4d8f-a6d7-fb98a35c35f2 a aamas:Term ;
 
 sah:saho-VPrefAffPerf-ootok a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-ootok" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID12559e33-e0d6-43ff-9e30-1fa3855f4555 a aamas:Term ;
+aama:ID6a07d451-9340-4323-b95a-624ebfff7c9a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ootok ;
 	sah:person sah:Unmarked ;
@@ -6339,11 +6339,11 @@ aama:ID12559e33-e0d6-43ff-9e30-1fa3855f4555 a aamas:Term ;
 
 sah:saho-VPrefAffPerf-eemen a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-eemen" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID0d6d6f9d-b69c-44b8-9551-7a43743a9490 a aamas:Term ;
+aama:IDa63347a8-8aef-4bb3-8905-e3a5cf387cf5 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eemen ;
 	sah:person sah:Unmarked ;
@@ -6362,11 +6362,11 @@ aama:ID0d6d6f9d-b69c-44b8-9551-7a43743a9490 a aamas:Term ;
 
 sah:saho-VSuffNegImprtv-fak a aamas:Termcluster ;
 	rdfs:label "saho-VSuffNegImprtv-fak" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDfaf3c739-4cd7-43b5-ad7d-998d7b70eb99 a aamas:Term ;
+aama:IDd7fc0a2f-a8ae-4c60-bf6c-9e6ec377ef38 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffNegImprtv-fak ;
 	sah:person sah:Person2 ;
@@ -6386,11 +6386,11 @@ aama:IDfaf3c739-4cd7-43b5-ad7d-998d7b70eb99 a aamas:Term ;
 
 sah:saho-VSuffAffPerf-deer a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPerf-deer" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDd4a143b5-04c0-40b4-a92f-4909fe65d03b a aamas:Term ;
+aama:ID7ed27ce1-b9b2-43f3-ac68-63a618f5ab03 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-deer ;
 	sah:person sah:Unmarked ;
@@ -6409,11 +6409,11 @@ aama:IDd4a143b5-04c0-40b4-a92f-4909fe65d03b a aamas:Term ;
 
 sah:saho-VPrefAffPerf-enzewer- a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-enzewer-" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID5536f1b7-e1b4-4c81-888d-6c631b2d5a76 a aamas:Term ;
+aama:IDfe13377b-7164-43fd-a13b-27e11b65c412 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-enzewer- ;
 	sah:person sah:Unmarked ;
@@ -6432,11 +6432,11 @@ aama:ID5536f1b7-e1b4-4c81-888d-6c631b2d5a76 a aamas:Term ;
 
 sah:saho-VPrefAffImperf-eeley a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-eeley" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID10758b3e-3fd4-46d1-89a6-cdf30595ec51 a aamas:Term ;
+aama:ID19eff2e0-f8aa-49fd-8067-e694cef2517d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-eeley ;
 	sah:person sah:Person1 ;
@@ -6456,11 +6456,11 @@ aama:ID10758b3e-3fd4-46d1-89a6-cdf30595ec51 a aamas:Term ;
 
 sah:saho-VSuffAffPerf-baah a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPerf-baah" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDdec32671-d364-4200-b39a-a08fcb9d26f0 a aamas:Term ;
+aama:IDfab04f92-8061-491a-b1da-750e9515772e a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-baah ;
 	sah:person sah:Unmarked ;
@@ -6479,11 +6479,11 @@ aama:IDdec32671-d364-4200-b39a-a08fcb9d26f0 a aamas:Term ;
 
 sah:saho-VPrefAffPerf-igziy a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-igziy" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDf951ccc3-4f53-4771-ab26-95054ea9ea43 a aamas:Term ;
+aama:ID5b59fcab-4d0a-433a-bae1-c73e383c6848 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-igziy ;
 	sah:person sah:Unmarked ;
@@ -6502,11 +6502,11 @@ aama:IDf951ccc3-4f53-4771-ab26-95054ea9ea43 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-eebeh a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-eebeh" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID6b91af03-4ffd-4b0f-9ba0-37f84ae8e961 a aamas:Term ;
+aama:IDe55e2088-6de3-4588-85c9-0903c2a01acd a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eebeh ;
 	sah:person sah:Person2 ;
@@ -6526,11 +6526,11 @@ aama:ID6b91af03-4ffd-4b0f-9ba0-37f84ae8e961 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-idhen a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-idhen" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID6210e711-8b19-43d2-834b-229ffd7ca89c a aamas:Term ;
+aama:IDd15da78f-b660-4574-bc3c-67868ef64d89 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-idhen ;
 	sah:person sah:Person2 ;
@@ -6550,11 +6550,11 @@ aama:ID6210e711-8b19-43d2-834b-229ffd7ca89c a aamas:Term ;
 
 sah:saho-VPrefAffPerf-emmeeed- a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-emmeeed-" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID743bd1a8-03e6-4d48-9f21-27c7a4db2132 a aamas:Term ;
+aama:IDfc6611d0-1aa8-4a50-adb0-49601a578901 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-emmeeed- ;
 	sah:person sah:Unmarked ;
@@ -6573,11 +6573,11 @@ aama:ID743bd1a8-03e6-4d48-9f21-27c7a4db2132 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-igre a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-igre" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID4b135d6e-f855-4e39-807c-9c97df6f0ab7 a aamas:Term ;
+aama:ID100bd8fa-fefb-42b4-bc16-a8e693e372d6 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-igre ;
 	sah:person sah:Person2 ;
@@ -6597,11 +6597,11 @@ aama:ID4b135d6e-f855-4e39-807c-9c97df6f0ab7 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-eefe a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-eefe" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID7be96c44-b926-485c-aef5-6bd770af3980 a aamas:Term ;
+aama:IDafc1a594-ca85-4550-95b7-bc0d713101bd a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eefe ;
 	sah:person sah:Person2 ;
@@ -6621,11 +6621,11 @@ aama:ID7be96c44-b926-485c-aef5-6bd770af3980 a aamas:Term ;
 
 sah:saho-VPrefAffPerf-emeet a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-emeet" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID2fa29cf0-e92b-4bd8-8861-fcbea2304484 a aamas:Term ;
+aama:ID94ce2986-6189-48b5-8e2c-f2764c230ec5 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-emeet ;
 	sah:person sah:Unmarked ;
@@ -6644,11 +6644,11 @@ aama:ID2fa29cf0-e92b-4bd8-8861-fcbea2304484 a aamas:Term ;
 
 sah:saho-VPrefAffPerf-ekkel a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-ekkel" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID7838d765-b66f-463a-8af9-1b302812b001 a aamas:Term ;
+aama:ID1949530b-e11d-4563-9e62-20115c48dd7a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ekkel ;
 	sah:person sah:Unmarked ;
@@ -6667,11 +6667,11 @@ aama:ID7838d765-b66f-463a-8af9-1b302812b001 a aamas:Term ;
 
 sah:saho-VPrefAffJuss-urkut a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffJuss-urkut" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDce7b87b2-60a9-45bf-9fe6-ea183171ba7f a aamas:Term ;
+aama:IDa2519bc9-ec40-4222-bf87-93f48d0486ba a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-urkut ;
 	sah:person sah:Person3 ;
@@ -6691,11 +6691,11 @@ aama:IDce7b87b2-60a9-45bf-9fe6-ea183171ba7f a aamas:Term ;
 
 sah:saho-VPrefAffPerf-ooog a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-ooog" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDa36f4894-0045-497a-96c5-95f61faac5c9 a aamas:Term ;
+aama:ID37dbd074-a191-4a15-b84f-0032da787d23 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ooog ;
 	sah:person sah:Unmarked ;
@@ -6714,11 +6714,11 @@ aama:IDa36f4894-0045-497a-96c5-95f61faac5c9 a aamas:Term ;
 
 sah:saho-VPrefAffPerf-imbiddil- a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-imbiddil-" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID76401e54-32ca-4e15-9dac-f8b23b6bee9a a aamas:Term ;
+aama:ID47362312-0922-44ec-8658-5a6323d17ec0 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-imbiddil- ;
 	sah:person sah:Unmarked ;
@@ -6737,11 +6737,11 @@ aama:ID76401e54-32ca-4e15-9dac-f8b23b6bee9a a aamas:Term ;
 
 sah:saho-VPrefAffJuss-ifriy a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffJuss-ifriy" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID33da46fb-7b8e-4a78-b0e5-7f71d05dc8b2 a aamas:Term ;
+aama:IDb58cdf6c-b721-4a77-b535-bc904a9ea7e6 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-ifriy ;
 	sah:person sah:Person3 ;
@@ -6761,11 +6761,11 @@ aama:ID33da46fb-7b8e-4a78-b0e5-7f71d05dc8b2 a aamas:Term ;
 
 sah:saho-VPrefNegPerf-iskir a aamas:Termcluster ;
 	rdfs:label "saho-VPrefNegPerf-iskir" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID01326205-c8a6-4181-9ce1-417e80f04c3b a aamas:Term ;
+aama:ID78f350b5-3ed2-4b35-8bc1-98fc95a9c7bc a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefNegPerf-iskir ;
 	sah:person sah:Person3 ;
@@ -6786,11 +6786,11 @@ aama:ID01326205-c8a6-4181-9ce1-417e80f04c3b a aamas:Term ;
 
 sah:saho-VPrefAffPerf-onqoomot- a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-onqoomot-" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDe3588b37-47b1-42b3-8218-37348eed3bb6 a aamas:Term ;
+aama:IDdd96e539-8f72-4997-9622-ae184b3f6ef0 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-onqoomot- ;
 	sah:person sah:Unmarked ;
@@ -6809,11 +6809,11 @@ aama:IDe3588b37-47b1-42b3-8218-37348eed3bb6 a aamas:Term ;
 
 sah:saho-VSuffAffPart-dufu a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPart-dufu" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDe3c8dd90-340d-4b2c-b184-1ba5b3dd35f5 a aamas:Term ;
+aama:IDbed9ccf8-e433-4d25-93f7-455defb024b4 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPart-dufu ;
 	sah:conjClass sah:Suffix ;
@@ -6831,11 +6831,11 @@ aama:IDe3c8dd90-340d-4b2c-b184-1ba5b3dd35f5 a aamas:Term ;
 
 sah:saho-VPrefNegImprtv-iskir a aamas:Termcluster ;
 	rdfs:label "saho-VPrefNegImprtv-iskir" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDb665f628-ece0-46d8-98e8-ab58dd9e7426 a aamas:Term ;
+aama:ID55f7285e-0f76-46f3-9d57-0f170ebb9cc8 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefNegImprtv-iskir ;
 	sah:person sah:Person2 ;
@@ -6855,11 +6855,11 @@ aama:IDb665f628-ece0-46d8-98e8-ab58dd9e7426 a aamas:Term ;
 
 sah:saho-VSuffAffPart-sa a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPart-sa" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID524cdcb1-0cb4-4f85-a050-d0731387cd67 a aamas:Term ;
+aama:IDc99f04df-9373-4c5a-b816-4b23e0e2e242 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPart-sa ;
 	sah:conjClass sah:Suffix ;
@@ -6877,11 +6877,11 @@ aama:ID524cdcb1-0cb4-4f85-a050-d0731387cd67 a aamas:Term ;
 
 sah:saho-VSuffNegImprtv-daam a aamas:Termcluster ;
 	rdfs:label "saho-VSuffNegImprtv-daam" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID3f4fd6d9-af8c-4297-bfda-5b7882758358 a aamas:Term ;
+aama:IDfcd92242-6aac-47ef-8abc-7d990c32e1d8 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffNegImprtv-daam ;
 	sah:person sah:Person2 ;
@@ -6901,11 +6901,11 @@ aama:ID3f4fd6d9-af8c-4297-bfda-5b7882758358 a aamas:Term ;
 
 sah:saho-VPrefAffPerf-igdif a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-igdif" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID2a7542de-860b-4f41-9882-d79031621c67 a aamas:Term ;
+aama:ID31bf184a-f0ed-4ebe-8d03-76239ff5f49e a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-igdif ;
 	sah:person sah:Unmarked ;
@@ -6924,11 +6924,11 @@ aama:ID2a7542de-860b-4f41-9882-d79031621c67 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-emeet a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-emeet" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDeef9f862-e2da-45fd-b421-6122e59ccbe6 a aamas:Term ;
+aama:IDce588292-070a-4416-b448-5f8b064d3f5c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-emeet ;
 	sah:person sah:Person2 ;
@@ -6948,11 +6948,11 @@ aama:IDeef9f862-e2da-45fd-b421-6122e59ccbe6 a aamas:Term ;
 
 sah:saho-VPrefAffPerf-err a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-err" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID7229e624-6c29-4cd6-972b-ca9d84f992e5 a aamas:Term ;
+aama:IDdbdd623b-e35b-492c-a031-47a93a25e33b a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-err ;
 	sah:person sah:Unmarked ;
@@ -6971,11 +6971,11 @@ aama:ID7229e624-6c29-4cd6-972b-ca9d84f992e5 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-eeley a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-eeley" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDb071fc2d-b222-4afc-8dd8-4476b9e295cd a aamas:Term ;
+aama:IDaac3100a-f432-4123-abe7-b179bf8db705 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eeley ;
 	sah:person sah:Person2 ;
@@ -6995,11 +6995,11 @@ aama:IDb071fc2d-b222-4afc-8dd8-4476b9e295cd a aamas:Term ;
 
 sah:saho-VPrefNegImprtv-erd a aamas:Termcluster ;
 	rdfs:label "saho-VPrefNegImprtv-erd" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDc5ee3b14-bd4e-490f-8323-e45a7d862e1c a aamas:Term ;
+aama:ID03d238aa-f8dc-4c32-9bdd-13532e5b08d5 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefNegImprtv-erd ;
 	sah:person sah:Person2 ;
@@ -7019,11 +7019,11 @@ aama:IDc5ee3b14-bd4e-490f-8323-e45a7d862e1c a aamas:Term ;
 
 sah:saho-VSuffAffImprtv-ab a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-ab" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID549fb990-4e76-4e57-91e4-377bb2012bc1 a aamas:Term ;
+aama:ID0533a881-1d9f-43e9-9e4d-005e9842fec6 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-ab ;
 	sah:person sah:Person2 ;
@@ -7043,11 +7043,11 @@ aama:ID549fb990-4e76-4e57-91e4-377bb2012bc1 a aamas:Term ;
 
 sah:saho-VPrefAffPerf-unqusu- a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-unqusu-" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID4cf30427-4181-439e-8e76-d78a00d36041 a aamas:Term ;
+aama:ID314de042-eb97-420f-a20f-b69e2c753fcc a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-unqusu- ;
 	sah:person sah:Unmarked ;
@@ -7066,11 +7066,11 @@ aama:ID4cf30427-4181-439e-8e76-d78a00d36041 a aamas:Term ;
 
 sah:saho-VPrefAffImperf-ekkel a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-ekkel" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDd0b8e209-9bd8-4759-aae4-1484fd36b7f1 a aamas:Term ;
+aama:ID0e0266cc-353c-4f23-b571-bf48161f6d5a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-ekkel ;
 	sah:person sah:Person1 ;
@@ -7090,11 +7090,11 @@ aama:IDd0b8e209-9bd8-4759-aae4-1484fd36b7f1 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-eeit a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-eeit" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDfbc2848e-4039-4484-ae11-4ccb7aeb93c2 a aamas:Term ;
+aama:IDe1b4a1c7-cc7a-4e08-b271-7f8b8627fc22 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eeit ;
 	sah:person sah:Person2 ;
@@ -7114,11 +7114,11 @@ aama:IDfbc2848e-4039-4484-ae11-4ccb7aeb93c2 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-ebh a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-ebh" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDffdc7743-b024-478c-9141-97dba986c7ab a aamas:Term ;
+aama:ID404bb5eb-0ef1-45ed-8b4d-41e54151da1f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ebh ;
 	sah:person sah:Person2 ;
@@ -7138,11 +7138,11 @@ aama:IDffdc7743-b024-478c-9141-97dba986c7ab a aamas:Term ;
 
 sah:saho-VSuffAffImprtv-fah a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-fah" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID5d47f551-10d4-48e2-9639-044a79c0cace a aamas:Term ;
+aama:ID8776edd5-247a-4a19-bb29-dc8409b82780 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-fah ;
 	sah:person sah:Person2 ;
@@ -7165,7 +7165,7 @@ sah:saho-VSuffPast-ubl- a aamas:Termcluster ;
 	rdfs:comment "Welmers1952b p. 236" 
 	.
 
-aama:ID6f539869-6465-4232-be3f-320390f8dd15 a aamas:Term ;
+aama:IDdcadaf81-585a-4824-baf4-ddd59b429ee1 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-ubl- ;
 	sah:conjClass sah:Suffix ;
@@ -7178,7 +7178,7 @@ aama:ID6f539869-6465-4232-be3f-320390f8dd15 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID2266dd3f-483a-4a7a-bd43-5591e171577d a aamas:Term ;
+aama:ID02dc47c6-24dd-4cbf-96f3-9c985275d4a1 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-ubl- ;
 	sah:conjClass sah:Suffix ;
@@ -7191,7 +7191,7 @@ aama:ID2266dd3f-483a-4a7a-bd43-5591e171577d a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID8ed882bf-4d8f-4e60-ad62-0741bade90aa a aamas:Term ;
+aama:IDb2816e2a-3a79-458d-8c0e-832cf372bf81 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-ubl- ;
 	sah:conjClass sah:Suffix ;
@@ -7204,7 +7204,7 @@ aama:ID8ed882bf-4d8f-4e60-ad62-0741bade90aa a aamas:Term ;
 	sah:gender sah:Masc ;
 	.
 
-aama:ID913c8276-ae73-456a-9e3d-ee49f3fe54cf a aamas:Term ;
+aama:ID1586fa5b-6d0f-4c1a-b546-2292f1c7f4af a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-ubl- ;
 	sah:conjClass sah:Suffix ;
@@ -7217,7 +7217,7 @@ aama:ID913c8276-ae73-456a-9e3d-ee49f3fe54cf a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID1411bd87-c6b6-437f-869e-0fc1eab18905 a aamas:Term ;
+aama:IDddf1d50c-7908-4861-9470-1986ae6a7f51 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-ubl- ;
 	sah:conjClass sah:Suffix ;
@@ -7230,7 +7230,7 @@ aama:ID1411bd87-c6b6-437f-869e-0fc1eab18905 a aamas:Term ;
 	sah:gender sah:Fem ;
 	.
 
-aama:IDa79ee3a6-5251-476a-acaa-e0eb42415825 a aamas:Term ;
+aama:ID2bce6aa9-b49d-4e85-97c6-07f908f9e3af a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-ubl- ;
 	sah:conjClass sah:Suffix ;
@@ -7243,7 +7243,7 @@ aama:IDa79ee3a6-5251-476a-acaa-e0eb42415825 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:IDc8e0a7e5-2715-42bd-9a16-37cb5dff89c8 a aamas:Term ;
+aama:ID2c961a75-be8d-4ce8-b128-df1d4ac8c17a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-ubl- ;
 	sah:conjClass sah:Suffix ;
@@ -7260,11 +7260,11 @@ aama:IDc8e0a7e5-2715-42bd-9a16-37cb5dff89c8 a aamas:Term ;
 
 sah:saho-VPrefAffJuss-uruf a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffJuss-uruf" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID4807872d-8dc0-4ea8-a0df-3a9361a3c70d a aamas:Term ;
+aama:IDb593925c-2982-44f5-b87e-e79d059c2fb1 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-uruf ;
 	sah:person sah:Person3 ;
@@ -7284,11 +7284,11 @@ aama:ID4807872d-8dc0-4ea8-a0df-3a9361a3c70d a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-ekett a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-ekett" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID4f3cf080-a7f4-46ce-93b6-3306259a952d a aamas:Term ;
+aama:ID5f32d0f4-3cb2-4e04-9189-2ca580acaf56 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ekett ;
 	sah:person sah:Person2 ;
@@ -7308,11 +7308,11 @@ aama:ID4f3cf080-a7f4-46ce-93b6-3306259a952d a aamas:Term ;
 
 sah:saho-VSuffAffPerf-had a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPerf-had" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID47b4bca2-80b9-4f2b-b18f-56d4f5d3f689 a aamas:Term ;
+aama:ID1356aade-c95b-43af-b8a9-6b4c872ce190 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-had ;
 	sah:person sah:Unmarked ;
@@ -7331,11 +7331,11 @@ aama:ID47b4bca2-80b9-4f2b-b18f-56d4f5d3f689 a aamas:Term ;
 
 sah:saho-VSuffAffPart-daam a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPart-daam" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID20acb995-3a5f-4ed3-a9a2-fa6fbe2294a0 a aamas:Term ;
+aama:ID278a9739-afa4-4784-973e-f5c9a16cb13c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPart-daam ;
 	sah:conjClass sah:Suffix ;
@@ -7353,11 +7353,11 @@ aama:ID20acb995-3a5f-4ed3-a9a2-fa6fbe2294a0 a aamas:Term ;
 
 sah:saho-VPrefAffImperf-eymee a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-eymee" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDd1b6934e-e2cf-4927-b91f-93a03237480e a aamas:Term ;
+aama:ID162de15e-8795-4052-a87c-fe782bdd66fa a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-eymee ;
 	sah:person sah:Person1 ;
@@ -7377,11 +7377,11 @@ aama:IDd1b6934e-e2cf-4927-b91f-93a03237480e a aamas:Term ;
 
 sah:saho-VSuffAffImprtv-abah a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-abah" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID989c35f6-56a7-4b48-aea3-de601da342a3 a aamas:Term ;
+aama:IDbc9cae9f-dfa5-4c3b-aa73-ce6e7c65ad1c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-abah ;
 	sah:person sah:Person2 ;
@@ -7401,11 +7401,11 @@ aama:ID989c35f6-56a7-4b48-aea3-de601da342a3 a aamas:Term ;
 
 sah:saho-VPrefAffPerf-uuluus- a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-uuluus-" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDb8a04187-7365-4b4a-8d8c-78214bf81a6b a aamas:Term ;
+aama:IDe325e39f-1442-4157-8375-6e2b07c9f340 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-uuluus- ;
 	sah:person sah:Unmarked ;
@@ -7424,11 +7424,11 @@ aama:IDb8a04187-7365-4b4a-8d8c-78214bf81a6b a aamas:Term ;
 
 sah:saho-VPrefAffImperf-emeet a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-emeet" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDad17f033-874d-4cf2-9ab5-35eae5d2c97a a aamas:Term ;
+aama:IDa8d9e086-f365-4a7f-873c-2f4dd6b0f7cb a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-emeet ;
 	sah:person sah:Person1 ;
@@ -7448,11 +7448,11 @@ aama:IDad17f033-874d-4cf2-9ab5-35eae5d2c97a a aamas:Term ;
 
 sah:saho-VPrefAffPerf-igdil a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-igdil" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID21dc35b2-a810-45ea-80b1-9a972e289eac a aamas:Term ;
+aama:ID6b59f124-c9e4-4aa6-bcf3-0beae2b4e2a6 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-igdil ;
 	sah:person sah:Unmarked ;
@@ -7471,11 +7471,11 @@ aama:ID21dc35b2-a810-45ea-80b1-9a972e289eac a aamas:Term ;
 
 sah:saho-VPrefAffPart-ehet a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPart-ehet" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDd66a4697-a8f4-41c9-95c0-ed077e6a0ca6 a aamas:Term ;
+aama:ID44ef07d6-3746-4dca-bad9-0a5b0fad1dcc a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPart-ehet ;
 	sah:conjClass sah:Prefix ;
@@ -7493,11 +7493,11 @@ aama:IDd66a4697-a8f4-41c9-95c0-ed077e6a0ca6 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-uyku a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-uyku" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID573f57fa-36e7-4ff9-96dd-4ef2239fcaac a aamas:Term ;
+aama:ID15109427-7a93-4d4f-99b0-3ded00e36621 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-uyku ;
 	sah:person sah:Person2 ;
@@ -7517,11 +7517,11 @@ aama:ID573f57fa-36e7-4ff9-96dd-4ef2239fcaac a aamas:Term ;
 
 sah:saho-VSuffAffJuss-ki-daam a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffJuss-ki-daam" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID538262ff-50a9-44cb-80d3-cdd2a23a1b6d a aamas:Term ;
+aama:ID6a6679d4-d7db-4dff-8189-86f472b9c840 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffJuss-ki-daam ;
 	sah:person sah:Person1 ;
@@ -7542,11 +7542,11 @@ aama:ID538262ff-50a9-44cb-80d3-cdd2a23a1b6d a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-ootob a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-ootob" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID4e6f70c9-453f-4130-9060-bac6e78bd838 a aamas:Term ;
+aama:ID9d0dfdca-2592-4ee1-9f63-510e9fbcc140 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ootob ;
 	sah:person sah:Person2 ;
@@ -7566,11 +7566,11 @@ aama:ID4e6f70c9-453f-4130-9060-bac6e78bd838 a aamas:Term ;
 
 sah:saho-VSuffAffPerf-di a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPerf-di" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID0ea37563-fd18-4e9a-9b5d-79e5e0edf762 a aamas:Term ;
+aama:ID1b101fd7-04e1-4952-994b-323c6ccb6783 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-di ;
 	sah:person sah:Unmarked ;
@@ -7589,11 +7589,11 @@ aama:ID0ea37563-fd18-4e9a-9b5d-79e5e0edf762 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-igdil a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-igdil" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDea4347ea-3392-449d-a965-1d86a49aa95d a aamas:Term ;
+aama:ID2c0ba72e-76ab-4d94-8e80-631a29af3e32 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-igdil ;
 	sah:person sah:Person2 ;
@@ -7613,11 +7613,11 @@ aama:IDea4347ea-3392-449d-a965-1d86a49aa95d a aamas:Term ;
 
 sah:saho-VPrefAffPerf-enge a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-enge" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID38f81415-f2ad-413a-9aa9-37558d735a6a a aamas:Term ;
+aama:ID2f7cf5ad-e977-43c3-aa7b-72a06828d50a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-enge ;
 	sah:person sah:Unmarked ;
@@ -7636,11 +7636,11 @@ aama:ID38f81415-f2ad-413a-9aa9-37558d735a6a a aamas:Term ;
 
 sah:saho-VPrefAffImperf-oysoom a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-oysoom" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID73d7b6f8-88b1-4637-a820-efa846025a9d a aamas:Term ;
+aama:IDbfdb3206-adc0-4fe6-b655-6b001974624f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-oysoom ;
 	sah:person sah:Person1 ;
@@ -7660,11 +7660,11 @@ aama:ID73d7b6f8-88b1-4637-a820-efa846025a9d a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-ehlif a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-ehlif" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDb43fd3cc-da19-4b1c-a1d2-20cc8cca36cd a aamas:Term ;
+aama:ID4be8f177-467e-4ce6-b70e-703ffa05f68d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ehlif ;
 	sah:person sah:Person2 ;
@@ -7684,11 +7684,11 @@ aama:IDb43fd3cc-da19-4b1c-a1d2-20cc8cca36cd a aamas:Term ;
 
 sah:saho-VPrefAffJuss-ki-uruf a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffJuss-ki-uruf" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID8a6f9033-0657-4ce4-9676-e2cf2ec3ff5e a aamas:Term ;
+aama:ID2a49a31e-0780-49eb-b9cb-a37a354d7d3e a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-ki-uruf ;
 	sah:person sah:Person1 ;
@@ -7708,11 +7708,11 @@ aama:ID8a6f9033-0657-4ce4-9676-e2cf2ec3ff5e a aamas:Term ;
 
 sah:saho-VPrefAffPerf-immillik- a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-immillik-" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDbde7e758-0d2c-44b1-ac84-c4630df51047 a aamas:Term ;
+aama:ID35ab53c1-0951-4695-9fa5-9d7d3eae4d38 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-immillik- ;
 	sah:person sah:Unmarked ;
@@ -7731,11 +7731,11 @@ aama:IDbde7e758-0d2c-44b1-ac84-c4630df51047 a aamas:Term ;
 
 sah:saho-VPrefAffImprtv-igdif a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-igdif" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDc8faee32-e34f-4fa7-bdbd-1337f8140f60 a aamas:Term ;
+aama:ID7ae21607-35b0-4843-a93f-c21d0ffb1cf6 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-igdif ;
 	sah:person sah:Person2 ;
@@ -7755,11 +7755,11 @@ aama:IDc8faee32-e34f-4fa7-bdbd-1337f8140f60 a aamas:Term ;
 
 sah:saho-VPrefAffPart-ifriy a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPart-ifriy" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID5adcba8c-00e3-46bb-991d-94450b0e123d a aamas:Term ;
+aama:ID85c170ba-2d82-4f41-96d2-5a32739bcfa4 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPart-ifriy ;
 	sah:conjClass sah:Prefix ;
@@ -7777,11 +7777,11 @@ aama:ID5adcba8c-00e3-46bb-991d-94450b0e123d a aamas:Term ;
 
 sah:saho-VSuffAffPerf-abaar a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPerf-abaar" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID919416a0-2fd0-4073-b056-0fcf959f90e4 a aamas:Term ;
+aama:ID9156d3b3-13c3-48fb-9ce1-e98ea7cb456f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-abaar ;
 	sah:person sah:Unmarked ;
@@ -7800,11 +7800,11 @@ aama:ID919416a0-2fd0-4073-b056-0fcf959f90e4 a aamas:Term ;
 
 sah:saho-VSuffAffPerf-fah a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPerf-fah" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDad0eb493-2eac-4bb4-acb9-ada229eb28b1 a aamas:Term ;
+aama:ID685475b5-4311-4a7d-b527-f38985409c97 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-fah ;
 	sah:person sah:Unmarked ;
@@ -7823,11 +7823,11 @@ aama:IDad0eb493-2eac-4bb4-acb9-ada229eb28b1 a aamas:Term ;
 
 sah:saho-VSuffAffPerf-biaak a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPerf-biaak" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDad8e780a-e02e-419c-ac26-6f3350a57b94 a aamas:Term ;
+aama:ID425ad1eb-1f25-4e61-8d6d-acf935fb816d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-biaak ;
 	sah:person sah:Unmarked ;
@@ -7846,11 +7846,11 @@ aama:IDad8e780a-e02e-419c-ac26-6f3350a57b94 a aamas:Term ;
 
 sah:saho-VSuffAffImprtv-abaas a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-abaas" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID5a6b2a5a-64f4-40ff-97ab-829ad57e52a8 a aamas:Term ;
+aama:ID33b47ac2-1f53-414f-86ff-2ed0e596ab4d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-abaas ;
 	sah:person sah:Person2 ;
@@ -7873,7 +7873,7 @@ sah:saho-VSuff-ki a aamas:Termcluster ;
 	rdfs:comment "Welmers1952b p. 250" 
 	.
 
-aama:IDfbf450dc-ee8a-4cb8-8d51-7301bc069743 a aamas:Term ;
+aama:IDc06ccdc6-95a4-4ae0-9343-de12e1b8436f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuff-ki ;
 	sah:conjClass sah:Suffix ;
@@ -7886,7 +7886,7 @@ aama:IDfbf450dc-ee8a-4cb8-8d51-7301bc069743 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID26721f73-10a8-4b5f-bb70-5f0ea0bdbdac a aamas:Term ;
+aama:IDa3f6cfff-7cb5-4de5-8d00-fca77deb8c7d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuff-ki ;
 	sah:conjClass sah:Suffix ;
@@ -7899,7 +7899,7 @@ aama:ID26721f73-10a8-4b5f-bb70-5f0ea0bdbdac a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID3ee727e4-5b03-43c3-a05d-dcb27f5b2ef5 a aamas:Term ;
+aama:IDa1a42bd8-93f0-46af-8f5e-2ed2ff882594 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuff-ki ;
 	sah:conjClass sah:Suffix ;
@@ -7912,7 +7912,7 @@ aama:ID3ee727e4-5b03-43c3-a05d-dcb27f5b2ef5 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:IDac5b0a1d-78d0-4873-ba6f-f320590147cd a aamas:Term ;
+aama:ID9f43f529-ea04-443a-a833-09572d3efee5 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuff-ki ;
 	sah:conjClass sah:Suffix ;
@@ -7925,7 +7925,7 @@ aama:IDac5b0a1d-78d0-4873-ba6f-f320590147cd a aamas:Term ;
 	sah:gender sah:Fem ;
 	.
 
-aama:IDdf7971db-ffb0-432f-a36b-5259d9af604d a aamas:Term ;
+aama:IDb936b77c-320d-4b30-bd23-2aa3fd32930c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuff-ki ;
 	sah:conjClass sah:Suffix ;
@@ -7938,7 +7938,7 @@ aama:IDdf7971db-ffb0-432f-a36b-5259d9af604d a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID52f97d73-079f-4fa9-9caf-531b327d0808 a aamas:Term ;
+aama:IDcaabcfa3-e366-4c21-9892-4109b78c99eb a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuff-ki ;
 	sah:conjClass sah:Suffix ;
@@ -7951,7 +7951,7 @@ aama:ID52f97d73-079f-4fa9-9caf-531b327d0808 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID6ee3a4bf-4fa2-4c65-91f4-199a558cc2b7 a aamas:Term ;
+aama:ID5623a6b4-1d9c-4626-89da-62f4ddef3fa9 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuff-ki ;
 	sah:conjClass sah:Suffix ;
@@ -7966,8 +7966,14 @@ aama:ID6ee3a4bf-4fa2-4c65-91f4-199a558cc2b7 a aamas:Term ;
 
 #MUTERMCLUSTER:  saho-PInd
 
-aama:IDc87a7a3a-5453-421e-9af4-abefb4387d90 a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+sah:saho-PInd a aamas:MuTermcluster ;
+	rdfs:label "saho-PInd" ;
+	rdfs:comment "Welmers1952b p. 236%%251. I am assuming that 2pl and 3pl forms are inverted in the
+            poss%%obj%%indir-obj and emph pronouns in the table on pl. 251" 
+	.
+
+aama:ID45840bd6-00d1-4982-8db6-f35b26e3cc4a a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "anu" ;
@@ -7977,8 +7983,8 @@ aama:IDc87a7a3a-5453-421e-9af4-abefb4387d90 a aamas:Muterm ;
 	sah:proClass sah:Independent ;
 	.
 
-aama:ID543fc1d0-92bc-4b49-8b3b-95fc5e506106 a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+aama:IDa730fadf-898c-43ab-9801-9ff1179dcd9c a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "kóya" ;
@@ -7988,8 +7994,8 @@ aama:ID543fc1d0-92bc-4b49-8b3b-95fc5e506106 a aamas:Muterm ;
 	sah:proClass sah:Emphatic ;
 	.
 
-aama:ID97e44281-f25e-4541-83ba-fa1ca3ba42b0 a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+aama:ID58cdfd08-81aa-435c-9f53-a82a758c95ce a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "yoh" ;
@@ -7999,8 +8005,8 @@ aama:ID97e44281-f25e-4541-83ba-fa1ca3ba42b0 a aamas:Muterm ;
 	sah:proClass sah:ObjectIndirect ;
 	.
 
-aama:IDac8f07e9-df15-4a15-8e6e-94be0c0447e6 a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+aama:ID6c1c6f46-d08d-4f11-aeec-4de666d5a99c a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "te" ;
@@ -8010,8 +8016,8 @@ aama:IDac8f07e9-df15-4a15-8e6e-94be0c0447e6 a aamas:Muterm ;
 	sah:proClass sah:Object ;
 	.
 
-aama:IDb531c473-5428-4621-a779-4fe61a24f963 a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+aama:ID365bea0e-2fe6-458c-b9e4-fb25cb6dd488 a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "koh" ;
@@ -8021,8 +8027,8 @@ aama:IDb531c473-5428-4621-a779-4fe61a24f963 a aamas:Muterm ;
 	sah:proClass sah:ObjectIndirect ;
 	.
 
-aama:ID577123fe-2056-4c43-b8d6-8a16331b99ef a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+aama:IDa4084cb3-bbff-49a1-9781-9eda3db2c935 a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "téyah" ;
@@ -8032,8 +8038,8 @@ aama:ID577123fe-2056-4c43-b8d6-8a16331b99ef a aamas:Muterm ;
 	sah:proClass sah:ObjectIndirect ;
 	.
 
-aama:IDd84c3ade-98a8-4b94-b54a-d68768687e49 a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+aama:ID8d7e7851-c4f1-4ec0-8e06-cceb70f82071 a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "yi" ;
@@ -8043,8 +8049,8 @@ aama:IDd84c3ade-98a8-4b94-b54a-d68768687e49 a aamas:Muterm ;
 	sah:proClass sah:Possessive ;
 	.
 
-aama:ID24894856-4b7c-4ef3-8d18-99015a634f76 a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+aama:IDa23d3585-62ad-4a07-ae03-f48264c06a6f a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "tee" ;
@@ -8054,8 +8060,8 @@ aama:ID24894856-4b7c-4ef3-8d18-99015a634f76 a aamas:Muterm ;
 	sah:proClass sah:Possessive ;
 	.
 
-aama:ID165e9e48-3d2b-4908-98d1-15d291c4650c a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+aama:IDe17005a3-2c58-4ace-8bf7-f6c804f3f28a a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "yóya" ;
@@ -8065,8 +8071,8 @@ aama:ID165e9e48-3d2b-4908-98d1-15d291c4650c a aamas:Muterm ;
 	sah:proClass sah:Emphatic ;
 	.
 
-aama:ID0749bca9-8115-4864-9418-e6eef5b56bca a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+aama:ID6660bd26-0bbb-4f80-9c83-5c8c246cd888 a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "sin" ;
@@ -8076,8 +8082,8 @@ aama:ID0749bca9-8115-4864-9418-e6eef5b56bca a aamas:Muterm ;
 	sah:proClass sah:Object ;
 	.
 
-aama:IDc61dd706-55d2-4d49-a789-5b6fdba331ca a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+aama:IDf2c5c2c7-3c91-4770-93b4-fee6e161952c a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "sínah" ;
@@ -8087,8 +8093,8 @@ aama:IDc61dd706-55d2-4d49-a789-5b6fdba331ca a aamas:Muterm ;
 	sah:proClass sah:ObjectIndirect ;
 	.
 
-aama:ID0ce30efa-26de-4a06-987c-0b7ccaaa8d5e a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+aama:ID35e7d204-527f-40a8-a9eb-6a84059f5da7 a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "ten" ;
@@ -8098,8 +8104,8 @@ aama:ID0ce30efa-26de-4a06-987c-0b7ccaaa8d5e a aamas:Muterm ;
 	sah:proClass sah:Possessive ;
 	.
 
-aama:ID03f9a992-5a8f-413f-bd1a-dc52cca110c4 a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+aama:ID97023fc0-d1bb-4a6b-884f-83d948312be6 a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "átin" ;
@@ -8109,8 +8115,8 @@ aama:ID03f9a992-5a8f-413f-bd1a-dc52cca110c4 a aamas:Muterm ;
 	sah:proClass sah:Independent ;
 	.
 
-aama:IDa94da0a9-0b5f-4959-bd05-b58e9de485fa a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+aama:IDf06dfcf8-1ff1-4c57-8d92-1d7e9c6bc48a a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "úsun" ;
@@ -8120,8 +8126,8 @@ aama:IDa94da0a9-0b5f-4959-bd05-b58e9de485fa a aamas:Muterm ;
 	sah:proClass sah:Independent ;
 	.
 
-aama:ID4a698b9d-cd9a-4c74-b2dd-191d3f7c24a7 a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+aama:ID5813e958-f113-4bba-bf60-3600f1015a84 a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "ka" ;
@@ -8131,8 +8137,8 @@ aama:ID4a698b9d-cd9a-4c74-b2dd-191d3f7c24a7 a aamas:Muterm ;
 	sah:proClass sah:Object ;
 	.
 
-aama:ID81abf487-1a6d-4082-8789-9cf2b9766645 a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+aama:IDbe5496f0-71b2-4afb-9c68-21e422981783 a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "nóya" ;
@@ -8142,8 +8148,8 @@ aama:ID81abf487-1a6d-4082-8789-9cf2b9766645 a aamas:Muterm ;
 	sah:proClass sah:Emphatic ;
 	.
 
-aama:ID90532db5-f395-4806-914a-9a5ec95d2984 a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+aama:IDda000563-9493-4d88-81ca-c1af08c950f9 a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "ku" ;
@@ -8153,8 +8159,8 @@ aama:ID90532db5-f395-4806-914a-9a5ec95d2984 a aamas:Muterm ;
 	sah:proClass sah:Possessive ;
 	.
 
-aama:ID19e0c2ea-975c-4734-bf5b-358c5b6b0e87 a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+aama:ID08aa3444-4f8a-4bc7-855f-e58f31ac3a5d a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "ni" ;
@@ -8164,8 +8170,8 @@ aama:ID19e0c2ea-975c-4734-bf5b-358c5b6b0e87 a aamas:Muterm ;
 	sah:proClass sah:Possessive ;
 	.
 
-aama:ID1bb2dfc3-685d-4a51-808d-d3f7ac6aec8a a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+aama:IDb8617bfd-695c-4fe6-a7d3-6bb286fc7c33 a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "ten" ;
@@ -8175,8 +8181,8 @@ aama:ID1bb2dfc3-685d-4a51-808d-d3f7ac6aec8a a aamas:Muterm ;
 	sah:proClass sah:Object ;
 	.
 
-aama:ID2c444729-3e81-4888-827f-78f38b19b155 a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+aama:ID012127bb-1707-4672-bb1b-3f947eb4ecbf a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "atu" ;
@@ -8186,8 +8192,8 @@ aama:ID2c444729-3e81-4888-827f-78f38b19b155 a aamas:Muterm ;
 	sah:proClass sah:Independent ;
 	.
 
-aama:IDb438b771-f851-4127-b500-230c8f6f4840 a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+aama:IDdfffe93a-e1ce-42b8-9d46-8ac7dbfe9a4a a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "téna" ;
@@ -8197,8 +8203,8 @@ aama:IDb438b771-f851-4127-b500-230c8f6f4840 a aamas:Muterm ;
 	sah:proClass sah:Emphatic ;
 	.
 
-aama:ID3bbda0ed-b8f9-4f51-b925-0ee47ca1607b a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+aama:IDe564d68e-56cf-45c9-9ee2-202b8c6dcde9 a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "nanu" ;
@@ -8208,8 +8214,8 @@ aama:ID3bbda0ed-b8f9-4f51-b925-0ee47ca1607b a aamas:Muterm ;
 	sah:proClass sah:Independent ;
 	.
 
-aama:ID57821cee-25c7-463c-921b-c8f1b06c5648 a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+aama:ID307d7c27-2dec-4342-a0ce-7c50226cc092 a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "ténah" ;
@@ -8219,8 +8225,8 @@ aama:ID57821cee-25c7-463c-921b-c8f1b06c5648 a aamas:Muterm ;
 	sah:proClass sah:ObjectIndirect ;
 	.
 
-aama:IDae499693-e5a3-4a5f-9172-7b4cb22d129b a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+aama:IDa66a000a-3824-4139-b20b-45cb23c2294e a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "káya" ;
@@ -8230,8 +8236,8 @@ aama:IDae499693-e5a3-4a5f-9172-7b4cb22d129b a aamas:Muterm ;
 	sah:proClass sah:Emphatic ;
 	.
 
-aama:ID4fe548e2-92a0-40d9-a605-a3c9ef042d85 a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+aama:ID0334acd9-a137-4f7c-ac95-677cd06008f9 a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "yi" ;
@@ -8241,8 +8247,8 @@ aama:ID4fe548e2-92a0-40d9-a605-a3c9ef042d85 a aamas:Muterm ;
 	sah:proClass sah:Object ;
 	.
 
-aama:ID7ee54537-a207-4e40-ab47-8952f0376a0b a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+aama:IDe50dee1f-661c-4d4f-96bb-07d9d81c01ae a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "nóyah" ;
@@ -8252,8 +8258,8 @@ aama:ID7ee54537-a207-4e40-ab47-8952f0376a0b a aamas:Muterm ;
 	sah:proClass sah:ObjectIndirect ;
 	.
 
-aama:ID89d5289a-0dbf-42fa-9e34-e7de52be28f7 a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+aama:IDa1583c7b-2cc8-492b-b6a3-ed705652fb25 a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "sína" ;
@@ -8263,8 +8269,8 @@ aama:ID89d5289a-0dbf-42fa-9e34-e7de52be28f7 a aamas:Muterm ;
 	sah:proClass sah:Emphatic ;
 	.
 
-aama:IDc74b1adc-1cc6-47f8-bfca-0665f48613be a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+aama:ID5127f9de-a145-4fd0-9c3f-1b1b513cfa91 a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "ku" ;
@@ -8274,8 +8280,8 @@ aama:IDc74b1adc-1cc6-47f8-bfca-0665f48613be a aamas:Muterm ;
 	sah:proClass sah:Object ;
 	.
 
-aama:ID528303a4-64b2-4e08-bafe-7651d0babdac a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+aama:ID0d8a6cef-e774-47a4-8f52-3c6a7a746903 a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "íse" ;
@@ -8285,8 +8291,8 @@ aama:ID528303a4-64b2-4e08-bafe-7651d0babdac a aamas:Muterm ;
 	sah:proClass sah:Independent ;
 	.
 
-aama:IDbf1ece02-cdb3-4eae-9988-43640caf7c2a a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+aama:ID6a69735c-d8d0-480b-b74f-9ed0b4a0db51 a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "úsuk" ;
@@ -8296,8 +8302,8 @@ aama:IDbf1ece02-cdb3-4eae-9988-43640caf7c2a a aamas:Muterm ;
 	sah:proClass sah:Independent ;
 	.
 
-aama:ID2a853380-5819-47d3-8334-490076c646f3 a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+aama:ID17f7c007-bb10-4965-b3d5-a720ed2e173e a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "ni" ;
@@ -8307,8 +8313,8 @@ aama:ID2a853380-5819-47d3-8334-490076c646f3 a aamas:Muterm ;
 	sah:proClass sah:Object ;
 	.
 
-aama:ID4736c4f6-f4e1-49da-9659-d100065d0c48 a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+aama:ID617ec397-ea53-4b8a-9204-81aefd64197b a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "téya" ;
@@ -8318,8 +8324,8 @@ aama:ID4736c4f6-f4e1-49da-9659-d100065d0c48 a aamas:Muterm ;
 	sah:proClass sah:Emphatic ;
 	.
 
-aama:ID8bbcd8f1-5f8d-46d5-99ba-714587c91d2b a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+aama:ID41ee0db9-36c5-4ec0-b3a9-f52dfd20f239 a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "sin" ;
@@ -8329,8 +8335,8 @@ aama:ID8bbcd8f1-5f8d-46d5-99ba-714587c91d2b a aamas:Muterm ;
 	sah:proClass sah:Possessive ;
 	.
 
-aama:ID839f897f-6a50-4032-82c6-f102d96cb09b a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+aama:IDb7c63598-d46a-4c01-bb5a-be518c1c8bd1 a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "kaa" ;
@@ -8340,8 +8346,8 @@ aama:ID839f897f-6a50-4032-82c6-f102d96cb09b a aamas:Muterm ;
 	sah:proClass sah:Possessive ;
 	.
 
-aama:ID2ce9c777-0400-4677-bce4-e19ef6d4d4e5 a aamas:Muterm ;
-	aamas:lang aama:Saho ;
+aama:ID0c038ee3-f7ae-4028-8f43-777cd093307d a aamas:Muterm ;
+	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
 	sah:token "ákah" ;
