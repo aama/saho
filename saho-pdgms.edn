@@ -376,7 +376,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :ImperfectInni,
-	    :token-gloss "you have been frightened"}
+	    :token-note "you have been frightened"}
     :terms [[:token]  ;; schema
 	    ["ḥankabittéhane"]]
     }
@@ -708,7 +708,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :JussiveKi,
-	    :token-gloss "I will buy it"}
+	    :token-note "I will buy it"}
     :terms [[:token]  ;; schema
 	    ["ɗáamo-kio"]]
     }
@@ -1023,7 +1023,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :ImperfectM,
-	    :token-gloss "rabtam mango ‘many are dying’ (subordinate)"}
+	    :token-note "rabtam mango ‘many are dying’ (subordinate)"}
     :terms [[:token]  ;; schema
 	    ["rabta-m"]]
     }
@@ -1860,7 +1860,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :ImperfectInni,
-	    :token-gloss "we have eaten it"}
+	    :token-note "we have eaten it"}
     :terms [[:token]  ;; schema
 	    ["bennéhane"]]
     }
@@ -2017,7 +2017,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :ImperfectLi,
-	    :token-gloss "we will come (future)"}
+	    :token-note "we will come (future)"}
     :terms [[:token]  ;; schema
 	    ["nemeeté-lio"]]
     }
@@ -2065,7 +2065,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Jussive,
-	    :token-gloss "I didn’t (?) buy it"}
+	    :token-note "I didn’t (?) buy it"}
     :terms [[:token]  ;; schema
 	    ["maɗáamo-ine"]]
     }
@@ -2173,7 +2173,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperative,
-	    :token-gloss "have someone set fire"}
+	    :token-note "have someone set fire"}
     :terms [[:token]  ;; schema
 	    ["bololsis"]]
     }
@@ -2516,7 +2516,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Perfect,
-	    :token-gloss "they didn’t run"}
+	    :token-note "they didn’t run"}
     :terms [[:token]  ;; schema
 	    ["méerdinnun"]]
     }
@@ -2627,7 +2627,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PerfectM,
-	    :token-gloss "temeetem uble ‘I saw you coming’"}
+	    :token-note "temeetem uble ‘I saw you coming’"}
     :terms [[:token]  ;; schema
 	    ["temeete-m "]]
     }
@@ -2644,7 +2644,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :ImperfectM,
-	    :token-gloss "(I want) to rest (subordinate)"}
+	    :token-note "(I want) to rest (subordinate)"}
     :terms [[:token]  ;; schema
 	    ["aʕrufe-m"]]
     }
@@ -2846,7 +2846,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Perfect,
-	    :token-gloss "he didn’t get drunk"}
+	    :token-note "he didn’t get drunk"}
     :terms [[:token]  ;; schema
 	    ["míiskirinna"]]
     }
@@ -2911,7 +2911,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :JussiveLi,
-	    :token-gloss "(I guess) I’ll buy it"}
+	    :token-note "(I guess) I’ll buy it"}
     :terms [[:token]  ;; schema
 	    ["ɗáamo-lio"]]
     }
@@ -3129,7 +3129,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Jussive,
-	    :token-gloss "ɗamo gura/faɗá-iane ‘I want to buy it’"}
+	    :token-note "ɗamo gura/faɗá-iane ‘I want to buy it’"}
     :terms [[:token]  ;; schema
 	    ["ɗáamo"]]
     }
@@ -3162,7 +3162,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperative,
-	    :token-gloss "show"}
+	    :token-note "show"}
     :terms [[:token]  ;; schema
 	    ["uybullu ~ uybulla"]]
     }
@@ -3288,7 +3288,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PerfectM,
-	    :token-gloss "rabtem mango ‘many died’"}
+	    :token-note "rabtem mango ‘many died’"}
     :terms [[:token]  ;; schema
 	    ["rabte-m"]]
     }
@@ -3395,7 +3395,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Perfect,
-	    :token-gloss "I didn’t buy (it)"}
+	    :token-note "I didn’t buy (it)"}
     :terms [[:token]  ;; schema
 	    ["máɗaaminnio "]]
     }
@@ -3473,7 +3473,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperfect,
-	    :token-gloss "show"}
+	    :token-note "show"}
     :terms [[:token]  ;; schema
 	    ["ayballe"]]
     }
@@ -3506,7 +3506,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperative,
-	    :token-gloss "read Koran to oneself"}
+	    :token-note "read Koran to oneself"}
     :terms [[:token]  ;; schema
 	    ["eqriri"]]
     }
@@ -3832,7 +3832,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :ImperfectInni,
-	    :token-gloss "he had seen (it)"}
+	    :token-note "he had seen (it)"}
     :terms [[:token]  ;; schema
 	    ["yubléhine "]]
     }
@@ -3991,7 +3991,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :ImperfectInni,
-	    :token-gloss "he has seen (it)"}
+	    :token-note "he has seen (it)"}
     :terms [[:token]  ;; schema
 	    ["yubléhane"]]
     }

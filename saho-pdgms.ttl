@@ -1390,7 +1390,7 @@ sah:saho-VPrefAffPerf-eeneb a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDdd8adf1d-250b-48cc-b0f5-7d3a1dd864b3 a aamas:Term ;
+aama:ID03df3faa-7412-43ab-b172-9d147e8e098b a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eeneb ;
 	sah:person sah:Unmarked ;
@@ -1405,6 +1405,31 @@ aama:IDdd8adf1d-250b-48cc-b0f5-7d3a1dd864b3 a aamas:Term ;
 	sah:token "eenebe" ;
 	.
 
+#TERMCLUSTER:  saho-VSuffAffImperf-inni-hankabit
+
+sah:saho-VSuffAffImperf-inni-hankabit a aamas:Termcluster ;
+	rdfs:label "saho-VSuffAffImperf-inni-hankabit" ;
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
+            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
+	.
+
+aama:ID9983c892-36f2-485e-a38e-b9429492278e a aamas:Term ;
+	aamas:lang aama:Saho ;
+	aamas:memberOf sah:saho-VSuffAffImperf-inni-hankabit ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:T ;
+	sah:number sah:Plural ;
+	sah:pos sah:Verb ;
+	aamas:lexeme aama:Saho-hankabit ;
+	sah:conjClass sah:Suffix ;
+	sah:polarity sah:Affirmative ;
+	sah:tam sah:ImperfectInni ;
+	sah:gender sah:Common ;
+	sah:pdgmType sah:Partial ;
+	sah:token-note "you have been frightened" ;
+	sah:token "ḥankabittéhane" ;
+	.
+
 #TERMCLUSTER:  saho-VSuffAffImperf-ab
 
 sah:saho-VSuffAffImperf-ab a aamas:Termcluster ;
@@ -1413,7 +1438,7 @@ sah:saho-VSuffAffImperf-ab a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDc1bcc0c9-d822-423d-9629-cbeea7334e28 a aamas:Term ;
+aama:ID49435239-e60b-4c40-a5cd-d638d03dde13 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImperf-ab ;
 	sah:person sah:Person2 ;
@@ -1437,7 +1462,7 @@ sah:saho-VPrefAffImperf-enge a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDe882db10-25c1-41ea-8594-e232b8e4b308 a aamas:Term ;
+aama:IDa853993b-c105-40de-8f39-a8c8562ce4c2 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-enge ;
 	sah:person sah:Person1 ;
@@ -1461,7 +1486,7 @@ sah:saho-VSuffAffImprtv-biil a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID07fd35f6-f51f-4109-b8ce-7ac5f3b04ed4 a aamas:Term ;
+aama:ID50cd3717-160f-408c-ae4d-421523d40b0c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-biil ;
 	sah:person sah:Person2 ;
@@ -1485,7 +1510,7 @@ sah:saho-VSuffAffImprtv-di a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID28349376-ff66-45de-89a9-12ed9dbb9a04 a aamas:Term ;
+aama:ID48688b79-4dd1-4184-9a9c-5ad155042c1f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-di ;
 	sah:person sah:Person2 ;
@@ -1509,7 +1534,7 @@ sah:saho-VPrefAffPerf-eehet a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDeb14fce3-a270-4fa6-891e-71b6302afcaa a aamas:Term ;
+aama:IDe0180552-fd13-4433-9527-b5e53437869a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eehet ;
 	sah:person sah:Unmarked ;
@@ -1532,7 +1557,7 @@ sah:saho-VPrefAffImperf-eedeg a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID3bfbbd9a-8649-4d6e-8f4b-838567a308ac a aamas:Term ;
+aama:ID921ddfc1-b190-435a-bdf4-d2481b6f4a28 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-eedeg ;
 	sah:person sah:Person1 ;
@@ -1556,7 +1581,7 @@ sah:saho-VPrefAffImprtv-ifrid a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID972bd715-c88a-4342-9cf5-985724a55911 a aamas:Term ;
+aama:ID61111c60-84d2-47eb-ac4c-5f3cb497bb13 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ifrid ;
 	sah:person sah:Person2 ;
@@ -1580,7 +1605,7 @@ sah:saho-VPrefAffImprtv-emlelekk a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID0999f0ea-b948-4bff-806e-525cc768d38d a aamas:Term ;
+aama:ID2caf527a-e647-4fce-a7f7-71cb005992cf a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-emlelekk ;
 	sah:person sah:Person2 ;
@@ -1604,7 +1629,7 @@ sah:saho-VPrefAffImperf-udud a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID91586176-8c2d-4310-97f5-92a62f454096 a aamas:Term ;
+aama:IDb13d083f-4923-488f-88d8-264cca6067fa a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-udud ;
 	sah:person sah:Person3 ;
@@ -1620,31 +1645,6 @@ aama:ID91586176-8c2d-4310-97f5-92a62f454096 a aamas:Term ;
 	sah:token "yaysuɗuɗe" ;
 	.
 
-#TERMCLUSTER:  saho-VSuffAffJuss-daam
-
-sah:saho-VSuffAffJuss-daam a aamas:Termcluster ;
-	rdfs:label "saho-VSuffAffJuss-daam" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
-            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
-	.
-
-aama:IDb8aeee32-46e7-4e22-920e-124fd82dd9c4 a aamas:Term ;
-	aamas:lang aama:Saho ;
-	aamas:memberOf sah:saho-VSuffAffJuss-daam ;
-	sah:person sah:Person1 ;
-	sah:derivedStem sah:B ;
-	sah:number sah:Singular ;
-	sah:pos sah:Verb ;
-	aamas:lexeme aama:Saho-daam ;
-	sah:conjClass sah:Suffix ;
-	sah:polarity sah:Affirmative ;
-	sah:tam sah:Jussive ;
-	sah:token-gloss "ɗamo gura/faɗá-iane ‘I want to buy it’" ;
-	sah:gender sah:Common ;
-	sah:pdgmType sah:Partial ;
-	sah:token "ɗáamo" ;
-	.
-
 #TERMCLUSTER:  saho-VPrefAffImprtv-ehzen-
 
 sah:saho-VPrefAffImprtv-ehzen- a aamas:Termcluster ;
@@ -1653,7 +1653,7 @@ sah:saho-VPrefAffImprtv-ehzen- a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID53f32f50-458a-44c6-9eb6-ae88d00195fa a aamas:Term ;
+aama:ID50c17018-114b-48ad-926f-7b5db5e2c0ea a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ehzen- ;
 	sah:person sah:Person2 ;
@@ -1677,7 +1677,7 @@ sah:saho-VPrefAffPerf-obb a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDf42f0313-5b36-44f5-b8b6-ff1d4a3b7784 a aamas:Term ;
+aama:IDeed944d1-655e-401f-abe8-ed4ab5dc6007 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-obb ;
 	sah:person sah:Unmarked ;
@@ -1700,7 +1700,7 @@ sah:saho-VSuffAffJuss-ki-alif a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDcbb23bed-b11b-44e1-96e7-17121ceba1ab a aamas:Term ;
+aama:ID9a4d0240-2078-4815-b8af-2661d946c5c4 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffJuss-ki-alif ;
 	sah:person sah:Person1 ;
@@ -1723,7 +1723,7 @@ sah:saho-VSuffPast-hab- a aamas:Termcluster ;
 	rdfs:comment "Welmers1952b p. 236" 
 	.
 
-aama:ID7f322b37-2fa1-4264-b0ac-d41696995337 a aamas:Term ;
+aama:IDd18c69a5-c5fd-4474-bf5d-c1b45f3f64bb a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-hab- ;
 	sah:conjClass sah:Suffix ;
@@ -1736,7 +1736,7 @@ aama:ID7f322b37-2fa1-4264-b0ac-d41696995337 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID615fb186-9632-4760-b61f-7d0cdc9e879a a aamas:Term ;
+aama:IDda590aaa-a15e-41af-a02a-cdd26818127b a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-hab- ;
 	sah:conjClass sah:Suffix ;
@@ -1749,7 +1749,7 @@ aama:ID615fb186-9632-4760-b61f-7d0cdc9e879a a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:IDf6e970bb-9400-4563-a9a7-bc08702cc638 a aamas:Term ;
+aama:ID7c99e930-c404-4c76-a58d-a13a20456c2e a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-hab- ;
 	sah:conjClass sah:Suffix ;
@@ -1762,7 +1762,7 @@ aama:IDf6e970bb-9400-4563-a9a7-bc08702cc638 a aamas:Term ;
 	sah:gender sah:Masc ;
 	.
 
-aama:ID136a1410-0c2b-4d7f-8894-572ee684ec56 a aamas:Term ;
+aama:ID641ec31d-79a4-4f74-9f60-f68a5351a782 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-hab- ;
 	sah:conjClass sah:Suffix ;
@@ -1775,7 +1775,7 @@ aama:ID136a1410-0c2b-4d7f-8894-572ee684ec56 a aamas:Term ;
 	sah:gender sah:Fem ;
 	.
 
-aama:ID76529163-cd90-4249-9e45-4f60935584cf a aamas:Term ;
+aama:ID02ac77a5-e030-41bc-92cb-87d06d07db97 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-hab- ;
 	sah:conjClass sah:Suffix ;
@@ -1788,7 +1788,7 @@ aama:ID76529163-cd90-4249-9e45-4f60935584cf a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID801a99d9-2720-4043-a333-0b36cd6ca099 a aamas:Term ;
+aama:ID1ee8ef7f-2dcf-4783-9480-f6cfaf8455fa a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-hab- ;
 	sah:conjClass sah:Suffix ;
@@ -1801,7 +1801,7 @@ aama:ID801a99d9-2720-4043-a333-0b36cd6ca099 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID1f750094-67b6-446a-90b4-19926a6f83f0 a aamas:Term ;
+aama:IDbc23a277-1f9a-42e7-930d-f3ab4dcbc7ac a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-hab- ;
 	sah:conjClass sah:Suffix ;
@@ -1822,7 +1822,7 @@ sah:saho-VPrefAffPerf-edebb a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID42e82632-c351-4faf-94d1-a8f973c07914 a aamas:Term ;
+aama:ID7cf71c39-aecc-4da8-a820-049d61c02094 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-edebb ;
 	sah:person sah:Unmarked ;
@@ -1845,7 +1845,7 @@ sah:saho-VPrefAffImprtv-ekkel a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID8b9d3cea-18bc-44b2-81ed-432c4def525d a aamas:Term ;
+aama:ID903249b7-623c-4601-938f-a0e741ad7f54 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ekkel ;
 	sah:person sah:Person2 ;
@@ -1869,7 +1869,7 @@ sah:saho-VSuffAffImprtv-baah a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID4951158c-2cf0-4a8d-973b-317bc7cfab05 a aamas:Term ;
+aama:ID6296bec0-7fc5-4a49-868b-04414c2c1f5d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-baah ;
 	sah:person sah:Person2 ;
@@ -1893,7 +1893,7 @@ sah:saho-VSuffAffImprtv-fuu a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID29b8b274-0539-45c8-a239-55a3c4eb811e a aamas:Term ;
+aama:ID7626e5e2-2d95-4a71-a373-e9b3a2cb3461 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-fuu ;
 	sah:person sah:Person2 ;
@@ -1917,7 +1917,7 @@ sah:saho-VSuffAffPerf-fuu a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDccc0b89d-84b1-4677-bd1e-6d6687d992c0 a aamas:Term ;
+aama:ID9eb18bcc-b0ef-4199-8b66-c88893ed81c9 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-fuu ;
 	sah:person sah:Unmarked ;
@@ -1940,7 +1940,7 @@ sah:saho-VPrefAffPerf-ubl a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID3f8d7ee3-fedb-458d-9588-24194f27eafb a aamas:Term ;
+aama:ID6a10d7cf-ae9d-4a36-bd6d-ef7278a68993 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ubl ;
 	sah:person sah:Unmarked ;
@@ -1963,7 +1963,7 @@ sah:saho-VSuffAffPart-fi a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID2af28196-ba2d-4bbe-9c0a-98caa8fd8f69 a aamas:Term ;
+aama:IDbadb23fb-9f13-4688-b9a1-cfc73167d1a9 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPart-fi ;
 	sah:conjClass sah:Suffix ;
@@ -1985,7 +1985,7 @@ sah:saho-VPrefAffImperf-ekett a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDf2896f24-1817-4814-8dc7-a6e522237268 a aamas:Term ;
+aama:ID2c781689-ad64-4ccd-a470-19a35e223442 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-ekett ;
 	sah:person sah:Person1 ;
@@ -2009,7 +2009,7 @@ sah:saho-VPrefAffPerf-iklib a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDc2002f7a-f4ad-408c-a574-20b127b3a9f2 a aamas:Term ;
+aama:IDf912ed5e-827c-43da-9cfd-bd6b7f6d6b47 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-iklib ;
 	sah:person sah:Unmarked ;
@@ -2032,7 +2032,7 @@ sah:saho-VPrefAffImprtv-eeneb a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID68b2214d-b52a-414f-823c-d9a3c4a6e27a a aamas:Term ;
+aama:ID8d987a5a-a0bb-42b9-beb0-70d2378f3e6b a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eeneb ;
 	sah:person sah:Person2 ;
@@ -2056,7 +2056,7 @@ sah:saho-VPrefAffPerf-eemeg a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDac1fd929-6e9d-4b29-a8af-02733f7ad1d7 a aamas:Term ;
+aama:ID31cf7c26-f458-42e3-8a8e-013a9fba935c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eemeg ;
 	sah:person sah:Unmarked ;
@@ -2071,31 +2071,6 @@ aama:IDac1fd929-6e9d-4b29-a8af-02733f7ad1d7 a aamas:Term ;
 	sah:token "yemmege" ;
 	.
 
-#TERMCLUSTER:  saho-VSuffAffImperf-m-rab
-
-sah:saho-VSuffAffImperf-m-rab a aamas:Termcluster ;
-	rdfs:label "saho-VSuffAffImperf-m-rab" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
-            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
-	.
-
-aama:ID4459ae7c-7157-4eb3-b12b-babafc6a6064 a aamas:Term ;
-	aamas:lang aama:Saho ;
-	aamas:memberOf sah:saho-VSuffAffImperf-m-rab ;
-	sah:person sah:Person3 ;
-	sah:derivedStem sah:B ;
-	sah:number sah:Singular ;
-	sah:pos sah:Verb ;
-	aamas:lexeme aama:Saho-rab ;
-	sah:conjClass sah:Suffix ;
-	sah:polarity sah:Affirmative ;
-	sah:tam sah:ImperfectM ;
-	sah:token-gloss "rabtam mango ‘many are dying’ (subordinate)" ;
-	sah:gender sah:Fem ;
-	sah:pdgmType sah:Partial ;
-	sah:token "rabta-m" ;
-	.
-
 #TERMCLUSTER:  saho-VPrefAffImprtv-ookom
 
 sah:saho-VPrefAffImprtv-ookom a aamas:Termcluster ;
@@ -2104,7 +2079,7 @@ sah:saho-VPrefAffImprtv-ookom a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID72192320-75ec-4aeb-8b78-bde3bf94b646 a aamas:Term ;
+aama:ID48af4d8c-0060-47f7-bfbf-b2a4c59af310 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ookom ;
 	sah:person sah:Person2 ;
@@ -2128,7 +2103,7 @@ sah:saho-VPrefAffImprtv-edirir- a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID2eaa6fe4-e367-4c0c-9db3-ba89c4e9bbe8 a aamas:Term ;
+aama:IDb43e7072-47b8-46bc-aab2-4598ce032740 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-edirir- ;
 	sah:person sah:Person2 ;
@@ -2152,7 +2127,7 @@ sah:saho-VPrefAffPerf-ifteh a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID040a7ebe-7b52-4682-898e-683250f47007 a aamas:Term ;
+aama:ID43fdefb1-534f-4cc1-b4e5-4d26c972bf97 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ifteh ;
 	sah:person sah:Unmarked ;
@@ -2175,7 +2150,7 @@ sah:saho-VPrefAffImprtv-igziy a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDebac187c-a362-4a37-8749-bc561bc5157d a aamas:Term ;
+aama:ID16aea678-7b4a-4faf-a805-41ce013ed388 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-igziy ;
 	sah:person sah:Person2 ;
@@ -2191,6 +2166,31 @@ aama:IDebac187c-a362-4a37-8749-bc561bc5157d a aamas:Term ;
 	sah:token "igzi" ;
 	.
 
+#TERMCLUSTER:  saho-VPrefAffImprtv-ubl
+
+sah:saho-VPrefAffImprtv-ubl a aamas:Termcluster ;
+	rdfs:label "saho-VPrefAffImprtv-ubl" ;
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
+            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
+	.
+
+aama:ID25583802-dc4d-4073-a079-57db54607b89 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	aamas:memberOf sah:saho-VPrefAffImprtv-ubl ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S1 ;
+	sah:number sah:Singular ;
+	sah:pos sah:Verb ;
+	aamas:lexeme aama:Saho-ubl ;
+	sah:conjClass sah:Prefix ;
+	sah:polarity sah:Affirmative ;
+	sah:tam sah:Imperative ;
+	sah:gender sah:Common ;
+	sah:pdgmType sah:Partial ;
+	sah:token-note "show" ;
+	sah:token "uybullu ~ uybulla" ;
+	.
+
 #TERMCLUSTER:  saho-VSuffAffPerf-beet
 
 sah:saho-VSuffAffPerf-beet a aamas:Termcluster ;
@@ -2199,7 +2199,7 @@ sah:saho-VSuffAffPerf-beet a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID45c68c2f-d332-4575-9e6f-eca8355520a4 a aamas:Term ;
+aama:IDa0cf71ba-5d05-4492-9ec5-c68d104ff5c7 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-beet ;
 	sah:person sah:Unmarked ;
@@ -2222,7 +2222,7 @@ sah:saho-VSuffAffImperf-alif a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDfe8e79d4-7244-44b2-8d48-5b226858e9db a aamas:Term ;
+aama:IDafbf25fa-186c-4744-8038-5a9d5feb4822 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImperf-alif ;
 	sah:person sah:Person1 ;
@@ -2246,7 +2246,7 @@ sah:saho-VPrefAffPerf-inebe a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID40fa338a-aafd-4cf9-8f65-4ffb7cf9c501 a aamas:Term ;
+aama:IDbdeca3e3-aea3-4e32-8e22-f19d7a81653e a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-inebe ;
 	sah:person sah:Unmarked ;
@@ -2269,7 +2269,7 @@ sah:saho-VPrefAffJuss-ubl a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDa6b1c113-1ddb-47fe-9fff-285cf882e07d a aamas:Term ;
+aama:IDd3224567-2cfb-4d06-bed3-281b426abeb5 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-ubl ;
 	sah:person sah:Person1 ;
@@ -2293,7 +2293,7 @@ sah:saho-VPrefAffJuss-ul a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID8594a35e-81e5-4a56-afce-e470b1e21424 a aamas:Term ;
+aama:ID08cca0ec-a868-4059-b0f1-989215bd8b4a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-ul ;
 	sah:person sah:Person2 ;
@@ -2317,7 +2317,7 @@ sah:saho-VPrefAffPerf-eelem a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID71cea968-0f7b-4a15-870e-7c88cddcd3af a aamas:Term ;
+aama:IDbcfb070a-edeb-46d1-b392-25a595667389 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eelem ;
 	sah:person sah:Unmarked ;
@@ -2332,31 +2332,6 @@ aama:ID71cea968-0f7b-4a15-870e-7c88cddcd3af a aamas:Term ;
 	sah:token "eeleme" ;
 	.
 
-#TERMCLUSTER:  saho-VPrefAffImperf-m-uruf
-
-sah:saho-VPrefAffImperf-m-uruf a aamas:Termcluster ;
-	rdfs:label "saho-VPrefAffImperf-m-uruf" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
-            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
-	.
-
-aama:ID8cf91903-2017-4fb2-ac37-d1df82160bc2 a aamas:Term ;
-	aamas:lang aama:Saho ;
-	aamas:memberOf sah:saho-VPrefAffImperf-m-uruf ;
-	sah:person sah:Person1 ;
-	sah:derivedStem sah:B ;
-	sah:number sah:Singular ;
-	sah:pos sah:Verb ;
-	aamas:lexeme aama:Saho-uruf ;
-	sah:conjClass sah:Prefix ;
-	sah:polarity sah:Affirmative ;
-	sah:tam sah:ImperfectM ;
-	sah:token-gloss "(I want) to rest (subordinate)" ;
-	sah:gender sah:Common ;
-	sah:pdgmType sah:Partial ;
-	sah:token "aʕrufe-m" ;
-	.
-
 #TERMCLUSTER:  saho-VPrefAffImprtv-ifriy
 
 sah:saho-VPrefAffImprtv-ifriy a aamas:Termcluster ;
@@ -2365,7 +2340,7 @@ sah:saho-VPrefAffImprtv-ifriy a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDa3198e55-953b-42cd-bb11-929bf4f78d08 a aamas:Term ;
+aama:ID3fa877c7-e1c0-43ee-908a-960dc5ad5e25 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ifriy ;
 	sah:person sah:Person2 ;
@@ -2381,31 +2356,6 @@ aama:IDa3198e55-953b-42cd-bb11-929bf4f78d08 a aamas:Term ;
 	sah:token "iyfiri" ;
 	.
 
-#TERMCLUSTER:  saho-VSuffAffImperf-inni-beet
-
-sah:saho-VSuffAffImperf-inni-beet a aamas:Termcluster ;
-	rdfs:label "saho-VSuffAffImperf-inni-beet" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
-            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
-	.
-
-aama:ID90397a30-454e-446d-87e1-88ba28a7bdf2 a aamas:Term ;
-	aamas:lang aama:Saho ;
-	aamas:memberOf sah:saho-VSuffAffImperf-inni-beet ;
-	sah:person sah:Person1 ;
-	sah:derivedStem sah:B ;
-	sah:number sah:Plural ;
-	sah:pos sah:Verb ;
-	aamas:lexeme aama:Saho-beet ;
-	sah:conjClass sah:Suffix ;
-	sah:polarity sah:Affirmative ;
-	sah:tam sah:ImperfectInni ;
-	sah:token-gloss "we have eaten it" ;
-	sah:gender sah:Common ;
-	sah:pdgmType sah:Partial ;
-	sah:token "bennéhane" ;
-	.
-
 #TERMCLUSTER:  saho-VPrefAffPerf-ifriy
 
 sah:saho-VPrefAffPerf-ifriy a aamas:Termcluster ;
@@ -2414,7 +2364,7 @@ sah:saho-VPrefAffPerf-ifriy a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID839bbaae-afc8-4e58-ac24-9f68b437ca9d a aamas:Term ;
+aama:ID67670ae1-4f0c-4f4d-87eb-0544c2d25d82 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ifriy ;
 	sah:person sah:Unmarked ;
@@ -2437,7 +2387,7 @@ sah:saho-VSuffAffImprtv-do a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID799ce01f-957a-4dfa-b8bd-d19abe4c09e1 a aamas:Term ;
+aama:ID04c6e5f8-a7d6-4453-bd3c-a813d9cb796c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-do ;
 	sah:person sah:Person2 ;
@@ -2461,7 +2411,7 @@ sah:saho-VPrefAffImprtv-usul a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID75520fdf-5d1a-4b10-a040-492d0c35b1eb a aamas:Term ;
+aama:IDac032e08-5626-41b1-abd5-2703a6d729e5 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-usul ;
 	sah:person sah:Person2 ;
@@ -2485,7 +2435,7 @@ sah:saho-VPrefAffImprtv-oofo- a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDb400bc26-912e-4786-a77a-4cf7ffb1be65 a aamas:Term ;
+aama:ID97888f52-64b4-4b80-9d0d-4789112f9e10 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-oofo- ;
 	sah:person sah:Person2 ;
@@ -2509,7 +2459,7 @@ sah:saho-VPrefAffJuss-oosol a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID983871b2-25f1-4044-95d3-92bda14143c4 a aamas:Term ;
+aama:ID95764adf-e658-43c5-b046-e649bc76ecc4 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-oosol ;
 	sah:person sah:Person3 ;
@@ -2533,7 +2483,7 @@ sah:saho-VPrefAffPerf-ooob a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID3e3e0e59-aac1-4550-8464-dff8170b6a9a a aamas:Term ;
+aama:ID34ceab18-000c-4d1d-811d-39cb29410209 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ooob ;
 	sah:person sah:Unmarked ;
@@ -2548,31 +2498,6 @@ aama:ID3e3e0e59-aac1-4550-8464-dff8170b6a9a a aamas:Term ;
 	sah:token "ooʕobe" ;
 	.
 
-#TERMCLUSTER:  saho-VSuffAffJuss-li-daam
-
-sah:saho-VSuffAffJuss-li-daam a aamas:Termcluster ;
-	rdfs:label "saho-VSuffAffJuss-li-daam" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
-            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
-	.
-
-aama:ID1499bbb3-fdf0-4a4a-8af2-1ccc8a789578 a aamas:Term ;
-	aamas:lang aama:Saho ;
-	aamas:memberOf sah:saho-VSuffAffJuss-li-daam ;
-	sah:person sah:Person1 ;
-	sah:derivedStem sah:B ;
-	sah:number sah:Singular ;
-	sah:pos sah:Verb ;
-	aamas:lexeme aama:Saho-daam ;
-	sah:conjClass sah:Suffix ;
-	sah:polarity sah:Affirmative ;
-	sah:tam sah:JussiveLi ;
-	sah:token-gloss "(I guess) I’ll buy it" ;
-	sah:gender sah:Common ;
-	sah:pdgmType sah:Partial ;
-	sah:token "ɗáamo-lio" ;
-	.
-
 #TERMCLUSTER:  saho-VPrefAffImperf-eeneb
 
 sah:saho-VPrefAffImperf-eeneb a aamas:Termcluster ;
@@ -2581,7 +2506,7 @@ sah:saho-VPrefAffImperf-eeneb a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDddbafa2a-ad66-4105-a624-cf89accd041d a aamas:Term ;
+aama:IDdabdd7d5-9f47-47b7-b2b1-5e9976fcf2de a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-eeneb ;
 	sah:person sah:Person1 ;
@@ -2604,7 +2529,7 @@ sah:saho-VPref-ed a aamas:Termcluster ;
 	rdfs:comment "Welmers1952b p. 249" 
 	.
 
-aama:ID4a832a6b-27e9-49c9-b44c-7d8be2c9229a a aamas:Term ;
+aama:IDad6ae5cc-9c42-459a-ac19-21cb7b9880f9 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPref-ed ;
 	sah:conjClass sah:Prefix ;
@@ -2619,7 +2544,7 @@ aama:ID4a832a6b-27e9-49c9-b44c-7d8be2c9229a a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:IDe1cafc82-48e1-4c17-b5c8-ee1bb01250bc a aamas:Term ;
+aama:ID7f9be8df-a4da-498d-ac65-5f42e20c0822 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPref-ed ;
 	sah:conjClass sah:Prefix ;
@@ -2634,7 +2559,7 @@ aama:IDe1cafc82-48e1-4c17-b5c8-ee1bb01250bc a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:IDa1c26c6d-599d-4987-ba01-8bf9ecb458d2 a aamas:Term ;
+aama:IDd8ede846-e6ba-4cd8-85dc-6cb3a8ce396f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPref-ed ;
 	sah:conjClass sah:Prefix ;
@@ -2649,7 +2574,7 @@ aama:IDa1c26c6d-599d-4987-ba01-8bf9ecb458d2 a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:IDb62e8e77-d327-4ac3-b7e2-7e27bd691322 a aamas:Term ;
+aama:IDa5fcd8b9-8f46-4d1d-aeeb-463fdd9e3b68 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPref-ed ;
 	sah:conjClass sah:Prefix ;
@@ -2664,31 +2589,6 @@ aama:IDb62e8e77-d327-4ac3-b7e2-7e27bd691322 a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-#TERMCLUSTER:  saho-VSuffAffPerf-m-rab
-
-sah:saho-VSuffAffPerf-m-rab a aamas:Termcluster ;
-	rdfs:label "saho-VSuffAffPerf-m-rab" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
-            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
-	.
-
-aama:ID162f16fc-1118-4a7b-b5f4-d5ae523644b1 a aamas:Term ;
-	aamas:lang aama:Saho ;
-	aamas:memberOf sah:saho-VSuffAffPerf-m-rab ;
-	sah:person sah:Person3 ;
-	sah:derivedStem sah:B ;
-	sah:number sah:Singular ;
-	sah:pos sah:Verb ;
-	aamas:lexeme aama:Saho-rab ;
-	sah:conjClass sah:Suffix ;
-	sah:polarity sah:Affirmative ;
-	sah:tam sah:PerfectM ;
-	sah:token-gloss "rabtem mango ‘many died’" ;
-	sah:gender sah:Fem ;
-	sah:pdgmType sah:Partial ;
-	sah:token "rabte-m" ;
-	.
-
 #TERMCLUSTER:  saho-VSuffAffImprtv-bad
 
 sah:saho-VSuffAffImprtv-bad a aamas:Termcluster ;
@@ -2697,7 +2597,7 @@ sah:saho-VSuffAffImprtv-bad a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID433473b1-4fe1-4c0d-996e-935f1cc4854c a aamas:Term ;
+aama:ID65f2c673-73d7-4618-9d7a-00dedb93e5db a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-bad ;
 	sah:person sah:Person2 ;
@@ -2713,6 +2613,31 @@ aama:ID433473b1-4fe1-4c0d-996e-935f1cc4854c a aamas:Term ;
 	sah:token "badis" ;
 	.
 
+#TERMCLUSTER:  saho-VPrefAffImperf-inniPerf-ubl
+
+sah:saho-VPrefAffImperf-inniPerf-ubl a aamas:Termcluster ;
+	rdfs:label "saho-VPrefAffImperf-inniPerf-ubl" ;
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
+            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
+	.
+
+aama:ID51e3b130-8c34-4817-815c-10a2e7c15a7f a aamas:Term ;
+	aamas:lang aama:Saho ;
+	aamas:memberOf sah:saho-VPrefAffImperf-inniPerf-ubl ;
+	sah:person sah:Person3 ;
+	sah:derivedStem sah:B ;
+	sah:number sah:Singular ;
+	sah:pos sah:Verb ;
+	aamas:lexeme aama:Saho-ubl ;
+	sah:conjClass sah:Prefix ;
+	sah:polarity sah:Affirmative ;
+	sah:tam sah:ImperfectInni ;
+	sah:gender sah:Masc ;
+	sah:pdgmType sah:Partial ;
+	sah:token-note "he had seen (it)" ;
+	sah:token "yubléhine " ;
+	.
+
 #TERMCLUSTER:  saho-VPrefAffPerf-oho-
 
 sah:saho-VPrefAffPerf-oho- a aamas:Termcluster ;
@@ -2721,7 +2646,7 @@ sah:saho-VPrefAffPerf-oho- a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID52e836d2-7337-4bbd-99a2-eafafd1876cf a aamas:Term ;
+aama:IDc35743c5-f018-4469-b019-c01a930e0a34 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-oho- ;
 	sah:person sah:Unmarked ;
@@ -2743,7 +2668,7 @@ sah:saho-VPrefPerf-inni a aamas:Termcluster ;
 	rdfs:comment "Welmers1952b p. 249" 
 	.
 
-aama:IDdec9b05f-9c51-4050-9555-9166a66b8f98 a aamas:Term ;
+aama:IDdfe71c15-75c1-4139-aebc-a2bcb7090675 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefPerf-inni ;
 	sah:conjClass sah:Prefix ;
@@ -2756,7 +2681,7 @@ aama:IDdec9b05f-9c51-4050-9555-9166a66b8f98 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID1119e966-d656-4dff-bf58-42ceefa10cda a aamas:Term ;
+aama:ID32dd1e0e-f8cd-4439-a8d0-4569ae3c6f38 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefPerf-inni ;
 	sah:conjClass sah:Prefix ;
@@ -2769,7 +2694,7 @@ aama:ID1119e966-d656-4dff-bf58-42ceefa10cda a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:IDad4d0540-0a06-43eb-a82e-2b7a014fce06 a aamas:Term ;
+aama:IDa9cce683-1e32-48e6-b50f-40a2aced6583 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefPerf-inni ;
 	sah:conjClass sah:Prefix ;
@@ -2782,7 +2707,7 @@ aama:IDad4d0540-0a06-43eb-a82e-2b7a014fce06 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:IDf620876f-c5bc-4094-a229-d18b729a9ed1 a aamas:Term ;
+aama:ID7502ac64-200f-46d7-a49b-cc5773320813 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefPerf-inni ;
 	sah:conjClass sah:Prefix ;
@@ -2795,7 +2720,7 @@ aama:IDf620876f-c5bc-4094-a229-d18b729a9ed1 a aamas:Term ;
 	sah:gender sah:Masc ;
 	.
 
-aama:IDa85ba7ee-26ec-4527-a913-d6a998ead02a a aamas:Term ;
+aama:ID99e22f4e-ea2c-4867-8983-84ae14af5d4d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefPerf-inni ;
 	sah:conjClass sah:Prefix ;
@@ -2808,7 +2733,7 @@ aama:IDa85ba7ee-26ec-4527-a913-d6a998ead02a a aamas:Term ;
 	sah:gender sah:Fem ;
 	.
 
-aama:IDe4ab9eb9-93f8-4432-9a98-a60b1c731bc5 a aamas:Term ;
+aama:IDbb9013bd-b4ab-420d-984e-1a61a509daeb a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefPerf-inni ;
 	sah:conjClass sah:Prefix ;
@@ -2821,7 +2746,7 @@ aama:IDe4ab9eb9-93f8-4432-9a98-a60b1c731bc5 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:IDbf3b2fdd-a885-4fec-bcb8-a3ae8713e7f9 a aamas:Term ;
+aama:IDd2fdd594-6505-4e6c-9f83-2a97a8193828 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefPerf-inni ;
 	sah:conjClass sah:Prefix ;
@@ -2842,7 +2767,7 @@ sah:saho-VPrefAffImprtv-edebb a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID68cd78c9-1a35-46d9-bf06-310ad344d554 a aamas:Term ;
+aama:IDe5192861-8a01-4d1e-9aa0-88be90d3a5ba a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-edebb ;
 	sah:person sah:Person2 ;
@@ -2866,7 +2791,7 @@ sah:saho-VPrefAffPerf-ifrid a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID200a6b53-3520-4a72-942e-35c387edba37 a aamas:Term ;
+aama:ID307b2bfd-f6fa-4a43-830d-d4d7d26003ae a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ifrid ;
 	sah:person sah:Unmarked ;
@@ -2888,7 +2813,7 @@ sah:saho-VSuffJuss-ak a aamas:Termcluster ;
 	rdfs:comment "Welmers1952b p. 249" 
 	.
 
-aama:ID74a0bc66-a0f3-4707-a140-9c8caca78d1d a aamas:Term ;
+aama:IDbd712b13-ab0f-40be-b596-394311187c1a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffJuss-ak ;
 	sah:conjClass sah:Suffix ;
@@ -2901,7 +2826,7 @@ aama:ID74a0bc66-a0f3-4707-a140-9c8caca78d1d a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID8d498757-cee2-4050-977a-1ffb0ffb771d a aamas:Term ;
+aama:IDb5aaa10d-b9a4-4cde-9965-93a4072cbc56 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffJuss-ak ;
 	sah:conjClass sah:Suffix ;
@@ -2914,7 +2839,7 @@ aama:ID8d498757-cee2-4050-977a-1ffb0ffb771d a aamas:Term ;
 	sah:gender sah:Masc ;
 	.
 
-aama:IDebfc743c-2e83-47ac-a2ad-e1d99ddf9cae a aamas:Term ;
+aama:ID95d0ff41-3d80-4c55-a3c3-1c32f8e1ee23 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffJuss-ak ;
 	sah:conjClass sah:Suffix ;
@@ -2927,7 +2852,7 @@ aama:IDebfc743c-2e83-47ac-a2ad-e1d99ddf9cae a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID9e6fb54a-3504-4b92-8cd0-d3e4167facf7 a aamas:Term ;
+aama:ID4bb076cd-3be9-43e8-98b8-0718f684623b a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffJuss-ak ;
 	sah:conjClass sah:Suffix ;
@@ -2940,7 +2865,7 @@ aama:ID9e6fb54a-3504-4b92-8cd0-d3e4167facf7 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:IDc1564fd0-6151-4282-a8b2-f4ee4667cc26 a aamas:Term ;
+aama:ID2a8193c5-9c9a-4a1b-b73c-3328a53aa364 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffJuss-ak ;
 	sah:conjClass sah:Suffix ;
@@ -2953,7 +2878,7 @@ aama:IDc1564fd0-6151-4282-a8b2-f4ee4667cc26 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID4b26e6ec-28d0-42c3-bab0-8d8a95591062 a aamas:Term ;
+aama:ID09757780-d52a-4ee6-88de-9c270e870bef a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffJuss-ak ;
 	sah:conjClass sah:Suffix ;
@@ -2966,7 +2891,7 @@ aama:ID4b26e6ec-28d0-42c3-bab0-8d8a95591062 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID2e0f6de8-8c4f-42e4-a7e0-36a52bfe26af a aamas:Term ;
+aama:ID3dc45d2d-d7a1-42f7-b1a7-f43f87b5521a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffJuss-ak ;
 	sah:conjClass sah:Suffix ;
@@ -2979,6 +2904,31 @@ aama:ID2e0f6de8-8c4f-42e4-a7e0-36a52bfe26af a aamas:Term ;
 	sah:gender sah:Fem ;
 	.
 
+#TERMCLUSTER:  saho-VPrefAffImperf-m-uruf
+
+sah:saho-VPrefAffImperf-m-uruf a aamas:Termcluster ;
+	rdfs:label "saho-VPrefAffImperf-m-uruf" ;
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
+            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
+	.
+
+aama:IDd0d0431b-9ff1-438d-8203-eaa6cc01b1a2 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	aamas:memberOf sah:saho-VPrefAffImperf-m-uruf ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:number sah:Singular ;
+	sah:pos sah:Verb ;
+	aamas:lexeme aama:Saho-uruf ;
+	sah:conjClass sah:Prefix ;
+	sah:polarity sah:Affirmative ;
+	sah:tam sah:ImperfectM ;
+	sah:gender sah:Common ;
+	sah:pdgmType sah:Partial ;
+	sah:token-note "(I want) to rest (subordinate)" ;
+	sah:token "aʕrufe-m" ;
+	.
+
 #TERMCLUSTER:  saho-VPrefAffImprtv-oofo
 
 sah:saho-VPrefAffImprtv-oofo a aamas:Termcluster ;
@@ -2987,7 +2937,7 @@ sah:saho-VPrefAffImprtv-oofo a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID7004cba6-1417-4ed5-a18a-0023d7d6f015 a aamas:Term ;
+aama:ID385a05cf-ce41-4448-beb3-f1485c19e2e6 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-oofo ;
 	sah:person sah:Person2 ;
@@ -3011,7 +2961,7 @@ sah:saho-VSuffAffPart-gur a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDd253f141-72f6-4f63-a122-0ddf7de50074 a aamas:Term ;
+aama:ID6f7128c2-cc22-4e94-97b6-bdf89bde3799 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPart-gur ;
 	sah:conjClass sah:Suffix ;
@@ -3033,7 +2983,7 @@ sah:saho-VPrefNegImprtv-igdil a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDf5cd8250-34b2-4e27-9f3b-8dd82201aa17 a aamas:Term ;
+aama:IDed8e26ed-4889-4136-9474-1aa3be718985 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefNegImprtv-igdil ;
 	sah:person sah:Person2 ;
@@ -3057,7 +3007,7 @@ sah:saho-VSuffAffJuss-ab a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID22c4a5bd-a55e-497a-bbda-c1d3f1a44edd a aamas:Term ;
+aama:ID71975f4e-7c16-48f5-a152-66abc4e0b73d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffJuss-ab ;
 	sah:person sah:Person2 ;
@@ -3073,6 +3023,31 @@ aama:ID22c4a5bd-a55e-497a-bbda-c1d3f1a44edd a aamas:Term ;
 	sah:token "ábto" ;
 	.
 
+#TERMCLUSTER:  saho-VPrefAffImperf-li-emeet
+
+sah:saho-VPrefAffImperf-li-emeet a aamas:Termcluster ;
+	rdfs:label "saho-VPrefAffImperf-li-emeet" ;
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
+            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
+	.
+
+aama:IDc5b0ecf4-3878-4ac8-94c9-aee9c114809e a aamas:Term ;
+	aamas:lang aama:Saho ;
+	aamas:memberOf sah:saho-VPrefAffImperf-li-emeet ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:number sah:Plural ;
+	sah:pos sah:Verb ;
+	aamas:lexeme aama:Saho-emeet ;
+	sah:conjClass sah:Prefix ;
+	sah:polarity sah:Affirmative ;
+	sah:tam sah:ImperfectLi ;
+	sah:gender sah:Common ;
+	sah:pdgmType sah:Partial ;
+	sah:token-note "we will come (future)" ;
+	sah:token "nemeeté-lio" ;
+	.
+
 #TERMCLUSTER:  saho-VPrefAffImprtv-eymee
 
 sah:saho-VPrefAffImprtv-eymee a aamas:Termcluster ;
@@ -3081,7 +3056,7 @@ sah:saho-VPrefAffImprtv-eymee a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDf777c271-cec6-405f-985d-ad46e9559a74 a aamas:Term ;
+aama:IDcf033d0e-fa12-48b0-bdb8-7e8212e8a5b9 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eymee ;
 	sah:person sah:Person2 ;
@@ -3105,7 +3080,7 @@ sah:saho-VPrefAffPerf-eeley a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID24fdfd95-72b7-49b4-8fa9-66463382f467 a aamas:Term ;
+aama:IDb844306c-bc35-4c6a-a4b5-bc10bc2db22a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eeley ;
 	sah:person sah:Unmarked ;
@@ -3128,7 +3103,7 @@ sah:saho-VPrefAffImprtv-eedeg a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID9e045276-81d8-4d0d-bd95-2b7f7f1f4b2c a aamas:Term ;
+aama:ID11c5bc79-67ce-45d3-adc3-88ddb05a80c9 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eedeg ;
 	sah:person sah:Person2 ;
@@ -3152,7 +3127,7 @@ sah:saho-VPrefAffPerf-ootob a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDf53d7cab-1d19-4296-879a-1bc7729624d4 a aamas:Term ;
+aama:IDe3dae075-44d6-46ac-8096-08bbdd73d686 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ootob ;
 	sah:person sah:Unmarked ;
@@ -3175,7 +3150,7 @@ sah:saho-VSuffAffPerf-do a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID12881efd-64a7-4f76-8c1b-937d20c8e2a5 a aamas:Term ;
+aama:ID3faa14cc-570c-4351-b22d-63b552dd4ee5 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-do ;
 	sah:person sah:Unmarked ;
@@ -3198,7 +3173,7 @@ sah:saho-VSuffNegImperf-ab a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID2409dec8-0a44-40d2-89a6-7ff594f883b0 a aamas:Term ;
+aama:ID13b049a5-420a-4e7b-9b6c-7110a3b3ecb7 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffNegImperf-ab ;
 	sah:person sah:Person3 ;
@@ -3221,7 +3196,7 @@ sah:saho-VSuffPerf-ak a aamas:Termcluster ;
 	rdfs:comment "Welmers1952b p. 249" 
 	.
 
-aama:IDdd017f4f-caf5-47ef-b11e-0d2c3d0c1bc1 a aamas:Term ;
+aama:ID09101b2f-50ce-4186-ae41-8b37985e7e94 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPerf-ak ;
 	sah:conjClass sah:Suffix ;
@@ -3234,7 +3209,7 @@ aama:IDdd017f4f-caf5-47ef-b11e-0d2c3d0c1bc1 a aamas:Term ;
 	sah:gender sah:Fem ;
 	.
 
-aama:IDacffdc0a-11f2-4f9c-83da-c43e3c968f87 a aamas:Term ;
+aama:ID85deda4e-f033-4246-adec-66c67dc0bfb2 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPerf-ak ;
 	sah:conjClass sah:Suffix ;
@@ -3247,7 +3222,7 @@ aama:IDacffdc0a-11f2-4f9c-83da-c43e3c968f87 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID0eb9e18a-39ef-4b9c-bd2b-a10827436ca9 a aamas:Term ;
+aama:ID3328ad68-273d-4904-b4ea-4a087651d722 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPerf-ak ;
 	sah:conjClass sah:Suffix ;
@@ -3260,7 +3235,7 @@ aama:ID0eb9e18a-39ef-4b9c-bd2b-a10827436ca9 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID81854422-ba3e-4982-be17-ef1585c98cfa a aamas:Term ;
+aama:IDe43d7f14-4765-4ad9-be3c-ed1484482ae3 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPerf-ak ;
 	sah:conjClass sah:Suffix ;
@@ -3273,7 +3248,7 @@ aama:ID81854422-ba3e-4982-be17-ef1585c98cfa a aamas:Term ;
 	sah:gender sah:Masc ;
 	.
 
-aama:ID4352e1a8-9e9f-4d1d-b404-f0a7ab9fe01d a aamas:Term ;
+aama:ID27b37a03-6f1e-4b8a-9351-824d18270d71 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPerf-ak ;
 	sah:conjClass sah:Suffix ;
@@ -3286,7 +3261,7 @@ aama:ID4352e1a8-9e9f-4d1d-b404-f0a7ab9fe01d a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID8f243e5b-f32a-40d8-ab39-53ba36b3b1f4 a aamas:Term ;
+aama:ID9e194e2b-2750-4bda-8a19-dfe9adb117a3 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPerf-ak ;
 	sah:conjClass sah:Suffix ;
@@ -3299,7 +3274,7 @@ aama:ID8f243e5b-f32a-40d8-ab39-53ba36b3b1f4 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID1eac8f0c-78a3-4844-b52c-595be58bc047 a aamas:Term ;
+aama:ID2343365c-2c9f-45e7-b2ac-642c7ffe4225 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPerf-ak ;
 	sah:conjClass sah:Suffix ;
@@ -3319,7 +3294,7 @@ sah:saho-VIrreg-li a aamas:Termcluster ;
 	rdfs:comment "Welmers1952b p. 250" 
 	.
 
-aama:ID75bd5547-ad44-4432-9b1d-c386ffada3b9 a aamas:Term ;
+aama:ID4df6db75-5141-452e-a1aa-0113b8d14220 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VIrreg-li ;
 	sah:conjClass sah:Irregular ;
@@ -3332,7 +3307,7 @@ aama:ID75bd5547-ad44-4432-9b1d-c386ffada3b9 a aamas:Term ;
 	sah:gender sah:Fem ;
 	.
 
-aama:IDf05eda9c-cd08-4f8b-8ecb-9e9200088021 a aamas:Term ;
+aama:ID8bd3bd79-4b6d-4b4f-a676-30f7d2a3c272 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VIrreg-li ;
 	sah:conjClass sah:Irregular ;
@@ -3345,7 +3320,7 @@ aama:IDf05eda9c-cd08-4f8b-8ecb-9e9200088021 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID8a091880-ac55-419d-b44d-e7a960c71ee0 a aamas:Term ;
+aama:ID6af297fd-1fe2-481e-8a41-14601f35874f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VIrreg-li ;
 	sah:conjClass sah:Irregular ;
@@ -3358,7 +3333,7 @@ aama:ID8a091880-ac55-419d-b44d-e7a960c71ee0 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID3022f6b8-d167-439a-b2fb-c492dc77bf58 a aamas:Term ;
+aama:IDa1a9398d-57c7-4242-bcd9-8b3435a6d8aa a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VIrreg-li ;
 	sah:conjClass sah:Irregular ;
@@ -3371,7 +3346,7 @@ aama:ID3022f6b8-d167-439a-b2fb-c492dc77bf58 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:IDe3e536cb-d65e-4a25-93ad-f54d44ea654f a aamas:Term ;
+aama:ID17a4aa7b-95fd-4d06-9195-f95a519a3921 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VIrreg-li ;
 	sah:conjClass sah:Irregular ;
@@ -3384,7 +3359,7 @@ aama:IDe3e536cb-d65e-4a25-93ad-f54d44ea654f a aamas:Term ;
 	sah:gender sah:Masc ;
 	.
 
-aama:ID76847302-ce17-488d-86d6-58664c536e02 a aamas:Term ;
+aama:IDd17bdd35-5a6e-4ef8-8247-78a0d7f76bfd a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VIrreg-li ;
 	sah:conjClass sah:Irregular ;
@@ -3397,7 +3372,7 @@ aama:ID76847302-ce17-488d-86d6-58664c536e02 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:IDba1ada9e-35c3-4b90-b532-ac9fb74b5256 a aamas:Term ;
+aama:IDb72f5309-6949-4330-a809-6b9e0f1e6312 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VIrreg-li ;
 	sah:conjClass sah:Irregular ;
@@ -3418,7 +3393,7 @@ sah:saho-VPrefAffImperf-edh a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID29602190-5e07-49a4-be59-552ec5386342 a aamas:Term ;
+aama:ID0e7632aa-ff84-4db9-94ca-adbb1fbd5e69 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-edh ;
 	sah:person sah:Person3 ;
@@ -3434,6 +3409,31 @@ aama:ID29602190-5e07-49a4-be59-552ec5386342 a aamas:Term ;
 	sah:token "yaɗḥe" ;
 	.
 
+#TERMCLUSTER:  saho-VSuffAffImperf-inni-beet
+
+sah:saho-VSuffAffImperf-inni-beet a aamas:Termcluster ;
+	rdfs:label "saho-VSuffAffImperf-inni-beet" ;
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
+            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
+	.
+
+aama:ID8d3193c0-cbb4-473b-baec-a6ee72ea540c a aamas:Term ;
+	aamas:lang aama:Saho ;
+	aamas:memberOf sah:saho-VSuffAffImperf-inni-beet ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:number sah:Plural ;
+	sah:pos sah:Verb ;
+	aamas:lexeme aama:Saho-beet ;
+	sah:conjClass sah:Suffix ;
+	sah:polarity sah:Affirmative ;
+	sah:tam sah:ImperfectInni ;
+	sah:gender sah:Common ;
+	sah:pdgmType sah:Partial ;
+	sah:token-note "we have eaten it" ;
+	sah:token "bennéhane" ;
+	.
+
 #TERMCLUSTER:  saho-VPrefAffJuss-ehzen
 
 sah:saho-VPrefAffJuss-ehzen a aamas:Termcluster ;
@@ -3442,7 +3442,7 @@ sah:saho-VPrefAffJuss-ehzen a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID3369301f-2464-479f-b76b-c0e3bb714162 a aamas:Term ;
+aama:IDee494f0f-752b-47d2-9a3b-6845ea29d48e a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-ehzen ;
 	sah:person sah:Person2 ;
@@ -3466,7 +3466,7 @@ sah:saho-VPrefAffPerf-ehlif a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDae7c99b6-4f61-4359-bf61-f3c4db87f55d a aamas:Term ;
+aama:ID53a3b03d-73e5-4e5a-8ae7-27832747850d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ehlif ;
 	sah:person sah:Unmarked ;
@@ -3489,7 +3489,7 @@ sah:saho-VPrefAffImprtv-ooob a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDbc91244d-adf7-4117-bb52-0959478eeb48 a aamas:Term ;
+aama:ID926d2273-a980-4d70-a3f9-f11c1c73c804 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ooob ;
 	sah:person sah:Person2 ;
@@ -3513,7 +3513,7 @@ sah:saho-VSuffAffImperf-daam a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDe573630c-e583-4f4d-937c-dc0d7e776e9f a aamas:Term ;
+aama:IDba8b4d10-b7a1-40f0-aa66-b48622412381 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImperf-daam ;
 	sah:person sah:Person1 ;
@@ -3529,56 +3529,6 @@ aama:IDe573630c-e583-4f4d-937c-dc0d7e776e9f a aamas:Term ;
 	sah:token "ɗaama" ;
 	.
 
-#TERMCLUSTER:  saho-VSuffNegPerf-daam
-
-sah:saho-VSuffNegPerf-daam a aamas:Termcluster ;
-	rdfs:label "saho-VSuffNegPerf-daam" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
-            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
-	.
-
-aama:ID2bc327ff-0fb0-4c2f-a8ce-84fda6ee7b55 a aamas:Term ;
-	aamas:lang aama:Saho ;
-	aamas:memberOf sah:saho-VSuffNegPerf-daam ;
-	sah:person sah:Person1 ;
-	sah:derivedStem sah:B ;
-	sah:number sah:Singular ;
-	sah:pos sah:Verb ;
-	aamas:lexeme aama:Saho-daam ;
-	sah:conjClass sah:Suffix ;
-	sah:polarity sah:Negative ;
-	sah:tam sah:Perfect ;
-	sah:token-gloss "I didn’t buy (it)" ;
-	sah:gender sah:Common ;
-	sah:pdgmType sah:Partial ;
-	sah:token "máɗaaminnio " ;
-	.
-
-#TERMCLUSTER:  saho-VPrefNegPerf-erd
-
-sah:saho-VPrefNegPerf-erd a aamas:Termcluster ;
-	rdfs:label "saho-VPrefNegPerf-erd" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
-            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
-	.
-
-aama:ID8690779d-c7a5-47d4-a161-6cdfb53a2f04 a aamas:Term ;
-	aamas:lang aama:Saho ;
-	aamas:memberOf sah:saho-VPrefNegPerf-erd ;
-	sah:person sah:Person3 ;
-	sah:derivedStem sah:B ;
-	sah:number sah:Plural ;
-	sah:pos sah:Verb ;
-	aamas:lexeme aama:Saho-erd ;
-	sah:conjClass sah:Prefix ;
-	sah:polarity sah:Negative ;
-	sah:tam sah:Perfect ;
-	sah:token-gloss "they didn’t run" ;
-	sah:gender sah:Common ;
-	sah:pdgmType sah:Partial ;
-	sah:token "méerdinnun" ;
-	.
-
 #TERMCLUSTER:  saho-VPrefAffImprtv-eemen
 
 sah:saho-VPrefAffImprtv-eemen a aamas:Termcluster ;
@@ -3587,7 +3537,7 @@ sah:saho-VPrefAffImprtv-eemen a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDe66c3ed3-290a-4b2e-835b-1796a9c1310f a aamas:Term ;
+aama:IDa7e4a0b4-e1e3-4c0b-8ea7-94d21b480cc4 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eemen ;
 	sah:person sah:Person2 ;
@@ -3603,31 +3553,6 @@ aama:IDe66c3ed3-290a-4b2e-835b-1796a9c1310f a aamas:Term ;
 	sah:token "imin" ;
 	.
 
-#TERMCLUSTER:  saho-VPrefAffImperf-ubl
-
-sah:saho-VPrefAffImperf-ubl a aamas:Termcluster ;
-	rdfs:label "saho-VPrefAffImperf-ubl" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
-            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
-	.
-
-aama:ID6ddb1c93-ffcd-4c68-a3cc-e28b608b03ee a aamas:Term ;
-	aamas:lang aama:Saho ;
-	aamas:memberOf sah:saho-VPrefAffImperf-ubl ;
-	sah:person sah:Person1 ;
-	sah:derivedStem sah:S1 ;
-	sah:number sah:Singular ;
-	sah:pos sah:Verb ;
-	aamas:lexeme aama:Saho-ubl ;
-	sah:conjClass sah:Prefix ;
-	sah:polarity sah:Affirmative ;
-	sah:tam sah:Imperfect ;
-	sah:token-gloss "show" ;
-	sah:gender sah:Common ;
-	sah:pdgmType sah:Partial ;
-	sah:token "ayballe" ;
-	.
-
 #TERMCLUSTER:  saho-VPrefAffImprtv-eehet
 
 sah:saho-VPrefAffImprtv-eehet a aamas:Termcluster ;
@@ -3636,7 +3561,7 @@ sah:saho-VPrefAffImprtv-eehet a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID5a903121-1556-482e-bfb3-f7b4c7366769 a aamas:Term ;
+aama:IDa07fba84-687a-4a3a-b9cc-0705b83c0b58 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eehet ;
 	sah:person sah:Person2 ;
@@ -3660,7 +3585,7 @@ sah:saho-VPrefAffImprtv-alaa a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID87331552-ad73-424a-b768-2952f4779b77 a aamas:Term ;
+aama:IDc9aacd95-d21f-49b2-88b4-3f3a52c8e037 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-alaa ;
 	sah:person sah:Person2 ;
@@ -3684,7 +3609,7 @@ sah:saho-VPrefAffPart-emeet a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDf4667561-8901-4fa5-8983-c5afdd0de33b a aamas:Term ;
+aama:ID2e649ed6-2124-4385-9578-7ab0cf0c84d6 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPart-emeet ;
 	sah:conjClass sah:Prefix ;
@@ -3698,31 +3623,6 @@ aama:IDf4667561-8901-4fa5-8983-c5afdd0de33b a aamas:Term ;
 	sah:token "amáti" ;
 	.
 
-#TERMCLUSTER:  saho-VPrefAffImprtv-ubl
-
-sah:saho-VPrefAffImprtv-ubl a aamas:Termcluster ;
-	rdfs:label "saho-VPrefAffImprtv-ubl" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
-            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
-	.
-
-aama:ID73cab44c-5717-42f0-b9bd-772f456e0bad a aamas:Term ;
-	aamas:lang aama:Saho ;
-	aamas:memberOf sah:saho-VPrefAffImprtv-ubl ;
-	sah:person sah:Person2 ;
-	sah:derivedStem sah:S1 ;
-	sah:number sah:Singular ;
-	sah:pos sah:Verb ;
-	aamas:lexeme aama:Saho-ubl ;
-	sah:conjClass sah:Prefix ;
-	sah:polarity sah:Affirmative ;
-	sah:tam sah:Imperative ;
-	sah:token-gloss "show" ;
-	sah:gender sah:Common ;
-	sah:pdgmType sah:Partial ;
-	sah:token "uybullu ~ uybulla" ;
-	.
-
 #TERMCLUSTER:  saho-VPrefParticiple-ed
 
 sah:saho-VPrefParticiple-ed a aamas:Termcluster ;
@@ -3730,7 +3630,7 @@ sah:saho-VPrefParticiple-ed a aamas:Termcluster ;
 	rdfs:comment "Welmers1952b p. 249" 
 	.
 
-aama:ID5ba83769-e731-46c1-a885-40cd7393d0d8 a aamas:Term ;
+aama:ID1b411bc4-3390-4baf-9a1e-4743febd1cb0 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefParticiple-ed ;
 	sah:conjClass sah:Prefix ;
@@ -3751,7 +3651,7 @@ sah:saho-VSuffAffImprtv-daam a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDf2b38cb2-f870-4f76-a58c-393ff644d373 a aamas:Term ;
+aama:IDd3e2a2e8-79ce-49ba-960a-25f850944b64 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-daam ;
 	sah:person sah:Person2 ;
@@ -3775,7 +3675,7 @@ sah:saho-VPrefAffPerf-eeit a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID335a634b-9101-4ed2-8ba7-f3f831e33293 a aamas:Term ;
+aama:IDdc9dae71-ffe1-40e7-9db6-5e65834214bc a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eeit ;
 	sah:person sah:Unmarked ;
@@ -3798,7 +3698,7 @@ sah:saho-VSuffAffPerf-biil a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDccf714c4-345e-4b96-a819-cf444cee734b a aamas:Term ;
+aama:ID1181f1e8-d109-49da-8203-4c55a391e1cb a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-biil ;
 	sah:person sah:Unmarked ;
@@ -3821,7 +3721,7 @@ sah:saho-VPrefAffImperf-eehet a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID26751cd9-546e-4841-97c7-1af9135f528e a aamas:Term ;
+aama:ID51fa238b-70c8-46cd-bb71-9d2a8dbd3b2c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-eehet ;
 	sah:person sah:Person1 ;
@@ -3845,7 +3745,7 @@ sah:saho-VSuffAffImprtv-deer a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID4c1c3aa0-2150-40d8-b17f-3cb24ddb68f2 a aamas:Term ;
+aama:ID971ec756-6355-4838-a3db-f178fcf30459 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-deer ;
 	sah:person sah:Person2 ;
@@ -3869,7 +3769,7 @@ sah:saho-VPrefAffImprtv-err a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID9403ac53-da4a-4941-a693-4d1bf406fee2 a aamas:Term ;
+aama:ID49e9c0c1-cf7c-41e4-8898-1f6e0aa61d04 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-err ;
 	sah:person sah:Person2 ;
@@ -3893,7 +3793,7 @@ sah:saho-VPrefAffPerf-infili- a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDb1f0cefb-38e6-42cd-af9b-43a941d62a8b a aamas:Term ;
+aama:ID218bf157-3d37-4d04-bf3f-e8b1f7619c22 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-infili- ;
 	sah:person sah:Unmarked ;
@@ -3916,7 +3816,7 @@ sah:saho-VSuffAffPerf-bad a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDfc1db6cd-6567-410c-87d9-7b86580770ef a aamas:Term ;
+aama:ID4e1d2a7e-6479-46e9-b443-51dce71f89a0 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-bad ;
 	sah:person sah:Unmarked ;
@@ -3939,7 +3839,7 @@ sah:saho-VPrefAffPerf-eebeh a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDffd42daa-94f6-4d47-8c58-daacd50a3c8d a aamas:Term ;
+aama:IDae01f36b-1f0e-46ed-9578-4732ca774cb5 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eebeh ;
 	sah:person sah:Unmarked ;
@@ -3961,7 +3861,7 @@ sah:saho-VPrefImperf-inni a aamas:Termcluster ;
 	rdfs:comment "Welmers1952b p. 249" 
 	.
 
-aama:IDa6f17165-2918-4649-bbd5-dda580c21614 a aamas:Term ;
+aama:ID2b5c8048-ec85-4766-96ef-12722d712c90 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefImperf-inni ;
 	sah:conjClass sah:Prefix ;
@@ -3974,7 +3874,7 @@ aama:IDa6f17165-2918-4649-bbd5-dda580c21614 a aamas:Term ;
 	sah:gender sah:Fem ;
 	.
 
-aama:ID411987ca-addd-4b84-ab28-6b12e45ff552 a aamas:Term ;
+aama:ID960bd2ba-668e-4049-a002-986a6560e8b6 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefImperf-inni ;
 	sah:conjClass sah:Prefix ;
@@ -3987,7 +3887,7 @@ aama:ID411987ca-addd-4b84-ab28-6b12e45ff552 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID13ce6a37-de61-4dbb-882e-0195888583f7 a aamas:Term ;
+aama:IDd7a7cae4-ae29-4480-98d4-b10f372fe048 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefImperf-inni ;
 	sah:conjClass sah:Prefix ;
@@ -4000,7 +3900,7 @@ aama:ID13ce6a37-de61-4dbb-882e-0195888583f7 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID234a5ea1-be94-461c-bb8c-11f229be395b a aamas:Term ;
+aama:ID8618fc6e-1a9b-4fbc-9f58-23d402df3b38 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefImperf-inni ;
 	sah:conjClass sah:Prefix ;
@@ -4013,7 +3913,7 @@ aama:ID234a5ea1-be94-461c-bb8c-11f229be395b a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID469f036d-d400-4488-84a1-2d271a453702 a aamas:Term ;
+aama:ID7d0d8808-8577-4b49-856d-d03106dbdf1f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefImperf-inni ;
 	sah:conjClass sah:Prefix ;
@@ -4026,7 +3926,7 @@ aama:ID469f036d-d400-4488-84a1-2d271a453702 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:IDe7548c84-b343-4414-b750-c82b2e2e67de a aamas:Term ;
+aama:IDc09455bf-64b1-4869-93bc-83536634c6fd a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefImperf-inni ;
 	sah:conjClass sah:Prefix ;
@@ -4039,7 +3939,7 @@ aama:IDe7548c84-b343-4414-b750-c82b2e2e67de a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID4b3186c7-ae5f-48f3-9318-418e118de852 a aamas:Term ;
+aama:IDb55d3b83-228a-480e-bc64-347cba4707a9 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefImperf-inni ;
 	sah:conjClass sah:Prefix ;
@@ -4060,7 +3960,7 @@ sah:saho-VPrefAffImprtv-enge a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID5731a2c1-e3c5-4e68-a3e2-393eb248c259 a aamas:Term ;
+aama:ID6faa9e69-089d-41c6-85a3-6d1dd1c1df36 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-enge ;
 	sah:person sah:Person2 ;
@@ -4084,7 +3984,7 @@ sah:saho-VPrefNegImperf-oosol a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID246f98bc-63cc-4322-885a-76207a5f9cc9 a aamas:Term ;
+aama:ID4f726bb1-865c-4165-a99c-952882af7e89 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefNegImperf-oosol ;
 	sah:person sah:Person3 ;
@@ -4108,7 +4008,7 @@ sah:saho-VPrefAffPerf-eedeg a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDe4326cf3-c5ad-402e-8f3d-4d99f367dc4d a aamas:Term ;
+aama:IDda438ae5-ca40-4e11-90db-2b4c4b59ad23 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eedeg ;
 	sah:person sah:Unmarked ;
@@ -4123,6 +4023,31 @@ aama:IDe4326cf3-c5ad-402e-8f3d-4d99f367dc4d a aamas:Term ;
 	sah:token "eeɗege" ;
 	.
 
+#TERMCLUSTER:  saho-VSuffAffJuss-li-daam
+
+sah:saho-VSuffAffJuss-li-daam a aamas:Termcluster ;
+	rdfs:label "saho-VSuffAffJuss-li-daam" ;
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
+            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
+	.
+
+aama:IDd51767be-571e-4e3e-8d23-0ce3c042fcbc a aamas:Term ;
+	aamas:lang aama:Saho ;
+	aamas:memberOf sah:saho-VSuffAffJuss-li-daam ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:number sah:Singular ;
+	sah:pos sah:Verb ;
+	aamas:lexeme aama:Saho-daam ;
+	sah:conjClass sah:Suffix ;
+	sah:polarity sah:Affirmative ;
+	sah:tam sah:JussiveLi ;
+	sah:gender sah:Common ;
+	sah:pdgmType sah:Partial ;
+	sah:token-note "(I guess) I’ll buy it" ;
+	sah:token "ɗáamo-lio" ;
+	.
+
 #TERMCLUSTER:  saho-VPrefAffImprtv-uhfus
 
 sah:saho-VPrefAffImprtv-uhfus a aamas:Termcluster ;
@@ -4131,7 +4056,7 @@ sah:saho-VPrefAffImprtv-uhfus a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID296d55e5-2bba-4c4e-88b6-2dec3aae458f a aamas:Term ;
+aama:ID373265a7-2974-4cd5-b2fc-510091da3497 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-uhfus ;
 	sah:person sah:Person2 ;
@@ -4155,7 +4080,7 @@ sah:saho-VPrefAffImperf-edebb a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID4817f19f-b94d-44d8-862d-d9e7669b7c66 a aamas:Term ;
+aama:ID7225cccb-75e1-4675-91df-5894556c01a4 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-edebb ;
 	sah:person sah:Person1 ;
@@ -4179,7 +4104,7 @@ sah:saho-VSuffAffImprtv-defee a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID5ab89349-aa7a-4b1b-b7ef-7f4425957883 a aamas:Term ;
+aama:IDf3cb543b-ea56-415d-b4c0-db5a75949970 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-defee ;
 	sah:person sah:Person2 ;
@@ -4203,7 +4128,7 @@ sah:saho-VPrefNegImperf-ifriy a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID281cdae1-de10-4eb8-8a45-13b009682837 a aamas:Term ;
+aama:IDdbdd7f81-ae09-47ce-b127-b3f3f7bb19cd a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefNegImperf-ifriy ;
 	sah:person sah:Person3 ;
@@ -4227,7 +4152,7 @@ sah:saho-VPrefAffImperf-emlelekk a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDcadf9c49-08ee-4030-98c9-f11a461d5e21 a aamas:Term ;
+aama:IDa04bdabd-5d2d-4a64-972c-c36612bbca1b a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-emlelekk ;
 	sah:person sah:Person1 ;
@@ -4251,7 +4176,7 @@ sah:saho-VPrefAffPerf-ookom a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID0eefc9a7-b928-4483-b52d-0d7a5e220cbe a aamas:Term ;
+aama:ID00691a37-e7df-4873-89c1-a698ceeccb62 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ookom ;
 	sah:person sah:Unmarked ;
@@ -4274,7 +4199,7 @@ sah:saho-VPrefAffImprtv-iksib a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID32e91491-d656-4152-a897-317b569655c6 a aamas:Term ;
+aama:ID982b408c-377c-455d-bdee-aa9ba3f3e173 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-iksib ;
 	sah:person sah:Person2 ;
@@ -4298,7 +4223,7 @@ sah:saho-VPrefAffPerf-alif a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID8d5c1c71-9b9a-413e-92e0-f0b7924eb382 a aamas:Term ;
+aama:ID31b1730a-597d-4b56-9e27-6d9cf09fc83c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-alif ;
 	sah:person sah:Unmarked ;
@@ -4321,7 +4246,7 @@ sah:saho-VPrefAffImperf-oosol a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID8b09ec51-55b2-497d-9535-87e62b5a419f a aamas:Term ;
+aama:ID9465b8d6-4dc8-4375-bb6c-077d32c7eb18 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-oosol ;
 	sah:person sah:Person3 ;
@@ -4345,7 +4270,7 @@ sah:saho-VPrefAffPerf-idhen a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDbd7d0c5b-98dd-41c8-a524-bada18d6c1c9 a aamas:Term ;
+aama:ID435d255f-f9f1-435d-a74f-7ce61b56c248 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-idhen ;
 	sah:person sah:Unmarked ;
@@ -4368,7 +4293,7 @@ sah:saho-VPrefAffPerf-ibbid a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDed0655b4-2718-4291-8e11-3a64a8f4f1aa a aamas:Term ;
+aama:ID5b606e6d-cede-4759-848d-5bea84d1ca5c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ibbid ;
 	sah:person sah:Unmarked ;
@@ -4391,7 +4316,7 @@ sah:saho-VPrefAffImprtv-oosoom a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID51f72230-ef19-4706-80a1-c27b2897bfaf a aamas:Term ;
+aama:IDdb8fc01f-7dc8-4449-a6ae-d1eed7697bc9 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-oosoom ;
 	sah:person sah:Person2 ;
@@ -4415,7 +4340,7 @@ sah:saho-VPrefAffImprtv-eemeg a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID7f2969a4-5515-4f2a-b458-6894e07c92a2 a aamas:Term ;
+aama:IDdb373d95-9dcc-4efe-a797-9a53d8bb3613 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eemeg ;
 	sah:person sah:Person2 ;
@@ -4439,7 +4364,7 @@ sah:saho-VPrefAffPerf-emlelekke- a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID2384e1b8-ff15-4da2-914c-f1ea74c76b0d a aamas:Term ;
+aama:ID536b9dfa-e459-43fb-a7d3-6ee38e63ea33 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-emlelekke- ;
 	sah:person sah:Unmarked ;
@@ -4462,7 +4387,7 @@ sah:saho-VPrefAffPart-uruf a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDa8c7f1dd-3478-44f8-a1ea-e3adf1c793e6 a aamas:Term ;
+aama:ID7d00145c-c812-4f3f-8e61-b89bd25e1d8d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPart-uruf ;
 	sah:conjClass sah:Prefix ;
@@ -4484,7 +4409,7 @@ sah:saho-VSuffAffPerf-abaas a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID9b0a78f7-05a3-4259-bf4e-7f51f6fd036b a aamas:Term ;
+aama:ID07f5d088-e984-454a-ab8d-84566aba6c5d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-abaas ;
 	sah:person sah:Unmarked ;
@@ -4507,7 +4432,7 @@ sah:saho-VPrefAffPerf-igre a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDb04f6c72-fe64-4c11-803b-42f186c5b4bc a aamas:Term ;
+aama:IDc2819f17-9e09-44e1-aeee-fe80c7a86403 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-igre ;
 	sah:person sah:Unmarked ;
@@ -4522,31 +4447,6 @@ aama:IDb04f6c72-fe64-4c11-803b-42f186c5b4bc a aamas:Term ;
 	sah:token "igreʕe" ;
 	.
 
-#TERMCLUSTER:  saho-VSuffAffImprtv-bolol
-
-sah:saho-VSuffAffImprtv-bolol a aamas:Termcluster ;
-	rdfs:label "saho-VSuffAffImprtv-bolol" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
-            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
-	.
-
-aama:ID241ec5a6-acd6-449f-a8c2-4db68ac50320 a aamas:Term ;
-	aamas:lang aama:Saho ;
-	aamas:memberOf sah:saho-VSuffAffImprtv-bolol ;
-	sah:person sah:Person2 ;
-	sah:derivedStem sah:S2 ;
-	sah:number sah:Singular ;
-	sah:pos sah:Verb ;
-	aamas:lexeme aama:Saho-bolol ;
-	sah:conjClass sah:Suffix ;
-	sah:polarity sah:Affirmative ;
-	sah:tam sah:Imperative ;
-	sah:token-gloss "have someone set fire" ;
-	sah:gender sah:Common ;
-	sah:pdgmType sah:Partial ;
-	sah:token "bololsis" ;
-	.
-
 #TERMCLUSTER:  saho-VSuffAffJuss-dufu
 
 sah:saho-VSuffAffJuss-dufu a aamas:Termcluster ;
@@ -4555,7 +4455,7 @@ sah:saho-VSuffAffJuss-dufu a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDe1a693af-deb1-4ce3-a5d1-d20f738ffbb3 a aamas:Term ;
+aama:IDf09ac1a6-9cd1-46e9-9ef7-75ed0deca045 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffJuss-dufu ;
 	sah:person sah:Person3 ;
@@ -4579,7 +4479,7 @@ sah:saho-VPrefAffImprtv-ew a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDea32f9c9-fc0f-4778-91c0-13dbfafed06b a aamas:Term ;
+aama:IDc21f2948-16bb-4ad8-ad64-960095977e88 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ew ;
 	sah:person sah:Person2 ;
@@ -4603,7 +4503,7 @@ sah:saho-VPrefAffPerf-eney- a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDa1b5ed20-c8c8-4fff-9233-5d34341eb6f8 a aamas:Term ;
+aama:ID88a53b9f-4992-41e4-adce-6e06fe421345 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eney- ;
 	sah:person sah:Unmarked ;
@@ -4626,7 +4526,7 @@ sah:saho-VPrefAffImprtv-eyteher a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID855d7e13-62de-49dc-9b68-f7571452e242 a aamas:Term ;
+aama:IDef276019-f64c-4d72-8a51-a8bebfe7e761 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eyteher ;
 	sah:person sah:Person2 ;
@@ -4650,7 +4550,7 @@ sah:saho-VPrefAffPerf-oorof a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDc8bbd6ab-5cfb-4c2b-a4c3-0fe6e743a436 a aamas:Term ;
+aama:ID4fba0c0b-289b-409f-9f79-523b67850589 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-oorof ;
 	sah:person sah:Unmarked ;
@@ -4673,7 +4573,7 @@ sah:saho-VSuffAffImperf-dufu a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID44ebf13c-44d0-4da8-b532-245805669dca a aamas:Term ;
+aama:ID21c13166-e080-4dc8-b2cb-b06505db698e a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImperf-dufu ;
 	sah:person sah:Person3 ;
@@ -4689,31 +4589,6 @@ aama:ID44ebf13c-44d0-4da8-b532-245805669dca a aamas:Term ;
 	sah:token "dufuan" ;
 	.
 
-#TERMCLUSTER:  saho-VPrefAffImprtv-eqri
-
-sah:saho-VPrefAffImprtv-eqri a aamas:Termcluster ;
-	rdfs:label "saho-VPrefAffImprtv-eqri" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
-            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
-	.
-
-aama:IDdcbc76f0-5e75-4054-b0d8-263909e4aa2e a aamas:Term ;
-	aamas:lang aama:Saho ;
-	aamas:memberOf sah:saho-VPrefAffImprtv-eqri ;
-	sah:person sah:Person2 ;
-	sah:derivedStem sah:B_Intens ;
-	sah:number sah:Singular ;
-	sah:pos sah:Verb ;
-	aamas:lexeme aama:Saho-eqri ;
-	sah:conjClass sah:Prefix ;
-	sah:polarity sah:Affirmative ;
-	sah:tam sah:Imperative ;
-	sah:token-gloss "read Koran to oneself" ;
-	sah:gender sah:Common ;
-	sah:pdgmType sah:Partial ;
-	sah:token "eqriri" ;
-	.
-
 #TERMCLUSTER:  saho-VSuffAffPerf-daam
 
 sah:saho-VSuffAffPerf-daam a aamas:Termcluster ;
@@ -4722,7 +4597,7 @@ sah:saho-VSuffAffPerf-daam a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID6813a3be-adc4-4de6-8215-7115f6c6db8c a aamas:Term ;
+aama:IDbd21e4fd-1d77-4c05-bb49-d68b2e13834d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-daam ;
 	sah:person sah:Unmarked ;
@@ -4745,7 +4620,7 @@ sah:saho-VSuffAffPerf-abah a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID72654849-b11e-4010-84d2-e660e4264de0 a aamas:Term ;
+aama:IDc6997278-4380-4400-baf1-0c32c5dc6db3 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-abah ;
 	sah:person sah:Unmarked ;
@@ -4768,7 +4643,7 @@ sah:saho-VPrefNegImprtv-enge a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDf727e731-2ecc-4563-a3c1-7fa599361637 a aamas:Term ;
+aama:ID55fbf9b5-8902-46fd-a6fe-5b4c16d140bb a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefNegImprtv-enge ;
 	sah:person sah:Person2 ;
@@ -4784,31 +4659,6 @@ aama:IDf727e731-2ecc-4563-a3c1-7fa599361637 a aamas:Term ;
 	sah:token "méengeʕin" ;
 	.
 
-#TERMCLUSTER:  saho-VPrefAffPerf-m-emeet
-
-sah:saho-VPrefAffPerf-m-emeet a aamas:Termcluster ;
-	rdfs:label "saho-VPrefAffPerf-m-emeet" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
-            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
-	.
-
-aama:IDbb40d602-1975-4859-b784-2b0a9f1815c7 a aamas:Term ;
-	aamas:lang aama:Saho ;
-	aamas:memberOf sah:saho-VPrefAffPerf-m-emeet ;
-	sah:person sah:Person2 ;
-	sah:derivedStem sah:B ;
-	sah:number sah:Singular ;
-	sah:pos sah:Verb ;
-	aamas:lexeme aama:Saho-emeet ;
-	sah:conjClass sah:Prefix ;
-	sah:polarity sah:Affirmative ;
-	sah:tam sah:PerfectM ;
-	sah:token-gloss "temeetem uble ‘I saw you coming’" ;
-	sah:gender sah:Common ;
-	sah:pdgmType sah:Partial ;
-	sah:token "temeete-m " ;
-	.
-
 #TERMCLUSTER:  saho-VPrefAffImprtv-ifteh
 
 sah:saho-VPrefAffImprtv-ifteh a aamas:Termcluster ;
@@ -4817,7 +4667,7 @@ sah:saho-VPrefAffImprtv-ifteh a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDf919d7a7-7500-4ba9-addf-057da5783c14 a aamas:Term ;
+aama:ID39bbc654-5106-46bd-998a-2c53fc326f80 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ifteh ;
 	sah:person sah:Person2 ;
@@ -4833,6 +4683,31 @@ aama:IDf919d7a7-7500-4ba9-addf-057da5783c14 a aamas:Term ;
 	sah:token "ihfiteḥ" ;
 	.
 
+#TERMCLUSTER:  saho-VPrefAffImperf-ubl
+
+sah:saho-VPrefAffImperf-ubl a aamas:Termcluster ;
+	rdfs:label "saho-VPrefAffImperf-ubl" ;
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
+            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
+	.
+
+aama:ID71f66e57-6516-4989-9d5d-63a68d8052f3 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	aamas:memberOf sah:saho-VPrefAffImperf-ubl ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:S1 ;
+	sah:number sah:Singular ;
+	sah:pos sah:Verb ;
+	aamas:lexeme aama:Saho-ubl ;
+	sah:conjClass sah:Prefix ;
+	sah:polarity sah:Affirmative ;
+	sah:tam sah:Imperfect ;
+	sah:gender sah:Common ;
+	sah:pdgmType sah:Partial ;
+	sah:token-note "show" ;
+	sah:token "ayballe" ;
+	.
+
 #TERMCLUSTER:  saho-VPrefAffJuss-ki-ubl
 
 sah:saho-VPrefAffJuss-ki-ubl a aamas:Termcluster ;
@@ -4841,7 +4716,7 @@ sah:saho-VPrefAffJuss-ki-ubl a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID83f23216-a09d-4ac2-9bfd-b83f7296197c a aamas:Term ;
+aama:IDacc37827-b5a6-46b8-95a8-c2fa94000b22 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-ki-ubl ;
 	sah:person sah:Person1 ;
@@ -4865,7 +4740,7 @@ sah:saho-VPrefAffImprtv-ooog a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDbccded4b-0a08-474e-ab2c-2530a09e1ab1 a aamas:Term ;
+aama:ID3117eecd-fae6-4af8-8893-7da802f30c92 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ooog ;
 	sah:person sah:Person2 ;
@@ -4889,7 +4764,7 @@ sah:saho-VPrefAffImperf-eney- a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID6975718d-f592-4d90-a6ce-cad42b6f31fc a aamas:Term ;
+aama:ID943f16b5-e710-42a8-9aca-c582d2811d8f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-eney- ;
 	sah:person sah:Person1 ;
@@ -4913,7 +4788,7 @@ sah:saho-VPrefAffImperf-uruf a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID86bf445f-ac8d-4e51-b071-15057e86a99d a aamas:Term ;
+aama:ID28e0bab0-8e78-4248-b1d2-81b61d7faba9 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-uruf ;
 	sah:person sah:Person3 ;
@@ -4937,7 +4812,7 @@ sah:saho-VPrefNegImperf-eedeg a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID00b7450d-0bb0-4485-b56f-ec1abde32641 a aamas:Term ;
+aama:ID1e430889-99f0-49c3-99ed-b18ad1e15699 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefNegImperf-eedeg ;
 	sah:person sah:Person1 ;
@@ -4961,7 +4836,7 @@ sah:saho-VPrefAffImprtv-uru-spec a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID2a2336d8-2e1f-4b73-b65d-ecbc30a80bb2 a aamas:Term ;
+aama:IDb56212f8-13de-4e02-8bd4-eb1d3fc30a16 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-uru-spec ;
 	sah:person sah:Person2 ;
@@ -4985,7 +4860,7 @@ sah:saho-VPrefAffPerf-ekett a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID66cea2c6-facc-4d9b-a969-a2083fc56b72 a aamas:Term ;
+aama:IDeaa6093b-6967-4627-86f9-a5560b4131d1 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ekett ;
 	sah:person sah:Unmarked ;
@@ -5008,7 +4883,7 @@ sah:saho-VSuffAffImprtv-beet a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID99c324c3-7190-4333-96ba-02cb1447b595 a aamas:Term ;
+aama:IDda51df70-b10a-4431-850b-1045bbb3b4a2 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-beet ;
 	sah:person sah:Person2 ;
@@ -5032,7 +4907,7 @@ sah:saho-VPrefAffImperf-ul a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID65d82b72-af78-4ba7-b845-4f1201c2b0c9 a aamas:Term ;
+aama:ID99efacbe-51a5-435b-a970-438bcb00e64b a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-ul ;
 	sah:person sah:Person2 ;
@@ -5056,7 +4931,7 @@ sah:saho-VPrefAffJuss-edh a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID43ff379d-afc9-46b7-8b4e-5e82b2a31274 a aamas:Term ;
+aama:ID4499e9cc-2d80-4fa6-87b0-52052e2605eb a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-edh ;
 	sah:person sah:Person3 ;
@@ -5080,7 +4955,7 @@ sah:saho-VSuffAffPerf-ab a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID4be8852e-2733-4c80-a259-cbc028f54889 a aamas:Term ;
+aama:ID2ac99a2c-aea4-4136-8a47-2db77c9362b8 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-ab ;
 	sah:person sah:Unmarked ;
@@ -5103,7 +4978,7 @@ sah:saho-VSuffNegImperf-daam a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDfe4f11ad-d85a-41e5-a70b-c24c8dd39584 a aamas:Term ;
+aama:ID6ca53b19-596c-4221-9899-bc9bab64511d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffNegImperf-daam ;
 	sah:person sah:Person1 ;
@@ -5127,7 +5002,7 @@ sah:saho-VPrefAffPerf-ew a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDb915aabf-ac8b-48d0-83d9-c2e7df2bb77f a aamas:Term ;
+aama:ID15394ba8-f78f-4221-9cd3-63d2bc1dc14f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ew ;
 	sah:person sah:Unmarked ;
@@ -5150,7 +5025,7 @@ sah:saho-VPrefNegImperf-ubl a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDddf39dc0-2d36-48ac-a7f1-fd7c27bed87b a aamas:Term ;
+aama:ID6ca409f9-1da8-4cf5-8217-130257a17b19 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefNegImperf-ubl ;
 	sah:person sah:Person1 ;
@@ -5174,7 +5049,7 @@ sah:saho-VPrefAffPerf-eheeseb a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDd6a03347-dbd6-4ba9-b87e-ba1db1455734 a aamas:Term ;
+aama:IDa9a57ec7-33ac-4c4e-a1f4-4b3add74f4a9 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eheeseb ;
 	sah:person sah:Unmarked ;
@@ -5197,7 +5072,7 @@ sah:saho-VPrefAffImprtv-oosol a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID708566fc-d3f0-4c01-bf54-e8efc9c282f5 a aamas:Term ;
+aama:ID04a69374-5db3-42c0-94fc-4c764369dc42 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-oosol ;
 	sah:person sah:Person2 ;
@@ -5213,56 +5088,6 @@ aama:ID708566fc-d3f0-4c01-bf54-e8efc9c282f5 a aamas:Term ;
 	sah:token "usul" ;
 	.
 
-#TERMCLUSTER:  saho-VPrefAffImperf-li-emeet
-
-sah:saho-VPrefAffImperf-li-emeet a aamas:Termcluster ;
-	rdfs:label "saho-VPrefAffImperf-li-emeet" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
-            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
-	.
-
-aama:ID4aa01e34-dc34-4247-9c05-b6f129cd570f a aamas:Term ;
-	aamas:lang aama:Saho ;
-	aamas:memberOf sah:saho-VPrefAffImperf-li-emeet ;
-	sah:person sah:Person1 ;
-	sah:derivedStem sah:B ;
-	sah:number sah:Plural ;
-	sah:pos sah:Verb ;
-	aamas:lexeme aama:Saho-emeet ;
-	sah:conjClass sah:Prefix ;
-	sah:polarity sah:Affirmative ;
-	sah:tam sah:ImperfectLi ;
-	sah:token-gloss "we will come (future)" ;
-	sah:gender sah:Common ;
-	sah:pdgmType sah:Partial ;
-	sah:token "nemeeté-lio" ;
-	.
-
-#TERMCLUSTER:  saho-VSuffAffImperf-inni-hankabit
-
-sah:saho-VSuffAffImperf-inni-hankabit a aamas:Termcluster ;
-	rdfs:label "saho-VSuffAffImperf-inni-hankabit" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
-            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
-	.
-
-aama:ID3231624f-30a5-4837-a5be-78ecaf9b7117 a aamas:Term ;
-	aamas:lang aama:Saho ;
-	aamas:memberOf sah:saho-VSuffAffImperf-inni-hankabit ;
-	sah:person sah:Person2 ;
-	sah:derivedStem sah:T ;
-	sah:number sah:Plural ;
-	sah:pos sah:Verb ;
-	aamas:lexeme aama:Saho-hankabit ;
-	sah:conjClass sah:Suffix ;
-	sah:polarity sah:Affirmative ;
-	sah:tam sah:ImperfectInni ;
-	sah:token-gloss "you have been frightened" ;
-	sah:gender sah:Common ;
-	sah:pdgmType sah:Partial ;
-	sah:token "ḥankabittéhane" ;
-	.
-
 #TERMCLUSTER:  saho-VPrefAffImprtv-oho-
 
 sah:saho-VPrefAffImprtv-oho- a aamas:Termcluster ;
@@ -5271,7 +5096,7 @@ sah:saho-VPrefAffImprtv-oho- a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID4f71f3c7-d2ce-47db-8eb2-c6bc2885aaad a aamas:Term ;
+aama:ID140b692a-0fc1-4976-9e25-b6fce0f94c19 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-oho- ;
 	sah:person sah:Person2 ;
@@ -5287,31 +5112,6 @@ aama:ID4f71f3c7-d2ce-47db-8eb2-c6bc2885aaad a aamas:Term ;
 	sah:token "uḥu" ;
 	.
 
-#TERMCLUSTER:  saho-VPrefAffImperf-inniPerf-ubl
-
-sah:saho-VPrefAffImperf-inniPerf-ubl a aamas:Termcluster ;
-	rdfs:label "saho-VPrefAffImperf-inniPerf-ubl" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
-            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
-	.
-
-aama:ID594df8a2-d4c4-4106-a862-1691414c5053 a aamas:Term ;
-	aamas:lang aama:Saho ;
-	aamas:memberOf sah:saho-VPrefAffImperf-inniPerf-ubl ;
-	sah:person sah:Person3 ;
-	sah:derivedStem sah:B ;
-	sah:number sah:Singular ;
-	sah:pos sah:Verb ;
-	aamas:lexeme aama:Saho-ubl ;
-	sah:conjClass sah:Prefix ;
-	sah:polarity sah:Affirmative ;
-	sah:tam sah:ImperfectInni ;
-	sah:token-gloss "he had seen (it)" ;
-	sah:gender sah:Masc ;
-	sah:pdgmType sah:Partial ;
-	sah:token "yubléhine " ;
-	.
-
 #TERMCLUSTER:  saho-VPrefAffPerf-edh
 
 sah:saho-VPrefAffPerf-edh a aamas:Termcluster ;
@@ -5320,7 +5120,7 @@ sah:saho-VPrefAffPerf-edh a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDbbf952ee-4924-498b-9756-60ad2d65e2ef a aamas:Term ;
+aama:ID01523064-1875-45a2-af7b-63d5b023e18e a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-edh ;
 	sah:person sah:Unmarked ;
@@ -5343,7 +5143,7 @@ sah:saho-VPrefAffPerf-uru-spec a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDe2cf2202-8ea7-4213-93b1-d425b71cee73 a aamas:Term ;
+aama:IDba4aa14c-03a1-44ab-bb86-1d8ec668cc63 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-uru-spec ;
 	sah:person sah:Unmarked ;
@@ -5366,7 +5166,7 @@ sah:saho-VPrefAffPerf-oosol a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID1f9a7c38-05be-4d63-9c01-5c9c1565afb6 a aamas:Term ;
+aama:ID6df0e96e-d022-439b-bc07-4ba77fad2928 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-oosol ;
 	sah:person sah:Unmarked ;
@@ -5389,7 +5189,7 @@ sah:saho-VPrefAffPerf-oosoom a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID41fc1eef-4772-40cc-945a-55e72d847d81 a aamas:Term ;
+aama:ID9464a88a-4018-4e73-a473-250171bd353c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-oosoom ;
 	sah:person sah:Unmarked ;
@@ -5412,7 +5212,7 @@ sah:saho-VPrefAffPerf-ikfil a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID94d2a0b9-dccd-4a21-86a1-1c72ae3e4422 a aamas:Term ;
+aama:ID08f0527f-ff8b-4071-b58d-fd7d10df900e a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ikfil ;
 	sah:person sah:Unmarked ;
@@ -5427,31 +5227,6 @@ aama:ID94d2a0b9-dccd-4a21-86a1-1c72ae3e4422 a aamas:Term ;
 	sah:token "inkifile" ;
 	.
 
-#TERMCLUSTER:  saho-VSuffNegJuss-daam
-
-sah:saho-VSuffNegJuss-daam a aamas:Termcluster ;
-	rdfs:label "saho-VSuffNegJuss-daam" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
-            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
-	.
-
-aama:ID9f77fe15-0133-4077-aa7c-ca29ffc17cef a aamas:Term ;
-	aamas:lang aama:Saho ;
-	aamas:memberOf sah:saho-VSuffNegJuss-daam ;
-	sah:person sah:Person1 ;
-	sah:derivedStem sah:B ;
-	sah:number sah:Singular ;
-	sah:pos sah:Verb ;
-	aamas:lexeme aama:Saho-daam ;
-	sah:conjClass sah:Suffix ;
-	sah:polarity sah:Negative ;
-	sah:tam sah:Jussive ;
-	sah:token-gloss "I didn’t (?) buy it" ;
-	sah:gender sah:Common ;
-	sah:pdgmType sah:Partial ;
-	sah:token "maɗáamo-ine" ;
-	.
-
 #TERMCLUSTER:  saho-VPrefAffImprtv-uuluus-
 
 sah:saho-VPrefAffImprtv-uuluus- a aamas:Termcluster ;
@@ -5460,7 +5235,7 @@ sah:saho-VPrefAffImprtv-uuluus- a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDbad98e4c-5110-4d8f-ab8c-e560008ea49f a aamas:Term ;
+aama:ID361d7bca-ad30-4733-bfb3-f8e81a41a6db a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-uuluus- ;
 	sah:person sah:Person2 ;
@@ -5484,7 +5259,7 @@ sah:saho-VPrefAffImprtv-eney- a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID38f6d6d8-f8cf-4bc0-ac10-69c34649b0c2 a aamas:Term ;
+aama:IDa3db874e-e220-4276-a2b9-ead7987fdabb a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eney- ;
 	sah:person sah:Person2 ;
@@ -5508,7 +5283,7 @@ sah:saho-VPrefAffJuss-ki-ehzen a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDd3a9ad8a-6b52-4d81-b380-cc833deb6b17 a aamas:Term ;
+aama:ID5cd417a4-0f59-41f0-8cce-889eb7eb20c6 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-ki-ehzen ;
 	sah:person sah:Person2 ;
@@ -5532,7 +5307,7 @@ sah:saho-VSuffAffJuss-alif a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID8bb1db02-85ac-41fa-9952-d4dfbe57ebd4 a aamas:Term ;
+aama:ID109cb5d5-07ad-456f-b828-4767db4b0c6c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffJuss-alif ;
 	sah:person sah:Person1 ;
@@ -5556,7 +5331,7 @@ sah:saho-VPrefAffImprtv-oysoom a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID10cf017d-92ba-4b99-b076-fe80831f4238 a aamas:Term ;
+aama:IDf3f5648b-61e6-4b36-8bf8-c0818fe33651 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-oysoom ;
 	sah:person sah:Unmarked ;
@@ -5580,7 +5355,7 @@ sah:saho-VSuffNegImprtv-suu a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID1bad851c-8fe9-4a7a-bff5-a8d48011d908 a aamas:Term ;
+aama:ID116c8e61-19ff-4d11-83ba-bcf0fd72a84e a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffNegImprtv-suu ;
 	sah:person sah:Person2 ;
@@ -5604,7 +5379,7 @@ sah:saho-VPrefAffPerf-engeeg- a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID5f341e1f-dba7-4792-a8e8-cfc7d81397b2 a aamas:Term ;
+aama:IDf0352bfa-9cd7-43df-946d-02f28a11750c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-engeeg- ;
 	sah:person sah:Unmarked ;
@@ -5627,7 +5402,7 @@ sah:saho-VPrefAffPerf-erd a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID2aaa871b-eaeb-4ab3-8221-4f5ba3a82408 a aamas:Term ;
+aama:IDd2bcf8dc-afd9-4dab-a69f-cc981f0eae83 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-erd ;
 	sah:person sah:Unmarked ;
@@ -5642,6 +5417,31 @@ aama:ID2aaa871b-eaeb-4ab3-8221-4f5ba3a82408 a aamas:Term ;
 	sah:token "erde" ;
 	.
 
+#TERMCLUSTER:  saho-VPrefAffImperf-inni-ubl
+
+sah:saho-VPrefAffImperf-inni-ubl a aamas:Termcluster ;
+	rdfs:label "saho-VPrefAffImperf-inni-ubl" ;
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
+            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
+	.
+
+aama:ID3c8dab64-f8b0-4119-acc4-30e8f5dd0175 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	aamas:memberOf sah:saho-VPrefAffImperf-inni-ubl ;
+	sah:person sah:Person3 ;
+	sah:derivedStem sah:B ;
+	sah:number sah:Singular ;
+	sah:pos sah:Verb ;
+	aamas:lexeme aama:Saho-ubl ;
+	sah:conjClass sah:Prefix ;
+	sah:polarity sah:Affirmative ;
+	sah:tam sah:ImperfectInni ;
+	sah:gender sah:Masc ;
+	sah:pdgmType sah:Partial ;
+	sah:token-note "he has seen (it)" ;
+	sah:token "yubléhane" ;
+	.
+
 #TERMCLUSTER:  saho-VPrefAffJuss-eedeg
 
 sah:saho-VPrefAffJuss-eedeg a aamas:Termcluster ;
@@ -5650,7 +5450,7 @@ sah:saho-VPrefAffJuss-eedeg a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDd2e151af-b445-4790-be95-92648c160390 a aamas:Term ;
+aama:ID6a962f54-db96-4ff7-9ac0-c2ce30aec819 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-eedeg ;
 	sah:person sah:Person1 ;
@@ -5674,7 +5474,7 @@ sah:saho-VSuffAffImprtv-hay a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDa08a0eac-f2f8-41dc-b8ef-c84e38427abe a aamas:Term ;
+aama:ID37f72999-4c3e-4708-a527-d07ba09571cd a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-hay ;
 	sah:person sah:Person2 ;
@@ -5698,7 +5498,7 @@ sah:saho-VPrefAffPerf-oofo a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDce19f99a-6473-41c4-bfa3-288a637f9ecf a aamas:Term ;
+aama:IDd423c9be-5fa0-48e0-a37c-5935218d5525 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-oofo ;
 	sah:person sah:Unmarked ;
@@ -5713,6 +5513,31 @@ aama:IDce19f99a-6473-41c4-bfa3-288a637f9ecf a aamas:Term ;
 	sah:token "yomoofoe" ;
 	.
 
+#TERMCLUSTER:  saho-VSuffAffImperf-m-rab
+
+sah:saho-VSuffAffImperf-m-rab a aamas:Termcluster ;
+	rdfs:label "saho-VSuffAffImperf-m-rab" ;
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
+            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
+	.
+
+aama:ID1fea88a5-7819-4d2c-a1b3-737ad07d4ec9 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	aamas:memberOf sah:saho-VSuffAffImperf-m-rab ;
+	sah:person sah:Person3 ;
+	sah:derivedStem sah:B ;
+	sah:number sah:Singular ;
+	sah:pos sah:Verb ;
+	aamas:lexeme aama:Saho-rab ;
+	sah:conjClass sah:Suffix ;
+	sah:polarity sah:Affirmative ;
+	sah:tam sah:ImperfectM ;
+	sah:gender sah:Fem ;
+	sah:pdgmType sah:Partial ;
+	sah:token-note "rabtam mango ‘many are dying’ (subordinate)" ;
+	sah:token "rabta-m" ;
+	.
+
 #TERMCLUSTER:  saho-VPrefAffImprtv-eelem
 
 sah:saho-VPrefAffImprtv-eelem a aamas:Termcluster ;
@@ -5721,7 +5546,7 @@ sah:saho-VPrefAffImprtv-eelem a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID4ca4c6d1-04c6-4339-92ea-6b0a5d7aa0c1 a aamas:Term ;
+aama:IDfbf23bea-6479-4885-b8cf-97fe137e851a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eelem ;
 	sah:person sah:Person2 ;
@@ -5745,7 +5570,7 @@ sah:saho-VPrefAffJuss-udud a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDb93d593d-abe1-4353-bd93-d440674ce8b1 a aamas:Term ;
+aama:ID6690c7c1-c079-4575-af99-90fa27eb5c8e a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-udud ;
 	sah:person sah:Person3 ;
@@ -5769,7 +5594,7 @@ sah:saho-VSuffAffImprtv-biaak a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDa2db2534-8f82-4c8a-828d-aeefe648ab5b a aamas:Term ;
+aama:ID69135516-4265-4ae9-87e0-ab3d89cc84e1 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-biaak ;
 	sah:person sah:Person2 ;
@@ -5793,7 +5618,7 @@ sah:saho-VPrefAffImprtv-ibbid a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID767029c7-f93a-429a-bf53-7796fc7977a7 a aamas:Term ;
+aama:ID06863c82-4b71-4891-87f8-baae57af3069 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ibbid ;
 	sah:person sah:Person2 ;
@@ -5817,7 +5642,7 @@ sah:saho-VPrefAffImprtv-oorof a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDaa28d365-5ac8-4b39-9fe6-8432c9ebddd2 a aamas:Term ;
+aama:IDc95d7871-99a1-411c-8b53-38d1af4586f4 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-oorof ;
 	sah:person sah:Person2 ;
@@ -5841,7 +5666,7 @@ sah:saho-VPrefAffImprtv-erd a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDb547d968-b729-4d80-8c90-6b97e92cd262 a aamas:Term ;
+aama:ID1f0149ac-1434-4cc6-b006-cc6d4cfbfff4 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-erd ;
 	sah:person sah:Person2 ;
@@ -5864,7 +5689,7 @@ sah:saho-VPrefCopula-inni a aamas:Termcluster ;
 	rdfs:comment "Welmers1952b p. 249" 
 	.
 
-aama:ID4028593b-f362-46a0-a07a-03db644b09b0 a aamas:Term ;
+aama:ID1563f1fb-86f0-49be-a63d-7add74302c40 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefCopula-inni ;
 	sah:conjClass sah:Prefix ;
@@ -5877,7 +5702,7 @@ aama:ID4028593b-f362-46a0-a07a-03db644b09b0 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:IDe07a8fd8-dafb-4117-b67c-47a1ba47cb25 a aamas:Term ;
+aama:IDc4173ce0-0113-46c9-9371-a6ed423f7138 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefCopula-inni ;
 	sah:conjClass sah:Prefix ;
@@ -5890,7 +5715,7 @@ aama:IDe07a8fd8-dafb-4117-b67c-47a1ba47cb25 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID70ce6ba8-adc9-4edc-a7e1-8639238d8287 a aamas:Term ;
+aama:IDc57bd2db-eee0-4bb0-922a-b5ba166a329a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefCopula-inni ;
 	sah:conjClass sah:Prefix ;
@@ -5903,7 +5728,7 @@ aama:ID70ce6ba8-adc9-4edc-a7e1-8639238d8287 a aamas:Term ;
 	sah:gender sah:Masc ;
 	.
 
-aama:ID9cd5dfaa-cf9c-42fb-8a33-f563b33e26bc a aamas:Term ;
+aama:ID47ae787e-05dc-4686-b267-3fccd0f6efb3 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefCopula-inni ;
 	sah:conjClass sah:Prefix ;
@@ -5916,7 +5741,7 @@ aama:ID9cd5dfaa-cf9c-42fb-8a33-f563b33e26bc a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:IDfbbf249f-f9c7-40ed-a7a2-0774ca9d32b6 a aamas:Term ;
+aama:IDa9c4c79a-21d3-4e4a-a23f-dc4130a99032 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefCopula-inni ;
 	sah:conjClass sah:Prefix ;
@@ -5929,7 +5754,7 @@ aama:IDfbbf249f-f9c7-40ed-a7a2-0774ca9d32b6 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:IDd3a4c95b-c36d-43c6-b2e8-3114cc26727f a aamas:Term ;
+aama:ID2c16c60e-50de-438e-b784-6790fab4ef61 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefCopula-inni ;
 	sah:conjClass sah:Prefix ;
@@ -5942,7 +5767,7 @@ aama:IDd3a4c95b-c36d-43c6-b2e8-3114cc26727f a aamas:Term ;
 	sah:gender sah:Fem ;
 	.
 
-aama:ID9c85557b-b19e-465b-a92b-c36d86630d98 a aamas:Term ;
+aama:IDfc783574-4f76-472b-bcfe-feddc754326f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefCopula-inni ;
 	sah:conjClass sah:Prefix ;
@@ -5963,7 +5788,7 @@ sah:saho-VPrefAffImprtv-edh a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDd9a3ecc3-502c-47d1-823b-284fe8d4898f a aamas:Term ;
+aama:IDe9791ba8-df48-4dce-af7d-424dc297a361 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-edh ;
 	sah:person sah:Person2 ;
@@ -5987,7 +5812,7 @@ sah:saho-VPrefAffPerf-emmeng- a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID0f743143-1f70-4526-8dee-0d3c626f2c87 a aamas:Term ;
+aama:ID1a20c481-4712-43f0-87c2-c385b9d5f38f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-emmeng- ;
 	sah:person sah:Unmarked ;
@@ -6010,7 +5835,7 @@ sah:saho-VPrefAffImperf-urkut a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDd88accca-bb2c-4ba1-b23a-8a47527c9672 a aamas:Term ;
+aama:ID071a5731-823b-4935-bb5b-ae4fa603c789 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-urkut ;
 	sah:person sah:Person3 ;
@@ -6034,7 +5859,7 @@ sah:saho-VPrefAffImprtv-ootok a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID8b1261ce-e4e5-4906-90da-58d30bfdb5dc a aamas:Term ;
+aama:ID6d00cda7-b7ad-426b-bd15-132fbb9fb156 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ootok ;
 	sah:person sah:Person2 ;
@@ -6058,7 +5883,7 @@ sah:saho-VPrefAffImprtv-inebe a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDf0b35481-5d98-40d5-95c9-27d6bb448dee a aamas:Term ;
+aama:ID6e8db167-866e-467b-9c29-bbd3bb4ccf3e a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-inebe ;
 	sah:person sah:Person2 ;
@@ -6074,29 +5899,29 @@ aama:IDf0b35481-5d98-40d5-95c9-27d6bb448dee a aamas:Term ;
 	sah:token "ineʕeb" ;
 	.
 
-#TERMCLUSTER:  saho-VPrefAffImperf-inni-ubl
+#TERMCLUSTER:  saho-VSuffAffJuss-ki-daam
 
-sah:saho-VPrefAffImperf-inni-ubl a aamas:Termcluster ;
-	rdfs:label "saho-VPrefAffImperf-inni-ubl" ;
+sah:saho-VSuffAffJuss-ki-daam a aamas:Termcluster ;
+	rdfs:label "saho-VSuffAffJuss-ki-daam" ;
 	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID0efb6eed-6c9c-4782-9547-4d1486cbdfba a aamas:Term ;
+aama:ID9336143b-880d-488f-b42a-5562aae36e04 a aamas:Term ;
 	aamas:lang aama:Saho ;
-	aamas:memberOf sah:saho-VPrefAffImperf-inni-ubl ;
-	sah:person sah:Person3 ;
+	aamas:memberOf sah:saho-VSuffAffJuss-ki-daam ;
+	sah:person sah:Person1 ;
 	sah:derivedStem sah:B ;
 	sah:number sah:Singular ;
 	sah:pos sah:Verb ;
-	aamas:lexeme aama:Saho-ubl ;
-	sah:conjClass sah:Prefix ;
+	aamas:lexeme aama:Saho-daam ;
+	sah:conjClass sah:Suffix ;
 	sah:polarity sah:Affirmative ;
-	sah:tam sah:ImperfectInni ;
-	sah:token-gloss "he has seen (it)" ;
-	sah:gender sah:Masc ;
+	sah:tam sah:JussiveKi ;
+	sah:gender sah:Common ;
 	sah:pdgmType sah:Partial ;
-	sah:token "yubléhane" ;
+	sah:token-note "I will buy it" ;
+	sah:token "ɗáamo-kio" ;
 	.
 
 #TERMCLUSTER:  saho-VPrefAffImprtv-ibbid
@@ -6107,7 +5932,7 @@ sah:saho-VPrefAffImprtv-ibbid a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID28ca569e-aa8a-4ec8-af8e-6f32db3c15f6 a aamas:Term ;
+aama:ID2eb4c3c6-b741-4a8b-b307-0c332d1c0c3e a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ibbid ;
 	sah:person sah:Person2 ;
@@ -6131,7 +5956,7 @@ sah:saho-VPrefAffImperf-ifriy a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID886b4592-a153-48c4-8c91-7e0ccb07570c a aamas:Term ;
+aama:ID839035d5-a617-46be-ac53-526be2229e20 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-ifriy ;
 	sah:person sah:Person3 ;
@@ -6155,7 +5980,7 @@ sah:saho-VPrefAffImprtv-obb a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDfbc15cfe-c00a-48be-9ee8-be0a77be41a8 a aamas:Term ;
+aama:IDc5f0b294-dd67-4793-80ad-be4eee8a47ed a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-obb ;
 	sah:person sah:Person2 ;
@@ -6171,6 +5996,31 @@ aama:IDfbc15cfe-c00a-48be-9ee8-be0a77be41a8 a aamas:Term ;
 	sah:token "oysobba" ;
 	.
 
+#TERMCLUSTER:  saho-VPrefAffPerf-m-emeet
+
+sah:saho-VPrefAffPerf-m-emeet a aamas:Termcluster ;
+	rdfs:label "saho-VPrefAffPerf-m-emeet" ;
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
+            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
+	.
+
+aama:ID80374cf5-bc74-4821-bb94-7610917c48f0 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	aamas:memberOf sah:saho-VPrefAffPerf-m-emeet ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B ;
+	sah:number sah:Singular ;
+	sah:pos sah:Verb ;
+	aamas:lexeme aama:Saho-emeet ;
+	sah:conjClass sah:Prefix ;
+	sah:polarity sah:Affirmative ;
+	sah:tam sah:PerfectM ;
+	sah:gender sah:Common ;
+	sah:pdgmType sah:Partial ;
+	sah:token-note "temeetem uble ‘I saw you coming’" ;
+	sah:token "temeete-m " ;
+	.
+
 #TERMCLUSTER:  saho-VSuffAffImprtv-abaar
 
 sah:saho-VSuffAffImprtv-abaar a aamas:Termcluster ;
@@ -6179,7 +6029,7 @@ sah:saho-VSuffAffImprtv-abaar a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID7ad0d108-aef7-4d6f-9daa-d1ef22d8ecb1 a aamas:Term ;
+aama:ID86d6ae09-e171-41db-991d-098b98be71a6 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-abaar ;
 	sah:person sah:Person2 ;
@@ -6203,7 +6053,7 @@ sah:saho-VPrefAffPerf-eefe a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDb6c4d47d-aa7d-4367-a852-ca34796edfb4 a aamas:Term ;
+aama:ID161d04a0-656c-48b9-9970-06781a9f99d3 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eefe ;
 	sah:person sah:Unmarked ;
@@ -6226,7 +6076,7 @@ sah:saho-VPrefAffPerf-uhfus a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID0f8bdcd8-4d4d-45b1-8994-4a5309b85fb4 a aamas:Term ;
+aama:ID77c3d342-11e2-4f01-b9dc-cadd47dbb380 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-uhfus ;
 	sah:person sah:Unmarked ;
@@ -6249,7 +6099,7 @@ sah:saho-VPrefAffPerf-isniq a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDd5eb3dab-99d1-4add-b50c-c0a6528b187b a aamas:Term ;
+aama:ID950e6dfe-1beb-4a61-90ee-43bf6a08fee6 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-isniq ;
 	sah:person sah:Unmarked ;
@@ -6264,6 +6114,31 @@ aama:IDd5eb3dab-99d1-4add-b50c-c0a6528b187b a aamas:Term ;
 	sah:token "insiniqe" ;
 	.
 
+#TERMCLUSTER:  saho-VSuffNegJuss-daam
+
+sah:saho-VSuffNegJuss-daam a aamas:Termcluster ;
+	rdfs:label "saho-VSuffNegJuss-daam" ;
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
+            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
+	.
+
+aama:ID229fa48f-6723-4f95-9504-c2e46506c345 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	aamas:memberOf sah:saho-VSuffNegJuss-daam ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:number sah:Singular ;
+	sah:pos sah:Verb ;
+	aamas:lexeme aama:Saho-daam ;
+	sah:conjClass sah:Suffix ;
+	sah:polarity sah:Negative ;
+	sah:tam sah:Jussive ;
+	sah:gender sah:Common ;
+	sah:pdgmType sah:Partial ;
+	sah:token-note "I didn’t (?) buy it" ;
+	sah:token "maɗáamo-ine" ;
+	.
+
 #TERMCLUSTER:  saho-VPrefAffImperf-oho-
 
 sah:saho-VPrefAffImperf-oho- a aamas:Termcluster ;
@@ -6272,7 +6147,7 @@ sah:saho-VPrefAffImperf-oho- a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDb4100e0f-6e2d-4552-a240-e64dd0b8f11b a aamas:Term ;
+aama:ID23b9d1f4-80e8-492f-b93a-1ec027d3317f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-oho- ;
 	sah:person sah:Person1 ;
@@ -6296,7 +6171,7 @@ sah:saho-VPrefAffImperf-ehzen a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDac148c5b-dcf5-4977-8f83-2880717b658c a aamas:Term ;
+aama:ID74512633-dbf5-4ee8-a4e6-ee6be0c88886 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-ehzen ;
 	sah:person sah:Person2 ;
@@ -6320,7 +6195,7 @@ sah:saho-VPrefAffPerf-ootok a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID6a07d451-9340-4323-b95a-624ebfff7c9a a aamas:Term ;
+aama:IDa47fea04-0252-4faa-944a-cfacdcd08a6c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ootok ;
 	sah:person sah:Unmarked ;
@@ -6343,7 +6218,7 @@ sah:saho-VPrefAffPerf-eemen a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDa63347a8-8aef-4bb3-8905-e3a5cf387cf5 a aamas:Term ;
+aama:IDa60d4203-95f7-4703-9808-81291ed917b7 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eemen ;
 	sah:person sah:Unmarked ;
@@ -6366,7 +6241,7 @@ sah:saho-VSuffNegImprtv-fak a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDd7fc0a2f-a8ae-4c60-bf6c-9e6ec377ef38 a aamas:Term ;
+aama:IDe7801ce0-3e62-4b51-a44f-7217d0bd8ad6 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffNegImprtv-fak ;
 	sah:person sah:Person2 ;
@@ -6390,7 +6265,7 @@ sah:saho-VSuffAffPerf-deer a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID7ed27ce1-b9b2-43f3-ac68-63a618f5ab03 a aamas:Term ;
+aama:ID8bcbe951-1d1a-4211-95b8-fbd4dde53806 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-deer ;
 	sah:person sah:Unmarked ;
@@ -6413,7 +6288,7 @@ sah:saho-VPrefAffPerf-enzewer- a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDfe13377b-7164-43fd-a13b-27e11b65c412 a aamas:Term ;
+aama:ID9d8c18b7-61b1-4cd4-8ce0-7661917a0eac a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-enzewer- ;
 	sah:person sah:Unmarked ;
@@ -6436,7 +6311,7 @@ sah:saho-VPrefAffImperf-eeley a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID19eff2e0-f8aa-49fd-8067-e694cef2517d a aamas:Term ;
+aama:ID678dd682-f6d0-470e-ad61-c4c242203567 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-eeley ;
 	sah:person sah:Person1 ;
@@ -6460,7 +6335,7 @@ sah:saho-VSuffAffPerf-baah a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDfab04f92-8061-491a-b1da-750e9515772e a aamas:Term ;
+aama:ID84f705df-a694-4b58-ac1b-e84bd2e6c45f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-baah ;
 	sah:person sah:Unmarked ;
@@ -6483,7 +6358,7 @@ sah:saho-VPrefAffPerf-igziy a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID5b59fcab-4d0a-433a-bae1-c73e383c6848 a aamas:Term ;
+aama:ID9226a9ac-12a0-496d-986c-d90143798125 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-igziy ;
 	sah:person sah:Unmarked ;
@@ -6506,7 +6381,7 @@ sah:saho-VPrefAffImprtv-eebeh a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDe55e2088-6de3-4588-85c9-0903c2a01acd a aamas:Term ;
+aama:IDb54c401c-4b8f-4342-8c31-87b1a2fe8e38 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eebeh ;
 	sah:person sah:Person2 ;
@@ -6530,7 +6405,7 @@ sah:saho-VPrefAffImprtv-idhen a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDd15da78f-b660-4574-bc3c-67868ef64d89 a aamas:Term ;
+aama:IDd6b491ea-008b-4b82-8152-166cd82dd21e a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-idhen ;
 	sah:person sah:Person2 ;
@@ -6554,7 +6429,7 @@ sah:saho-VPrefAffPerf-emmeeed- a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDfc6611d0-1aa8-4a50-adb0-49601a578901 a aamas:Term ;
+aama:ID1a5203c9-b655-4f57-8321-a97531fc9b3c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-emmeeed- ;
 	sah:person sah:Unmarked ;
@@ -6577,7 +6452,7 @@ sah:saho-VPrefAffImprtv-igre a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID100bd8fa-fefb-42b4-bc16-a8e693e372d6 a aamas:Term ;
+aama:ID9198d349-8e83-4355-86b5-ad57b118813d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-igre ;
 	sah:person sah:Person2 ;
@@ -6601,7 +6476,7 @@ sah:saho-VPrefAffImprtv-eefe a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDafc1a594-ca85-4550-95b7-bc0d713101bd a aamas:Term ;
+aama:ID54136f0e-590d-40f5-8e50-ae4c3fe1be66 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eefe ;
 	sah:person sah:Person2 ;
@@ -6625,7 +6500,7 @@ sah:saho-VPrefAffPerf-emeet a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID94ce2986-6189-48b5-8e2c-f2764c230ec5 a aamas:Term ;
+aama:IDc237aca7-5d70-4998-a1d5-3e821fe1fe6a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-emeet ;
 	sah:person sah:Unmarked ;
@@ -6648,7 +6523,7 @@ sah:saho-VPrefAffPerf-ekkel a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID1949530b-e11d-4563-9e62-20115c48dd7a a aamas:Term ;
+aama:IDacc3dada-e8fc-4971-8b79-83a6c43f6564 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ekkel ;
 	sah:person sah:Unmarked ;
@@ -6671,7 +6546,7 @@ sah:saho-VPrefAffJuss-urkut a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDa2519bc9-ec40-4222-bf87-93f48d0486ba a aamas:Term ;
+aama:ID2e1ce72b-d3f1-4d6b-bb31-7c9a4ddf18d5 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-urkut ;
 	sah:person sah:Person3 ;
@@ -6695,7 +6570,7 @@ sah:saho-VPrefAffPerf-ooog a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID37dbd074-a191-4a15-b84f-0032da787d23 a aamas:Term ;
+aama:IDffca3737-5d07-459d-9efb-896d2369656d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ooog ;
 	sah:person sah:Unmarked ;
@@ -6718,7 +6593,7 @@ sah:saho-VPrefAffPerf-imbiddil- a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID47362312-0922-44ec-8658-5a6323d17ec0 a aamas:Term ;
+aama:IDf7846759-e1b0-4d09-92c2-22b38724a723 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-imbiddil- ;
 	sah:person sah:Unmarked ;
@@ -6741,7 +6616,7 @@ sah:saho-VPrefAffJuss-ifriy a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDb58cdf6c-b721-4a77-b535-bc904a9ea7e6 a aamas:Term ;
+aama:IDb5d19616-099f-44f5-8052-920f6b91eeba a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-ifriy ;
 	sah:person sah:Person3 ;
@@ -6757,31 +6632,6 @@ aama:IDb58cdf6c-b721-4a77-b535-bc904a9ea7e6 a aamas:Term ;
 	sah:token "tafráo" ;
 	.
 
-#TERMCLUSTER:  saho-VPrefNegPerf-iskir
-
-sah:saho-VPrefNegPerf-iskir a aamas:Termcluster ;
-	rdfs:label "saho-VPrefNegPerf-iskir" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
-            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
-	.
-
-aama:ID78f350b5-3ed2-4b35-8bc1-98fc95a9c7bc a aamas:Term ;
-	aamas:lang aama:Saho ;
-	aamas:memberOf sah:saho-VPrefNegPerf-iskir ;
-	sah:person sah:Person3 ;
-	sah:derivedStem sah:B ;
-	sah:number sah:Singular ;
-	sah:pos sah:Verb ;
-	aamas:lexeme aama:Saho-iskir ;
-	sah:conjClass sah:Prefix ;
-	sah:polarity sah:Negative ;
-	sah:tam sah:Perfect ;
-	sah:token-gloss "he didn’t get drunk" ;
-	sah:gender sah:Masc ;
-	sah:pdgmType sah:Partial ;
-	sah:token "míiskirinna" ;
-	.
-
 #TERMCLUSTER:  saho-VPrefAffPerf-onqoomot-
 
 sah:saho-VPrefAffPerf-onqoomot- a aamas:Termcluster ;
@@ -6790,7 +6640,7 @@ sah:saho-VPrefAffPerf-onqoomot- a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDdd96e539-8f72-4997-9622-ae184b3f6ef0 a aamas:Term ;
+aama:IDe75f8664-1c8a-4ea2-869a-7a9bcfb4e222 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-onqoomot- ;
 	sah:person sah:Unmarked ;
@@ -6813,7 +6663,7 @@ sah:saho-VSuffAffPart-dufu a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDbed9ccf8-e433-4d25-93f7-455defb024b4 a aamas:Term ;
+aama:IDf117c844-5b60-452d-96c7-d03405369b39 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPart-dufu ;
 	sah:conjClass sah:Suffix ;
@@ -6835,7 +6685,7 @@ sah:saho-VPrefNegImprtv-iskir a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID55f7285e-0f76-46f3-9d57-0f170ebb9cc8 a aamas:Term ;
+aama:IDea5331b3-5245-47b8-a630-42dcafba1160 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefNegImprtv-iskir ;
 	sah:person sah:Person2 ;
@@ -6859,7 +6709,7 @@ sah:saho-VSuffAffPart-sa a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDc99f04df-9373-4c5a-b816-4b23e0e2e242 a aamas:Term ;
+aama:IDd41bcdca-11a2-4cb6-b0f9-ce8dc7fc9c40 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPart-sa ;
 	sah:conjClass sah:Suffix ;
@@ -6873,6 +6723,31 @@ aama:IDc99f04df-9373-4c5a-b816-4b23e0e2e242 a aamas:Term ;
 	sah:token "sáa" ;
 	.
 
+#TERMCLUSTER:  saho-VSuffNegPerf-daam
+
+sah:saho-VSuffNegPerf-daam a aamas:Termcluster ;
+	rdfs:label "saho-VSuffNegPerf-daam" ;
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
+            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
+	.
+
+aama:ID2cb58109-261c-41a8-a8e2-ee759697d87c a aamas:Term ;
+	aamas:lang aama:Saho ;
+	aamas:memberOf sah:saho-VSuffNegPerf-daam ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:number sah:Singular ;
+	sah:pos sah:Verb ;
+	aamas:lexeme aama:Saho-daam ;
+	sah:conjClass sah:Suffix ;
+	sah:polarity sah:Negative ;
+	sah:tam sah:Perfect ;
+	sah:gender sah:Common ;
+	sah:pdgmType sah:Partial ;
+	sah:token-note "I didn’t buy (it)" ;
+	sah:token "máɗaaminnio " ;
+	.
+
 #TERMCLUSTER:  saho-VSuffNegImprtv-daam
 
 sah:saho-VSuffNegImprtv-daam a aamas:Termcluster ;
@@ -6881,7 +6756,7 @@ sah:saho-VSuffNegImprtv-daam a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDfcd92242-6aac-47ef-8abc-7d990c32e1d8 a aamas:Term ;
+aama:IDc988e8e0-2122-42a3-837a-90d65a01038e a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffNegImprtv-daam ;
 	sah:person sah:Person2 ;
@@ -6905,7 +6780,7 @@ sah:saho-VPrefAffPerf-igdif a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID31bf184a-f0ed-4ebe-8d03-76239ff5f49e a aamas:Term ;
+aama:ID70f3d6e7-f09c-4310-82c7-c94325bddbf0 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-igdif ;
 	sah:person sah:Unmarked ;
@@ -6928,7 +6803,7 @@ sah:saho-VPrefAffImprtv-emeet a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDce588292-070a-4416-b448-5f8b064d3f5c a aamas:Term ;
+aama:IDd0ef263f-5c6d-4b46-bc3b-c09381558626 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-emeet ;
 	sah:person sah:Person2 ;
@@ -6952,7 +6827,7 @@ sah:saho-VPrefAffPerf-err a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDdbdd623b-e35b-492c-a031-47a93a25e33b a aamas:Term ;
+aama:ID9b615ab5-e84d-44f9-9ab2-3e126af86a95 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-err ;
 	sah:person sah:Unmarked ;
@@ -6967,6 +6842,56 @@ aama:IDdbdd623b-e35b-492c-a031-47a93a25e33b a aamas:Term ;
 	sah:token "erre" ;
 	.
 
+#TERMCLUSTER:  saho-VSuffAffImprtv-bolol
+
+sah:saho-VSuffAffImprtv-bolol a aamas:Termcluster ;
+	rdfs:label "saho-VSuffAffImprtv-bolol" ;
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
+            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
+	.
+
+aama:IDf4880ce3-2ae8-4803-af2b-e1a3e27129a6 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	aamas:memberOf sah:saho-VSuffAffImprtv-bolol ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:S2 ;
+	sah:number sah:Singular ;
+	sah:pos sah:Verb ;
+	aamas:lexeme aama:Saho-bolol ;
+	sah:conjClass sah:Suffix ;
+	sah:polarity sah:Affirmative ;
+	sah:tam sah:Imperative ;
+	sah:gender sah:Common ;
+	sah:pdgmType sah:Partial ;
+	sah:token-note "have someone set fire" ;
+	sah:token "bololsis" ;
+	.
+
+#TERMCLUSTER:  saho-VPrefAffImprtv-eqri
+
+sah:saho-VPrefAffImprtv-eqri a aamas:Termcluster ;
+	rdfs:label "saho-VPrefAffImprtv-eqri" ;
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
+            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
+	.
+
+aama:IDb64c9c77-3754-4683-94ac-809a9c113b41 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	aamas:memberOf sah:saho-VPrefAffImprtv-eqri ;
+	sah:person sah:Person2 ;
+	sah:derivedStem sah:B_Intens ;
+	sah:number sah:Singular ;
+	sah:pos sah:Verb ;
+	aamas:lexeme aama:Saho-eqri ;
+	sah:conjClass sah:Prefix ;
+	sah:polarity sah:Affirmative ;
+	sah:tam sah:Imperative ;
+	sah:gender sah:Common ;
+	sah:pdgmType sah:Partial ;
+	sah:token-note "read Koran to oneself" ;
+	sah:token "eqriri" ;
+	.
+
 #TERMCLUSTER:  saho-VPrefAffImprtv-eeley
 
 sah:saho-VPrefAffImprtv-eeley a aamas:Termcluster ;
@@ -6975,7 +6900,7 @@ sah:saho-VPrefAffImprtv-eeley a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDaac3100a-f432-4123-abe7-b179bf8db705 a aamas:Term ;
+aama:IDdea8cf28-9a45-4baa-ab91-3495456dd8b4 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eeley ;
 	sah:person sah:Person2 ;
@@ -6999,7 +6924,7 @@ sah:saho-VPrefNegImprtv-erd a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID03d238aa-f8dc-4c32-9bdd-13532e5b08d5 a aamas:Term ;
+aama:ID82bf78b0-9a2a-4482-a2cf-7829d2633cbb a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefNegImprtv-erd ;
 	sah:person sah:Person2 ;
@@ -7023,7 +6948,7 @@ sah:saho-VSuffAffImprtv-ab a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID0533a881-1d9f-43e9-9e4d-005e9842fec6 a aamas:Term ;
+aama:IDf0d490fd-2b93-4d29-8794-9f304f89c2e8 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-ab ;
 	sah:person sah:Person2 ;
@@ -7047,7 +6972,7 @@ sah:saho-VPrefAffPerf-unqusu- a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID314de042-eb97-420f-a20f-b69e2c753fcc a aamas:Term ;
+aama:IDec27fcc9-f8ef-4f19-b41d-29a5d9d26d8a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-unqusu- ;
 	sah:person sah:Unmarked ;
@@ -7070,7 +6995,7 @@ sah:saho-VPrefAffImperf-ekkel a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID0e0266cc-353c-4f23-b571-bf48161f6d5a a aamas:Term ;
+aama:ID7740b104-5bef-4f7c-8afe-b203ef09d924 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-ekkel ;
 	sah:person sah:Person1 ;
@@ -7094,7 +7019,7 @@ sah:saho-VPrefAffImprtv-eeit a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDe1b4a1c7-cc7a-4e08-b271-7f8b8627fc22 a aamas:Term ;
+aama:ID763a0c47-7428-4e59-892b-188dd921fd59 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eeit ;
 	sah:person sah:Person2 ;
@@ -7118,7 +7043,7 @@ sah:saho-VPrefAffImprtv-ebh a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID404bb5eb-0ef1-45ed-8b4d-41e54151da1f a aamas:Term ;
+aama:IDe95c9d75-ddb8-4d59-9269-f9ff17a2aa5d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ebh ;
 	sah:person sah:Person2 ;
@@ -7142,7 +7067,7 @@ sah:saho-VSuffAffImprtv-fah a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID8776edd5-247a-4a19-bb29-dc8409b82780 a aamas:Term ;
+aama:ID86be49c9-9f57-4efe-8793-fa46849a3b88 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-fah ;
 	sah:person sah:Person2 ;
@@ -7165,7 +7090,7 @@ sah:saho-VSuffPast-ubl- a aamas:Termcluster ;
 	rdfs:comment "Welmers1952b p. 236" 
 	.
 
-aama:IDdcadaf81-585a-4824-baf4-ddd59b429ee1 a aamas:Term ;
+aama:ID4e64f23e-f01b-4758-a1e6-484d8a5a978f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-ubl- ;
 	sah:conjClass sah:Suffix ;
@@ -7178,7 +7103,7 @@ aama:IDdcadaf81-585a-4824-baf4-ddd59b429ee1 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID02dc47c6-24dd-4cbf-96f3-9c985275d4a1 a aamas:Term ;
+aama:ID59a1c407-4d91-49f0-8116-5500f4578c88 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-ubl- ;
 	sah:conjClass sah:Suffix ;
@@ -7191,7 +7116,7 @@ aama:ID02dc47c6-24dd-4cbf-96f3-9c985275d4a1 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:IDb2816e2a-3a79-458d-8c0e-832cf372bf81 a aamas:Term ;
+aama:IDb360e27d-66e7-4391-b59b-7d701bdfb826 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-ubl- ;
 	sah:conjClass sah:Suffix ;
@@ -7204,7 +7129,7 @@ aama:IDb2816e2a-3a79-458d-8c0e-832cf372bf81 a aamas:Term ;
 	sah:gender sah:Masc ;
 	.
 
-aama:ID1586fa5b-6d0f-4c1a-b546-2292f1c7f4af a aamas:Term ;
+aama:ID79f3ba73-83ae-4838-8ecf-64f8f3f6b1df a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-ubl- ;
 	sah:conjClass sah:Suffix ;
@@ -7217,7 +7142,7 @@ aama:ID1586fa5b-6d0f-4c1a-b546-2292f1c7f4af a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:IDddf1d50c-7908-4861-9470-1986ae6a7f51 a aamas:Term ;
+aama:ID2fd0a1c2-37d3-4429-a595-34ff3114fb20 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-ubl- ;
 	sah:conjClass sah:Suffix ;
@@ -7230,7 +7155,7 @@ aama:IDddf1d50c-7908-4861-9470-1986ae6a7f51 a aamas:Term ;
 	sah:gender sah:Fem ;
 	.
 
-aama:ID2bce6aa9-b49d-4e85-97c6-07f908f9e3af a aamas:Term ;
+aama:ID42bc45c0-5f5f-4ca1-ba47-0cb739a866cd a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-ubl- ;
 	sah:conjClass sah:Suffix ;
@@ -7243,7 +7168,7 @@ aama:ID2bce6aa9-b49d-4e85-97c6-07f908f9e3af a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID2c961a75-be8d-4ce8-b128-df1d4ac8c17a a aamas:Term ;
+aama:IDd689da80-7722-4130-9fe7-1c45959c420a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-ubl- ;
 	sah:conjClass sah:Suffix ;
@@ -7264,7 +7189,7 @@ sah:saho-VPrefAffJuss-uruf a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDb593925c-2982-44f5-b87e-e79d059c2fb1 a aamas:Term ;
+aama:IDd4c2dbcc-ea46-4cbe-a6cf-cc869dff38e0 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-uruf ;
 	sah:person sah:Person3 ;
@@ -7288,7 +7213,7 @@ sah:saho-VPrefAffImprtv-ekett a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID5f32d0f4-3cb2-4e04-9189-2ca580acaf56 a aamas:Term ;
+aama:ID267d6aaa-61e2-4051-bb73-ade4c1fae8b3 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ekett ;
 	sah:person sah:Person2 ;
@@ -7312,7 +7237,7 @@ sah:saho-VSuffAffPerf-had a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID1356aade-c95b-43af-b8a9-6b4c872ce190 a aamas:Term ;
+aama:ID6adbbd05-8e35-4ffb-9ab5-c8800e84f770 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-had ;
 	sah:person sah:Unmarked ;
@@ -7335,7 +7260,7 @@ sah:saho-VSuffAffPart-daam a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID278a9739-afa4-4784-973e-f5c9a16cb13c a aamas:Term ;
+aama:ID43047500-580e-451f-9f63-f892b824d6a9 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPart-daam ;
 	sah:conjClass sah:Suffix ;
@@ -7357,7 +7282,7 @@ sah:saho-VPrefAffImperf-eymee a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID162de15e-8795-4052-a87c-fe782bdd66fa a aamas:Term ;
+aama:IDbf36c380-a50d-410c-9e1d-303007312fb7 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-eymee ;
 	sah:person sah:Person1 ;
@@ -7381,7 +7306,7 @@ sah:saho-VSuffAffImprtv-abah a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDbc9cae9f-dfa5-4c3b-aa73-ce6e7c65ad1c a aamas:Term ;
+aama:ID887fdf48-da02-4ecd-a144-35532e36354b a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-abah ;
 	sah:person sah:Person2 ;
@@ -7405,7 +7330,7 @@ sah:saho-VPrefAffPerf-uuluus- a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDe325e39f-1442-4157-8375-6e2b07c9f340 a aamas:Term ;
+aama:ID68719452-dde0-403b-8b13-ca1080fe5068 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-uuluus- ;
 	sah:person sah:Unmarked ;
@@ -7428,7 +7353,7 @@ sah:saho-VPrefAffImperf-emeet a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDa8d9e086-f365-4a7f-873c-2f4dd6b0f7cb a aamas:Term ;
+aama:IDd2d27ece-6858-417f-9cb4-48714a551493 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-emeet ;
 	sah:person sah:Person1 ;
@@ -7452,7 +7377,7 @@ sah:saho-VPrefAffPerf-igdil a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID6b59f124-c9e4-4aa6-bcf3-0beae2b4e2a6 a aamas:Term ;
+aama:ID32b2c844-44c9-44e5-ab29-17cccb4d610c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-igdil ;
 	sah:person sah:Unmarked ;
@@ -7475,7 +7400,7 @@ sah:saho-VPrefAffPart-ehet a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID44ef07d6-3746-4dca-bad9-0a5b0fad1dcc a aamas:Term ;
+aama:ID846c131c-32b4-4aec-98c4-1b9da5ba9321 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPart-ehet ;
 	sah:conjClass sah:Prefix ;
@@ -7497,7 +7422,7 @@ sah:saho-VPrefAffImprtv-uyku a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID15109427-7a93-4d4f-99b0-3ded00e36621 a aamas:Term ;
+aama:IDaadbf983-f8b0-4b18-b2e2-14e4dc5a0f3c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-uyku ;
 	sah:person sah:Person2 ;
@@ -7513,31 +7438,6 @@ aama:ID15109427-7a93-4d4f-99b0-3ded00e36621 a aamas:Term ;
 	sah:token "uysukuʕ" ;
 	.
 
-#TERMCLUSTER:  saho-VSuffAffJuss-ki-daam
-
-sah:saho-VSuffAffJuss-ki-daam a aamas:Termcluster ;
-	rdfs:label "saho-VSuffAffJuss-ki-daam" ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
-            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
-	.
-
-aama:ID6a6679d4-d7db-4dff-8189-86f472b9c840 a aamas:Term ;
-	aamas:lang aama:Saho ;
-	aamas:memberOf sah:saho-VSuffAffJuss-ki-daam ;
-	sah:person sah:Person1 ;
-	sah:derivedStem sah:B ;
-	sah:number sah:Singular ;
-	sah:pos sah:Verb ;
-	aamas:lexeme aama:Saho-daam ;
-	sah:conjClass sah:Suffix ;
-	sah:polarity sah:Affirmative ;
-	sah:tam sah:JussiveKi ;
-	sah:token-gloss "I will buy it" ;
-	sah:gender sah:Common ;
-	sah:pdgmType sah:Partial ;
-	sah:token "ɗáamo-kio" ;
-	.
-
 #TERMCLUSTER:  saho-VPrefAffImprtv-ootob
 
 sah:saho-VPrefAffImprtv-ootob a aamas:Termcluster ;
@@ -7546,7 +7446,7 @@ sah:saho-VPrefAffImprtv-ootob a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID9d0dfdca-2592-4ee1-9f63-510e9fbcc140 a aamas:Term ;
+aama:ID2e0af578-7efd-4491-9bb2-2c908aea7f55 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ootob ;
 	sah:person sah:Person2 ;
@@ -7562,6 +7462,31 @@ aama:ID9d0dfdca-2592-4ee1-9f63-510e9fbcc140 a aamas:Term ;
 	sah:token "oytob" ;
 	.
 
+#TERMCLUSTER:  saho-VPrefNegPerf-erd
+
+sah:saho-VPrefNegPerf-erd a aamas:Termcluster ;
+	rdfs:label "saho-VPrefNegPerf-erd" ;
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
+            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
+	.
+
+aama:IDa4309bb2-df59-4da3-a183-1adc91a4459e a aamas:Term ;
+	aamas:lang aama:Saho ;
+	aamas:memberOf sah:saho-VPrefNegPerf-erd ;
+	sah:person sah:Person3 ;
+	sah:derivedStem sah:B ;
+	sah:number sah:Plural ;
+	sah:pos sah:Verb ;
+	aamas:lexeme aama:Saho-erd ;
+	sah:conjClass sah:Prefix ;
+	sah:polarity sah:Negative ;
+	sah:tam sah:Perfect ;
+	sah:gender sah:Common ;
+	sah:pdgmType sah:Partial ;
+	sah:token-note "they didn’t run" ;
+	sah:token "méerdinnun" ;
+	.
+
 #TERMCLUSTER:  saho-VSuffAffPerf-di
 
 sah:saho-VSuffAffPerf-di a aamas:Termcluster ;
@@ -7570,7 +7495,7 @@ sah:saho-VSuffAffPerf-di a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID1b101fd7-04e1-4952-994b-323c6ccb6783 a aamas:Term ;
+aama:ID5bdca8ea-6a61-4bc6-b3a7-59b19ecd6369 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-di ;
 	sah:person sah:Unmarked ;
@@ -7593,7 +7518,7 @@ sah:saho-VPrefAffImprtv-igdil a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID2c0ba72e-76ab-4d94-8e80-631a29af3e32 a aamas:Term ;
+aama:ID940ddac0-36d4-46e9-b0ca-ab4b6d6cdee4 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-igdil ;
 	sah:person sah:Person2 ;
@@ -7617,7 +7542,7 @@ sah:saho-VPrefAffPerf-enge a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID2f7cf5ad-e977-43c3-aa7b-72a06828d50a a aamas:Term ;
+aama:IDf86c994f-e5af-4095-ad82-1a21858215a4 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-enge ;
 	sah:person sah:Unmarked ;
@@ -7640,7 +7565,7 @@ sah:saho-VPrefAffImperf-oysoom a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDbfdb3206-adc0-4fe6-b655-6b001974624f a aamas:Term ;
+aama:ID4ca66b9e-bf4a-4938-9a64-8b3166759a4c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-oysoom ;
 	sah:person sah:Person1 ;
@@ -7656,6 +7581,31 @@ aama:IDbfdb3206-adc0-4fe6-b655-6b001974624f a aamas:Term ;
 	sah:token "aysaame" ;
 	.
 
+#TERMCLUSTER:  saho-VPrefNegPerf-iskir
+
+sah:saho-VPrefNegPerf-iskir a aamas:Termcluster ;
+	rdfs:label "saho-VPrefNegPerf-iskir" ;
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
+            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
+	.
+
+aama:ID00e12e05-58ba-4017-9c7d-193e2fd1cd8e a aamas:Term ;
+	aamas:lang aama:Saho ;
+	aamas:memberOf sah:saho-VPrefNegPerf-iskir ;
+	sah:person sah:Person3 ;
+	sah:derivedStem sah:B ;
+	sah:number sah:Singular ;
+	sah:pos sah:Verb ;
+	aamas:lexeme aama:Saho-iskir ;
+	sah:conjClass sah:Prefix ;
+	sah:polarity sah:Negative ;
+	sah:tam sah:Perfect ;
+	sah:gender sah:Masc ;
+	sah:pdgmType sah:Partial ;
+	sah:token-note "he didn’t get drunk" ;
+	sah:token "míiskirinna" ;
+	.
+
 #TERMCLUSTER:  saho-VPrefAffImprtv-ehlif
 
 sah:saho-VPrefAffImprtv-ehlif a aamas:Termcluster ;
@@ -7664,7 +7614,7 @@ sah:saho-VPrefAffImprtv-ehlif a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID4be8f177-467e-4ce6-b70e-703ffa05f68d a aamas:Term ;
+aama:ID5a5725ea-5d84-4bf8-bf64-5edef3bb469f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ehlif ;
 	sah:person sah:Person2 ;
@@ -7688,7 +7638,7 @@ sah:saho-VPrefAffJuss-ki-uruf a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID2a49a31e-0780-49eb-b9cb-a37a354d7d3e a aamas:Term ;
+aama:ID27c980a4-ccb0-4f62-8c98-022af1a48e09 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-ki-uruf ;
 	sah:person sah:Person1 ;
@@ -7712,7 +7662,7 @@ sah:saho-VPrefAffPerf-immillik- a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID35ab53c1-0951-4695-9fa5-9d7d3eae4d38 a aamas:Term ;
+aama:ID8ed38fd5-4af0-4702-a44c-2dcc1138b960 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-immillik- ;
 	sah:person sah:Unmarked ;
@@ -7735,7 +7685,7 @@ sah:saho-VPrefAffImprtv-igdif a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID7ae21607-35b0-4843-a93f-c21d0ffb1cf6 a aamas:Term ;
+aama:IDb6765ba1-bd3a-4465-83f8-068c509a70bf a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-igdif ;
 	sah:person sah:Person2 ;
@@ -7759,7 +7709,7 @@ sah:saho-VPrefAffPart-ifriy a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID85c170ba-2d82-4f41-96d2-5a32739bcfa4 a aamas:Term ;
+aama:ID1c7f6bb8-6049-4bca-89bb-4989fab0df9d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPart-ifriy ;
 	sah:conjClass sah:Prefix ;
@@ -7781,7 +7731,7 @@ sah:saho-VSuffAffPerf-abaar a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID9156d3b3-13c3-48fb-9ce1-e98ea7cb456f a aamas:Term ;
+aama:IDd74e3be4-9472-430f-b1b9-a9315eeae250 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-abaar ;
 	sah:person sah:Unmarked ;
@@ -7804,7 +7754,7 @@ sah:saho-VSuffAffPerf-fah a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID685475b5-4311-4a7d-b527-f38985409c97 a aamas:Term ;
+aama:IDbeca0967-3071-4d4e-b382-5ed9bbe874f0 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-fah ;
 	sah:person sah:Unmarked ;
@@ -7819,6 +7769,31 @@ aama:ID685475b5-4311-4a7d-b527-f38985409c97 a aamas:Term ;
 	sah:token "faḥime" ;
 	.
 
+#TERMCLUSTER:  saho-VSuffAffJuss-daam
+
+sah:saho-VSuffAffJuss-daam a aamas:Termcluster ;
+	rdfs:label "saho-VSuffAffJuss-daam" ;
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
+            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
+	.
+
+aama:ID1922e71a-f5f7-46c9-9c17-3ebc0d2660c6 a aamas:Term ;
+	aamas:lang aama:Saho ;
+	aamas:memberOf sah:saho-VSuffAffJuss-daam ;
+	sah:person sah:Person1 ;
+	sah:derivedStem sah:B ;
+	sah:number sah:Singular ;
+	sah:pos sah:Verb ;
+	aamas:lexeme aama:Saho-daam ;
+	sah:conjClass sah:Suffix ;
+	sah:polarity sah:Affirmative ;
+	sah:tam sah:Jussive ;
+	sah:gender sah:Common ;
+	sah:pdgmType sah:Partial ;
+	sah:token-note "ɗamo gura/faɗá-iane ‘I want to buy it’" ;
+	sah:token "ɗáamo" ;
+	.
+
 #TERMCLUSTER:  saho-VSuffAffPerf-biaak
 
 sah:saho-VSuffAffPerf-biaak a aamas:Termcluster ;
@@ -7827,7 +7802,7 @@ sah:saho-VSuffAffPerf-biaak a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID425ad1eb-1f25-4e61-8d6d-acf935fb816d a aamas:Term ;
+aama:IDac1e0397-ed49-43c9-9b07-394716e95861 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-biaak ;
 	sah:person sah:Unmarked ;
@@ -7850,7 +7825,7 @@ sah:saho-VSuffAffImprtv-abaas a aamas:Termcluster ;
             num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:ID33b47ac2-1f53-414f-86ff-2ed0e596ab4d a aamas:Term ;
+aama:IDde89a915-50ff-4c31-a360-6ff19676eb8f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-abaas ;
 	sah:person sah:Person2 ;
@@ -7866,6 +7841,31 @@ aama:ID33b47ac2-1f53-414f-86ff-2ed0e596ab4d a aamas:Term ;
 	sah:token "abas" ;
 	.
 
+#TERMCLUSTER:  saho-VSuffAffPerf-m-rab
+
+sah:saho-VSuffAffPerf-m-rab a aamas:Termcluster ;
+	rdfs:label "saho-VSuffAffPerf-m-rab" ;
+	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf
+            num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
+	.
+
+aama:IDfe750c65-161b-4e71-8465-f1bf8b89be8a a aamas:Term ;
+	aamas:lang aama:Saho ;
+	aamas:memberOf sah:saho-VSuffAffPerf-m-rab ;
+	sah:person sah:Person3 ;
+	sah:derivedStem sah:B ;
+	sah:number sah:Singular ;
+	sah:pos sah:Verb ;
+	aamas:lexeme aama:Saho-rab ;
+	sah:conjClass sah:Suffix ;
+	sah:polarity sah:Affirmative ;
+	sah:tam sah:PerfectM ;
+	sah:gender sah:Fem ;
+	sah:pdgmType sah:Partial ;
+	sah:token-note "rabtem mango ‘many died’" ;
+	sah:token "rabte-m" ;
+	.
+
 #TERMCLUSTER:  saho-VSuff-ki
 
 sah:saho-VSuff-ki a aamas:Termcluster ;
@@ -7873,7 +7873,7 @@ sah:saho-VSuff-ki a aamas:Termcluster ;
 	rdfs:comment "Welmers1952b p. 250" 
 	.
 
-aama:IDc06ccdc6-95a4-4ae0-9343-de12e1b8436f a aamas:Term ;
+aama:IDe6c6297d-b1b3-4552-8698-55040407a1df a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuff-ki ;
 	sah:conjClass sah:Suffix ;
@@ -7886,7 +7886,7 @@ aama:IDc06ccdc6-95a4-4ae0-9343-de12e1b8436f a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:IDa3f6cfff-7cb5-4de5-8d00-fca77deb8c7d a aamas:Term ;
+aama:IDa1773938-8df9-426f-9c80-e86a5a08c9ac a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuff-ki ;
 	sah:conjClass sah:Suffix ;
@@ -7899,7 +7899,7 @@ aama:IDa3f6cfff-7cb5-4de5-8d00-fca77deb8c7d a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:IDa1a42bd8-93f0-46af-8f5e-2ed2ff882594 a aamas:Term ;
+aama:ID5dfea8c4-c7d7-4ac4-94ed-82c57ebcd216 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuff-ki ;
 	sah:conjClass sah:Suffix ;
@@ -7912,7 +7912,7 @@ aama:IDa1a42bd8-93f0-46af-8f5e-2ed2ff882594 a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID9f43f529-ea04-443a-a833-09572d3efee5 a aamas:Term ;
+aama:ID81399997-8d4d-4c9b-95e8-12148a41f42d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuff-ki ;
 	sah:conjClass sah:Suffix ;
@@ -7925,7 +7925,7 @@ aama:ID9f43f529-ea04-443a-a833-09572d3efee5 a aamas:Term ;
 	sah:gender sah:Fem ;
 	.
 
-aama:IDb936b77c-320d-4b30-bd23-2aa3fd32930c a aamas:Term ;
+aama:ID13bc19cc-3247-4fb2-80fc-1448e24e8dc9 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuff-ki ;
 	sah:conjClass sah:Suffix ;
@@ -7938,7 +7938,7 @@ aama:IDb936b77c-320d-4b30-bd23-2aa3fd32930c a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:IDcaabcfa3-e366-4c21-9892-4109b78c99eb a aamas:Term ;
+aama:IDcaa6a3f6-e75c-44fa-b465-ff3c49c2ba91 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuff-ki ;
 	sah:conjClass sah:Suffix ;
@@ -7951,7 +7951,7 @@ aama:IDcaabcfa3-e366-4c21-9892-4109b78c99eb a aamas:Term ;
 	sah:gender sah:Common ;
 	.
 
-aama:ID5623a6b4-1d9c-4626-89da-62f4ddef3fa9 a aamas:Term ;
+aama:ID7bc8f76d-32f5-4190-ba9f-f279378c2d7a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuff-ki ;
 	sah:conjClass sah:Suffix ;
@@ -7972,7 +7972,7 @@ sah:saho-PInd a aamas:MuTermcluster ;
             poss%%obj%%indir-obj and emph pronouns in the table on pl. 251" 
 	.
 
-aama:ID45840bd6-00d1-4982-8db6-f35b26e3cc4a a aamas:Muterm ;
+aama:ID69055901-5e46-45b4-bd59-5420b80e3fe7 a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
@@ -7983,7 +7983,7 @@ aama:ID45840bd6-00d1-4982-8db6-f35b26e3cc4a a aamas:Muterm ;
 	sah:proClass sah:Independent ;
 	.
 
-aama:IDa730fadf-898c-43ab-9801-9ff1179dcd9c a aamas:Muterm ;
+aama:ID08aad887-18f8-4787-80e2-1fe283991ae9 a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
@@ -7994,7 +7994,7 @@ aama:IDa730fadf-898c-43ab-9801-9ff1179dcd9c a aamas:Muterm ;
 	sah:proClass sah:Emphatic ;
 	.
 
-aama:ID58cdfd08-81aa-435c-9f53-a82a758c95ce a aamas:Muterm ;
+aama:ID90f8ec10-f34b-4acf-8522-0c8267dfd2ad a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
@@ -8005,7 +8005,7 @@ aama:ID58cdfd08-81aa-435c-9f53-a82a758c95ce a aamas:Muterm ;
 	sah:proClass sah:ObjectIndirect ;
 	.
 
-aama:ID6c1c6f46-d08d-4f11-aeec-4de666d5a99c a aamas:Muterm ;
+aama:ID96c54fda-ec9d-4da3-947c-f898752226c7 a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
@@ -8016,7 +8016,7 @@ aama:ID6c1c6f46-d08d-4f11-aeec-4de666d5a99c a aamas:Muterm ;
 	sah:proClass sah:Object ;
 	.
 
-aama:ID365bea0e-2fe6-458c-b9e4-fb25cb6dd488 a aamas:Muterm ;
+aama:ID7296f84f-da37-4b27-8a66-6068563bca04 a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
@@ -8027,7 +8027,7 @@ aama:ID365bea0e-2fe6-458c-b9e4-fb25cb6dd488 a aamas:Muterm ;
 	sah:proClass sah:ObjectIndirect ;
 	.
 
-aama:IDa4084cb3-bbff-49a1-9781-9eda3db2c935 a aamas:Muterm ;
+aama:ID7725151e-3ebd-4e8f-bc55-66b86eaf695d a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
@@ -8038,7 +8038,7 @@ aama:IDa4084cb3-bbff-49a1-9781-9eda3db2c935 a aamas:Muterm ;
 	sah:proClass sah:ObjectIndirect ;
 	.
 
-aama:ID8d7e7851-c4f1-4ec0-8e06-cceb70f82071 a aamas:Muterm ;
+aama:ID7f7aa3e8-58a3-462c-b4af-56b91425dcda a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
@@ -8049,7 +8049,7 @@ aama:ID8d7e7851-c4f1-4ec0-8e06-cceb70f82071 a aamas:Muterm ;
 	sah:proClass sah:Possessive ;
 	.
 
-aama:IDa23d3585-62ad-4a07-ae03-f48264c06a6f a aamas:Muterm ;
+aama:IDfaf7672d-80bc-465c-9de0-9a1e0017afcf a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
@@ -8060,7 +8060,7 @@ aama:IDa23d3585-62ad-4a07-ae03-f48264c06a6f a aamas:Muterm ;
 	sah:proClass sah:Possessive ;
 	.
 
-aama:IDe17005a3-2c58-4ace-8bf7-f6c804f3f28a a aamas:Muterm ;
+aama:IDe885ee2d-404c-4ed6-a529-aac9bf10fa26 a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
@@ -8071,7 +8071,7 @@ aama:IDe17005a3-2c58-4ace-8bf7-f6c804f3f28a a aamas:Muterm ;
 	sah:proClass sah:Emphatic ;
 	.
 
-aama:ID6660bd26-0bbb-4f80-9c83-5c8c246cd888 a aamas:Muterm ;
+aama:IDcb9b2da7-6691-4d77-bdb3-7980b01cb59b a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
@@ -8082,7 +8082,7 @@ aama:ID6660bd26-0bbb-4f80-9c83-5c8c246cd888 a aamas:Muterm ;
 	sah:proClass sah:Object ;
 	.
 
-aama:IDf2c5c2c7-3c91-4770-93b4-fee6e161952c a aamas:Muterm ;
+aama:IDa6455800-be9e-4fdb-bcce-ef8175831b11 a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
@@ -8093,7 +8093,7 @@ aama:IDf2c5c2c7-3c91-4770-93b4-fee6e161952c a aamas:Muterm ;
 	sah:proClass sah:ObjectIndirect ;
 	.
 
-aama:ID35e7d204-527f-40a8-a9eb-6a84059f5da7 a aamas:Muterm ;
+aama:ID43561ec4-4628-4132-97a6-13aafe9cd8b4 a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
@@ -8104,7 +8104,7 @@ aama:ID35e7d204-527f-40a8-a9eb-6a84059f5da7 a aamas:Muterm ;
 	sah:proClass sah:Possessive ;
 	.
 
-aama:ID97023fc0-d1bb-4a6b-884f-83d948312be6 a aamas:Muterm ;
+aama:ID0a99fc9d-be4c-4631-9589-3cb3079a5755 a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
@@ -8115,7 +8115,7 @@ aama:ID97023fc0-d1bb-4a6b-884f-83d948312be6 a aamas:Muterm ;
 	sah:proClass sah:Independent ;
 	.
 
-aama:IDf06dfcf8-1ff1-4c57-8d92-1d7e9c6bc48a a aamas:Muterm ;
+aama:IDe27a7897-425f-40ab-acd4-faacd341f555 a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
@@ -8126,7 +8126,7 @@ aama:IDf06dfcf8-1ff1-4c57-8d92-1d7e9c6bc48a a aamas:Muterm ;
 	sah:proClass sah:Independent ;
 	.
 
-aama:ID5813e958-f113-4bba-bf60-3600f1015a84 a aamas:Muterm ;
+aama:ID884aadde-bc7f-4028-8da0-a8fbcb2c5994 a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
@@ -8137,7 +8137,7 @@ aama:ID5813e958-f113-4bba-bf60-3600f1015a84 a aamas:Muterm ;
 	sah:proClass sah:Object ;
 	.
 
-aama:IDbe5496f0-71b2-4afb-9c68-21e422981783 a aamas:Muterm ;
+aama:IDbfc5707d-4a7c-4c66-9fda-e25c5b7bcfb0 a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
@@ -8148,7 +8148,7 @@ aama:IDbe5496f0-71b2-4afb-9c68-21e422981783 a aamas:Muterm ;
 	sah:proClass sah:Emphatic ;
 	.
 
-aama:IDda000563-9493-4d88-81ca-c1af08c950f9 a aamas:Muterm ;
+aama:IDa62390b3-d8be-4fe0-aef7-73fd6e0997e6 a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
@@ -8159,7 +8159,7 @@ aama:IDda000563-9493-4d88-81ca-c1af08c950f9 a aamas:Muterm ;
 	sah:proClass sah:Possessive ;
 	.
 
-aama:ID08aa3444-4f8a-4bc7-855f-e58f31ac3a5d a aamas:Muterm ;
+aama:ID0514bfbe-90b2-4f8d-ab04-3702621624ba a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
@@ -8170,7 +8170,7 @@ aama:ID08aa3444-4f8a-4bc7-855f-e58f31ac3a5d a aamas:Muterm ;
 	sah:proClass sah:Possessive ;
 	.
 
-aama:IDb8617bfd-695c-4fe6-a7d3-6bb286fc7c33 a aamas:Muterm ;
+aama:IDf61086bd-d917-4f48-86c0-089aa44e6711 a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
@@ -8181,7 +8181,7 @@ aama:IDb8617bfd-695c-4fe6-a7d3-6bb286fc7c33 a aamas:Muterm ;
 	sah:proClass sah:Object ;
 	.
 
-aama:ID012127bb-1707-4672-bb1b-3f947eb4ecbf a aamas:Muterm ;
+aama:ID84785e50-799e-4ea6-a75a-c11441f8ed7c a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
@@ -8192,7 +8192,7 @@ aama:ID012127bb-1707-4672-bb1b-3f947eb4ecbf a aamas:Muterm ;
 	sah:proClass sah:Independent ;
 	.
 
-aama:IDdfffe93a-e1ce-42b8-9d46-8ac7dbfe9a4a a aamas:Muterm ;
+aama:ID1404ec28-7d56-4435-a971-16b0a84a020f a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
@@ -8203,7 +8203,7 @@ aama:IDdfffe93a-e1ce-42b8-9d46-8ac7dbfe9a4a a aamas:Muterm ;
 	sah:proClass sah:Emphatic ;
 	.
 
-aama:IDe564d68e-56cf-45c9-9ee2-202b8c6dcde9 a aamas:Muterm ;
+aama:ID65aa4b71-a0ff-4c81-af51-78b876fbddd5 a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
@@ -8214,7 +8214,7 @@ aama:IDe564d68e-56cf-45c9-9ee2-202b8c6dcde9 a aamas:Muterm ;
 	sah:proClass sah:Independent ;
 	.
 
-aama:ID307d7c27-2dec-4342-a0ce-7c50226cc092 a aamas:Muterm ;
+aama:IDd5d5e45e-1b7b-44d7-9e58-e8b2d9d7185b a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
@@ -8225,7 +8225,7 @@ aama:ID307d7c27-2dec-4342-a0ce-7c50226cc092 a aamas:Muterm ;
 	sah:proClass sah:ObjectIndirect ;
 	.
 
-aama:IDa66a000a-3824-4139-b20b-45cb23c2294e a aamas:Muterm ;
+aama:ID9aa7ea64-f8c1-4732-8211-48aa000aa8ff a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
@@ -8236,7 +8236,7 @@ aama:IDa66a000a-3824-4139-b20b-45cb23c2294e a aamas:Muterm ;
 	sah:proClass sah:Emphatic ;
 	.
 
-aama:ID0334acd9-a137-4f7c-ac95-677cd06008f9 a aamas:Muterm ;
+aama:IDeacb7c7e-3931-49ea-a43c-92c282678480 a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
@@ -8247,7 +8247,7 @@ aama:ID0334acd9-a137-4f7c-ac95-677cd06008f9 a aamas:Muterm ;
 	sah:proClass sah:Object ;
 	.
 
-aama:IDe50dee1f-661c-4d4f-96bb-07d9d81c01ae a aamas:Muterm ;
+aama:ID184407ab-fd08-491c-b9a9-5db2742e640b a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
@@ -8258,7 +8258,7 @@ aama:IDe50dee1f-661c-4d4f-96bb-07d9d81c01ae a aamas:Muterm ;
 	sah:proClass sah:ObjectIndirect ;
 	.
 
-aama:IDa1583c7b-2cc8-492b-b6a3-ed705652fb25 a aamas:Muterm ;
+aama:ID0f31c893-b903-4d37-8148-800f68b1e619 a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
@@ -8269,7 +8269,7 @@ aama:IDa1583c7b-2cc8-492b-b6a3-ed705652fb25 a aamas:Muterm ;
 	sah:proClass sah:Emphatic ;
 	.
 
-aama:ID5127f9de-a145-4fd0-9c3f-1b1b513cfa91 a aamas:Muterm ;
+aama:ID92427e61-71fe-4e83-90d6-c40a3978821e a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
@@ -8280,7 +8280,7 @@ aama:ID5127f9de-a145-4fd0-9c3f-1b1b513cfa91 a aamas:Muterm ;
 	sah:proClass sah:Object ;
 	.
 
-aama:ID0d8a6cef-e774-47a4-8f52-3c6a7a746903 a aamas:Muterm ;
+aama:ID77843f25-1ed9-497b-bafc-04af636ebb95 a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
@@ -8291,7 +8291,7 @@ aama:ID0d8a6cef-e774-47a4-8f52-3c6a7a746903 a aamas:Muterm ;
 	sah:proClass sah:Independent ;
 	.
 
-aama:ID6a69735c-d8d0-480b-b74f-9ed0b4a0db51 a aamas:Muterm ;
+aama:IDa27f54d3-b720-4c25-914d-d164913761ac a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
@@ -8302,7 +8302,7 @@ aama:ID6a69735c-d8d0-480b-b74f-9ed0b4a0db51 a aamas:Muterm ;
 	sah:proClass sah:Independent ;
 	.
 
-aama:ID17f7c007-bb10-4965-b3d5-a720ed2e173e a aamas:Muterm ;
+aama:ID955ea230-5893-4dc6-a56d-b26a6b0bb172 a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
@@ -8313,7 +8313,7 @@ aama:ID17f7c007-bb10-4965-b3d5-a720ed2e173e a aamas:Muterm ;
 	sah:proClass sah:Object ;
 	.
 
-aama:ID617ec397-ea53-4b8a-9204-81aefd64197b a aamas:Muterm ;
+aama:IDbe31bc7f-1ad3-4528-a7ee-f7d143373c33 a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
@@ -8324,7 +8324,7 @@ aama:ID617ec397-ea53-4b8a-9204-81aefd64197b a aamas:Muterm ;
 	sah:proClass sah:Emphatic ;
 	.
 
-aama:ID41ee0db9-36c5-4ec0-b3a9-f52dfd20f239 a aamas:Muterm ;
+aama:ID731a1838-cbae-4923-a1f2-4efa77c9b713 a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
@@ -8335,7 +8335,7 @@ aama:ID41ee0db9-36c5-4ec0-b3a9-f52dfd20f239 a aamas:Muterm ;
 	sah:proClass sah:Possessive ;
 	.
 
-aama:IDb7c63598-d46a-4c01-bb5a-be518c1c8bd1 a aamas:Muterm ;
+aama:IDcf49069b-b335-4e41-b87a-d84498533d9c a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
@@ -8346,7 +8346,7 @@ aama:IDb7c63598-d46a-4c01-bb5a-be518c1c8bd1 a aamas:Muterm ;
 	sah:proClass sah:Possessive ;
 	.
 
-aama:ID0c038ee3-f7ae-4028-8f43-777cd093307d a aamas:Muterm ;
+aama:ID5783174e-0b95-4887-8cfe-1a61c75601b4 a aamas:Muterm ;
 	aamas:lang aama:Saho ;	aamas:memberOf sah:saho-PInd ;
 	aamas:morpheme aama:Saho-PRO ;
 	sah:pos sah:Pronoun ;
