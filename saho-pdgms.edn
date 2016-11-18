@@ -52,7 +52,7 @@
            :ibbid {:conjClass :Prefix, :gloss "hold", :lemma "ibbiɗ-", :pos :Verb},
            :udud {:conjClass :Prefix, :gloss "shorten", :lemma "uɗuɗ-", :pos :Verb},
            :rab {:conjClass :Suffix, :gloss "die", :lemma "rab-", :pos :Verb},
-           :hab- {:gloss "leave", :lemma "ḥab-"},
+           :hab {:gloss "leave", :lemma "ḥab-"},
            :ki {:conjClass :Suffix, :gloss "be", :lemma "ki-", :pos :Verb},
            :meenge {:gloss "[x]", :lemma "[y]"},
            :uru {:conjClass :Prefix, :gloss "tie", :lemma "uru- (!)", :pos :Verb},
@@ -69,7 +69,6 @@
            :imbiddil {:conjClass :Prefix, :gloss "be charged (M)", :lemma "imbiddil- (M)", :pos :Verb},
            :eqri {:conjClass :Prefix, :gloss "read Koran", :lemma "eqri-", :pos :Verb},
            :fad {:conjClass :Suffix, :gloss "want", :lemma "faɗ-", :pos :Verb},
-           :hab {:gloss "[x]", :lemma "[y]"},
            :holol {:conjClass :Suffix, :gloss "blaze up", :lemma "bolol-", :pos :Verb},
            :usul {:gloss "[x]", :lemma "[y]"},
            :abah {:gloss "[x]", :lemma "[y]"},
@@ -4235,7 +4234,7 @@
     :terms [[:token],
             ["máɗaaminnio "]]
     }
-    {:label "saho-VSuffPast-hab-"
+    {:label "saho-VSuffPast-hab"
     :note "Welmers1952b p. 236"
     :pdgmType :Finite
     :common {:conjClass :Suffix,
@@ -4251,7 +4250,7 @@
             [:Plural :Person2 :Common "ḥabten"],
             [:Plural :Person3 :Common "ḥaben"]]
     }
-    {:label "saho-VSuffPast-ubl-"
+    {:label "saho-VSuffPast-ubl"
     :note "Welmers1952b p. 236"
     :pdgmType :Finite
     :common {:conjClass :Suffix,
