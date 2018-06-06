@@ -5,17 +5,18 @@
  :datasource "Welmers1952 Banti-Vergari2003"
  :geodemoURL "http://www.ethnologue.com/language/ssy"
  :geodemoTXT "Varieties and subdialects of Saho are spoken in Eritrea and Ethiopia (Irob dialect only). The language is very closely related to Afar."
- :schemata {:conjClass [:Irregular :Prefix :Suffix],
-           :derivedStem [:B :B_Intens :M :S1 :S1T :S1_Intens :S2 :T :T_Intens],
-           :gender [:Common :Fem :Masc],
-           :number [:Plural :Singular],
-           :person [:Person1 :Person2 :Person3 :Unmarked],
-           :polarity [:Affirmative :Negative],
-           :pos [:Pronoun :Verb],
-           :proClass [:Emphatic :Independent :Object :ObjectIndirect :Possessive],
-           :tam [:Copula :Imperative :Imperfect :ImperfectInni :ImperfectLi :ImperfectM :Jussive :JussiveKi :JussiveLi :Participle :Past :Perfect :PerfectM]
-           :vmorphClass [:Finite  :FinitePartial]
-           }
+ :schemata {:lexeme [:Aad  :ab :abaar :abaas :abah :ak :alaa :alif :anga :aymaa :baah :bad :beet :biaak :biil :bolol :daam :deer :defee :di :do :dufu :ebh :ed :edebb :edh :edirir :eebeh :eedeg :eefe :eehet :eeit :eelem :eeley :eemeg :eemen :eeneb :efe :eheeseb :ehet :ehlif :ehzen :ekett :ekkel :emeet :emlelekk :emlelekke :emmeeed :emmeng :eney :enge :engeeg :enzewer :eqri :erd :err :ew :ewe :eyme :eyteher :fah :fak :fi :fu :fuu :gur :hab :hankabit :hay :ibbid :idhen :ifrid :ifriy :ifteh :igdif :igdil :iggire :igre :igziy :ikfil :iklib :iksib :imbiddil :immillik :inebe :ineeb :infili :inni :iskir :isniq :ki :li :meenge :obb :oho :onqoomot :oofo :ookom :ooob :ooog :oorof :oosol :oosoom :ootob :ootok :oysoom :rab :sa :suu :ubl :uhfus :ult :unqusu :urkut :uru :uruf :usul :uuluus :uysuku :yaysadad :yaysud],
+ :conjClass [:Irregular :Prefix :Suffix],
+ :derivedStem [:B :B_Intens :M :S1 :S1T :S1_Intens :S2 :T :T_Intens],
+ :gender [:Common :Fem :Masc],
+ :number [:Plural :Singular],
+ :person [:Person1 :Person2 :Person3 :Unmarked],
+ :polarity [:Affirmative :Negative],
+ :pos [:Pronoun :Verb],
+ :proClass [:Emphatic :Independent :Object :ObjectIndirect :Possessive],
+ :tam [:Copula :Imperative :Imperfect :ImperfectInni :ImperfectLi :ImperfectM :Jussive :JussiveKi :JussiveLi :Participle :Past :Perfect :PerfectM],
+ :vmorphClass [:Finite :FinitePartial]
+ }
  :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :derivedStem :polarity :pos :proClass :tam],
           :inflClass [:conjClass],
