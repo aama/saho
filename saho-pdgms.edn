@@ -2,149 +2,149 @@
  :lang :saho
  :subfamily "Lowland East Cushitic Saho-Afar"
  :sgpref "sah"
- :datasource "Welmers1952 Banti-Vergari2003"
+ :datasource "Welmers1952 Banti-Vergari2003; abbrev. W52 BV03"
  :geodemoURL "http://www.ethnologue.com/language/ssy"
  :geodemoTXT "Varieties and subdialects of Saho are spoken in Eritrea and Ethiopia (Irob dialect only). The language is very closely related to Afar."
  :schemata { :conjClass [:Irregular :Prefix :Suffix],
- :derivedStem [:B :B_Intens :M :S1 :S1T :S1_Intens :S2 :T :T_Intens],
- :gender [:Common :Fem :Masc],
- :number [:Plural :Singular],
- :person [:Person1 :Person2 :Person3 :Unmarked],
- :polarity [:Affirmative :Negative],
- :pos [:Pronoun :Verb],
- :proClass [:Emphatic :Independent :Object :ObjectIndirect :Possessive],
- :tam [:Copula :Imperative :Imperfect :ImperfectInni :ImperfectLi :ImperfectM :Jussive :JussiveKi :JussiveLi :Participle :Past :Perfect :PerfectM],
- :vmorphClass [:Finite :FinitePartial]
- }
+            :derivedStem [:B :B_Intens :M :S1 :S1T :S1_Intens :S2 :T :T_Intens],
+            :gender [:Common :Fem :Masc],
+            :number [:Plural :Singular],
+            :person [:Person1 :Person2 :Person3 :Unmarked],
+            :polarity [:Affirmative :Negative],
+            :pos [:Pronoun :Verb],
+            :proClass [:Emphatic :Independent :Object :ObjectIndirect :Possessive],
+            :tam [:Copula :Imperative :Imperfect :ImperfectInni :ImperfectLi :ImperfectM :Jussive :JussiveKi :JussiveLi :Participle :Past :Perfect :PerfectM],
+            :vmorphClass [:Finite :FinitePartial]
+            }
  :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :derivedStem :polarity :pos :proClass :tam],
           :inflClass [:conjClass],
           :otherClass []}
  :lexemes {
-:TENSEFORMATION   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
-:ab   {:pos :Verb, :lemma "ab-", :gloss "do", :conjClass :Suffix},
-:abaar   {:pos :Verb, :lemma "abaar-", :gloss "curse", :conjClass :Suffix},
-:abaas   {:pos :Verb, :lemma "abaas-", :gloss "finish", :conjClass :Suffix},
-:abah   {:pos :Verb, :lemma "abaḥ-", :gloss "spoil", :conjClass :Suffix},
-:ad   {:pos :Verb, :lemma "ḥaɗ-", :gloss "pour out", :conjClass :Suffix},
-:ak   {:pos :Verb, :lemma "ak-", :gloss "say", :conjClass :Suffix},
-:alaa   {:pos :Verb, :lemma "alaa-", :gloss "cook", :conjClass :Suffix},
-:alif   {:pos :Verb, :lemma "alif-", :gloss "close (open?)", :conjClass :Suffix},
-:anga   {:pos :Verb, :lemma "angaʕ-", :gloss "[x]", },
-:aymaa   {:pos :Verb, :lemma "aymaaʕ-", :gloss "[x]", },
-:baah   {:pos :Verb, :lemma "baah-", :gloss "bring", :conjClass :Suffix},
-:bad   {:pos :Verb, :lemma "bad-", :gloss "die (of an animal or fire)", :conjClass :Suffix},
-:beet   {:pos :Verb, :lemma "beet-", :gloss "eat", :conjClass :Suffix},
-:biaak   {:pos :Verb, :lemma "biaak-", :gloss "injure", :conjClass :Suffix},
-:biil   {:pos :Verb, :lemma "biil-", :gloss "bleed", :conjClass :Suffix},
-:bolol   {:pos :Verb, :lemma "bolol-sis", :gloss "[x]" :derivedStem :S2, },
-:daam   {:pos :Verb, :lemma "ɗaam-", :gloss "buy", :conjClass :Suffix},
-:deer   {:pos :Verb, :lemma "deer-", :gloss "cry out", :conjClass :Suffix},
-:defee   {:pos :Verb, :lemma "defee-", :gloss "set down", :conjClass :Suffix},
-:di   {:pos :Verb, :lemma "ɗiʕ-", :gloss "be able", :conjClass :Suffix},
-:do   {:pos :Verb, :lemma "ɗo-", :gloss "suck on", :conjClass :Suffix},
-:dufu   {:pos :Verb, :lemma "dufu-", :gloss "push", :conjClass :Suffix},
-:ebh   {:pos :Verb, :lemma "ebḥ-", :gloss "say", :conjClass :Prefix},
-:ed   {:pos :Verb, :lemma "ed-", :gloss "go", :conjClass :PrefIrregular},
-:edebb   {:pos :Verb, :lemma "edebb-", :gloss "repay", :conjClass :Prefix},
-:edh   {:pos :Verb, :lemma "eɗḥ-", :gloss "say", :conjClass :Prefix},
-:edhet   {:pos :Verb, :lemma "eḥet-", :gloss "chew", :conjClass :Prefix},
-:edirir   {:pos :Verb, :lemma "edirir-", :gloss "eat supper", :conjClass :Prefix},
-:eebeh   {:pos :Verb, :lemma "eebeḥ-", :gloss "sell", :conjClass :Prefix},
-:eedeg   {:pos :Verb, :lemma "eeɗeg-", :gloss "know", :conjClass :Prefix},
-:eefe   {:pos :Verb, :lemma "eefeʕ-", :gloss "give water to", :conjClass :Prefix},
-:eehet   {:pos :Verb, :lemma "eeḥet-", :gloss "chew", :conjClass :Prefix},
-:eeit   {:pos :Verb, :lemma "eeʕit-", :gloss "step on", :conjClass :Prefix},
-:eelem   {:pos :Verb, :lemma "eelem-", :gloss "weave", :conjClass :Prefix},
-:eeley   {:pos :Verb, :lemma "eeley-", :gloss "become lost", :conjClass :Prefix},
-:eemeg   {:pos :Verb, :lemma "eemeg-", :gloss "fill", :conjClass :Prefix},
-:eemen   {:pos :Verb, :lemma "eemen-", :gloss "believe", :conjClass :Prefix},
-:eeneb   {:pos :Verb, :lemma "eeneb-", :gloss "grow", :conjClass :Prefix},
-:efe   {:pos :Verb, :lemma "efeʕ-", :gloss "[x]", },
-:eheeseb   {:pos :Verb, :lemma "eḥeeseb-", :gloss "think about", :conjClass :Prefix},
-:ehet   {:pos :Verb, :lemma "eḥey-", :gloss "[x]", },
-:ehlif   {:pos :Verb, :lemma "eḥlif-", :gloss "be annihilated", :conjClass :Prefix},
-:ehzen   {:pos :Verb, :lemma "eḥzen-", :gloss "be sad", :conjClass :Prefix},
-:ekett   {:pos :Verb, :lemma "ekett-", :gloss "gather", :conjClass :Prefix},
-:ekkel   {:pos :Verb, :lemma "ekkel-", :gloss "think", :conjClass :Prefix},
-:emeet   {:pos :Verb, :lemma "emeet-", :gloss "come", :conjClass :Prefix},
-:emlelekk   {:pos :Verb, :lemma "emlelekk- (M)", :gloss "be mistaken (M)", :conjClass :Prefix},
-:emmeeed   {:pos :Verb, :lemma "emmeʕeʕed- (M)", :gloss "stretch self (M)", :conjClass :Prefix},
-:emmeng   {:pos :Verb, :lemma "emmeng- (M)", :gloss "be many (M)", :conjClass :Prefix},
-:eney   {:pos :Verb, :lemma "eney- (?)", :gloss "flay", :conjClass :Prefix},
-:enge   {:pos :Verb, :lemma "engeʕ-", :gloss "fight", :conjClass :Prefix},
-:engeeg   {:pos :Verb, :lemma "engeeg- (M)", :gloss "be mistaken (M)", :conjClass :Prefix},
-:enzewer   {:pos :Verb, :lemma "enzewer- (M)", :gloss "travel (M)", :conjClass :Prefix},
-:eqri   {:pos :Verb, :lemma "eqri-", :gloss "read Koran", :conjClass :Prefix},
-:erd   {:pos :Verb, :lemma "erd-", :gloss "run", :conjClass :Prefix},
-:err   {:pos :Verb, :lemma "err-", :gloss "load", :conjClass :Prefix},
-:ew   {:pos :Verb, :lemma "ewʕ-", :gloss "go out", :conjClass :Prefix},
-:eyme   {:pos :Verb, :lemma "eymeeʕ- (S1 frm meʕe)", :gloss "repair", :conjClass :Prefix},
-:eyteher   {:pos :Verb, :lemma "eyṭeher-", :gloss "cleanse", :conjClass :Prefix},
-:fad   {:pos :Verb, :lemma "faɗ-", :gloss "want", :conjClass :Suffix},
-:fah   {:pos :Verb, :lemma "faḥ-", :gloss "boil", :conjClass :Suffix},
-:fak   {:pos :Verb, :lemma "fak-", :gloss "open", :conjClass :Suffix},
-:fi   {:pos :Verb, :lemma "fi-", :gloss "sweep", :conjClass :Suffix},
-:fuu   {:pos :Verb, :lemma "fuuʕ-", :gloss "suck", :conjClass :Suffix},
-:gur   {:pos :Verb, :lemma "gur-", :gloss "want", :conjClass :Suffix},
-:hab   {:pos :Verb, :lemma "ḥab-", :gloss "leave", },
-:had   {:pos :Verb, :lemma "ḥaɗ-", :gloss "[x]", },
-:hankabit   {:pos :Verb, :lemma "hankabit- (T)", :gloss "be frightened", :conjClass :Suffix},
-:hay   {:pos :Verb, :lemma "hay-", :gloss "dress", :conjClass :Suffix},
-:holol   {:pos :Verb, :lemma "bolol-", :gloss "blaze up", :conjClass :Suffix},
-:ibbid   {:pos :Verb, :lemma "ibbiɗ-", :gloss "hold", :conjClass :Prefix},
-:idhen   {:pos :Verb, :lemma "iɗḥen-", :gloss "grind", :conjClass :Prefix},
-:ifrid   {:pos :Verb, :lemma "ifrid-", :gloss "judge", :conjClass :Prefix},
-:ifriy   {:pos :Verb, :lemma "ifriy-", :gloss "bear fruit", :conjClass :Prefix},
-:ifteh   {:pos :Verb, :lemma "ifteḥ-", :gloss "untie", :conjClass :Prefix},
-:igdif   {:pos :Verb, :lemma "igdif-", :gloss "kill", :conjClass :Prefix},
-:igdil   {:pos :Verb, :lemma "igdil-", :gloss "break", :conjClass :Prefix},
-:igre   {:pos :Verb, :lemma "igreʕ-", :gloss "cut off", :conjClass :Prefix},
-:igziy   {:pos :Verb, :lemma "igziy-", :gloss "rule over", :conjClass :Prefix},
-:ikfil   {:pos :Verb, :lemma "ikfil-", :gloss "repay", :conjClass :Prefix},
-:iklib   {:pos :Verb, :lemma "iklib-", :gloss "turn over", :conjClass :Prefix},
-:iksib   {:pos :Verb, :lemma "iksib-", :gloss "profit", :conjClass :Prefix},
-:imbiddil   {:pos :Verb, :lemma "imbiddil- (M)", :gloss "be charged (M)", :conjClass :Prefix},
-:immillik   {:pos :Verb, :lemma "immillik- (M)", :gloss "surrender (M)", :conjClass :Prefix},
-:inebe   {:pos :Verb, :lemma "inebeʕ-", :gloss "hate", :conjClass :Prefix},
-:infili   {:pos :Verb, :lemma "infili- (M)", :gloss "be separated (M)", :conjClass :Prefix},
-:inni   {:pos :Verb, :lemma "inni-", :gloss "be in", :conjClass :SuffixIrregular},
-:iskir   {:pos :Verb, :lemma "iskir-", :gloss "get drunk", :conjClass :Prefix},
-:isniq   {:pos :Verb, :lemma "isniq-", :gloss "strangle", :conjClass :Prefix},
-:ki   {:pos :Verb, :lemma "ki-", :gloss "be", :conjClass :Suffix},
-:li   {:pos :Verb, :lemma "li-", :gloss "have", },
-:meenge   {:pos :Verb, :lemma "méengeʕ", :gloss "[x]", },
-:obb   {:pos :Verb, :lemma "obb-", :gloss "hear", :conjClass :Prefix},
-:oho   {:pos :Verb, :lemma "oḥo- (?)", :gloss "give", :conjClass :Prefix},
-:onqoomot   {:pos :Verb, :lemma "onqoomot- (M)", :gloss "pay attention (M)", :conjClass :Prefix},
-:oofo   {:pos :Verb, :lemma "oofo-", :gloss "breathe", :conjClass :Prefix},
-:ookom   {:pos :Verb, :lemma "ookom-", :gloss "win over", :conjClass :Prefix},
-:ooob   {:pos :Verb, :lemma "ooʕob-", :gloss "drink", :conjClass :Prefix},
-:ooog   {:pos :Verb, :lemma "ooʕog-", :gloss "bury", :conjClass :Prefix},
-:oorof   {:pos :Verb, :lemma "oorof-", :gloss "sew", :conjClass :Prefix},
-:oosol   {:pos :Verb, :lemma "oosol-", :gloss "laugh", :conjClass :Prefix},
-:oosoom   {:pos :Verb, :lemma "oosoom-", :gloss "fast", :conjClass :Prefix},
-:ootob   {:pos :Verb, :lemma "ootob-", :gloss "repent", :conjClass :Prefix},
-:ootok   {:pos :Verb, :lemma "ootok-", :gloss "hit", :conjClass :Prefix},
-:oysoom   {:pos :Verb, :lemma "oysoom- (S1 frm um-)", :gloss "spoil", :conjClass :Prefix},
-:rab   {:pos :Verb, :lemma "rab-", :gloss "die", :conjClass :Suffix},
-:sa   {:pos :Verb, :lemma "sa-", :gloss "enter", :conjClass :Suffix},
-:suu   {:pos :Verb, :lemma "suʕu-", :gloss "hide", :conjClass :Suffix},
-:ubl   {:pos :Verb, :lemma "ubl-", :gloss "see", },
-:udud   {:pos :Verb, :lemma "uɗuɗ-", :gloss "shorten", :conjClass :Prefix, :derivedStem :S1},
-:uhfus   {:pos :Verb, :lemma "uḥfus-", :gloss "scoop up", :conjClass :Prefix},
-:ul   {:pos :Verb, :lemma "ʕul-", :gloss "draw water", :conjClass :Suffix},
-:unqusu   {:pos :Verb, :lemma "unqusuʕ- (M)", :gloss "be sprained (M)", :conjClass :Prefix},
-:urkut   {:pos :Verb, :lemma "urkut-", :gloss "become thin", :conjClass :Prefix},
-:uru   {:pos :Verb, :lemma "uru- (!)", :gloss "tie", :conjClass :Prefix},
-:uruf   {:pos :Verb, :lemma "uʕruf-", :gloss "rest", :conjClass :Prefix},
-:usul   {:pos :z, :lemma "[y]", :gloss "[x]", },
-:uuluus   {:pos :Verb, :lemma "uuluus- (?)", :gloss "knead", :conjClass :Prefix},
-:uyku   {:pos :Verb, :lemma "uykuʕ- (S1?)", :gloss "carry", :conjClass :Prefix, :derivedStem :S1},
-}
+           :TENSEFORMATION   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :ab   {:pos :Verb, :lemma "ab-", :gloss "do", :conjClass :Suffix},
+           :abaar   {:pos :Verb, :lemma "abaar-", :gloss "curse", :conjClass :Suffix},
+           :abaas   {:pos :Verb, :lemma "abaas-", :gloss "finish", :conjClass :Suffix},
+           :abah   {:pos :Verb, :lemma "abaḥ-", :gloss "spoil", :conjClass :Suffix},
+           :ad   {:pos :Verb, :lemma "ḥaɗ-", :gloss "pour out", :conjClass :Suffix},
+           :ak   {:pos :Verb, :lemma "ak-", :gloss "say", :conjClass :Suffix},
+           :alaa   {:pos :Verb, :lemma "alaa-", :gloss "cook", :conjClass :Suffix},
+           :alif   {:pos :Verb, :lemma "alif-", :gloss "close (open?)", :conjClass :Suffix},
+           :anga   {:pos :Verb, :lemma "angaʕ-", :gloss "[x]", },
+           :aymaa   {:pos :Verb, :lemma "aymaaʕ-", :gloss "[x]", },
+           :baah   {:pos :Verb, :lemma "baah-", :gloss "bring", :conjClass :Suffix},
+           :bad   {:pos :Verb, :lemma "bad-", :gloss "die (of an animal or fire)", :conjClass :Suffix},
+           :beet   {:pos :Verb, :lemma "beet-", :gloss "eat", :conjClass :Suffix},
+           :biaak   {:pos :Verb, :lemma "biaak-", :gloss "injure", :conjClass :Suffix},
+           :biil   {:pos :Verb, :lemma "biil-", :gloss "bleed", :conjClass :Suffix},
+           :bolol   {:pos :Verb, :lemma "bolol-sis", :gloss "[x]" :derivedStem :S2, },
+           :daam   {:pos :Verb, :lemma "ɗaam-", :gloss "buy", :conjClass :Suffix},
+           :deer   {:pos :Verb, :lemma "deer-", :gloss "cry out", :conjClass :Suffix},
+           :defee   {:pos :Verb, :lemma "defee-", :gloss "set down", :conjClass :Suffix},
+           :di   {:pos :Verb, :lemma "ɗiʕ-", :gloss "be able", :conjClass :Suffix},
+           :do   {:pos :Verb, :lemma "ɗo-", :gloss "suck on", :conjClass :Suffix},
+           :dufu   {:pos :Verb, :lemma "dufu-", :gloss "push", :conjClass :Suffix},
+           :ebh   {:pos :Verb, :lemma "ebḥ-", :gloss "say", :conjClass :Prefix},
+           :ed   {:pos :Verb, :lemma "ed-", :gloss "go", :conjClass :PrefIrregular},
+           :edebb   {:pos :Verb, :lemma "edebb-", :gloss "repay", :conjClass :Prefix},
+           :edh   {:pos :Verb, :lemma "eɗḥ-", :gloss "say", :conjClass :Prefix},
+           :edhet   {:pos :Verb, :lemma "eḥet-", :gloss "chew", :conjClass :Prefix},
+           :edirir   {:pos :Verb, :lemma "edirir-", :gloss "eat supper", :conjClass :Prefix},
+           :eebeh   {:pos :Verb, :lemma "eebeḥ-", :gloss "sell", :conjClass :Prefix},
+           :eedeg   {:pos :Verb, :lemma "eeɗeg-", :gloss "know", :conjClass :Prefix},
+           :eefe   {:pos :Verb, :lemma "eefeʕ-", :gloss "give water to", :conjClass :Prefix},
+           :eehet   {:pos :Verb, :lemma "eeḥet-", :gloss "chew", :conjClass :Prefix},
+           :eeit   {:pos :Verb, :lemma "eeʕit-", :gloss "step on", :conjClass :Prefix},
+           :eelem   {:pos :Verb, :lemma "eelem-", :gloss "weave", :conjClass :Prefix},
+           :eeley   {:pos :Verb, :lemma "eeley-", :gloss "become lost", :conjClass :Prefix},
+           :eemeg   {:pos :Verb, :lemma "eemeg-", :gloss "fill", :conjClass :Prefix},
+           :eemen   {:pos :Verb, :lemma "eemen-", :gloss "believe", :conjClass :Prefix},
+           :eeneb   {:pos :Verb, :lemma "eeneb-", :gloss "grow", :conjClass :Prefix},
+           :efe   {:pos :Verb, :lemma "efeʕ-", :gloss "[x]", },
+           :eheeseb   {:pos :Verb, :lemma "eḥeeseb-", :gloss "think about", :conjClass :Prefix},
+           :ehet   {:pos :Verb, :lemma "eḥey-", :gloss "[x]", },
+           :ehlif   {:pos :Verb, :lemma "eḥlif-", :gloss "be annihilated", :conjClass :Prefix},
+           :ehzen   {:pos :Verb, :lemma "eḥzen-", :gloss "be sad", :conjClass :Prefix},
+           :ekett   {:pos :Verb, :lemma "ekett-", :gloss "gather", :conjClass :Prefix},
+           :ekkel   {:pos :Verb, :lemma "ekkel-", :gloss "think", :conjClass :Prefix},
+           :emeet   {:pos :Verb, :lemma "emeet-", :gloss "come", :conjClass :Prefix},
+           :emlelekk   {:pos :Verb, :lemma "emlelekk- (M)", :gloss "be mistaken (M)", :conjClass :Prefix},
+           :emmeeed   {:pos :Verb, :lemma "emmeʕeʕed- (M)", :gloss "stretch self (M)", :conjClass :Prefix},
+           :emmeng   {:pos :Verb, :lemma "emmeng- (M)", :gloss "be many (M)", :conjClass :Prefix},
+           :eney   {:pos :Verb, :lemma "eney- (?)", :gloss "flay", :conjClass :Prefix},
+           :enge   {:pos :Verb, :lemma "engeʕ-", :gloss "fight", :conjClass :Prefix},
+           :engeeg   {:pos :Verb, :lemma "engeeg- (M)", :gloss "be mistaken (M)", :conjClass :Prefix},
+           :enzewer   {:pos :Verb, :lemma "enzewer- (M)", :gloss "travel (M)", :conjClass :Prefix},
+           :eqri   {:pos :Verb, :lemma "eqri-", :gloss "read Koran", :conjClass :Prefix},
+           :erd   {:pos :Verb, :lemma "erd-", :gloss "run", :conjClass :Prefix},
+           :err   {:pos :Verb, :lemma "err-", :gloss "load", :conjClass :Prefix},
+           :ew   {:pos :Verb, :lemma "ewʕ-", :gloss "go out", :conjClass :Prefix},
+           :eyme   {:pos :Verb, :lemma "eymeeʕ- (S1 frm meʕe)", :gloss "repair", :conjClass :Prefix},
+           :eyteher   {:pos :Verb, :lemma "eyṭeher-", :gloss "cleanse", :conjClass :Prefix},
+           :fad   {:pos :Verb, :lemma "faɗ-", :gloss "want", :conjClass :Suffix},
+           :fah   {:pos :Verb, :lemma "faḥ-", :gloss "boil", :conjClass :Suffix},
+           :fak   {:pos :Verb, :lemma "fak-", :gloss "open", :conjClass :Suffix},
+           :fi   {:pos :Verb, :lemma "fi-", :gloss "sweep", :conjClass :Suffix},
+           :fuu   {:pos :Verb, :lemma "fuuʕ-", :gloss "suck", :conjClass :Suffix},
+           :gur   {:pos :Verb, :lemma "gur-", :gloss "want", :conjClass :Suffix},
+           :hab   {:pos :Verb, :lemma "ḥab-", :gloss "leave", },
+           :had   {:pos :Verb, :lemma "ḥaɗ-", :gloss "[x]", },
+           :hankabit   {:pos :Verb, :lemma "hankabit- (T)", :gloss "be frightened", :conjClass :Suffix},
+           :hay   {:pos :Verb, :lemma "hay-", :gloss "dress", :conjClass :Suffix},
+           :holol   {:pos :Verb, :lemma "bolol-", :gloss "blaze up", :conjClass :Suffix},
+           :ibbid   {:pos :Verb, :lemma "ibbiɗ-", :gloss "hold", :conjClass :Prefix},
+           :idhen   {:pos :Verb, :lemma "iɗḥen-", :gloss "grind", :conjClass :Prefix},
+           :ifrid   {:pos :Verb, :lemma "ifrid-", :gloss "judge", :conjClass :Prefix},
+           :ifriy   {:pos :Verb, :lemma "ifriy-", :gloss "bear fruit", :conjClass :Prefix},
+           :ifteh   {:pos :Verb, :lemma "ifteḥ-", :gloss "untie", :conjClass :Prefix},
+           :igdif   {:pos :Verb, :lemma "igdif-", :gloss "kill", :conjClass :Prefix},
+           :igdil   {:pos :Verb, :lemma "igdil-", :gloss "break", :conjClass :Prefix},
+           :igre   {:pos :Verb, :lemma "igreʕ-", :gloss "cut off", :conjClass :Prefix},
+           :igziy   {:pos :Verb, :lemma "igziy-", :gloss "rule over", :conjClass :Prefix},
+           :ikfil   {:pos :Verb, :lemma "ikfil-", :gloss "repay", :conjClass :Prefix},
+           :iklib   {:pos :Verb, :lemma "iklib-", :gloss "turn over", :conjClass :Prefix},
+           :iksib   {:pos :Verb, :lemma "iksib-", :gloss "profit", :conjClass :Prefix},
+           :imbiddil   {:pos :Verb, :lemma "imbiddil- (M)", :gloss "be charged (M)", :conjClass :Prefix},
+           :immillik   {:pos :Verb, :lemma "immillik- (M)", :gloss "surrender (M)", :conjClass :Prefix},
+           :inebe   {:pos :Verb, :lemma "inebeʕ-", :gloss "hate", :conjClass :Prefix},
+           :infili   {:pos :Verb, :lemma "infili- (M)", :gloss "be separated (M)", :conjClass :Prefix},
+           :inni   {:pos :Verb, :lemma "inni-", :gloss "be in", :conjClass :SuffixIrregular},
+           :iskir   {:pos :Verb, :lemma "iskir-", :gloss "get drunk", :conjClass :Prefix},
+           :isniq   {:pos :Verb, :lemma "isniq-", :gloss "strangle", :conjClass :Prefix},
+           :ki   {:pos :Verb, :lemma "ki-", :gloss "be", :conjClass :Suffix},
+           :li   {:pos :Verb, :lemma "li-", :gloss "have", },
+           :meenge   {:pos :Verb, :lemma "méengeʕ", :gloss "[x]", },
+           :obb   {:pos :Verb, :lemma "obb-", :gloss "hear", :conjClass :Prefix},
+           :oho   {:pos :Verb, :lemma "oḥo- (?)", :gloss "give", :conjClass :Prefix},
+           :onqoomot   {:pos :Verb, :lemma "onqoomot- (M)", :gloss "pay attention (M)", :conjClass :Prefix},
+           :oofo   {:pos :Verb, :lemma "oofo-", :gloss "breathe", :conjClass :Prefix},
+           :ookom   {:pos :Verb, :lemma "ookom-", :gloss "win over", :conjClass :Prefix},
+           :ooob   {:pos :Verb, :lemma "ooʕob-", :gloss "drink", :conjClass :Prefix},
+           :ooog   {:pos :Verb, :lemma "ooʕog-", :gloss "bury", :conjClass :Prefix},
+           :oorof   {:pos :Verb, :lemma "oorof-", :gloss "sew", :conjClass :Prefix},
+           :oosol   {:pos :Verb, :lemma "oosol-", :gloss "laugh", :conjClass :Prefix},
+           :oosoom   {:pos :Verb, :lemma "oosoom-", :gloss "fast", :conjClass :Prefix},
+           :ootob   {:pos :Verb, :lemma "ootob-", :gloss "repent", :conjClass :Prefix},
+           :ootok   {:pos :Verb, :lemma "ootok-", :gloss "hit", :conjClass :Prefix},
+           :oysoom   {:pos :Verb, :lemma "oysoom- (S1 frm um-)", :gloss "spoil", :conjClass :Prefix},
+           :rab   {:pos :Verb, :lemma "rab-", :gloss "die", :conjClass :Suffix},
+           :sa   {:pos :Verb, :lemma "sa-", :gloss "enter", :conjClass :Suffix},
+           :suu   {:pos :Verb, :lemma "suʕu-", :gloss "hide", :conjClass :Suffix},
+           :ubl   {:pos :Verb, :lemma "ubl-", :gloss "see", },
+           :udud   {:pos :Verb, :lemma "uɗuɗ-", :gloss "shorten", :conjClass :Prefix, :derivedStem :S1},
+           :uhfus   {:pos :Verb, :lemma "uḥfus-", :gloss "scoop up", :conjClass :Prefix},
+           :ul   {:pos :Verb, :lemma "ʕul-", :gloss "draw water", :conjClass :Suffix},
+           :unqusu   {:pos :Verb, :lemma "unqusuʕ- (M)", :gloss "be sprained (M)", :conjClass :Prefix},
+           :urkut   {:pos :Verb, :lemma "urkut-", :gloss "become thin", :conjClass :Prefix},
+           :uru   {:pos :Verb, :lemma "uru- (!)", :gloss "tie", :conjClass :Prefix},
+           :uruf   {:pos :Verb, :lemma "uʕruf-", :gloss "rest", :conjClass :Prefix},
+           :usul   {:pos :z, :lemma "[y]", :gloss "[x]", },
+           :uuluus   {:pos :Verb, :lemma "uuluus- (?)", :gloss "knead", :conjClass :Prefix},
+           :uyku   {:pos :Verb, :lemma "uykuʕ- (S1?)", :gloss "carry", :conjClass :Prefix, :derivedStem :S1},
+           }
  :termclusters [
                 {:label "saho-VPref-ed"
-                 :note "Welmers1952b p. 249"
+                 :note "W52p.249"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :conjClass :Prefix,
@@ -161,7 +161,7 @@
 
 
                 {:label "saho-VPrefAffImprtv-ebh"
-                 :note "Welmers1952b pp. 237–246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf num=sg pers=1 gen=c;in M num=sg pers=3 gen=m."
+                 :note "W52pp.237–246 :: If imprtv,num=sg pers=2 gen=c. In B if perf/imperf num=sg pers=1 gen=c;in M num=sg pers=3 gen=m."
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -176,7 +176,7 @@
                          ["ebeḥ"]]
                  }
                 {:label "saho-VIrreg-li"
-                 :note "Welmers1952b p. 250"
+                 :note "W52p.250"
                  :common {:vmorphClass :Finite
                           :conjClass :Irregular,
                           :lexeme :li,
@@ -192,7 +192,7 @@
                          [:Plural :Person3 :Common "linun"]]
                  }
                 {:label "saho-VPrefAffImperf-edebb"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -207,7 +207,7 @@
                          ["adabbe"]]
                  }
                 {:label "saho-VPrefAffImperf-edh"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Masc,
                           :polarity :Affirmative,
@@ -222,7 +222,7 @@
                          ["yaɗḥe"]]
                  }
                 {:label "saho-VPrefAffImperf-eedeg"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -237,7 +237,7 @@
                          ["aɗige"]]
                  }
                 {:label "saho-VPrefAffImperf-eehet"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -252,7 +252,7 @@
                          ["aḥate"]]
                  }
                 {:label "saho-VPrefAffImperf-eeley"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -267,7 +267,7 @@
                          ["alaye"]]
                  }
                 {:label "saho-VPrefAffImperf-eeneb"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -282,7 +282,7 @@
                          ["anabe"]]
                  }
                 {:label "saho-VPrefAffImperf-ehzen"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -297,7 +297,7 @@
                          ["tasḥezinin"]]
                  }
                 {:label "saho-VPrefAffImperf-ekett"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -312,7 +312,7 @@
                          ["akatte"]]
                  }
                 {:label "saho-VPrefAffImperf-ekkel"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -327,7 +327,7 @@
                          ["akkale"]]
                  }
                 {:label "saho-VPrefAffImperf-emeet"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -342,7 +342,7 @@
                          ["amate"]]
                  }
                 {:label "saho-VPrefAffImperf-emlelekk"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -357,7 +357,7 @@
                          ["amlalakke"]]
                  }
                 {:label "saho-VPrefAffImperf-eney"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -372,7 +372,7 @@
                          ["anaye"]]
                  }
                 {:label "saho-VPrefAffImperf-enge"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -387,7 +387,7 @@
                          ["angaʕe"]]
                  }
                 {:label "saho-VPrefAffImperf-eymee"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -402,7 +402,7 @@
                          ["aymaaʕe"]]
                  }
                 {:label "saho-VPrefAffImperf-ifriy"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Fem,
                           :polarity :Affirmative,
@@ -417,7 +417,7 @@
                          ["tafriye"]]
                  }
                 {:label "saho-VPrefAffImperf-inni-ubl"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Masc,
                           :token-note "he has seen (it)",
@@ -433,7 +433,7 @@
                          ["yubléhane"]]
                  }
                 {:label "saho-VPrefAffImperf-inniPerf-ubl"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Masc,
                           :token-note "he had seen (it)",
@@ -449,7 +449,7 @@
                          ["yubléhine "]]
                  }
                 {:label "saho-VPrefAffImperf-li-emeet"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :token-note "we will come (future)",
@@ -465,7 +465,7 @@
                          ["nemeeté-lio"]]
                  }
                 {:label "saho-VPrefAffImperf-m-uruf"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :token-note "(I want) to rest (subordinate)",
@@ -481,7 +481,7 @@
                          ["aʕrufe-m"]]
                  }
                 {:label "saho-VPrefAffImperf-oho"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -496,7 +496,7 @@
                          ["aḥaye"]]
                  }
                 {:label "saho-VPrefAffImperf-oosol"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -511,7 +511,7 @@
                          ["yasulen"]]
                  }
                 {:label "saho-VPrefAffImperf-oysoom"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -526,7 +526,7 @@
                          ["aysaame"]]
                  }
                 {:label "saho-VPrefAffImperf-ubl"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :token-note "show",
@@ -542,7 +542,7 @@
                          ["ayballe"]]
                  }
                 {:label "saho-VPrefAffImperf-udud"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Masc,
                           :polarity :Affirmative,
@@ -557,7 +557,7 @@
                          ["yaysuɗuɗe"]]
                  }
                 {:label "saho-VPrefAffImperf-ul"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -572,7 +572,7 @@
                          ["ʕultan"]]
                  }
                 {:label "saho-VPrefAffImperf-urkut"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Fem,
                           :polarity :Affirmative,
@@ -587,7 +587,7 @@
                          ["tarkute"]]
                  }
                 {:label "saho-VPrefAffImperf-uruf"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Masc,
                           :polarity :Affirmative,
@@ -602,7 +602,7 @@
                          ["yaʕrufe"]]
                  }
                 {:label "saho-VPrefAffImprtv-alaa"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -617,7 +617,7 @@
                          ["alas"]]
                  }
                 {:label "saho-VPrefAffImprtv-edebb"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -632,7 +632,7 @@
                          ["edebba"]]
                  }
                 {:label "saho-VPrefAffImprtv-edh"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -647,7 +647,7 @@
                          ["eɗeḥ"]]
                  }
                 {:label "saho-VPrefAffImprtv-edirir"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -662,7 +662,7 @@
                          ["iddirir"]]
                  }
                 {:label "saho-VPrefAffImprtv-eebeh"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -677,7 +677,7 @@
                          ["ibiiḥ"]]
                  }
                 {:label "saho-VPrefAffImprtv-eedeg"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -692,7 +692,7 @@
                          ["iysiɗig"]]
                  }
                 {:label "saho-VPrefAffImprtv-eefe"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -707,7 +707,7 @@
                          ["efeʕ"]]
                  }
                 {:label "saho-VPrefAffImprtv-eehet"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -722,7 +722,7 @@
                          ["eḥet"]]
                  }
                 {:label "saho-VPrefAffImprtv-eeit"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -737,7 +737,7 @@
                          ["eʕit"]]
                  }
                 {:label "saho-VPrefAffImprtv-eelem"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -752,7 +752,7 @@
                          ["ilim"]]
                  }
                 {:label "saho-VPrefAffImprtv-eeley"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -767,7 +767,7 @@
                          ["eyleley"]]
                  }
                 {:label "saho-VPrefAffImprtv-eemeg"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -782,7 +782,7 @@
                          ["emeg"]]
                  }
                 {:label "saho-VPrefAffImprtv-eemen"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -797,7 +797,7 @@
                          ["imin"]]
                  }
                 {:label "saho-VPrefAffImprtv-eeneb"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -812,7 +812,7 @@
                          ["eyneb"]]
                  }
                 {:label "saho-VPrefAffImprtv-ehlif"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -827,7 +827,7 @@
                          ["eḥlif"]]
                  }
                 {:label "saho-VPrefAffImprtv-ehzen"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -842,7 +842,7 @@
                          ["esḥezin"]]
                  }
                 {:label "saho-VPrefAffImprtv-ekett"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -857,7 +857,7 @@
                          ["esketta"]]
                  }
                 {:label "saho-VPrefAffImprtv-ekkel"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -872,7 +872,7 @@
                          ["ekkel"]]
                  }
                 {:label "saho-VPrefAffImprtv-emeet"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -887,7 +887,7 @@
                          ["emet (?)"]]
                  }
                 {:label "saho-VPrefAffImprtv-emlelekk"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -902,7 +902,7 @@
                          ["emlelekka"]]
                  }
                 {:label "saho-VPrefAffImprtv-eney"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -917,7 +917,7 @@
                          ["ene"]]
                  }
                 {:label "saho-VPrefAffImprtv-enge"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -932,7 +932,7 @@
                          ["engeʕ"]]
                  }
                 {:label "saho-VPrefAffImprtv-eqri"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :token-note "read Koran to oneself",
@@ -948,7 +948,7 @@
                          ["eqriri"]]
                  }
                 {:label "saho-VPrefAffImprtv-erd"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -963,7 +963,7 @@
                          ["erda"]]
                  }
                 {:label "saho-VPrefAffImprtv-err"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -978,7 +978,7 @@
                          ["erra"]]
                  }
                 {:label "saho-VPrefAffImprtv-ew"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -993,7 +993,7 @@
                          ["eweʕ"]]
                  }
                 {:label "saho-VPrefAffImprtv-eymee"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1008,7 +1008,7 @@
                          ["eymeʕ"]]
                  }
                 {:label "saho-VPrefAffImprtv-eyteher"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1023,7 +1023,7 @@
                          ["eṭṭeher"]]
                  }
                 {:label "saho-VPrefAffImprtv-ibbid"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1038,7 +1038,7 @@
                          ["iyɗibiɗ"]]
                  }
                 {:label "saho-VPrefAffImprtv-ibbid"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1053,7 +1053,7 @@
                          ["ibbiɗ"]]
                  }
                 {:label "saho-VPrefAffImprtv-idhen"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1068,7 +1068,7 @@
                          ["iɗḥen"]]
                  }
                 {:label "saho-VPrefAffImprtv-ifrid"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1083,7 +1083,7 @@
                          ["iyfrid"]]
                  }
                 {:label "saho-VPrefAffImprtv-ifriy"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1098,7 +1098,7 @@
                          ["iyfiri"]]
                  }
                 {:label "saho-VPrefAffImprtv-ifteh"
-                 :note "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf       num=sg pers=1 gen=c;in M num=sg pers=3 gen=m."
+                 :note "W52pp.237–246 ::  If imprtv,num=sg pers=2 gen=c. In B if perf/imperf       num=sg pers=1 gen=c;in M num=sg pers=3 gen=m"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1113,7 +1113,7 @@
                          ["ihfiteḥ"]]
                  }
                 {:label "saho-VPrefAffImprtv-igdif"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1128,7 +1128,7 @@
                          ["iygidif"]]
                  }
                 {:label "saho-VPrefAffImprtv-igdil"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1143,7 +1143,7 @@
                          ["eggedeedel"]]
                  }
                 {:label "saho-VPrefAffImprtv-igre"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1158,7 +1158,7 @@
                          ["iggireʕ"]]
                  }
                 {:label "saho-VPrefAffImprtv-igziy"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1173,7 +1173,7 @@
                          ["igzi"]]
                  }
                 {:label "saho-VPrefAffImprtv-iksib"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1188,7 +1188,7 @@
                          ["iskisib"]]
                  }
                 {:label "saho-VPrefAffImprtv-inebe"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1203,7 +1203,7 @@
                          ["ineʕeb"]]
                  }
                 {:label "saho-VPrefAffImprtv-obb"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1218,7 +1218,7 @@
                          ["oysobba"]]
                  }
                 {:label "saho-VPrefAffImprtv-oho"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1233,7 +1233,7 @@
                          ["uḥu"]]
                  }
                 {:label "saho-VPrefAffImprtv-oofo"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1248,7 +1248,7 @@
                          ["oymooofo"]]
                  }
                 {:label "saho-VPrefAffImprtv-oofo"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1263,7 +1263,7 @@
                          ["uysyfuʕ"]]
                  }
                 {:label "saho-VPrefAffImprtv-ookom"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1278,7 +1278,7 @@
                          ["oysokokom"]]
                  }
                 {:label "saho-VPrefAffImprtv-ooob"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1293,7 +1293,7 @@
                          ["uʕub"]]
                  }
                 {:label "saho-VPrefAffImprtv-ooog"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1308,7 +1308,7 @@
                          ["uʕug"]]
                  }
                 {:label "saho-VPrefAffImprtv-oorof"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1323,7 +1323,7 @@
                          ["uruf"]]
                  }
                 {:label "saho-VPrefAffImprtv-oosol"
-                 :note "Welmers1952b p. 237 – 246. If imprtv,num=sg pers=2 gen=c. In B if perf/imperf num=sg pers=1 gen=c;in M num=sg pers=3 gen=m."
+                 :note "W52p.237–246 :: If imprtv,num=sg pers=2 gen=c. In B if perf/imperf num=sg pers=1 gen=c;in M num=sg pers=3 gen=m"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1338,7 +1338,7 @@
                          ["usul"]]
                  }
                 {:label "saho-VPrefAffImprtv-oosoom"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1353,7 +1353,7 @@
                          ["osom"]]
                  }
                 {:label "saho-VPrefAffImprtv-ootob"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1368,7 +1368,7 @@
                          ["oytob"]]
                  }
                 {:label "saho-VPrefAffImprtv-ootok"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1383,7 +1383,7 @@
                          ["uysutuk"]]
                  }
                 {:label "saho-VPrefAffImprtv-oysoom"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1398,7 +1398,7 @@
                          ["oysom"]]
                  }
                 {:label "saho-VPrefAffImprtv-ubl"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :token-note "show",
@@ -1414,7 +1414,7 @@
                          ["uybullu ~ uybulla"]]
                  }
                 {:label "saho-VPrefAffImprtv-uhfus"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1429,7 +1429,7 @@
                          ["uḥfus"]]
                  }
                 {:label "saho-VPrefAffImprtv-uru-spec"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1444,7 +1444,7 @@
                          ["uru"]]
                  }
                 {:label "saho-VPrefAffImprtv-usul"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1459,7 +1459,7 @@
                          ["uysulul"]]
                  }
                 {:label "saho-VPrefAffImprtv-uuluus"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1474,7 +1474,7 @@
                          ["ulus"]]
                  }
                 {:label "saho-VPrefAffImprtv-uyku"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1489,7 +1489,7 @@
                          ["uysukuʕ"]]
                  }
                 {:label "saho-VPrefAffJuss-edh"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Masc,
                           :polarity :Affirmative,
@@ -1504,7 +1504,7 @@
                          ["yáɗho"]]
                  }
                 {:label "saho-VPrefAffJuss-eedeg"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1519,7 +1519,7 @@
                          ["aɗgo"]]
                  }
                 {:label "saho-VPrefAffJuss-ehzen"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1534,7 +1534,7 @@
                          ["tasḥazánon"]]
                  }
                 {:label "saho-VPrefAffJuss-ifriy"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Fem,
                           :polarity :Affirmative,
@@ -1549,7 +1549,7 @@
                          ["tafráo"]]
                  }
                 {:label "saho-VPrefAffJuss-ki-ehzen"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1564,7 +1564,7 @@
                          ["tasḥazánon-kitin"]]
                  }
                 {:label "saho-VPrefAffJuss-ki-ubl"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1579,7 +1579,7 @@
                          ["náblo-kinu"]]
                  }
                 {:label "saho-VPrefAffJuss-ki-uruf"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Masc,
                           :polarity :Affirmative,
@@ -1594,7 +1594,7 @@
                          ["yaʕráfo-kinni"]]
                  }
                 {:label "saho-VPrefAffJuss-oosol"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1609,7 +1609,7 @@
                          ["yasálon"]]
                  }
                 {:label "saho-VPrefAffJuss-ubl"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1624,7 +1624,7 @@
                          ["náblo"]]
                  }
                 {:label "saho-VPrefAffJuss-udud"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Masc,
                           :polarity :Affirmative,
@@ -1639,7 +1639,7 @@
                          ["yaysaɗáɗon"]]
                  }
                 {:label "saho-VPrefAffJuss-ul"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1654,7 +1654,7 @@
                          ["ʕúlton"]]
                  }
                 {:label "saho-VPrefAffJuss-urkut"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Fem,
                           :polarity :Affirmative,
@@ -1669,7 +1669,7 @@
                          ["tarkáto"]]
                  }
                 {:label "saho-VPrefAffJuss-uruf"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Masc,
                           :polarity :Affirmative,
@@ -1684,7 +1684,7 @@
                          ["yaʕráfo"]]
                  }
                 {:label "saho-VPrefAffPart-ehet"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :conjClass :Prefix,
                           :derivedStem :B,
@@ -1697,7 +1697,7 @@
                          ["aḥati"]]
                  }
                 {:label "saho-VPrefAffPart-emeet"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :conjClass :Prefix,
                           :derivedStem :B,
@@ -1710,7 +1710,7 @@
                          ["amáti"]]
                  }
                 {:label "saho-VPrefAffPart-ifriy"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :conjClass :Prefix,
                           :derivedStem :B,
@@ -1723,7 +1723,7 @@
                          ["afríyi"]]
                  }
                 {:label "saho-VPrefAffPart-uruf"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :conjClass :Prefix,
                           :derivedStem :B,
@@ -1736,7 +1736,7 @@
                          ["aʕrúfi"]]
                  }
                 {:label "saho-VPrefAffPerf-alif"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1750,7 +1750,7 @@
                          ["alifime"]]
                  }
                 {:label "saho-VPrefAffPerf-edebb"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1764,7 +1764,7 @@
                          ["edebbe"]]
                  }
                 {:label "saho-VPrefAffPerf-edh"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1778,7 +1778,7 @@
                          ["eɗḥe"]]
                  }
                 {:label "saho-VPrefAffPerf-eebeh"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1792,7 +1792,7 @@
                          ["eebeḥe"]]
                  }
                 {:label "saho-VPrefAffPerf-eedeg"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1806,7 +1806,7 @@
                          ["eeɗege"]]
                  }
                 {:label "saho-VPrefAffPerf-eefe"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1820,7 +1820,7 @@
                          ["eefeʕe"]]
                  }
                 {:label "saho-VPrefAffPerf-eehet"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1834,7 +1834,7 @@
                          ["eeḥete"]]
                  }
                 {:label "saho-VPrefAffPerf-eeit"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1848,7 +1848,7 @@
                          ["eeʕite"]]
                  }
                 {:label "saho-VPrefAffPerf-eelem"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1862,7 +1862,7 @@
                          ["eeleme"]]
                  }
                 {:label "saho-VPrefAffPerf-eeley"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1876,7 +1876,7 @@
                          ["eeleye"]]
                  }
                 {:label "saho-VPrefAffPerf-eemeg"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1890,7 +1890,7 @@
                          ["yemmege"]]
                  }
                 {:label "saho-VPrefAffPerf-eemen"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1904,7 +1904,7 @@
                          ["eemene"]]
                  }
                 {:label "saho-VPrefAffPerf-eeneb"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1918,7 +1918,7 @@
                          ["eenebe"]]
                  }
                 {:label "saho-VPrefAffPerf-eheeseb"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1932,7 +1932,7 @@
                          ["yemḥeesebe"]]
                  }
                 {:label "saho-VPrefAffPerf-ehlif"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1946,7 +1946,7 @@
                          ["eḥlife"]]
                  }
                 {:label "saho-VPrefAffPerf-ekett"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1960,7 +1960,7 @@
                          ["ekette"]]
                  }
                 {:label "saho-VPrefAffPerf-ekkel"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1974,7 +1974,7 @@
                          ["ekkele"]]
                  }
                 {:label "saho-VPrefAffPerf-emeet"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1988,7 +1988,7 @@
                          ["emeete"]]
                  }
                 {:label "saho-VPrefAffPerf-emlelekke"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2002,7 +2002,7 @@
                          ["yemlelekkee (M)"]]
                  }
                 {:label "saho-VPrefAffPerf-emmeeed"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2016,7 +2016,7 @@
                          ["yemmeʕeʕede (M)"]]
                  }
                 {:label "saho-VPrefAffPerf-emmeng"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2030,7 +2030,7 @@
                          ["yemmenge (M)"]]
                  }
                 {:label "saho-VPrefAffPerf-eney"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2044,7 +2044,7 @@
                          ["eneye (?)"]]
                  }
                 {:label "saho-VPrefAffPerf-enge"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2058,7 +2058,7 @@
                          ["engeʕe"]]
                  }
                 {:label "saho-VPrefAffPerf-engeeg"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2072,7 +2072,7 @@
                          ["yengeege (M)"]]
                  }
                 {:label "saho-VPrefAffPerf-enzewer"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2086,7 +2086,7 @@
                          ["yenzewere (M)"]]
                  }
                 {:label "saho-VPrefAffPerf-erd"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2100,7 +2100,7 @@
                          ["erde"]]
                  }
                 {:label "saho-VPrefAffPerf-err"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2114,7 +2114,7 @@
                          ["erre"]]
                  }
                 {:label "saho-VPrefAffPerf-ew"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2128,7 +2128,7 @@
                          ["ewʕe"]]
                  }
                 {:label "saho-VPrefAffPerf-ibbid"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2142,7 +2142,7 @@
                          ["ibbiɗe"]]
                  }
                 {:label "saho-VPrefAffPerf-idhen"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2156,7 +2156,7 @@
                          ["iɗḥene"]]
                  }
                 {:label "saho-VPrefAffPerf-ifrid"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2170,7 +2170,7 @@
                          ["ifride"]]
                  }
                 {:label "saho-VPrefAffPerf-ifriy"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2184,7 +2184,7 @@
                          ["ifriye"]]
                  }
                 {:label "saho-VPrefAffPerf-ifteh"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2198,7 +2198,7 @@
                          ["yimfiteḥe"]]
                  }
                 {:label "saho-VPrefAffPerf-igdif"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2212,7 +2212,7 @@
                          ["ingidife"]]
                  }
                 {:label "saho-VPrefAffPerf-igdil"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2226,7 +2226,7 @@
                          ["igdile"]]
                  }
                 {:label "saho-VPrefAffPerf-igre"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2240,7 +2240,7 @@
                          ["igreʕe"]]
                  }
                 {:label "saho-VPrefAffPerf-igziy"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2254,7 +2254,7 @@
                          ["igziye"]]
                  }
                 {:label "saho-VPrefAffPerf-ikfil"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2268,7 +2268,7 @@
                          ["inkifile"]]
                  }
                 {:label "saho-VPrefAffPerf-iklib"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2282,7 +2282,7 @@
                          ["inkilibe"]]
                  }
                 {:label "saho-VPrefAffPerf-imbiddil"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2296,7 +2296,7 @@
                          ["yimbiddile (M)"]]
                  }
                 {:label "saho-VPrefAffPerf-immillik"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2310,7 +2310,7 @@
                          ["yimmillike (M)"]]
                  }
                 {:label "saho-VPrefAffPerf-inebe"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2324,7 +2324,7 @@
                          ["inebeʕe"]]
                  }
                 {:label "saho-VPrefAffPerf-infili"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2338,7 +2338,7 @@
                          ["yinfiliye (M)"]]
                  }
                 {:label "saho-VPrefAffPerf-isniq"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2352,7 +2352,7 @@
                          ["insiniqe"]]
                  }
                 {:label "saho-VPrefAffPerf-m-emeet"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :token-note "temeetem uble ‘I saw you coming’",
@@ -2368,7 +2368,7 @@
                          ["temeete-m "]]
                  }
                 {:label "saho-VPrefAffPerf-obb"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2382,7 +2382,7 @@
                          ["obbe"]]
                  }
                 {:label "saho-VPrefAffPerf-oho"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2396,7 +2396,7 @@
                          ["oḥoe (?)"]]
                  }
                 {:label "saho-VPrefAffPerf-onqoomot"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2410,7 +2410,7 @@
                          ["yonqoomote (M)"]]
                  }
                 {:label "saho-VPrefAffPerf-oofo"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2424,7 +2424,7 @@
                          ["yomoofoe"]]
                  }
                 {:label "saho-VPrefAffPerf-ookom"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2438,7 +2438,7 @@
                          ["yommokoome"]]
                  }
                 {:label "saho-VPrefAffPerf-ooob"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2452,7 +2452,7 @@
                          ["ooʕobe"]]
                  }
                 {:label "saho-VPrefAffPerf-ooog"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2466,7 +2466,7 @@
                          ["yumuʕuge"]]
                  }
                 {:label "saho-VPrefAffPerf-oorof"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2480,7 +2480,7 @@
                          ["oorofe"]]
                  }
                 {:label "saho-VPrefAffPerf-oosol"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2494,7 +2494,7 @@
                          ["oosole"]]
                  }
                 {:label "saho-VPrefAffPerf-oosoom"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2508,7 +2508,7 @@
                          ["oosoome"]]
                  }
                 {:label "saho-VPrefAffPerf-ootob"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2522,7 +2522,7 @@
                          ["ootobe"]]
                  }
                 {:label "saho-VPrefAffPerf-ootok"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2536,7 +2536,7 @@
                          ["ootoke"]]
                  }
                 {:label "saho-VPrefAffPerf-ubl"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2550,7 +2550,7 @@
                          ["uble"]]
                  }
                 {:label "saho-VPrefAffPerf-uhfus"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2564,7 +2564,7 @@
                          ["uḥfuse"]]
                  }
                 {:label "saho-VPrefAffPerf-unqusu"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2578,7 +2578,7 @@
                          ["yunqusuʕe (M)"]]
                  }
                 {:label "saho-VPrefAffPerf-uru-spec"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2592,7 +2592,7 @@
                          ["urue (!)"]]
                  }
                 {:label "saho-VPrefAffPerf-uuluus"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2606,7 +2606,7 @@
                          ["uuluuse (?)"]]
                  }
                 {:label "saho-VPrefCopula-inni"
-                 :note "Welmers1952b p. 249"
+                 :note "W52p.249"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :inni,
@@ -2622,7 +2622,7 @@
                          [:Plural :Person3 :Common "innun"]]
                  }
                 {:label "saho-VPrefImperf-inni"
-                 :note "Welmers1952b p. 249"
+                 :note "W52p.249"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :inni,
@@ -2638,7 +2638,7 @@
                          [:Plural :Person3 :Common "yanin"]]
                  }
                 {:label "saho-VPrefNegImperf-eedeg"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Negative,
@@ -2653,7 +2653,7 @@
                          ["máɗige"]]
                  }
                 {:label "saho-VPrefNegImperf-ifriy"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Fem,
                           :polarity :Negative,
@@ -2668,7 +2668,7 @@
                          ["mátafriye"]]
                  }
                 {:label "saho-VPrefNegImperf-oosol"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Negative,
@@ -2683,7 +2683,7 @@
                          ["máyasulen"]]
                  }
                 {:label "saho-VPrefNegImperf-ubl"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Negative,
@@ -2698,7 +2698,7 @@
                          ["mánable"]]
                  }
                 {:label "saho-VPrefNegImprtv-enge"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Negative,
@@ -2713,7 +2713,7 @@
                          ["méengeʕin"]]
                  }
                 {:label "saho-VPrefNegImprtv-erd"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Negative,
@@ -2728,7 +2728,7 @@
                          ["méerdin"]]
                  }
                 {:label "saho-VPrefNegImprtv-igdil"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Negative,
@@ -2743,7 +2743,7 @@
                          ["míisgidilin"]]
                  }
                 {:label "saho-VPrefNegImprtv-iskir"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Negative,
@@ -2758,7 +2758,7 @@
                          ["míiskirin"]]
                  }
                 {:label "saho-VPrefNegPerf-erd"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :token-note "they didn’t run",
@@ -2774,7 +2774,7 @@
                          ["méerdinnun"]]
                  }
                 {:label "saho-VPrefNegPerf-iskir"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Masc,
                           :token-note "he didn’t get drunk",
@@ -2790,7 +2790,7 @@
                          ["míiskirinna"]]
                  }
                 {:label "saho-VPrefParticiple-ed"
-                 :note "Welmers1952b p. 249"
+                 :note "W52p.249"
                  :common {:vmorphClass :FinitePartial
                           :conjClass :Prefix,
                           :derivedStem :B,
@@ -2802,7 +2802,7 @@
                          ["adíi"]]
                  }
                 {:label "saho-VPrefPerf-inni"
-                 :note "Welmers1952b p. 249"
+                 :note "W52p.249"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :inni,
@@ -2818,7 +2818,7 @@
                          [:Plural :Person3 :Common "yinen"]]
                  }
                 {:label "saho-VSuff-ki"
-                 :note "Welmers1952b p. 250"
+                 :note "W52p.250"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :lexeme :ki,
@@ -2834,7 +2834,7 @@
                          [:Plural :Person3 :Common "kinun"]]
                  }
                 {:label "saho-VSuffAffImperf-ab"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2849,7 +2849,7 @@
                          ["abta"]]
                  }
                 {:label "saho-VSuffAffImperf-alif"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2864,7 +2864,7 @@
                          ["alifna"]]
                  }
                 {:label "saho-VSuffAffImperf-daam"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2879,7 +2879,7 @@
                          ["ɗaama"]]
                  }
                 {:label "saho-VSuffAffImperf-dufu"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2894,7 +2894,7 @@
                          ["dufuan"]]
                  }
                 {:label "saho-VSuffAffImperf-inni-beet"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :token-note "we have eaten it",
@@ -2910,7 +2910,7 @@
                          ["bennéhane"]]
                  }
                 {:label "saho-VSuffAffImperf-inni-hankabit"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :token-note "you have been frightened",
@@ -2926,7 +2926,7 @@
                          ["ḥankabittéhane"]]
                  }
                 {:label "saho-VSuffAffImperf-m-rab"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Fem,
                           :token-note "rabtam mango ‘many are dying’ (subordinate)",
@@ -2942,7 +2942,7 @@
                          ["rabta-m"]]
                  }
                 {:label "saho-VSuffAffImprtv-ab"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2957,7 +2957,7 @@
                          ["ab"]]
                  }
                 {:label "saho-VSuffAffImprtv-abaar"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2972,7 +2972,7 @@
                          ["abar"]]
                  }
                 {:label "saho-VSuffAffImprtv-abaas"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2987,7 +2987,7 @@
                          ["abas"]]
                  }
                 {:label "saho-VSuffAffImprtv-abah"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -3002,7 +3002,7 @@
                          ["abaḥ"]]
                  }
                 {:label "saho-VSuffAffImprtv-baah"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -3017,7 +3017,7 @@
                          ["bah"]]
                  }
                 {:label "saho-VSuffAffImprtv-bad"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -3032,7 +3032,7 @@
                          ["badis"]]
                  }
                 {:label "saho-VSuffAffImprtv-beet"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -3047,7 +3047,7 @@
                          ["bessis"]]
                  }
                 {:label "saho-VSuffAffImprtv-biaak"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -3062,7 +3062,7 @@
                          ["biaakit"]]
                  }
                 {:label "saho-VSuffAffImprtv-biil"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -3077,7 +3077,7 @@
                          ["bil"]]
                  }
                 {:label "saho-VSuffAffImprtv-bolol"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :token-note "have someone set fire",
@@ -3093,7 +3093,7 @@
                          ["bololsis"]]
                  }
                 {:label "saho-VSuffAffImprtv-daam"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -3108,7 +3108,7 @@
                          ["ɗaamit"]]
                  }
                 {:label "saho-VSuffAffImprtv-deer"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -3123,7 +3123,7 @@
                          ["der"]]
                  }
                 {:label "saho-VSuffAffImprtv-defee"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -3138,7 +3138,7 @@
                          ["defes"]]
                  }
                 {:label "saho-VSuffAffImprtv-di"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -3153,7 +3153,7 @@
                          ["ɗiʕ"]]
                  }
                 {:label "saho-VSuffAffImprtv-do"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -3168,7 +3168,7 @@
                          ["ɗo"]]
                  }
                 {:label "saho-VSuffAffImprtv-fah"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -3183,7 +3183,7 @@
                          ["faḥis"]]
                  }
                 {:label "saho-VSuffAffImprtv-fuu"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -3198,7 +3198,7 @@
                          ["fuʕ"]]
                  }
                 {:label "saho-VSuffAffImprtv-hay"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -3213,7 +3213,7 @@
                          ["haysit"]]
                  }
                 {:label "saho-VSuffAffJuss-ab"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -3228,7 +3228,7 @@
                          ["ábto"]]
                  }
                 {:label "saho-VSuffAffJuss-alif"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -3243,7 +3243,7 @@
                          ["alífno"]]
                  }
                 {:label "saho-VSuffAffJuss-daam"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :token-note "ɗamo gura/faɗá-iane ‘I want to buy it’",
@@ -3259,7 +3259,7 @@
                          ["ɗáamo"]]
                  }
                 {:label "saho-VSuffAffJuss-dufu"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -3274,7 +3274,7 @@
                          ["dufúon"]]
                  }
                 {:label "saho-VSuffAffJuss-ki-alif"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -3289,7 +3289,7 @@
                          ["alífno-kinu"]]
                  }
                 {:label "saho-VSuffAffJuss-ki-daam"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :token-note "I will buy it",
@@ -3305,7 +3305,7 @@
                          ["ɗáamo-kio"]]
                  }
                 {:label "saho-VSuffAffJuss-li-daam"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :token-note "(I guess) I’ll buy it",
@@ -3321,7 +3321,7 @@
                          ["ɗáamo-lio"]]
                  }
                 {:label "saho-VSuffAffPart-daam"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :conjClass :Suffix,
                           :derivedStem :B,
@@ -3334,7 +3334,7 @@
                          ["ɗáama"]]
                  }
                 {:label "saho-VSuffAffPart-dufu"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :conjClass :Suffix,
                           :derivedStem :B,
@@ -3347,7 +3347,7 @@
                          ["dufúa"]]
                  }
                 {:label "saho-VSuffAffPart-fi"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :conjClass :Suffix,
                           :derivedStem :B,
@@ -3360,7 +3360,7 @@
                          ["fía"]]
                  }
                 {:label "saho-VSuffAffPart-gur"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :conjClass :Suffix,
                           :derivedStem :B,
@@ -3373,7 +3373,7 @@
                          ["gúra"]]
                  }
                 {:label "saho-VSuffAffPart-sa"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :conjClass :Suffix,
                           :derivedStem :B,
@@ -3386,7 +3386,7 @@
                          ["sáa"]]
                  }
                 {:label "saho-VSuffAffPerf-ab"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -3400,7 +3400,7 @@
                          ["abe"]]
                  }
                 {:label "saho-VSuffAffPerf-abaar"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -3414,7 +3414,7 @@
                          ["abaare"]]
                  }
                 {:label "saho-VSuffAffPerf-abaas"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -3428,7 +3428,7 @@
                          ["abaase"]]
                  }
                 {:label "saho-VSuffAffPerf-abah"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -3442,7 +3442,7 @@
                          ["abaḥe"]]
                  }
                 {:label "saho-VSuffAffPerf-baah"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -3456,7 +3456,7 @@
                          ["baahe"]]
                  }
                 {:label "saho-VSuffAffPerf-bad"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -3470,7 +3470,7 @@
                          ["bade"]]
                  }
                 {:label "saho-VSuffAffPerf-beet"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -3484,7 +3484,7 @@
                          ["beetime"]]
                  }
                 {:label "saho-VSuffAffPerf-biaak"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -3498,7 +3498,7 @@
                          ["biaake"]]
                  }
                 {:label "saho-VSuffAffPerf-biil"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -3512,7 +3512,7 @@
                          ["biile"]]
                  }
                 {:label "saho-VSuffAffPerf-daam"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -3526,7 +3526,7 @@
                          ["ɗaamime"]]
                  }
                 {:label "saho-VSuffAffPerf-deer"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -3540,7 +3540,7 @@
                          ["deere"]]
                  }
                 {:label "saho-VSuffAffPerf-di"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -3554,7 +3554,7 @@
                          ["ɗiʕe"]]
                  }
                 {:label "saho-VSuffAffPerf-do"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -3568,7 +3568,7 @@
                          ["ɗoe"]]
                  }
                 {:label "saho-VSuffAffPerf-fah"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -3582,7 +3582,7 @@
                          ["faḥime"]]
                  }
                 {:label "saho-VSuffAffPerf-fuu"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -3596,7 +3596,7 @@
                          ["fuuʕe"]]
                  }
                 {:label "saho-VSuffAffPerf-had"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Affirmative,
@@ -3610,7 +3610,7 @@
                          ["ḥaɗime"]]
                  }
                 {:label "saho-VSuffAffPerf-m-rab"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Fem,
                           :token-note "rabtem mango ‘many died’",
@@ -3626,7 +3626,7 @@
                          ["rabte-m"]]
                  }
                 {:label "saho-VSuffJuss-ak"
-                 :note "Welmers1952b p. 249"
+                 :note "W52p.249"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :lexeme :ak,
@@ -3642,7 +3642,7 @@
                          [:Plural :Person3 :Common "akóowan"]]
                  }
                 {:label "saho-VSuffNegImperf-ab"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Negative,
@@ -3657,7 +3657,7 @@
                          ["máaban"]]
                  }
                 {:label "saho-VSuffNegImperf-daam"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Negative,
@@ -3672,7 +3672,7 @@
                          ["máɗaama"]]
                  }
                 {:label "saho-VSuffNegImprtv-daam"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Negative,
@@ -3687,7 +3687,7 @@
                          ["máɗaamin"]]
                  }
                 {:label "saho-VSuffNegImprtv-fak"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Negative,
@@ -3702,7 +3702,7 @@
                          ["máfakin"]]
                  }
                 {:label "saho-VSuffNegImprtv-suu"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :polarity :Negative,
@@ -3717,7 +3717,7 @@
                          ["másuʕutin"]]
                  }
                 {:label "saho-VSuffNegJuss-daam"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :token-note "I didn’t (?) buy it",
@@ -3733,7 +3733,7 @@
                          ["maɗáamo-ine"]]
                  }
                 {:label "saho-VSuffNegPerf-daam"
-                 :note "Welmers1952b pp. 237–246."
+                 :note "W52pp.237–246"
                  :common {:vmorphClass :FinitePartial
                           :gender :Common,
                           :token-note "I didn’t buy (it)",
@@ -3749,7 +3749,7 @@
                          ["máɗaaminnio "]]
                  }
                 {:label "saho-VSuffPast-hab"
-                 :note "Welmers1952b p. 236"
+                 :note "W52p.236"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :lexeme :hab,
@@ -3765,7 +3765,7 @@
                          [:Plural :Person3 :Common "ḥaben"]]
                  }
                 {:label "saho-VSuffPast-ubl"
-                 :note "Welmers1952b p. 236"
+                 :note "W52p.236"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :lexeme :ubl,
@@ -3781,7 +3781,7 @@
                          [:Plural :Person3 :Common "yublin"]]
                  }
                 {:label "saho-VSuffPerf-ak"
-                 :note "Welmers1952b p. 249"
+                 :note "W52p.249"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :lexeme :ak,
@@ -3797,8 +3797,7 @@
                          [:Plural :Person3 :Common "akken"]]
                  }
                 {:label "saho-PInd"
-                 :note "Welmers1952b p. 236,251. I am assuming that 2pl and 3pl forms are inverted in the
-            poss,obj,indir-obj and emph pronouns in the table on pl. 251"
+                 :note "W52pp.236&251 :: I am assuming that 2pl and 3pl forms are inverted in the poss,obj,indir-obj and emph pronouns in the table on pl. 251"
                  :common {:pos :Pronoun}
                  :terms [[:proClass :number :person :gender :token],
                          [:Emphatic :Singular :Person1 :Common "yóya"],

@@ -1,5 +1,5 @@
 #TTL FROM INPUT FILE:
-#../aama-data/data/saho//saho-pdgms.edn
+#../aama-data/data/saho/saho-pdgms.edn
 
 @prefix rdf:	 <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:	 <http://www.w3.org/2000/01/rdf-schema#> .
@@ -15,7 +15,7 @@ aama:Saho a aamas:Language .
 aama:Saho rdfs:label "Saho" .
 aama:Saho aamas:subfamily "Lowland East Cushitic Saho-Afar" .
 aama:Saho aamas:lpref "sah" .
-aama:Saho aamas:dataSource "Welmers1952 Banti-Vergari2003" .
+aama:Saho aamas:dataSource "Welmers1952 Banti-Vergari2003; abbrev. W52 BV03" .
 aama:Saho aamas:dataSourceNotes "" .
 aama:Saho aamas:geodemoURL "http://www.ethnologue.com/language/ssy" .
 aama:Saho aamas:geodemoTXT "Varieties and subdialects of Saho are spoken in Eritrea and Ethiopia (Irob dialect only). The language is very closely related to Afar." .
@@ -1239,10 +1239,10 @@ aama:Saho-edh a aamas:Lexeme ;
 sah:saho-VPref-ed a aamas:Termcluster ;
 	rdfs:label "saho-VPref-ed" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b p. 249" 
+	rdfs:comment "W52p.249" 
 	.
 
-aama:ID31a7db32-10ae-4ed7-953d-b197af6bd3fe a aamas:Term ;
+aama:IDab2d7876-acd0-4163-bf49-e591657224c0 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPref-ed ;
 	sah:vmorphClass sah:FinitePartial ;
@@ -1258,7 +1258,7 @@ aama:ID31a7db32-10ae-4ed7-953d-b197af6bd3fe a aamas:Term ;
 	sah:tam sah:Imperative ;
 	.
 
-aama:ID37fad9af-3129-4217-b55b-6e2ff02da8e7 a aamas:Term ;
+aama:ID4bd34956-22d6-4264-b06e-7fcb4d138872 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPref-ed ;
 	sah:vmorphClass sah:FinitePartial ;
@@ -1274,7 +1274,7 @@ aama:ID37fad9af-3129-4217-b55b-6e2ff02da8e7 a aamas:Term ;
 	sah:tam sah:Imperfect ;
 	.
 
-aama:ID055ac741-a7a0-4732-bfd8-0a7edd5e2e67 a aamas:Term ;
+aama:ID4832e923-3f0f-471e-b26e-8eab97689a6d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPref-ed ;
 	sah:vmorphClass sah:FinitePartial ;
@@ -1290,7 +1290,7 @@ aama:ID055ac741-a7a0-4732-bfd8-0a7edd5e2e67 a aamas:Term ;
 	sah:tam sah:Jussive ;
 	.
 
-aama:IDd770dd95-d479-4fb9-88bf-305f129831a6 a aamas:Term ;
+aama:ID40d9a1f5-1dfa-4e0e-a269-afe8534f91f8 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPref-ed ;
 	sah:vmorphClass sah:FinitePartial ;
@@ -1311,10 +1311,10 @@ aama:IDd770dd95-d479-4fb9-88bf-305f129831a6 a aamas:Term ;
 sah:saho-VPrefAffImprtv-ebh a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-ebh" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
+	rdfs:comment "W52pp.237–246 :: If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
 	.
 
-aama:IDe0b26933-6795-4d34-8b2d-059d7422c4cc a aamas:Term ;
+aama:ID186dd6fc-4eca-428c-a4b1-88bd346dd703 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ebh ;
 	sah:person sah:Person2 ;
@@ -1335,10 +1335,10 @@ aama:IDe0b26933-6795-4d34-8b2d-059d7422c4cc a aamas:Term ;
 sah:saho-VIrreg-li a aamas:Termcluster ;
 	rdfs:label "saho-VIrreg-li" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b p. 250" 
+	rdfs:comment "W52p.250" 
 	.
 
-aama:ID9f651e88-3482-4495-94e6-a8a0c0e26333 a aamas:Term ;
+aama:ID4f71531b-e96e-47e4-912e-e0791efe5cae a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VIrreg-li ;
 	sah:vmorphClass sah:Finite ;
@@ -1352,7 +1352,7 @@ aama:ID9f651e88-3482-4495-94e6-a8a0c0e26333 a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:ID87f09a73-7e36-4c5d-ab6d-9b37335885b7 a aamas:Term ;
+aama:IDcf23f465-a7a6-47bc-9f5c-8a6d91c9a469 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VIrreg-li ;
 	sah:vmorphClass sah:Finite ;
@@ -1366,7 +1366,7 @@ aama:ID87f09a73-7e36-4c5d-ab6d-9b37335885b7 a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:IDd78fcfd5-66ca-494c-8e94-a8d7a74c5860 a aamas:Term ;
+aama:ID386ca3f6-5fde-4b92-ba8a-0f82e65fde0f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VIrreg-li ;
 	sah:vmorphClass sah:Finite ;
@@ -1380,7 +1380,7 @@ aama:IDd78fcfd5-66ca-494c-8e94-a8d7a74c5860 a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:ID8e286313-831d-407a-adc0-bc9cc188f926 a aamas:Term ;
+aama:ID98e52436-8591-4504-b2e8-a69e32296796 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VIrreg-li ;
 	sah:vmorphClass sah:Finite ;
@@ -1394,7 +1394,7 @@ aama:ID8e286313-831d-407a-adc0-bc9cc188f926 a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:ID37d6910c-5206-4fcc-b0f3-79355870d609 a aamas:Term ;
+aama:IDf7b1dbdf-33d3-4e33-926d-9708fdeb8497 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VIrreg-li ;
 	sah:vmorphClass sah:Finite ;
@@ -1408,7 +1408,7 @@ aama:ID37d6910c-5206-4fcc-b0f3-79355870d609 a aamas:Term ;
 	sah:number sah:Plural ;
 	.
 
-aama:IDc1a8aa21-de24-4260-94c7-0f14b3db2272 a aamas:Term ;
+aama:ID195dff86-7d32-48e7-8260-53d8f01e8adf a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VIrreg-li ;
 	sah:vmorphClass sah:Finite ;
@@ -1422,7 +1422,7 @@ aama:IDc1a8aa21-de24-4260-94c7-0f14b3db2272 a aamas:Term ;
 	sah:number sah:Plural ;
 	.
 
-aama:ID9a34659a-eeee-499e-8a3e-33487fb79dec a aamas:Term ;
+aama:ID3caaee9e-ff4b-448d-952d-f59629209585 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VIrreg-li ;
 	sah:vmorphClass sah:Finite ;
@@ -1441,10 +1441,10 @@ aama:ID9a34659a-eeee-499e-8a3e-33487fb79dec a aamas:Term ;
 sah:saho-VPrefAffImperf-edebb a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-edebb" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID6257d010-e9de-4872-9c1f-4f8a8341f303 a aamas:Term ;
+aama:ID38fc7de1-5828-4e4a-80f0-8d8ba7f0b471 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-edebb ;
 	sah:person sah:Person1 ;
@@ -1465,10 +1465,10 @@ aama:ID6257d010-e9de-4872-9c1f-4f8a8341f303 a aamas:Term ;
 sah:saho-VPrefAffImperf-edh a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-edh" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID22d69f91-d76e-4bb9-b5ec-d9d59ce4b840 a aamas:Term ;
+aama:ID43e4e74b-8006-4b62-bc58-4229cebf5365 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-edh ;
 	sah:person sah:Person3 ;
@@ -1489,10 +1489,10 @@ aama:ID22d69f91-d76e-4bb9-b5ec-d9d59ce4b840 a aamas:Term ;
 sah:saho-VPrefAffImperf-eedeg a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-eedeg" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID871f420a-d3c6-459a-8075-1909db91ea4c a aamas:Term ;
+aama:ID65fb8123-71c6-4460-b02e-741c0341d5bf a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-eedeg ;
 	sah:person sah:Person1 ;
@@ -1513,10 +1513,10 @@ aama:ID871f420a-d3c6-459a-8075-1909db91ea4c a aamas:Term ;
 sah:saho-VPrefAffImperf-eehet a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-eehet" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID8245c693-bab8-4838-bb46-7b8387df380f a aamas:Term ;
+aama:ID4fad8ab3-af56-43a4-afc9-32e9fd249692 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-eehet ;
 	sah:person sah:Person1 ;
@@ -1537,10 +1537,10 @@ aama:ID8245c693-bab8-4838-bb46-7b8387df380f a aamas:Term ;
 sah:saho-VPrefAffImperf-eeley a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-eeley" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID4bd8ae66-2be6-409c-8742-33d6c5447454 a aamas:Term ;
+aama:ID9ee17085-0d01-4c6e-b519-2f3327d3e16b a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-eeley ;
 	sah:person sah:Person1 ;
@@ -1561,10 +1561,10 @@ aama:ID4bd8ae66-2be6-409c-8742-33d6c5447454 a aamas:Term ;
 sah:saho-VPrefAffImperf-eeneb a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-eeneb" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID64363442-a512-4ae1-8d58-a0f750bf5955 a aamas:Term ;
+aama:ID63c17d6b-dfd6-4703-bf42-da1e85cb2d4e a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-eeneb ;
 	sah:person sah:Person1 ;
@@ -1585,10 +1585,10 @@ aama:ID64363442-a512-4ae1-8d58-a0f750bf5955 a aamas:Term ;
 sah:saho-VPrefAffImperf-ehzen a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-ehzen" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDf76217a0-f3b6-4cf8-be68-4579f1a8f80b a aamas:Term ;
+aama:ID94b32a53-7fcc-4af9-9aaf-157167adee92 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-ehzen ;
 	sah:person sah:Person2 ;
@@ -1609,10 +1609,10 @@ aama:IDf76217a0-f3b6-4cf8-be68-4579f1a8f80b a aamas:Term ;
 sah:saho-VPrefAffImperf-ekett a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-ekett" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID1dd1b821-b39c-4b28-a4ac-4e881fcc0159 a aamas:Term ;
+aama:ID614c4d45-f356-4482-8ac3-b902036fad22 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-ekett ;
 	sah:person sah:Person1 ;
@@ -1633,10 +1633,10 @@ aama:ID1dd1b821-b39c-4b28-a4ac-4e881fcc0159 a aamas:Term ;
 sah:saho-VPrefAffImperf-ekkel a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-ekkel" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID1549c089-71ea-4480-9c0a-b9741eeb03ad a aamas:Term ;
+aama:IDeee6b44e-f5bc-4b63-a8b5-5ca2913f22c1 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-ekkel ;
 	sah:person sah:Person1 ;
@@ -1657,10 +1657,10 @@ aama:ID1549c089-71ea-4480-9c0a-b9741eeb03ad a aamas:Term ;
 sah:saho-VPrefAffImperf-emeet a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-emeet" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID751a5c77-79dd-46c9-834b-a3778b785a33 a aamas:Term ;
+aama:IDa00e8efc-9d87-46b0-8192-b32a6f338de9 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-emeet ;
 	sah:person sah:Person1 ;
@@ -1681,10 +1681,10 @@ aama:ID751a5c77-79dd-46c9-834b-a3778b785a33 a aamas:Term ;
 sah:saho-VPrefAffImperf-emlelekk a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-emlelekk" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDadafc655-588f-4408-af2d-dc48ba5767f9 a aamas:Term ;
+aama:ID598447d6-a60d-4597-ac05-826e49939cfd a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-emlelekk ;
 	sah:person sah:Person1 ;
@@ -1705,10 +1705,10 @@ aama:IDadafc655-588f-4408-af2d-dc48ba5767f9 a aamas:Term ;
 sah:saho-VPrefAffImperf-eney a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-eney" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDdf4fdc81-ed2c-41c5-9450-81e47715eaf6 a aamas:Term ;
+aama:ID7a72ce37-d00a-4503-897a-d074da0d178a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-eney ;
 	sah:person sah:Person1 ;
@@ -1729,10 +1729,10 @@ aama:IDdf4fdc81-ed2c-41c5-9450-81e47715eaf6 a aamas:Term ;
 sah:saho-VPrefAffImperf-enge a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-enge" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID2bcb08c4-fd84-4982-8a4a-5035ad9be628 a aamas:Term ;
+aama:IDd434d583-f7b0-4221-babf-5abe6bd2315a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-enge ;
 	sah:person sah:Person1 ;
@@ -1753,10 +1753,10 @@ aama:ID2bcb08c4-fd84-4982-8a4a-5035ad9be628 a aamas:Term ;
 sah:saho-VPrefAffImperf-eymee a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-eymee" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID7f245964-50ca-463e-a844-2d5566825b16 a aamas:Term ;
+aama:ID5fb50d1f-3092-4aab-b904-17e06d3ef71c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-eymee ;
 	sah:person sah:Person1 ;
@@ -1777,10 +1777,10 @@ aama:ID7f245964-50ca-463e-a844-2d5566825b16 a aamas:Term ;
 sah:saho-VPrefAffImperf-ifriy a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-ifriy" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDa61d838b-390e-4aae-8df4-8327255d009f a aamas:Term ;
+aama:IDdd5453a2-2dff-4153-a4cf-09317dd45cb4 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-ifriy ;
 	sah:person sah:Person3 ;
@@ -1801,10 +1801,10 @@ aama:IDa61d838b-390e-4aae-8df4-8327255d009f a aamas:Term ;
 sah:saho-VPrefAffImperf-inni-ubl a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-inni-ubl" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID54177b8a-57e5-4396-86d5-499524cc11b1 a aamas:Term ;
+aama:IDab87718d-03be-4651-8fbb-39986fc71b4d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-inni-ubl ;
 	sah:person sah:Person3 ;
@@ -1826,10 +1826,10 @@ aama:ID54177b8a-57e5-4396-86d5-499524cc11b1 a aamas:Term ;
 sah:saho-VPrefAffImperf-inniPerf-ubl a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-inniPerf-ubl" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID62ea1ea1-9e02-486c-b00d-03953921a4ab a aamas:Term ;
+aama:ID87f4b06b-709a-479d-8ad0-4f3763772b37 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-inniPerf-ubl ;
 	sah:person sah:Person3 ;
@@ -1851,10 +1851,10 @@ aama:ID62ea1ea1-9e02-486c-b00d-03953921a4ab a aamas:Term ;
 sah:saho-VPrefAffImperf-li-emeet a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-li-emeet" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID61f0a85a-94f1-424f-b6d0-ca39301216d7 a aamas:Term ;
+aama:IDdcb1a8f8-d6b6-424b-b8aa-02ce81d35e4a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-li-emeet ;
 	sah:person sah:Person1 ;
@@ -1876,10 +1876,10 @@ aama:ID61f0a85a-94f1-424f-b6d0-ca39301216d7 a aamas:Term ;
 sah:saho-VPrefAffImperf-m-uruf a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-m-uruf" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID1f91ea44-d241-4b60-8b6b-a14a2ddc70f4 a aamas:Term ;
+aama:ID520e4529-158b-4403-89ee-5f9ece8e7848 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-m-uruf ;
 	sah:person sah:Person1 ;
@@ -1901,10 +1901,10 @@ aama:ID1f91ea44-d241-4b60-8b6b-a14a2ddc70f4 a aamas:Term ;
 sah:saho-VPrefAffImperf-oho a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-oho" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID78adc79b-d43c-47cf-89e3-752fc64073c3 a aamas:Term ;
+aama:IDc27aee0e-2b26-4007-b853-0a5b514f07bd a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-oho ;
 	sah:person sah:Person1 ;
@@ -1925,10 +1925,10 @@ aama:ID78adc79b-d43c-47cf-89e3-752fc64073c3 a aamas:Term ;
 sah:saho-VPrefAffImperf-oosol a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-oosol" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID6cbfe96a-b596-41f6-80ab-644bfdbfd584 a aamas:Term ;
+aama:ID2c1f7ad6-84b9-4b41-983a-20e131c4e25f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-oosol ;
 	sah:person sah:Person3 ;
@@ -1949,10 +1949,10 @@ aama:ID6cbfe96a-b596-41f6-80ab-644bfdbfd584 a aamas:Term ;
 sah:saho-VPrefAffImperf-oysoom a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-oysoom" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID6338d5b0-765e-4c71-b8e8-78858d756473 a aamas:Term ;
+aama:IDfb22d759-921e-48b8-80b6-9b9be61bfbb8 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-oysoom ;
 	sah:person sah:Person1 ;
@@ -1973,10 +1973,10 @@ aama:ID6338d5b0-765e-4c71-b8e8-78858d756473 a aamas:Term ;
 sah:saho-VPrefAffImperf-ubl a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-ubl" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID41b8de37-6eaa-425e-89cc-1579a1bebf10 a aamas:Term ;
+aama:IDeabcfe16-fdfd-4983-9f05-728f04e8a1be a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-ubl ;
 	sah:person sah:Person1 ;
@@ -1998,10 +1998,10 @@ aama:ID41b8de37-6eaa-425e-89cc-1579a1bebf10 a aamas:Term ;
 sah:saho-VPrefAffImperf-udud a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-udud" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID3f1c226f-f958-4f91-82db-5e004ace16a4 a aamas:Term ;
+aama:ID4273101a-e352-45ac-bb60-017e147bae73 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-udud ;
 	sah:person sah:Person3 ;
@@ -2022,10 +2022,10 @@ aama:ID3f1c226f-f958-4f91-82db-5e004ace16a4 a aamas:Term ;
 sah:saho-VPrefAffImperf-ul a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-ul" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDfca63a1f-2cea-405f-8ce2-70df5a945301 a aamas:Term ;
+aama:IDe01a4234-d80a-4307-969e-c99d9bf9dfcd a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-ul ;
 	sah:person sah:Person2 ;
@@ -2046,10 +2046,10 @@ aama:IDfca63a1f-2cea-405f-8ce2-70df5a945301 a aamas:Term ;
 sah:saho-VPrefAffImperf-urkut a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-urkut" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID7a8d6ec1-f568-4fc2-9360-25ff622d273c a aamas:Term ;
+aama:ID3d32a26f-0ebd-4f83-9da1-bddba6aa7833 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-urkut ;
 	sah:person sah:Person3 ;
@@ -2070,10 +2070,10 @@ aama:ID7a8d6ec1-f568-4fc2-9360-25ff622d273c a aamas:Term ;
 sah:saho-VPrefAffImperf-uruf a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImperf-uruf" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID82e15c84-cc66-4c44-8baa-ce80bcf48b5c a aamas:Term ;
+aama:ID489725b9-71c7-4bbd-ae90-7dd4c1857446 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImperf-uruf ;
 	sah:person sah:Person3 ;
@@ -2094,10 +2094,10 @@ aama:ID82e15c84-cc66-4c44-8baa-ce80bcf48b5c a aamas:Term ;
 sah:saho-VPrefAffImprtv-alaa a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-alaa" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDb09fb567-2e17-45c1-a47f-614b3f52124d a aamas:Term ;
+aama:ID56e1a6d4-023a-4dce-8bb8-4ca9941111d8 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-alaa ;
 	sah:person sah:Person2 ;
@@ -2118,10 +2118,10 @@ aama:IDb09fb567-2e17-45c1-a47f-614b3f52124d a aamas:Term ;
 sah:saho-VPrefAffImprtv-edebb a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-edebb" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDedc8bcdc-308b-480f-bcef-23d14f2683f3 a aamas:Term ;
+aama:IDd354b028-15a3-49aa-9513-65758699b857 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-edebb ;
 	sah:person sah:Person2 ;
@@ -2142,10 +2142,10 @@ aama:IDedc8bcdc-308b-480f-bcef-23d14f2683f3 a aamas:Term ;
 sah:saho-VPrefAffImprtv-edh a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-edh" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID67d1cc83-ed3f-45aa-9713-ec86b5ec2b50 a aamas:Term ;
+aama:ID614f8ec2-500b-4c97-8be7-57205ba359d3 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-edh ;
 	sah:person sah:Person2 ;
@@ -2166,10 +2166,10 @@ aama:ID67d1cc83-ed3f-45aa-9713-ec86b5ec2b50 a aamas:Term ;
 sah:saho-VPrefAffImprtv-edirir a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-edirir" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDd418b0a4-8102-4031-a0ca-0576539f167d a aamas:Term ;
+aama:ID44b0490c-2a0c-48d4-9b96-16054d49aba5 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-edirir ;
 	sah:person sah:Person2 ;
@@ -2190,10 +2190,10 @@ aama:IDd418b0a4-8102-4031-a0ca-0576539f167d a aamas:Term ;
 sah:saho-VPrefAffImprtv-eebeh a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-eebeh" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID664e8823-4ba7-45b4-b0d4-8f00a3999516 a aamas:Term ;
+aama:ID91caa324-eef5-475c-a7c5-ff863b36115f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eebeh ;
 	sah:person sah:Person2 ;
@@ -2214,10 +2214,10 @@ aama:ID664e8823-4ba7-45b4-b0d4-8f00a3999516 a aamas:Term ;
 sah:saho-VPrefAffImprtv-eedeg a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-eedeg" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDc4096949-1499-4e46-a7ad-a5b1c1908061 a aamas:Term ;
+aama:ID56c07daf-0adc-458b-babc-9a7d45c63dfb a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eedeg ;
 	sah:person sah:Person2 ;
@@ -2238,10 +2238,10 @@ aama:IDc4096949-1499-4e46-a7ad-a5b1c1908061 a aamas:Term ;
 sah:saho-VPrefAffImprtv-eefe a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-eefe" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDe25fed61-4ba6-46a8-89b9-1d8c7e656750 a aamas:Term ;
+aama:ID67be7214-04f2-48e6-8b44-3f5cc32268f3 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eefe ;
 	sah:person sah:Person2 ;
@@ -2262,10 +2262,10 @@ aama:IDe25fed61-4ba6-46a8-89b9-1d8c7e656750 a aamas:Term ;
 sah:saho-VPrefAffImprtv-eehet a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-eehet" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID4ff35e28-9dd5-4380-84be-24043d70d715 a aamas:Term ;
+aama:ID4fb84046-7442-4c10-be90-2d4bec64c970 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eehet ;
 	sah:person sah:Person2 ;
@@ -2286,10 +2286,10 @@ aama:ID4ff35e28-9dd5-4380-84be-24043d70d715 a aamas:Term ;
 sah:saho-VPrefAffImprtv-eeit a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-eeit" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID70d88400-17bc-4db0-9d66-6de0db0d59de a aamas:Term ;
+aama:ID4c1cd8fb-c5c7-4a5e-acfd-37da4b719e0d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eeit ;
 	sah:person sah:Person2 ;
@@ -2310,10 +2310,10 @@ aama:ID70d88400-17bc-4db0-9d66-6de0db0d59de a aamas:Term ;
 sah:saho-VPrefAffImprtv-eelem a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-eelem" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID4d8d50e5-d357-4f39-84c4-340ed6116714 a aamas:Term ;
+aama:IDc8925c0c-eca5-48db-8265-63eae00ef7e3 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eelem ;
 	sah:person sah:Person2 ;
@@ -2334,10 +2334,10 @@ aama:ID4d8d50e5-d357-4f39-84c4-340ed6116714 a aamas:Term ;
 sah:saho-VPrefAffImprtv-eeley a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-eeley" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDca28d2c0-78fa-46e7-bb61-2847d184b0e2 a aamas:Term ;
+aama:IDd3ff81f5-c422-4991-b7b6-91c2212a3315 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eeley ;
 	sah:person sah:Person2 ;
@@ -2358,10 +2358,10 @@ aama:IDca28d2c0-78fa-46e7-bb61-2847d184b0e2 a aamas:Term ;
 sah:saho-VPrefAffImprtv-eemeg a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-eemeg" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDcc6d8d37-39f4-4819-925b-d9b509727395 a aamas:Term ;
+aama:ID7b6be13b-0587-4901-a4cf-18bae52ed103 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eemeg ;
 	sah:person sah:Person2 ;
@@ -2382,10 +2382,10 @@ aama:IDcc6d8d37-39f4-4819-925b-d9b509727395 a aamas:Term ;
 sah:saho-VPrefAffImprtv-eemen a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-eemen" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID286d3ad0-e3d8-498e-a677-b686e1238c43 a aamas:Term ;
+aama:IDe1737b8b-5b4d-47f7-b47b-4f2326f61793 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eemen ;
 	sah:person sah:Person2 ;
@@ -2406,10 +2406,10 @@ aama:ID286d3ad0-e3d8-498e-a677-b686e1238c43 a aamas:Term ;
 sah:saho-VPrefAffImprtv-eeneb a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-eeneb" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID1622ef82-95de-4e7c-81c7-b9eb018aed2b a aamas:Term ;
+aama:ID61f0f6f9-a8ad-4ec3-90d8-ae002ee17817 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eeneb ;
 	sah:person sah:Person2 ;
@@ -2430,10 +2430,10 @@ aama:ID1622ef82-95de-4e7c-81c7-b9eb018aed2b a aamas:Term ;
 sah:saho-VPrefAffImprtv-ehlif a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-ehlif" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID8707c68f-667f-4b84-ab79-0a316046df7a a aamas:Term ;
+aama:IDf990473b-6094-4466-ac2b-5b1c3f75425b a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ehlif ;
 	sah:person sah:Person2 ;
@@ -2454,10 +2454,10 @@ aama:ID8707c68f-667f-4b84-ab79-0a316046df7a a aamas:Term ;
 sah:saho-VPrefAffImprtv-ehzen a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-ehzen" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDf185b018-5ce8-473d-8259-958a80d20ea9 a aamas:Term ;
+aama:ID1c6a704f-99c1-4ea6-a5c1-255bce34414c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ehzen ;
 	sah:person sah:Person2 ;
@@ -2478,10 +2478,10 @@ aama:IDf185b018-5ce8-473d-8259-958a80d20ea9 a aamas:Term ;
 sah:saho-VPrefAffImprtv-ekett a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-ekett" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID9ab2ceaf-c4b1-4f86-8225-209cd836e2d4 a aamas:Term ;
+aama:IDde372527-14be-43cc-b8e2-97c2a052cbe6 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ekett ;
 	sah:person sah:Person2 ;
@@ -2502,10 +2502,10 @@ aama:ID9ab2ceaf-c4b1-4f86-8225-209cd836e2d4 a aamas:Term ;
 sah:saho-VPrefAffImprtv-ekkel a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-ekkel" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDa32a7a7c-1361-4e1c-8322-5af9dc7cee51 a aamas:Term ;
+aama:IDe2414fc9-13fe-438a-bb03-17305b4ec0c1 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ekkel ;
 	sah:person sah:Person2 ;
@@ -2526,10 +2526,10 @@ aama:IDa32a7a7c-1361-4e1c-8322-5af9dc7cee51 a aamas:Term ;
 sah:saho-VPrefAffImprtv-emeet a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-emeet" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDd6654150-7fed-4321-a123-52f89d08af2a a aamas:Term ;
+aama:IDe9b7bacf-fcb2-4206-a1df-ce873b58735c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-emeet ;
 	sah:person sah:Person2 ;
@@ -2550,10 +2550,10 @@ aama:IDd6654150-7fed-4321-a123-52f89d08af2a a aamas:Term ;
 sah:saho-VPrefAffImprtv-emlelekk a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-emlelekk" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID32253b46-06fb-4c96-969d-2636481fb676 a aamas:Term ;
+aama:ID6f962128-c90a-47bd-8643-78c854478e11 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-emlelekk ;
 	sah:person sah:Person2 ;
@@ -2574,10 +2574,10 @@ aama:ID32253b46-06fb-4c96-969d-2636481fb676 a aamas:Term ;
 sah:saho-VPrefAffImprtv-eney a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-eney" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID05bc39bd-54cc-4758-80c8-024797c53d14 a aamas:Term ;
+aama:ID12656eba-c0e8-42d0-856d-97df963eabc5 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eney ;
 	sah:person sah:Person2 ;
@@ -2598,10 +2598,10 @@ aama:ID05bc39bd-54cc-4758-80c8-024797c53d14 a aamas:Term ;
 sah:saho-VPrefAffImprtv-enge a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-enge" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID5ae616d1-71c8-415f-ab82-86a38efbe0fa a aamas:Term ;
+aama:IDf208f188-8629-4a17-a8ff-f9eba44d2175 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-enge ;
 	sah:person sah:Person2 ;
@@ -2622,10 +2622,10 @@ aama:ID5ae616d1-71c8-415f-ab82-86a38efbe0fa a aamas:Term ;
 sah:saho-VPrefAffImprtv-eqri a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-eqri" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID6e49d650-f207-48b7-b5fd-1b5c44e57aea a aamas:Term ;
+aama:IDa088b49c-65d5-4915-833a-f1ae3d3196cf a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eqri ;
 	sah:person sah:Person2 ;
@@ -2647,10 +2647,10 @@ aama:ID6e49d650-f207-48b7-b5fd-1b5c44e57aea a aamas:Term ;
 sah:saho-VPrefAffImprtv-erd a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-erd" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID938bfa62-f0c5-48b2-a318-0cdc0e70a34f a aamas:Term ;
+aama:ID1d724f2c-e5c8-46f8-a744-8d90d7c48cc5 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-erd ;
 	sah:person sah:Person2 ;
@@ -2671,10 +2671,10 @@ aama:ID938bfa62-f0c5-48b2-a318-0cdc0e70a34f a aamas:Term ;
 sah:saho-VPrefAffImprtv-err a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-err" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDd0f053d5-3ab1-4a8e-85e4-560a2ad8c4b2 a aamas:Term ;
+aama:ID6e73fe30-e361-41dd-863b-8f10f590b382 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-err ;
 	sah:person sah:Person2 ;
@@ -2695,10 +2695,10 @@ aama:IDd0f053d5-3ab1-4a8e-85e4-560a2ad8c4b2 a aamas:Term ;
 sah:saho-VPrefAffImprtv-ew a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-ew" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDf2cd1825-2c3a-465f-af58-5cb406e1adf2 a aamas:Term ;
+aama:IDfff34d08-b1cb-405f-a4a6-d265e4aac6fd a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ew ;
 	sah:person sah:Person2 ;
@@ -2719,10 +2719,10 @@ aama:IDf2cd1825-2c3a-465f-af58-5cb406e1adf2 a aamas:Term ;
 sah:saho-VPrefAffImprtv-eymee a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-eymee" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDb8431b3a-063d-43e1-a830-272f8cdc29aa a aamas:Term ;
+aama:ID3db5f356-27c2-48a6-b7ec-9513e55124cb a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eymee ;
 	sah:person sah:Person2 ;
@@ -2743,10 +2743,10 @@ aama:IDb8431b3a-063d-43e1-a830-272f8cdc29aa a aamas:Term ;
 sah:saho-VPrefAffImprtv-eyteher a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-eyteher" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID99079eb0-4a02-4f86-be47-6d754bc40b98 a aamas:Term ;
+aama:IDdd1ebf93-96ef-4c9b-9b22-0d2f03003bf0 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-eyteher ;
 	sah:person sah:Person2 ;
@@ -2767,10 +2767,10 @@ aama:ID99079eb0-4a02-4f86-be47-6d754bc40b98 a aamas:Term ;
 sah:saho-VPrefAffImprtv-ibbid a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-ibbid" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDfeb85f87-0074-425a-b5f6-2cc04fe4a03d a aamas:Term ;
+aama:IDf155deaf-b2af-495c-ad16-2db20b6385d8 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ibbid ;
 	sah:person sah:Person2 ;
@@ -2791,10 +2791,10 @@ aama:IDfeb85f87-0074-425a-b5f6-2cc04fe4a03d a aamas:Term ;
 sah:saho-VPrefAffImprtv-ibbid a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-ibbid" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID6cbbdf71-d470-4ded-ac64-560be3674beb a aamas:Term ;
+aama:ID54e8d4b2-327e-4794-af88-b2d2e6cba941 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ibbid ;
 	sah:person sah:Person2 ;
@@ -2815,10 +2815,10 @@ aama:ID6cbbdf71-d470-4ded-ac64-560be3674beb a aamas:Term ;
 sah:saho-VPrefAffImprtv-idhen a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-idhen" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDa354f64e-1a59-4606-bba3-75ab25eba2bf a aamas:Term ;
+aama:ID7a84a427-cbeb-446e-b7be-b2f1c7b1e8fc a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-idhen ;
 	sah:person sah:Person2 ;
@@ -2839,10 +2839,10 @@ aama:IDa354f64e-1a59-4606-bba3-75ab25eba2bf a aamas:Term ;
 sah:saho-VPrefAffImprtv-ifrid a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-ifrid" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID33d1ce41-2a37-41fd-92ca-1217ec099b4c a aamas:Term ;
+aama:IDa578c0a7-0040-4296-99b8-2adec85a77ba a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ifrid ;
 	sah:person sah:Person2 ;
@@ -2863,10 +2863,10 @@ aama:ID33d1ce41-2a37-41fd-92ca-1217ec099b4c a aamas:Term ;
 sah:saho-VPrefAffImprtv-ifriy a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-ifriy" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDd667aa58-d859-46f7-8b96-bb73ae3bbef9 a aamas:Term ;
+aama:IDa3871268-91e4-41cb-a4c9-ead9211e7f42 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ifriy ;
 	sah:person sah:Person2 ;
@@ -2887,10 +2887,10 @@ aama:IDd667aa58-d859-46f7-8b96-bb73ae3bbef9 a aamas:Term ;
 sah:saho-VPrefAffImprtv-ifteh a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-ifteh" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf       num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
+	rdfs:comment "W52pp.237–246 ::  If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf       num=sg pers=1 gen=c;in M num=sg pers=3 gen=m" 
 	.
 
-aama:IDc5df58e7-4ba8-410c-8e8f-324b40e99a85 a aamas:Term ;
+aama:ID73a4eb7a-1642-476b-ade8-32f807b4f298 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ifteh ;
 	sah:person sah:Person2 ;
@@ -2911,10 +2911,10 @@ aama:IDc5df58e7-4ba8-410c-8e8f-324b40e99a85 a aamas:Term ;
 sah:saho-VPrefAffImprtv-igdif a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-igdif" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDa9890696-f7af-434a-9f03-d5425697a06e a aamas:Term ;
+aama:ID71491065-e7f9-464b-803e-17db89b88ee3 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-igdif ;
 	sah:person sah:Person2 ;
@@ -2935,10 +2935,10 @@ aama:IDa9890696-f7af-434a-9f03-d5425697a06e a aamas:Term ;
 sah:saho-VPrefAffImprtv-igdil a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-igdil" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID1cd69fc2-b804-4874-ba64-c9c8cf172b9c a aamas:Term ;
+aama:ID75184f73-35ec-4d32-a94a-2db50f48a582 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-igdil ;
 	sah:person sah:Person2 ;
@@ -2959,10 +2959,10 @@ aama:ID1cd69fc2-b804-4874-ba64-c9c8cf172b9c a aamas:Term ;
 sah:saho-VPrefAffImprtv-igre a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-igre" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDe622f377-3889-4b91-9a5d-4b68d5176bc2 a aamas:Term ;
+aama:ID1a76ca23-f708-424b-b589-337705730863 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-igre ;
 	sah:person sah:Person2 ;
@@ -2983,10 +2983,10 @@ aama:IDe622f377-3889-4b91-9a5d-4b68d5176bc2 a aamas:Term ;
 sah:saho-VPrefAffImprtv-igziy a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-igziy" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID935652cf-a779-4ca4-b21b-43daa3ee83bb a aamas:Term ;
+aama:ID158089d9-aac9-4cfc-9b4a-51533c42dfef a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-igziy ;
 	sah:person sah:Person2 ;
@@ -3007,10 +3007,10 @@ aama:ID935652cf-a779-4ca4-b21b-43daa3ee83bb a aamas:Term ;
 sah:saho-VPrefAffImprtv-iksib a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-iksib" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDe230b4e6-d528-4463-b17c-c45352609942 a aamas:Term ;
+aama:IDc13f9ec9-c038-45ea-b914-481e92cfee50 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-iksib ;
 	sah:person sah:Person2 ;
@@ -3031,10 +3031,10 @@ aama:IDe230b4e6-d528-4463-b17c-c45352609942 a aamas:Term ;
 sah:saho-VPrefAffImprtv-inebe a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-inebe" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDce376973-063f-4a58-a4d0-828a542e6a6e a aamas:Term ;
+aama:ID67d73599-18fe-4b66-b218-410d99c93230 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-inebe ;
 	sah:person sah:Person2 ;
@@ -3055,10 +3055,10 @@ aama:IDce376973-063f-4a58-a4d0-828a542e6a6e a aamas:Term ;
 sah:saho-VPrefAffImprtv-obb a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-obb" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID197c9db0-d671-4b2d-9633-ab0c29b5b1a6 a aamas:Term ;
+aama:IDba039877-4763-49f6-9320-819f457518be a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-obb ;
 	sah:person sah:Person2 ;
@@ -3079,10 +3079,10 @@ aama:ID197c9db0-d671-4b2d-9633-ab0c29b5b1a6 a aamas:Term ;
 sah:saho-VPrefAffImprtv-oho a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-oho" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDd2ecdb05-71fa-4c58-95b6-7679ef2820a6 a aamas:Term ;
+aama:IDa4f95e53-2a4a-4b5e-a429-c6535355c5ce a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-oho ;
 	sah:person sah:Person2 ;
@@ -3103,10 +3103,10 @@ aama:IDd2ecdb05-71fa-4c58-95b6-7679ef2820a6 a aamas:Term ;
 sah:saho-VPrefAffImprtv-oofo a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-oofo" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDb535ae86-f002-490d-b640-102e9742e290 a aamas:Term ;
+aama:ID7959d8d0-7502-441f-89ed-71c336ffcaaa a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-oofo ;
 	sah:person sah:Person2 ;
@@ -3127,10 +3127,10 @@ aama:IDb535ae86-f002-490d-b640-102e9742e290 a aamas:Term ;
 sah:saho-VPrefAffImprtv-oofo a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-oofo" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID5822a698-0b4a-4c3c-9878-16c074f04879 a aamas:Term ;
+aama:IDf9409149-24a0-4a4b-8051-46cfff2c01a6 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-oofo ;
 	sah:person sah:Person2 ;
@@ -3151,10 +3151,10 @@ aama:ID5822a698-0b4a-4c3c-9878-16c074f04879 a aamas:Term ;
 sah:saho-VPrefAffImprtv-ookom a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-ookom" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDae749444-f238-4f76-aa12-ef23dd551926 a aamas:Term ;
+aama:ID4bd9c159-3dd4-4b90-9101-44a58a4dd35f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ookom ;
 	sah:person sah:Person2 ;
@@ -3175,10 +3175,10 @@ aama:IDae749444-f238-4f76-aa12-ef23dd551926 a aamas:Term ;
 sah:saho-VPrefAffImprtv-ooob a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-ooob" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID54606428-e0dc-4ef6-8f51-b00e855ac02d a aamas:Term ;
+aama:IDfcb55339-fb54-4f3a-ba77-2e23dfce4080 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ooob ;
 	sah:person sah:Person2 ;
@@ -3199,10 +3199,10 @@ aama:ID54606428-e0dc-4ef6-8f51-b00e855ac02d a aamas:Term ;
 sah:saho-VPrefAffImprtv-ooog a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-ooog" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDded79ea4-c185-4820-923b-5ec56a7eafa8 a aamas:Term ;
+aama:IDb7f4d00d-3359-4711-920b-61f347ec7de1 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ooog ;
 	sah:person sah:Person2 ;
@@ -3223,10 +3223,10 @@ aama:IDded79ea4-c185-4820-923b-5ec56a7eafa8 a aamas:Term ;
 sah:saho-VPrefAffImprtv-oorof a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-oorof" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID6ff35f89-48eb-40a8-9939-c2d48b56db8a a aamas:Term ;
+aama:IDd038801c-7f35-4b0d-9b97-0e60a308a75a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-oorof ;
 	sah:person sah:Person2 ;
@@ -3247,10 +3247,10 @@ aama:ID6ff35f89-48eb-40a8-9939-c2d48b56db8a a aamas:Term ;
 sah:saho-VPrefAffImprtv-oosol a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-oosol" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b p. 237 – 246. If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf num=sg pers=1 gen=c;in M num=sg pers=3 gen=m." 
+	rdfs:comment "W52p.237–246 :: If imprtv%%num=sg pers=2 gen=c. In B if perf/imperf num=sg pers=1 gen=c;in M num=sg pers=3 gen=m" 
 	.
 
-aama:ID4d9508fd-d5f5-4a03-8d9b-e284cad00a9d a aamas:Term ;
+aama:IDbc207e0a-3393-487f-a8b0-407997fbe15a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-oosol ;
 	sah:person sah:Person2 ;
@@ -3271,10 +3271,10 @@ aama:ID4d9508fd-d5f5-4a03-8d9b-e284cad00a9d a aamas:Term ;
 sah:saho-VPrefAffImprtv-oosoom a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-oosoom" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID21d358de-1099-411f-a497-755dccaa86f1 a aamas:Term ;
+aama:ID1e1bce44-070e-430d-8b8d-dfdc5acb6d86 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-oosoom ;
 	sah:person sah:Person2 ;
@@ -3295,10 +3295,10 @@ aama:ID21d358de-1099-411f-a497-755dccaa86f1 a aamas:Term ;
 sah:saho-VPrefAffImprtv-ootob a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-ootob" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDc2700d4f-769e-4a97-8e12-3cbf1d59eae6 a aamas:Term ;
+aama:IDd6c805fc-a4d8-48bc-8e26-acc4fd2b27f2 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ootob ;
 	sah:person sah:Person2 ;
@@ -3319,10 +3319,10 @@ aama:IDc2700d4f-769e-4a97-8e12-3cbf1d59eae6 a aamas:Term ;
 sah:saho-VPrefAffImprtv-ootok a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-ootok" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDdaa4dada-2175-4087-8624-6670286e7952 a aamas:Term ;
+aama:ID33889dda-0272-4e7c-ba75-1b2afa1cb290 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ootok ;
 	sah:person sah:Person2 ;
@@ -3343,10 +3343,10 @@ aama:IDdaa4dada-2175-4087-8624-6670286e7952 a aamas:Term ;
 sah:saho-VPrefAffImprtv-oysoom a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-oysoom" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDe6cfa624-dd7b-4981-a5b8-34dcd77cd351 a aamas:Term ;
+aama:IDdac8e7a3-0d79-49e0-aa05-9d7db27878a3 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-oysoom ;
 	sah:person sah:Unmarked ;
@@ -3367,10 +3367,10 @@ aama:IDe6cfa624-dd7b-4981-a5b8-34dcd77cd351 a aamas:Term ;
 sah:saho-VPrefAffImprtv-ubl a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-ubl" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDf4854530-1193-45d2-9c78-d2374ae2644d a aamas:Term ;
+aama:ID993494e1-16fb-4b48-a81e-ff909c98ed2d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-ubl ;
 	sah:person sah:Person2 ;
@@ -3392,10 +3392,10 @@ aama:IDf4854530-1193-45d2-9c78-d2374ae2644d a aamas:Term ;
 sah:saho-VPrefAffImprtv-uhfus a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-uhfus" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID90a43378-0897-48c9-b8c8-97a52ba901c0 a aamas:Term ;
+aama:ID43e2ce4e-4366-4321-ac33-afeacf224d42 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-uhfus ;
 	sah:person sah:Person2 ;
@@ -3416,10 +3416,10 @@ aama:ID90a43378-0897-48c9-b8c8-97a52ba901c0 a aamas:Term ;
 sah:saho-VPrefAffImprtv-uru-spec a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-uru-spec" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID893c6ccb-e4cc-418d-b730-682b2030f9f6 a aamas:Term ;
+aama:ID6b2881cf-36d5-4684-8e9c-400742154042 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-uru-spec ;
 	sah:person sah:Person2 ;
@@ -3440,10 +3440,10 @@ aama:ID893c6ccb-e4cc-418d-b730-682b2030f9f6 a aamas:Term ;
 sah:saho-VPrefAffImprtv-usul a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-usul" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID4d447c1f-5dc1-4556-bea3-6f7f61ffb551 a aamas:Term ;
+aama:ID1f8a1521-e8ca-4c39-ba69-db48daca86cc a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-usul ;
 	sah:person sah:Person2 ;
@@ -3464,10 +3464,10 @@ aama:ID4d447c1f-5dc1-4556-bea3-6f7f61ffb551 a aamas:Term ;
 sah:saho-VPrefAffImprtv-uuluus a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-uuluus" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID21f2c9a0-ee22-475a-a241-ba7fd3f39938 a aamas:Term ;
+aama:ID24dc084e-c1cc-4328-a554-60bac805e458 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-uuluus ;
 	sah:person sah:Person2 ;
@@ -3488,10 +3488,10 @@ aama:ID21f2c9a0-ee22-475a-a241-ba7fd3f39938 a aamas:Term ;
 sah:saho-VPrefAffImprtv-uyku a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffImprtv-uyku" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID257d0848-1773-45a5-98c5-ab4434ad536d a aamas:Term ;
+aama:ID6bf68948-00db-459d-8fa0-33391310f8f4 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffImprtv-uyku ;
 	sah:person sah:Person2 ;
@@ -3512,10 +3512,10 @@ aama:ID257d0848-1773-45a5-98c5-ab4434ad536d a aamas:Term ;
 sah:saho-VPrefAffJuss-edh a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffJuss-edh" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID77360e34-fdbb-4a1a-b3cb-078830ae6df2 a aamas:Term ;
+aama:IDec8d64c7-38b7-40fd-a159-876186277b01 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-edh ;
 	sah:person sah:Person3 ;
@@ -3536,10 +3536,10 @@ aama:ID77360e34-fdbb-4a1a-b3cb-078830ae6df2 a aamas:Term ;
 sah:saho-VPrefAffJuss-eedeg a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffJuss-eedeg" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID81be9a03-1acf-4ab9-aa64-5de2da5b78de a aamas:Term ;
+aama:ID99016499-c043-4281-96c2-60e5437c07fa a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-eedeg ;
 	sah:person sah:Person1 ;
@@ -3560,10 +3560,10 @@ aama:ID81be9a03-1acf-4ab9-aa64-5de2da5b78de a aamas:Term ;
 sah:saho-VPrefAffJuss-ehzen a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffJuss-ehzen" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDe8c831ec-f2fc-4a20-8e76-26e2e119eba9 a aamas:Term ;
+aama:IDfc9894bb-08d3-4a11-890c-968d833f66e3 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-ehzen ;
 	sah:person sah:Person2 ;
@@ -3584,10 +3584,10 @@ aama:IDe8c831ec-f2fc-4a20-8e76-26e2e119eba9 a aamas:Term ;
 sah:saho-VPrefAffJuss-ifriy a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffJuss-ifriy" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDb47678ac-34cd-49f4-9029-17b618bd525d a aamas:Term ;
+aama:IDb89bdef7-6a48-48b6-835b-79ec0a87b213 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-ifriy ;
 	sah:person sah:Person3 ;
@@ -3608,10 +3608,10 @@ aama:IDb47678ac-34cd-49f4-9029-17b618bd525d a aamas:Term ;
 sah:saho-VPrefAffJuss-ki-ehzen a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffJuss-ki-ehzen" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID5f5d2822-437b-49f1-8a1e-4a4f7333c2bc a aamas:Term ;
+aama:IDbce5d62f-8d9a-43b5-a5b6-cdf1d263c1fe a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-ki-ehzen ;
 	sah:person sah:Person2 ;
@@ -3632,10 +3632,10 @@ aama:ID5f5d2822-437b-49f1-8a1e-4a4f7333c2bc a aamas:Term ;
 sah:saho-VPrefAffJuss-ki-ubl a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffJuss-ki-ubl" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID55348144-36ed-4949-b47f-003e520d9d4a a aamas:Term ;
+aama:ID7987ad48-c4b8-468f-b479-d034c166c20b a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-ki-ubl ;
 	sah:person sah:Person1 ;
@@ -3656,10 +3656,10 @@ aama:ID55348144-36ed-4949-b47f-003e520d9d4a a aamas:Term ;
 sah:saho-VPrefAffJuss-ki-uruf a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffJuss-ki-uruf" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID53f12f23-de30-4dcf-97d0-77e7e25dbc8c a aamas:Term ;
+aama:IDd1a06a46-d35a-4548-9c70-8f388b11b2aa a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-ki-uruf ;
 	sah:person sah:Person1 ;
@@ -3680,10 +3680,10 @@ aama:ID53f12f23-de30-4dcf-97d0-77e7e25dbc8c a aamas:Term ;
 sah:saho-VPrefAffJuss-oosol a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffJuss-oosol" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID1eabc939-3f4e-4b5e-9c1f-da9525e95257 a aamas:Term ;
+aama:ID4dc5abdc-1d2c-4cd8-bfee-f7fb1d3ce6ee a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-oosol ;
 	sah:person sah:Person3 ;
@@ -3704,10 +3704,10 @@ aama:ID1eabc939-3f4e-4b5e-9c1f-da9525e95257 a aamas:Term ;
 sah:saho-VPrefAffJuss-ubl a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffJuss-ubl" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDabb9ab5c-a24d-4a89-86ec-eec26633bdee a aamas:Term ;
+aama:ID9faa322a-9f1b-4733-aa43-88c5cd873480 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-ubl ;
 	sah:person sah:Person1 ;
@@ -3728,10 +3728,10 @@ aama:IDabb9ab5c-a24d-4a89-86ec-eec26633bdee a aamas:Term ;
 sah:saho-VPrefAffJuss-udud a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffJuss-udud" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID805096e4-e67a-4af0-bb89-064e099bc067 a aamas:Term ;
+aama:ID646c1df7-effe-4ad3-bcea-db8e77157126 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-udud ;
 	sah:person sah:Person3 ;
@@ -3752,10 +3752,10 @@ aama:ID805096e4-e67a-4af0-bb89-064e099bc067 a aamas:Term ;
 sah:saho-VPrefAffJuss-ul a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffJuss-ul" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID36fdcb48-00a7-44bb-b9b6-6c88d3d05d60 a aamas:Term ;
+aama:ID3833141d-9651-4917-b911-f93831d6a433 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-ul ;
 	sah:person sah:Person2 ;
@@ -3776,10 +3776,10 @@ aama:ID36fdcb48-00a7-44bb-b9b6-6c88d3d05d60 a aamas:Term ;
 sah:saho-VPrefAffJuss-urkut a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffJuss-urkut" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDc6fc44bd-212d-4518-9dc5-46c0b37a6eab a aamas:Term ;
+aama:IDf486395b-73ff-4738-afb4-ce3ce898c267 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-urkut ;
 	sah:person sah:Person3 ;
@@ -3800,10 +3800,10 @@ aama:IDc6fc44bd-212d-4518-9dc5-46c0b37a6eab a aamas:Term ;
 sah:saho-VPrefAffJuss-uruf a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffJuss-uruf" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID2101df98-6a4e-4bb8-86fe-fbb5a429534f a aamas:Term ;
+aama:ID3cf9b509-aa58-4252-87e4-96fb921a2ac3 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffJuss-uruf ;
 	sah:person sah:Person3 ;
@@ -3824,10 +3824,10 @@ aama:ID2101df98-6a4e-4bb8-86fe-fbb5a429534f a aamas:Term ;
 sah:saho-VPrefAffPart-ehet a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPart-ehet" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID9002f0aa-0089-402f-94a4-8adec80cb068 a aamas:Term ;
+aama:ID63cdf526-3549-4c93-9b06-31b222c91b50 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPart-ehet ;
 	sah:vmorphClass sah:FinitePartial ;
@@ -3846,10 +3846,10 @@ aama:ID9002f0aa-0089-402f-94a4-8adec80cb068 a aamas:Term ;
 sah:saho-VPrefAffPart-emeet a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPart-emeet" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID925cb998-ebb3-4318-b366-594f964a99a8 a aamas:Term ;
+aama:IDa2ad8164-a144-4a48-a578-0a5c8c3b4c5b a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPart-emeet ;
 	sah:vmorphClass sah:FinitePartial ;
@@ -3868,10 +3868,10 @@ aama:ID925cb998-ebb3-4318-b366-594f964a99a8 a aamas:Term ;
 sah:saho-VPrefAffPart-ifriy a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPart-ifriy" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID91216043-8492-4bd5-ae6c-f9703aacf2bf a aamas:Term ;
+aama:ID90053eab-0f01-49d3-988f-4a452aa46505 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPart-ifriy ;
 	sah:vmorphClass sah:FinitePartial ;
@@ -3890,10 +3890,10 @@ aama:ID91216043-8492-4bd5-ae6c-f9703aacf2bf a aamas:Term ;
 sah:saho-VPrefAffPart-uruf a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPart-uruf" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDb98e3fc7-0146-43e1-b047-c138913b332e a aamas:Term ;
+aama:ID73330f8d-88f0-4fcc-8572-5ff19f8c0420 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPart-uruf ;
 	sah:vmorphClass sah:FinitePartial ;
@@ -3912,10 +3912,10 @@ aama:IDb98e3fc7-0146-43e1-b047-c138913b332e a aamas:Term ;
 sah:saho-VPrefAffPerf-alif a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-alif" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID5e3b2e34-b44e-4d90-b278-187d9d4b9adf a aamas:Term ;
+aama:IDd65fdf34-8214-4483-a3d1-113880065772 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-alif ;
 	sah:person sah:Unmarked ;
@@ -3935,10 +3935,10 @@ aama:ID5e3b2e34-b44e-4d90-b278-187d9d4b9adf a aamas:Term ;
 sah:saho-VPrefAffPerf-edebb a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-edebb" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID9ac42f72-831a-401c-9c80-c4e1e910f506 a aamas:Term ;
+aama:IDe13abae3-dba3-445d-92e3-666a4bb1800c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-edebb ;
 	sah:person sah:Unmarked ;
@@ -3958,10 +3958,10 @@ aama:ID9ac42f72-831a-401c-9c80-c4e1e910f506 a aamas:Term ;
 sah:saho-VPrefAffPerf-edh a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-edh" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDbf399377-853d-48ea-a14b-aa352379a66c a aamas:Term ;
+aama:ID5f08dfaa-d741-4bd2-aa0d-68dcf7a33c5c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-edh ;
 	sah:person sah:Unmarked ;
@@ -3981,10 +3981,10 @@ aama:IDbf399377-853d-48ea-a14b-aa352379a66c a aamas:Term ;
 sah:saho-VPrefAffPerf-eebeh a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-eebeh" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID95193088-aa6d-43a4-be9e-7cbd95d003e2 a aamas:Term ;
+aama:IDfe8e3619-1f23-45bb-95f7-9913503ed9fa a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eebeh ;
 	sah:person sah:Unmarked ;
@@ -4004,10 +4004,10 @@ aama:ID95193088-aa6d-43a4-be9e-7cbd95d003e2 a aamas:Term ;
 sah:saho-VPrefAffPerf-eedeg a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-eedeg" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID176397c9-f443-4a97-b992-cbdab46bd410 a aamas:Term ;
+aama:IDfd7db696-6a90-4237-b6d1-084f781b50d5 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eedeg ;
 	sah:person sah:Unmarked ;
@@ -4027,10 +4027,10 @@ aama:ID176397c9-f443-4a97-b992-cbdab46bd410 a aamas:Term ;
 sah:saho-VPrefAffPerf-eefe a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-eefe" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID58fece77-845a-4802-ac96-331cc7d9cc15 a aamas:Term ;
+aama:IDe3e98d6a-e4a4-498e-ba1d-f50dd7ffd175 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eefe ;
 	sah:person sah:Unmarked ;
@@ -4050,10 +4050,10 @@ aama:ID58fece77-845a-4802-ac96-331cc7d9cc15 a aamas:Term ;
 sah:saho-VPrefAffPerf-eehet a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-eehet" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDe865668f-b498-4614-93a7-f0ed84491066 a aamas:Term ;
+aama:IDe70a4827-77d2-413e-a69f-f058e198fe2b a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eehet ;
 	sah:person sah:Unmarked ;
@@ -4073,10 +4073,10 @@ aama:IDe865668f-b498-4614-93a7-f0ed84491066 a aamas:Term ;
 sah:saho-VPrefAffPerf-eeit a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-eeit" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDf7af1d93-e5da-46ba-81ba-e7ec2d93ca06 a aamas:Term ;
+aama:ID286acd11-ad5e-419a-bb02-2988fec758c0 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eeit ;
 	sah:person sah:Unmarked ;
@@ -4096,10 +4096,10 @@ aama:IDf7af1d93-e5da-46ba-81ba-e7ec2d93ca06 a aamas:Term ;
 sah:saho-VPrefAffPerf-eelem a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-eelem" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDbd5de6a0-aabe-40a3-b32a-42f26d5d4ac9 a aamas:Term ;
+aama:ID8451f589-0778-4087-b28e-f951d4e1ef26 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eelem ;
 	sah:person sah:Unmarked ;
@@ -4119,10 +4119,10 @@ aama:IDbd5de6a0-aabe-40a3-b32a-42f26d5d4ac9 a aamas:Term ;
 sah:saho-VPrefAffPerf-eeley a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-eeley" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDa43c8ea8-24ba-4556-a195-d814e28d87c6 a aamas:Term ;
+aama:IDab77d7bd-847d-4009-807c-a389f73e603f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eeley ;
 	sah:person sah:Unmarked ;
@@ -4142,10 +4142,10 @@ aama:IDa43c8ea8-24ba-4556-a195-d814e28d87c6 a aamas:Term ;
 sah:saho-VPrefAffPerf-eemeg a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-eemeg" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID39890598-7746-4a20-a595-19723aad4285 a aamas:Term ;
+aama:IDba9f304e-a8d8-4c27-b593-47c4f35636fa a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eemeg ;
 	sah:person sah:Unmarked ;
@@ -4165,10 +4165,10 @@ aama:ID39890598-7746-4a20-a595-19723aad4285 a aamas:Term ;
 sah:saho-VPrefAffPerf-eemen a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-eemen" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID09e54320-b881-4c52-a057-cb8fe1dfec89 a aamas:Term ;
+aama:IDc5f95e74-aad0-426e-a0db-6d0fbc81a5e9 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eemen ;
 	sah:person sah:Unmarked ;
@@ -4188,10 +4188,10 @@ aama:ID09e54320-b881-4c52-a057-cb8fe1dfec89 a aamas:Term ;
 sah:saho-VPrefAffPerf-eeneb a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-eeneb" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID23858fc2-3e63-40b5-bd4f-c097d9f10e8c a aamas:Term ;
+aama:ID882fa9a3-60a8-4539-9cfc-bbc5d052dfcb a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eeneb ;
 	sah:person sah:Unmarked ;
@@ -4211,10 +4211,10 @@ aama:ID23858fc2-3e63-40b5-bd4f-c097d9f10e8c a aamas:Term ;
 sah:saho-VPrefAffPerf-eheeseb a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-eheeseb" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDe27d357c-15e2-406a-8657-82d6f242b56d a aamas:Term ;
+aama:ID8c24010e-5a47-4f96-ad07-a4eb29806232 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eheeseb ;
 	sah:person sah:Unmarked ;
@@ -4234,10 +4234,10 @@ aama:IDe27d357c-15e2-406a-8657-82d6f242b56d a aamas:Term ;
 sah:saho-VPrefAffPerf-ehlif a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-ehlif" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID09ab919a-8e72-4adb-bc40-0fbdc062ebeb a aamas:Term ;
+aama:IDe0aff7fa-0b1a-49e0-ab20-8bc8d2107090 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ehlif ;
 	sah:person sah:Unmarked ;
@@ -4257,10 +4257,10 @@ aama:ID09ab919a-8e72-4adb-bc40-0fbdc062ebeb a aamas:Term ;
 sah:saho-VPrefAffPerf-ekett a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-ekett" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID58430b76-ed76-4289-a8ec-f6b9a1955219 a aamas:Term ;
+aama:IDaa1cf6d4-2842-447b-b4eb-fb7c46e2835a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ekett ;
 	sah:person sah:Unmarked ;
@@ -4280,10 +4280,10 @@ aama:ID58430b76-ed76-4289-a8ec-f6b9a1955219 a aamas:Term ;
 sah:saho-VPrefAffPerf-ekkel a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-ekkel" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDc02dc0de-acb6-4020-8241-4b728c9542de a aamas:Term ;
+aama:IDb299aaa8-a2a0-410b-8b7e-dcfffbf327e4 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ekkel ;
 	sah:person sah:Unmarked ;
@@ -4303,10 +4303,10 @@ aama:IDc02dc0de-acb6-4020-8241-4b728c9542de a aamas:Term ;
 sah:saho-VPrefAffPerf-emeet a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-emeet" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID58d7d20c-2d03-4574-a34c-ec3c7d10c7c3 a aamas:Term ;
+aama:ID4904a405-6fe0-412e-a366-5307fe50c244 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-emeet ;
 	sah:person sah:Unmarked ;
@@ -4326,10 +4326,10 @@ aama:ID58d7d20c-2d03-4574-a34c-ec3c7d10c7c3 a aamas:Term ;
 sah:saho-VPrefAffPerf-emlelekke a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-emlelekke" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID58c5ebd4-77a1-4f3b-8bc3-f0824d1eef4a a aamas:Term ;
+aama:ID3b6060e0-681a-4739-8b1a-e08abfe45b28 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-emlelekke ;
 	sah:person sah:Unmarked ;
@@ -4349,10 +4349,10 @@ aama:ID58c5ebd4-77a1-4f3b-8bc3-f0824d1eef4a a aamas:Term ;
 sah:saho-VPrefAffPerf-emmeeed a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-emmeeed" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDfd4ef448-1fd0-460d-a39a-78890874623d a aamas:Term ;
+aama:IDc0b406f6-1f22-4a49-b667-8367abd8d96f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-emmeeed ;
 	sah:person sah:Unmarked ;
@@ -4372,10 +4372,10 @@ aama:IDfd4ef448-1fd0-460d-a39a-78890874623d a aamas:Term ;
 sah:saho-VPrefAffPerf-emmeng a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-emmeng" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDb9d2db6d-5ae5-4518-b6cb-79ed5caa8e77 a aamas:Term ;
+aama:ID530a411f-af7b-43dc-b4bb-0a9a485c39d7 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-emmeng ;
 	sah:person sah:Unmarked ;
@@ -4395,10 +4395,10 @@ aama:IDb9d2db6d-5ae5-4518-b6cb-79ed5caa8e77 a aamas:Term ;
 sah:saho-VPrefAffPerf-eney a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-eney" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID7ca21a6c-b888-4aec-884b-48d55ed9ebdb a aamas:Term ;
+aama:ID0d10a0f5-136d-4598-a948-1fd0689c8d7f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-eney ;
 	sah:person sah:Unmarked ;
@@ -4418,10 +4418,10 @@ aama:ID7ca21a6c-b888-4aec-884b-48d55ed9ebdb a aamas:Term ;
 sah:saho-VPrefAffPerf-enge a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-enge" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID5c3845a4-9d3e-4c2f-b41a-f37535b04e4c a aamas:Term ;
+aama:IDb847709b-2791-4a4f-8733-cd198368c7a2 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-enge ;
 	sah:person sah:Unmarked ;
@@ -4441,10 +4441,10 @@ aama:ID5c3845a4-9d3e-4c2f-b41a-f37535b04e4c a aamas:Term ;
 sah:saho-VPrefAffPerf-engeeg a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-engeeg" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID67b57efe-4701-441d-b02d-6d9f7fa74e07 a aamas:Term ;
+aama:ID31473ce9-dc98-49d0-ac60-4aad9e19888f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-engeeg ;
 	sah:person sah:Unmarked ;
@@ -4464,10 +4464,10 @@ aama:ID67b57efe-4701-441d-b02d-6d9f7fa74e07 a aamas:Term ;
 sah:saho-VPrefAffPerf-enzewer a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-enzewer" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID11aeed4a-edbc-40e6-8c60-1b258f8c8f97 a aamas:Term ;
+aama:IDba4db26f-1d03-4adb-9cae-06192bea1a9b a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-enzewer ;
 	sah:person sah:Unmarked ;
@@ -4487,10 +4487,10 @@ aama:ID11aeed4a-edbc-40e6-8c60-1b258f8c8f97 a aamas:Term ;
 sah:saho-VPrefAffPerf-erd a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-erd" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID4de85ee9-a493-4aba-9a86-f5c2514c5c43 a aamas:Term ;
+aama:ID817f90d5-0ecf-429e-a3c5-b6b60a969b60 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-erd ;
 	sah:person sah:Unmarked ;
@@ -4510,10 +4510,10 @@ aama:ID4de85ee9-a493-4aba-9a86-f5c2514c5c43 a aamas:Term ;
 sah:saho-VPrefAffPerf-err a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-err" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID8970cb78-59d2-42a0-a1b9-eed1b50f815e a aamas:Term ;
+aama:ID0024eefd-86f7-431d-bad2-1d9372449d58 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-err ;
 	sah:person sah:Unmarked ;
@@ -4533,10 +4533,10 @@ aama:ID8970cb78-59d2-42a0-a1b9-eed1b50f815e a aamas:Term ;
 sah:saho-VPrefAffPerf-ew a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-ew" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID3bb4bd9c-a4b2-472d-89b8-ab6eb504f27e a aamas:Term ;
+aama:ID5fbeaa84-8072-4a77-8a7d-3247a9ae2a03 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ew ;
 	sah:person sah:Unmarked ;
@@ -4556,10 +4556,10 @@ aama:ID3bb4bd9c-a4b2-472d-89b8-ab6eb504f27e a aamas:Term ;
 sah:saho-VPrefAffPerf-ibbid a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-ibbid" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDb3e228e7-5a5a-44d9-9620-ea1cc2c7d81f a aamas:Term ;
+aama:ID2be0d098-6a11-4ac4-9cc9-d0f0008b9d9d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ibbid ;
 	sah:person sah:Unmarked ;
@@ -4579,10 +4579,10 @@ aama:IDb3e228e7-5a5a-44d9-9620-ea1cc2c7d81f a aamas:Term ;
 sah:saho-VPrefAffPerf-idhen a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-idhen" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDedecea21-7770-4936-bbfb-159860b239c4 a aamas:Term ;
+aama:ID47f17f28-7511-4404-a17d-c3f497a88449 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-idhen ;
 	sah:person sah:Unmarked ;
@@ -4602,10 +4602,10 @@ aama:IDedecea21-7770-4936-bbfb-159860b239c4 a aamas:Term ;
 sah:saho-VPrefAffPerf-ifrid a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-ifrid" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID9663ce3e-edfc-4eca-b9d6-b9b3fa52ee8b a aamas:Term ;
+aama:IDba8fb805-0e25-46c2-81f0-87dc515bbb41 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ifrid ;
 	sah:person sah:Unmarked ;
@@ -4625,10 +4625,10 @@ aama:ID9663ce3e-edfc-4eca-b9d6-b9b3fa52ee8b a aamas:Term ;
 sah:saho-VPrefAffPerf-ifriy a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-ifriy" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID0e76d13a-f293-4bb6-8879-ba8375954755 a aamas:Term ;
+aama:ID3d36b4be-0cdd-4007-b26b-98a4ed0468df a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ifriy ;
 	sah:person sah:Unmarked ;
@@ -4648,10 +4648,10 @@ aama:ID0e76d13a-f293-4bb6-8879-ba8375954755 a aamas:Term ;
 sah:saho-VPrefAffPerf-ifteh a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-ifteh" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID5268abec-b9df-43c5-b372-3f5801b8fc4d a aamas:Term ;
+aama:ID7a878dc9-df4d-4a4f-bff6-9ba1d5abe135 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ifteh ;
 	sah:person sah:Unmarked ;
@@ -4671,10 +4671,10 @@ aama:ID5268abec-b9df-43c5-b372-3f5801b8fc4d a aamas:Term ;
 sah:saho-VPrefAffPerf-igdif a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-igdif" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID4a371a1b-50ee-4ffc-a811-441628293ff1 a aamas:Term ;
+aama:ID1fbb65ed-ccb0-4124-848f-514375a6ec77 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-igdif ;
 	sah:person sah:Unmarked ;
@@ -4694,10 +4694,10 @@ aama:ID4a371a1b-50ee-4ffc-a811-441628293ff1 a aamas:Term ;
 sah:saho-VPrefAffPerf-igdil a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-igdil" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDb5e190c7-7e46-423e-af84-967fb693c801 a aamas:Term ;
+aama:ID20e79528-8412-4d2f-9ae6-50b5cb5c2df8 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-igdil ;
 	sah:person sah:Unmarked ;
@@ -4717,10 +4717,10 @@ aama:IDb5e190c7-7e46-423e-af84-967fb693c801 a aamas:Term ;
 sah:saho-VPrefAffPerf-igre a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-igre" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDc6a3c184-a8aa-425d-9cc0-7853c89bc94c a aamas:Term ;
+aama:IDd8ab3423-bb20-4ad3-99fc-d49b8a47a311 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-igre ;
 	sah:person sah:Unmarked ;
@@ -4740,10 +4740,10 @@ aama:IDc6a3c184-a8aa-425d-9cc0-7853c89bc94c a aamas:Term ;
 sah:saho-VPrefAffPerf-igziy a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-igziy" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDe609b83b-b020-477e-9738-0ff665b618d5 a aamas:Term ;
+aama:ID11cbad32-b658-4db6-a7de-26215ca460a1 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-igziy ;
 	sah:person sah:Unmarked ;
@@ -4763,10 +4763,10 @@ aama:IDe609b83b-b020-477e-9738-0ff665b618d5 a aamas:Term ;
 sah:saho-VPrefAffPerf-ikfil a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-ikfil" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID9fe55812-2e62-43e9-b94d-f2d649e09566 a aamas:Term ;
+aama:ID33a2d032-e737-4763-adf4-6b3e648c09c8 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ikfil ;
 	sah:person sah:Unmarked ;
@@ -4786,10 +4786,10 @@ aama:ID9fe55812-2e62-43e9-b94d-f2d649e09566 a aamas:Term ;
 sah:saho-VPrefAffPerf-iklib a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-iklib" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDf4ac7edc-eb6b-4f83-96b7-cbbcd442090c a aamas:Term ;
+aama:IDdd0d05d3-2f79-4643-ba6b-e3069d2eab8f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-iklib ;
 	sah:person sah:Unmarked ;
@@ -4809,10 +4809,10 @@ aama:IDf4ac7edc-eb6b-4f83-96b7-cbbcd442090c a aamas:Term ;
 sah:saho-VPrefAffPerf-imbiddil a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-imbiddil" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID32b82940-0687-4642-81ed-403688319c5e a aamas:Term ;
+aama:IDc8a49c3e-f32d-450a-8b0a-58381e131939 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-imbiddil ;
 	sah:person sah:Unmarked ;
@@ -4832,10 +4832,10 @@ aama:ID32b82940-0687-4642-81ed-403688319c5e a aamas:Term ;
 sah:saho-VPrefAffPerf-immillik a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-immillik" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID02ebf7a5-01fa-4cca-904a-c20bdc2c0320 a aamas:Term ;
+aama:IDe9f95dbf-9253-4fe0-9dce-fbcdbb94f838 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-immillik ;
 	sah:person sah:Unmarked ;
@@ -4855,10 +4855,10 @@ aama:ID02ebf7a5-01fa-4cca-904a-c20bdc2c0320 a aamas:Term ;
 sah:saho-VPrefAffPerf-inebe a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-inebe" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID56e0322b-2979-4d92-acc2-e0b92d223143 a aamas:Term ;
+aama:ID079f7916-d5b0-4544-abeb-05bb11ee588f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-inebe ;
 	sah:person sah:Unmarked ;
@@ -4878,10 +4878,10 @@ aama:ID56e0322b-2979-4d92-acc2-e0b92d223143 a aamas:Term ;
 sah:saho-VPrefAffPerf-infili a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-infili" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDcb907545-8aab-4c4b-8dc3-0293f54bdf53 a aamas:Term ;
+aama:ID39ab4e20-02d5-4bdf-a419-ac3b4cfee544 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-infili ;
 	sah:person sah:Unmarked ;
@@ -4901,10 +4901,10 @@ aama:IDcb907545-8aab-4c4b-8dc3-0293f54bdf53 a aamas:Term ;
 sah:saho-VPrefAffPerf-isniq a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-isniq" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID194d7919-67f8-4452-b5bd-b2accd228e38 a aamas:Term ;
+aama:ID4de1b363-55eb-441e-bafb-bbb822de707f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-isniq ;
 	sah:person sah:Unmarked ;
@@ -4924,10 +4924,10 @@ aama:ID194d7919-67f8-4452-b5bd-b2accd228e38 a aamas:Term ;
 sah:saho-VPrefAffPerf-m-emeet a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-m-emeet" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDef3089d4-6e26-4898-af6f-74079d52ebfd a aamas:Term ;
+aama:ID45a56b29-e7b3-424e-8f50-d47c74dafca2 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-m-emeet ;
 	sah:person sah:Person2 ;
@@ -4949,10 +4949,10 @@ aama:IDef3089d4-6e26-4898-af6f-74079d52ebfd a aamas:Term ;
 sah:saho-VPrefAffPerf-obb a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-obb" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID67a9149d-cb22-4bc7-9a9e-5cd1c272238a a aamas:Term ;
+aama:IDd68df6b9-d679-4186-b911-007f3407309f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-obb ;
 	sah:person sah:Unmarked ;
@@ -4972,10 +4972,10 @@ aama:ID67a9149d-cb22-4bc7-9a9e-5cd1c272238a a aamas:Term ;
 sah:saho-VPrefAffPerf-oho a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-oho" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID8cd68563-7727-461d-8d20-bf388eefc35f a aamas:Term ;
+aama:ID8123d8a2-6637-4b8c-86d3-ab8a4559543e a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-oho ;
 	sah:person sah:Unmarked ;
@@ -4995,10 +4995,10 @@ aama:ID8cd68563-7727-461d-8d20-bf388eefc35f a aamas:Term ;
 sah:saho-VPrefAffPerf-onqoomot a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-onqoomot" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID84ee440d-df3b-48a1-b2d9-81bce3643a8a a aamas:Term ;
+aama:ID2f87fb40-60a7-4146-a4c2-f2869fe66546 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-onqoomot ;
 	sah:person sah:Unmarked ;
@@ -5018,10 +5018,10 @@ aama:ID84ee440d-df3b-48a1-b2d9-81bce3643a8a a aamas:Term ;
 sah:saho-VPrefAffPerf-oofo a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-oofo" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID6d47ac2e-4811-45eb-81bd-e726a6d0b98b a aamas:Term ;
+aama:ID8395c52b-2b39-49b2-9e16-3ed5ddd38113 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-oofo ;
 	sah:person sah:Unmarked ;
@@ -5041,10 +5041,10 @@ aama:ID6d47ac2e-4811-45eb-81bd-e726a6d0b98b a aamas:Term ;
 sah:saho-VPrefAffPerf-ookom a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-ookom" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDe65f8edd-d434-45f9-b692-7cf5580ba1f3 a aamas:Term ;
+aama:ID8bb97f39-4044-4b7d-96d1-0deb1dbc3f44 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ookom ;
 	sah:person sah:Unmarked ;
@@ -5064,10 +5064,10 @@ aama:IDe65f8edd-d434-45f9-b692-7cf5580ba1f3 a aamas:Term ;
 sah:saho-VPrefAffPerf-ooob a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-ooob" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDe0ac3a25-1a3f-4d97-a362-ca40014f3f54 a aamas:Term ;
+aama:ID588a9851-01e1-46f4-bfe6-bf93e5d33f6f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ooob ;
 	sah:person sah:Unmarked ;
@@ -5087,10 +5087,10 @@ aama:IDe0ac3a25-1a3f-4d97-a362-ca40014f3f54 a aamas:Term ;
 sah:saho-VPrefAffPerf-ooog a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-ooog" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDae483cee-1b33-46f8-b624-8727dfff4238 a aamas:Term ;
+aama:ID242f72fd-5baa-4814-a72a-3042f6bc8f67 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ooog ;
 	sah:person sah:Unmarked ;
@@ -5110,10 +5110,10 @@ aama:IDae483cee-1b33-46f8-b624-8727dfff4238 a aamas:Term ;
 sah:saho-VPrefAffPerf-oorof a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-oorof" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID50eaf14e-1032-4995-ba6e-f7d59a972c4b a aamas:Term ;
+aama:IDa64673c9-1b74-47ae-a5b7-ad9d2d2b07b6 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-oorof ;
 	sah:person sah:Unmarked ;
@@ -5133,10 +5133,10 @@ aama:ID50eaf14e-1032-4995-ba6e-f7d59a972c4b a aamas:Term ;
 sah:saho-VPrefAffPerf-oosol a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-oosol" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID99df9f84-9c7f-4855-b8ca-b02fea0924e8 a aamas:Term ;
+aama:ID484db286-1e62-473d-8a07-1ab81bff6e7d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-oosol ;
 	sah:person sah:Unmarked ;
@@ -5156,10 +5156,10 @@ aama:ID99df9f84-9c7f-4855-b8ca-b02fea0924e8 a aamas:Term ;
 sah:saho-VPrefAffPerf-oosoom a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-oosoom" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDecbb4bac-6e14-4b98-a5ac-01227875bb8a a aamas:Term ;
+aama:IDeb66e5a1-dc2f-479f-af8d-64425238a026 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-oosoom ;
 	sah:person sah:Unmarked ;
@@ -5179,10 +5179,10 @@ aama:IDecbb4bac-6e14-4b98-a5ac-01227875bb8a a aamas:Term ;
 sah:saho-VPrefAffPerf-ootob a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-ootob" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID5d2eaec1-9851-4853-860d-f93dc0e4ace0 a aamas:Term ;
+aama:IDa0a0fc6f-3501-4364-8d1b-063f9ef6228a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ootob ;
 	sah:person sah:Unmarked ;
@@ -5202,10 +5202,10 @@ aama:ID5d2eaec1-9851-4853-860d-f93dc0e4ace0 a aamas:Term ;
 sah:saho-VPrefAffPerf-ootok a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-ootok" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDfed1461c-4bed-4444-a594-c80385467719 a aamas:Term ;
+aama:IDcb06311f-a686-4e4d-af0b-4c506ea161fb a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ootok ;
 	sah:person sah:Unmarked ;
@@ -5225,10 +5225,10 @@ aama:IDfed1461c-4bed-4444-a594-c80385467719 a aamas:Term ;
 sah:saho-VPrefAffPerf-ubl a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-ubl" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDa8739e2e-6477-41e5-b8bc-da0894e45f83 a aamas:Term ;
+aama:ID1308e17e-b198-4c25-bdcb-b0df83216d66 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-ubl ;
 	sah:person sah:Unmarked ;
@@ -5248,10 +5248,10 @@ aama:IDa8739e2e-6477-41e5-b8bc-da0894e45f83 a aamas:Term ;
 sah:saho-VPrefAffPerf-uhfus a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-uhfus" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDb8bfd663-73eb-4976-8791-a2657d5f2380 a aamas:Term ;
+aama:IDe839a8ab-ed57-4fe2-9167-b7a7e549fc3e a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-uhfus ;
 	sah:person sah:Unmarked ;
@@ -5271,10 +5271,10 @@ aama:IDb8bfd663-73eb-4976-8791-a2657d5f2380 a aamas:Term ;
 sah:saho-VPrefAffPerf-unqusu a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-unqusu" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID7f66554f-9ece-4b2e-8827-cbecf73597dc a aamas:Term ;
+aama:ID72732c4f-2e0f-4ec9-a5eb-a22b4900ab8d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-unqusu ;
 	sah:person sah:Unmarked ;
@@ -5294,10 +5294,10 @@ aama:ID7f66554f-9ece-4b2e-8827-cbecf73597dc a aamas:Term ;
 sah:saho-VPrefAffPerf-uru-spec a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-uru-spec" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDdab4306c-dc69-4f0d-8a14-d1e89c964e19 a aamas:Term ;
+aama:ID7bee8deb-9bac-401f-83f4-cc850b992376 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-uru-spec ;
 	sah:person sah:Unmarked ;
@@ -5317,10 +5317,10 @@ aama:IDdab4306c-dc69-4f0d-8a14-d1e89c964e19 a aamas:Term ;
 sah:saho-VPrefAffPerf-uuluus a aamas:Termcluster ;
 	rdfs:label "saho-VPrefAffPerf-uuluus" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID7ff50991-014c-4377-96d7-294e74bb8506 a aamas:Term ;
+aama:ID47d63a24-6f0b-43e3-925d-a7388a119be8 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefAffPerf-uuluus ;
 	sah:person sah:Unmarked ;
@@ -5340,10 +5340,10 @@ aama:ID7ff50991-014c-4377-96d7-294e74bb8506 a aamas:Term ;
 sah:saho-VPrefCopula-inni a aamas:Termcluster ;
 	rdfs:label "saho-VPrefCopula-inni" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b p. 249" 
+	rdfs:comment "W52p.249" 
 	.
 
-aama:ID64ccd77d-2ee7-424d-a113-5965cd54a096 a aamas:Term ;
+aama:ID355f3c78-18fc-4457-b707-6218dfd24bf4 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefCopula-inni ;
 	sah:vmorphClass sah:Finite ;
@@ -5357,7 +5357,7 @@ aama:ID64ccd77d-2ee7-424d-a113-5965cd54a096 a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:ID5e5ddba6-7022-4f96-980c-c2a85a166ad6 a aamas:Term ;
+aama:IDefeb4e9e-c028-4f93-b388-f471111bcc9d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefCopula-inni ;
 	sah:vmorphClass sah:Finite ;
@@ -5371,7 +5371,7 @@ aama:ID5e5ddba6-7022-4f96-980c-c2a85a166ad6 a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:ID45d17d7a-8d63-4a9d-bf3e-ff9ff952e303 a aamas:Term ;
+aama:ID3ff5fdca-b201-422c-94d5-5ac1727ffa9f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefCopula-inni ;
 	sah:vmorphClass sah:Finite ;
@@ -5385,7 +5385,7 @@ aama:ID45d17d7a-8d63-4a9d-bf3e-ff9ff952e303 a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:ID35d4d44a-3fc2-4147-bbcf-c652fb14bcee a aamas:Term ;
+aama:ID7ed8bcb3-44f1-4ba2-9303-75afcd30c62e a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefCopula-inni ;
 	sah:vmorphClass sah:Finite ;
@@ -5399,7 +5399,7 @@ aama:ID35d4d44a-3fc2-4147-bbcf-c652fb14bcee a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:ID1a666360-00c1-4e05-b295-03da13d5d4e6 a aamas:Term ;
+aama:IDd2ce639b-bbd8-4f75-b2f8-cd2f448c9162 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefCopula-inni ;
 	sah:vmorphClass sah:Finite ;
@@ -5413,7 +5413,7 @@ aama:ID1a666360-00c1-4e05-b295-03da13d5d4e6 a aamas:Term ;
 	sah:number sah:Plural ;
 	.
 
-aama:ID14c05cea-591e-45fa-8263-c51a279def9c a aamas:Term ;
+aama:IDc463b67f-6069-494a-aa17-022e2a9ea064 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefCopula-inni ;
 	sah:vmorphClass sah:Finite ;
@@ -5427,7 +5427,7 @@ aama:ID14c05cea-591e-45fa-8263-c51a279def9c a aamas:Term ;
 	sah:number sah:Plural ;
 	.
 
-aama:IDef942294-f670-4174-b0fa-63dbd750986d a aamas:Term ;
+aama:IDd6ff9270-dafe-498f-9ae7-ede6c2dfd041 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefCopula-inni ;
 	sah:vmorphClass sah:Finite ;
@@ -5446,10 +5446,10 @@ aama:IDef942294-f670-4174-b0fa-63dbd750986d a aamas:Term ;
 sah:saho-VPrefImperf-inni a aamas:Termcluster ;
 	rdfs:label "saho-VPrefImperf-inni" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b p. 249" 
+	rdfs:comment "W52p.249" 
 	.
 
-aama:ID0f6ae4ae-f40a-486e-95fc-b06679ceb83c a aamas:Term ;
+aama:IDc112bc7d-d5e1-4a9c-9c17-c4c1f593570d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefImperf-inni ;
 	sah:vmorphClass sah:Finite ;
@@ -5463,7 +5463,7 @@ aama:ID0f6ae4ae-f40a-486e-95fc-b06679ceb83c a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:IDf21735cb-2a1c-48fa-bf85-8fc8ec18ecbd a aamas:Term ;
+aama:ID7aae6b87-1397-4363-8689-d1fa1fab6f02 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefImperf-inni ;
 	sah:vmorphClass sah:Finite ;
@@ -5477,7 +5477,7 @@ aama:IDf21735cb-2a1c-48fa-bf85-8fc8ec18ecbd a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:IDc07e485e-d04d-473e-9e98-9b351c127183 a aamas:Term ;
+aama:ID9afcf71e-283b-4442-bd27-840035d48dc7 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefImperf-inni ;
 	sah:vmorphClass sah:Finite ;
@@ -5491,7 +5491,7 @@ aama:IDc07e485e-d04d-473e-9e98-9b351c127183 a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:ID1a24a16f-d4df-4828-9e0a-23ac39aa05d1 a aamas:Term ;
+aama:ID533ecc30-be60-49d4-b56f-0b5a3ab52dd3 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefImperf-inni ;
 	sah:vmorphClass sah:Finite ;
@@ -5505,7 +5505,7 @@ aama:ID1a24a16f-d4df-4828-9e0a-23ac39aa05d1 a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:ID1f6e7c55-34be-4ae1-bff1-1dc37498d2e3 a aamas:Term ;
+aama:IDe2ba4688-0de0-4053-b98d-e9df944a0863 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefImperf-inni ;
 	sah:vmorphClass sah:Finite ;
@@ -5519,7 +5519,7 @@ aama:ID1f6e7c55-34be-4ae1-bff1-1dc37498d2e3 a aamas:Term ;
 	sah:number sah:Plural ;
 	.
 
-aama:IDcc1ffe7b-35b5-499a-b5a5-0542be7354b1 a aamas:Term ;
+aama:ID8acc717f-c9f8-4389-a5e0-2020a8956413 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefImperf-inni ;
 	sah:vmorphClass sah:Finite ;
@@ -5533,7 +5533,7 @@ aama:IDcc1ffe7b-35b5-499a-b5a5-0542be7354b1 a aamas:Term ;
 	sah:number sah:Plural ;
 	.
 
-aama:IDe96e6927-7444-4967-9fbf-cf9227c45b76 a aamas:Term ;
+aama:ID78d505d0-1cf1-4c5d-aa6e-2a0b6f3887a4 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefImperf-inni ;
 	sah:vmorphClass sah:Finite ;
@@ -5552,10 +5552,10 @@ aama:IDe96e6927-7444-4967-9fbf-cf9227c45b76 a aamas:Term ;
 sah:saho-VPrefNegImperf-eedeg a aamas:Termcluster ;
 	rdfs:label "saho-VPrefNegImperf-eedeg" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDb6613b18-8bc9-4d7e-92ee-da70097c46e6 a aamas:Term ;
+aama:ID2dbe7820-d69b-44e5-845a-02b415fa52b2 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefNegImperf-eedeg ;
 	sah:person sah:Person1 ;
@@ -5576,10 +5576,10 @@ aama:IDb6613b18-8bc9-4d7e-92ee-da70097c46e6 a aamas:Term ;
 sah:saho-VPrefNegImperf-ifriy a aamas:Termcluster ;
 	rdfs:label "saho-VPrefNegImperf-ifriy" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID110447ee-a1cc-4921-9dd3-7f40e8a213e9 a aamas:Term ;
+aama:ID41e199ae-7974-4659-9e7d-2256a4a0bd3f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefNegImperf-ifriy ;
 	sah:person sah:Person3 ;
@@ -5600,10 +5600,10 @@ aama:ID110447ee-a1cc-4921-9dd3-7f40e8a213e9 a aamas:Term ;
 sah:saho-VPrefNegImperf-oosol a aamas:Termcluster ;
 	rdfs:label "saho-VPrefNegImperf-oosol" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID03a607b4-2bf6-490e-81d3-eaf8f59b592b a aamas:Term ;
+aama:ID7abd7060-f1f3-4c52-9a9f-548f86c0414a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefNegImperf-oosol ;
 	sah:person sah:Person3 ;
@@ -5624,10 +5624,10 @@ aama:ID03a607b4-2bf6-490e-81d3-eaf8f59b592b a aamas:Term ;
 sah:saho-VPrefNegImperf-ubl a aamas:Termcluster ;
 	rdfs:label "saho-VPrefNegImperf-ubl" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID197effe0-20fc-4508-80eb-8feaf8c7a1d7 a aamas:Term ;
+aama:IDc2a53230-5fcd-4363-8726-0a74a677854d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefNegImperf-ubl ;
 	sah:person sah:Person1 ;
@@ -5648,10 +5648,10 @@ aama:ID197effe0-20fc-4508-80eb-8feaf8c7a1d7 a aamas:Term ;
 sah:saho-VPrefNegImprtv-enge a aamas:Termcluster ;
 	rdfs:label "saho-VPrefNegImprtv-enge" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID89dc2564-95a5-4a2a-bab6-700e8a09b9ff a aamas:Term ;
+aama:ID428683d4-ae91-43dd-a065-88775ef423de a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefNegImprtv-enge ;
 	sah:person sah:Person2 ;
@@ -5672,10 +5672,10 @@ aama:ID89dc2564-95a5-4a2a-bab6-700e8a09b9ff a aamas:Term ;
 sah:saho-VPrefNegImprtv-erd a aamas:Termcluster ;
 	rdfs:label "saho-VPrefNegImprtv-erd" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDd8b5e62f-a6e7-4026-b6af-8096d265498e a aamas:Term ;
+aama:IDdd4be5ce-dbea-4f6d-89c7-6d29162dfccd a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefNegImprtv-erd ;
 	sah:person sah:Person2 ;
@@ -5696,10 +5696,10 @@ aama:IDd8b5e62f-a6e7-4026-b6af-8096d265498e a aamas:Term ;
 sah:saho-VPrefNegImprtv-igdil a aamas:Termcluster ;
 	rdfs:label "saho-VPrefNegImprtv-igdil" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDf1d27c86-70bf-4093-8497-3f7f29b04187 a aamas:Term ;
+aama:ID82f8c726-bfba-457d-9fa2-12e7ec5f7792 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefNegImprtv-igdil ;
 	sah:person sah:Person2 ;
@@ -5720,10 +5720,10 @@ aama:IDf1d27c86-70bf-4093-8497-3f7f29b04187 a aamas:Term ;
 sah:saho-VPrefNegImprtv-iskir a aamas:Termcluster ;
 	rdfs:label "saho-VPrefNegImprtv-iskir" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID4939ce14-c018-40d6-9034-97dc07e7755f a aamas:Term ;
+aama:IDfdda6800-63f8-48f0-b00a-a63c8700f5a4 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefNegImprtv-iskir ;
 	sah:person sah:Person2 ;
@@ -5744,10 +5744,10 @@ aama:ID4939ce14-c018-40d6-9034-97dc07e7755f a aamas:Term ;
 sah:saho-VPrefNegPerf-erd a aamas:Termcluster ;
 	rdfs:label "saho-VPrefNegPerf-erd" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDa644169e-58c0-4727-844e-d24b8f8fd2f4 a aamas:Term ;
+aama:IDdc024da9-a87e-467f-91f1-795977bd1c5b a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefNegPerf-erd ;
 	sah:person sah:Person3 ;
@@ -5769,10 +5769,10 @@ aama:IDa644169e-58c0-4727-844e-d24b8f8fd2f4 a aamas:Term ;
 sah:saho-VPrefNegPerf-iskir a aamas:Termcluster ;
 	rdfs:label "saho-VPrefNegPerf-iskir" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDa44654e8-8c14-4133-8c99-17f5c6a5def2 a aamas:Term ;
+aama:IDf1c670b6-96f9-42f6-8aa9-6cffa5428325 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefNegPerf-iskir ;
 	sah:person sah:Person3 ;
@@ -5794,10 +5794,10 @@ aama:IDa44654e8-8c14-4133-8c99-17f5c6a5def2 a aamas:Term ;
 sah:saho-VPrefParticiple-ed a aamas:Termcluster ;
 	rdfs:label "saho-VPrefParticiple-ed" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b p. 249" 
+	rdfs:comment "W52p.249" 
 	.
 
-aama:IDd29085dc-02e0-4a97-a8a6-1e052763f23c a aamas:Term ;
+aama:ID0f0ad47c-bb05-4620-8d38-4f3c537df635 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefParticiple-ed ;
 	sah:vmorphClass sah:FinitePartial ;
@@ -5815,10 +5815,10 @@ aama:IDd29085dc-02e0-4a97-a8a6-1e052763f23c a aamas:Term ;
 sah:saho-VPrefPerf-inni a aamas:Termcluster ;
 	rdfs:label "saho-VPrefPerf-inni" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b p. 249" 
+	rdfs:comment "W52p.249" 
 	.
 
-aama:IDd056e878-1200-4606-b94c-a21ec5955a15 a aamas:Term ;
+aama:ID35e0408e-279b-48fc-80a5-b6acf21b0cec a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefPerf-inni ;
 	sah:vmorphClass sah:Finite ;
@@ -5832,7 +5832,7 @@ aama:IDd056e878-1200-4606-b94c-a21ec5955a15 a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:ID324cf3be-56ad-421b-89e5-f4872b2c7b50 a aamas:Term ;
+aama:IDdebdde2b-82bf-462e-aa33-3719afc53ab5 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefPerf-inni ;
 	sah:vmorphClass sah:Finite ;
@@ -5846,7 +5846,7 @@ aama:ID324cf3be-56ad-421b-89e5-f4872b2c7b50 a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:ID60b47a5a-ce2e-4fa0-87c8-d152de4d9796 a aamas:Term ;
+aama:ID44647334-373f-4fbf-b7a5-8a1fd3c880d9 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefPerf-inni ;
 	sah:vmorphClass sah:Finite ;
@@ -5860,7 +5860,7 @@ aama:ID60b47a5a-ce2e-4fa0-87c8-d152de4d9796 a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:ID7414b41b-bb6f-4e88-ac0d-d7ea950ac4d2 a aamas:Term ;
+aama:IDd4caf2cc-bb4e-4326-bf83-487219b6429c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefPerf-inni ;
 	sah:vmorphClass sah:Finite ;
@@ -5874,7 +5874,7 @@ aama:ID7414b41b-bb6f-4e88-ac0d-d7ea950ac4d2 a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:ID9c03b698-79d2-47dc-8444-833d7d693a1b a aamas:Term ;
+aama:ID21a996f1-2dd2-48d5-942e-e36a80f47faf a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefPerf-inni ;
 	sah:vmorphClass sah:Finite ;
@@ -5888,7 +5888,7 @@ aama:ID9c03b698-79d2-47dc-8444-833d7d693a1b a aamas:Term ;
 	sah:number sah:Plural ;
 	.
 
-aama:IDc54a824c-2c02-4430-84d5-fd3e1fddb07f a aamas:Term ;
+aama:IDc7f64d98-6658-4cd7-8c88-f927a3d525b4 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefPerf-inni ;
 	sah:vmorphClass sah:Finite ;
@@ -5902,7 +5902,7 @@ aama:IDc54a824c-2c02-4430-84d5-fd3e1fddb07f a aamas:Term ;
 	sah:number sah:Plural ;
 	.
 
-aama:IDedd38193-34e3-4a88-b005-7e8fd62d255e a aamas:Term ;
+aama:IDa92f5046-cb60-44b1-9db1-67c411931200 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VPrefPerf-inni ;
 	sah:vmorphClass sah:Finite ;
@@ -5921,10 +5921,10 @@ aama:IDedd38193-34e3-4a88-b005-7e8fd62d255e a aamas:Term ;
 sah:saho-VSuff-ki a aamas:Termcluster ;
 	rdfs:label "saho-VSuff-ki" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b p. 250" 
+	rdfs:comment "W52p.250" 
 	.
 
-aama:ID244a6130-25e8-4e1c-9fe3-29b8218c850c a aamas:Term ;
+aama:ID97b83ab5-4553-4329-83e7-a45345c30732 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuff-ki ;
 	sah:vmorphClass sah:Finite ;
@@ -5938,7 +5938,7 @@ aama:ID244a6130-25e8-4e1c-9fe3-29b8218c850c a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:ID01a4bbfd-6461-4ba6-af6d-266822e4367a a aamas:Term ;
+aama:ID86f56279-114a-4410-8084-15fc5e60db0c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuff-ki ;
 	sah:vmorphClass sah:Finite ;
@@ -5952,7 +5952,7 @@ aama:ID01a4bbfd-6461-4ba6-af6d-266822e4367a a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:IDd3c820ec-7247-4325-8b4e-bc42055cccc4 a aamas:Term ;
+aama:ID5be34c91-d237-4459-8f1f-0a19865dd6c9 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuff-ki ;
 	sah:vmorphClass sah:Finite ;
@@ -5966,7 +5966,7 @@ aama:IDd3c820ec-7247-4325-8b4e-bc42055cccc4 a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:IDa0edef35-b0d9-4a42-b911-55cb88570537 a aamas:Term ;
+aama:IDf3d186b8-eb6e-494b-8ed0-82a2c2d63d5e a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuff-ki ;
 	sah:vmorphClass sah:Finite ;
@@ -5980,7 +5980,7 @@ aama:IDa0edef35-b0d9-4a42-b911-55cb88570537 a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:IDcb86b8c1-849f-4181-a161-9a8a6537262b a aamas:Term ;
+aama:ID8e2f73f5-2e5b-40e3-9be9-ae4a1139048d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuff-ki ;
 	sah:vmorphClass sah:Finite ;
@@ -5994,7 +5994,7 @@ aama:IDcb86b8c1-849f-4181-a161-9a8a6537262b a aamas:Term ;
 	sah:number sah:Plural ;
 	.
 
-aama:IDedc15160-cf1b-4662-8f9d-e5eaabe88073 a aamas:Term ;
+aama:ID0ff62ab4-8361-43bc-9c52-3f08dfbb1e9c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuff-ki ;
 	sah:vmorphClass sah:Finite ;
@@ -6008,7 +6008,7 @@ aama:IDedc15160-cf1b-4662-8f9d-e5eaabe88073 a aamas:Term ;
 	sah:number sah:Plural ;
 	.
 
-aama:IDe7aa0122-043d-48c6-b7d2-6286abe9087f a aamas:Term ;
+aama:ID4d0388b9-aa35-4cd2-8aa5-9608f0fcce39 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuff-ki ;
 	sah:vmorphClass sah:Finite ;
@@ -6027,10 +6027,10 @@ aama:IDe7aa0122-043d-48c6-b7d2-6286abe9087f a aamas:Term ;
 sah:saho-VSuffAffImperf-ab a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImperf-ab" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDd2b252a1-d35e-48b3-bf69-e24f4d8acee5 a aamas:Term ;
+aama:IDad7a9eb2-446d-46e9-8052-c0250d346bf0 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImperf-ab ;
 	sah:person sah:Person2 ;
@@ -6051,10 +6051,10 @@ aama:IDd2b252a1-d35e-48b3-bf69-e24f4d8acee5 a aamas:Term ;
 sah:saho-VSuffAffImperf-alif a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImperf-alif" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDe1ae2163-9acc-4133-be92-2562c0597ab7 a aamas:Term ;
+aama:ID2906f6bb-00f2-4109-a624-28006c4d0180 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImperf-alif ;
 	sah:person sah:Person1 ;
@@ -6075,10 +6075,10 @@ aama:IDe1ae2163-9acc-4133-be92-2562c0597ab7 a aamas:Term ;
 sah:saho-VSuffAffImperf-daam a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImperf-daam" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID3ad5a7f6-820f-499e-b113-a7178134d222 a aamas:Term ;
+aama:ID6b09dd3b-50dc-4dcb-83da-5340f6bf0652 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImperf-daam ;
 	sah:person sah:Person1 ;
@@ -6099,10 +6099,10 @@ aama:ID3ad5a7f6-820f-499e-b113-a7178134d222 a aamas:Term ;
 sah:saho-VSuffAffImperf-dufu a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImperf-dufu" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDc1f4511d-5e94-4d61-acb9-3860299b8fed a aamas:Term ;
+aama:ID9e8e5aa4-dfb9-467e-9e83-f04342c72a6c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImperf-dufu ;
 	sah:person sah:Person3 ;
@@ -6123,10 +6123,10 @@ aama:IDc1f4511d-5e94-4d61-acb9-3860299b8fed a aamas:Term ;
 sah:saho-VSuffAffImperf-inni-beet a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImperf-inni-beet" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID3c02e164-b2e6-4aef-a331-c8a7377e13d0 a aamas:Term ;
+aama:ID13eab6ac-06d4-486d-8c0c-6a75c04f7405 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImperf-inni-beet ;
 	sah:person sah:Person1 ;
@@ -6148,10 +6148,10 @@ aama:ID3c02e164-b2e6-4aef-a331-c8a7377e13d0 a aamas:Term ;
 sah:saho-VSuffAffImperf-inni-hankabit a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImperf-inni-hankabit" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDffb296d6-b44b-4c00-8dae-cd9a5844d4ad a aamas:Term ;
+aama:ID4061b5de-00d1-4697-9408-74f2b128b6b8 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImperf-inni-hankabit ;
 	sah:person sah:Person2 ;
@@ -6173,10 +6173,10 @@ aama:IDffb296d6-b44b-4c00-8dae-cd9a5844d4ad a aamas:Term ;
 sah:saho-VSuffAffImperf-m-rab a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImperf-m-rab" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID7ae59d31-5b2e-4d5e-8f6c-a7ff5a9c3c10 a aamas:Term ;
+aama:ID4500a26d-1b6b-44d7-9dea-d30277754a1c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImperf-m-rab ;
 	sah:person sah:Person3 ;
@@ -6198,10 +6198,10 @@ aama:ID7ae59d31-5b2e-4d5e-8f6c-a7ff5a9c3c10 a aamas:Term ;
 sah:saho-VSuffAffImprtv-ab a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-ab" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDc289160d-fbca-4ed3-9324-230d6b0206e5 a aamas:Term ;
+aama:ID01cfb077-10f9-4759-99d0-5a0c34ad83f6 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-ab ;
 	sah:person sah:Person2 ;
@@ -6222,10 +6222,10 @@ aama:IDc289160d-fbca-4ed3-9324-230d6b0206e5 a aamas:Term ;
 sah:saho-VSuffAffImprtv-abaar a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-abaar" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID35f529f1-7f39-47bd-af66-155636c72e72 a aamas:Term ;
+aama:ID69fe976d-b511-4cc4-b300-6f24d864e623 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-abaar ;
 	sah:person sah:Person2 ;
@@ -6246,10 +6246,10 @@ aama:ID35f529f1-7f39-47bd-af66-155636c72e72 a aamas:Term ;
 sah:saho-VSuffAffImprtv-abaas a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-abaas" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDec57ff00-68a0-4e1a-afe3-e5e53bab1b7e a aamas:Term ;
+aama:ID24f279fc-c6f4-4f61-ad5f-174cecd39a2c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-abaas ;
 	sah:person sah:Person2 ;
@@ -6270,10 +6270,10 @@ aama:IDec57ff00-68a0-4e1a-afe3-e5e53bab1b7e a aamas:Term ;
 sah:saho-VSuffAffImprtv-abah a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-abah" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID9e31734f-0fd7-4b8d-b9c5-9c338b91695b a aamas:Term ;
+aama:ID81cda61f-79bb-4890-b32d-a783f39ad3ce a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-abah ;
 	sah:person sah:Person2 ;
@@ -6294,10 +6294,10 @@ aama:ID9e31734f-0fd7-4b8d-b9c5-9c338b91695b a aamas:Term ;
 sah:saho-VSuffAffImprtv-baah a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-baah" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDbc2ab4b4-52b6-4e41-b8db-5e6f9cbfde2a a aamas:Term ;
+aama:ID34f1d82f-92d3-4220-b063-a03bd03ddb63 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-baah ;
 	sah:person sah:Person2 ;
@@ -6318,10 +6318,10 @@ aama:IDbc2ab4b4-52b6-4e41-b8db-5e6f9cbfde2a a aamas:Term ;
 sah:saho-VSuffAffImprtv-bad a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-bad" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID1d5a5e68-c509-48ec-858a-6019d2de1cd6 a aamas:Term ;
+aama:ID84feb0cb-4a59-4bf2-a5ac-99b6094c4ec2 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-bad ;
 	sah:person sah:Person2 ;
@@ -6342,10 +6342,10 @@ aama:ID1d5a5e68-c509-48ec-858a-6019d2de1cd6 a aamas:Term ;
 sah:saho-VSuffAffImprtv-beet a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-beet" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID60a89169-82ba-4256-b75b-1d24a8bc5921 a aamas:Term ;
+aama:ID3da000b4-9242-4b1a-968e-5d3bbb173fec a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-beet ;
 	sah:person sah:Person2 ;
@@ -6366,10 +6366,10 @@ aama:ID60a89169-82ba-4256-b75b-1d24a8bc5921 a aamas:Term ;
 sah:saho-VSuffAffImprtv-biaak a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-biaak" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID4434f427-253b-4641-8b2a-d40e1cefd224 a aamas:Term ;
+aama:IDb03ddd66-b25d-4429-a7a9-32b65c320fd1 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-biaak ;
 	sah:person sah:Person2 ;
@@ -6390,10 +6390,10 @@ aama:ID4434f427-253b-4641-8b2a-d40e1cefd224 a aamas:Term ;
 sah:saho-VSuffAffImprtv-biil a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-biil" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID84b0fd76-ed08-4546-9f3a-f61343b30507 a aamas:Term ;
+aama:ID3670097b-46f0-4a54-aea4-f4d4549a1f35 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-biil ;
 	sah:person sah:Person2 ;
@@ -6414,10 +6414,10 @@ aama:ID84b0fd76-ed08-4546-9f3a-f61343b30507 a aamas:Term ;
 sah:saho-VSuffAffImprtv-bolol a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-bolol" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID60e4940f-cb8d-4228-99a8-2ee3c4864ee1 a aamas:Term ;
+aama:ID641df345-c2e0-4e14-82a5-7d958c3a70ba a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-bolol ;
 	sah:person sah:Person2 ;
@@ -6439,10 +6439,10 @@ aama:ID60e4940f-cb8d-4228-99a8-2ee3c4864ee1 a aamas:Term ;
 sah:saho-VSuffAffImprtv-daam a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-daam" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID6e9da338-bd46-440d-b57a-800b63f4b32f a aamas:Term ;
+aama:ID97838f70-6054-4edb-a3b1-6d8146e80efa a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-daam ;
 	sah:person sah:Person2 ;
@@ -6463,10 +6463,10 @@ aama:ID6e9da338-bd46-440d-b57a-800b63f4b32f a aamas:Term ;
 sah:saho-VSuffAffImprtv-deer a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-deer" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDa0760590-4ca4-4bc2-bb99-eda1bbeeb85a a aamas:Term ;
+aama:ID8154c3a9-b23b-4d29-9e81-54177313f6e6 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-deer ;
 	sah:person sah:Person2 ;
@@ -6487,10 +6487,10 @@ aama:IDa0760590-4ca4-4bc2-bb99-eda1bbeeb85a a aamas:Term ;
 sah:saho-VSuffAffImprtv-defee a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-defee" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID9a7d0a08-052e-405f-857a-f29b483a4bf9 a aamas:Term ;
+aama:IDe8908aee-aeec-4b96-94d7-242e3cd7891d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-defee ;
 	sah:person sah:Person2 ;
@@ -6511,10 +6511,10 @@ aama:ID9a7d0a08-052e-405f-857a-f29b483a4bf9 a aamas:Term ;
 sah:saho-VSuffAffImprtv-di a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-di" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID66ada79e-6e02-49cc-990e-3d35c629c4f7 a aamas:Term ;
+aama:ID7803ed1e-1fa4-45e8-8687-46542c1b9a8b a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-di ;
 	sah:person sah:Person2 ;
@@ -6535,10 +6535,10 @@ aama:ID66ada79e-6e02-49cc-990e-3d35c629c4f7 a aamas:Term ;
 sah:saho-VSuffAffImprtv-do a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-do" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID23c1fe28-accc-40d2-9801-511c3b1e41c0 a aamas:Term ;
+aama:ID3c68c3ac-075a-4590-a84d-7f64e505904a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-do ;
 	sah:person sah:Person2 ;
@@ -6559,10 +6559,10 @@ aama:ID23c1fe28-accc-40d2-9801-511c3b1e41c0 a aamas:Term ;
 sah:saho-VSuffAffImprtv-fah a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-fah" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID86029916-1e01-449b-bf1e-432c61b96e8d a aamas:Term ;
+aama:ID35f21291-4b38-4fa0-8b4c-c927849e2218 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-fah ;
 	sah:person sah:Person2 ;
@@ -6583,10 +6583,10 @@ aama:ID86029916-1e01-449b-bf1e-432c61b96e8d a aamas:Term ;
 sah:saho-VSuffAffImprtv-fuu a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-fuu" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID1e35cc5b-3536-4e78-965b-18be134d5a6f a aamas:Term ;
+aama:ID9e13de5f-2bdc-4aed-8549-30fb0596b96e a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-fuu ;
 	sah:person sah:Person2 ;
@@ -6607,10 +6607,10 @@ aama:ID1e35cc5b-3536-4e78-965b-18be134d5a6f a aamas:Term ;
 sah:saho-VSuffAffImprtv-hay a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffImprtv-hay" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID83dd8049-5f50-4d50-b00f-5f5b763e2971 a aamas:Term ;
+aama:ID8278b9d1-ff6e-4d29-9aa4-b856e2f89dfd a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffImprtv-hay ;
 	sah:person sah:Person2 ;
@@ -6631,10 +6631,10 @@ aama:ID83dd8049-5f50-4d50-b00f-5f5b763e2971 a aamas:Term ;
 sah:saho-VSuffAffJuss-ab a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffJuss-ab" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID68cbb380-ccbc-4c72-b712-c5ec98b7522a a aamas:Term ;
+aama:IDb95e1d0d-04fd-4278-be3a-354c137a218f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffJuss-ab ;
 	sah:person sah:Person2 ;
@@ -6655,10 +6655,10 @@ aama:ID68cbb380-ccbc-4c72-b712-c5ec98b7522a a aamas:Term ;
 sah:saho-VSuffAffJuss-alif a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffJuss-alif" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID7176f57e-eb1d-47c7-bd20-befaca0e4759 a aamas:Term ;
+aama:ID3c375fad-bb77-41d6-93ac-225b70c27d2b a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffJuss-alif ;
 	sah:person sah:Person1 ;
@@ -6679,10 +6679,10 @@ aama:ID7176f57e-eb1d-47c7-bd20-befaca0e4759 a aamas:Term ;
 sah:saho-VSuffAffJuss-daam a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffJuss-daam" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID99d47c15-422b-4bca-9b85-851fc13bfe56 a aamas:Term ;
+aama:IDbfb09dc5-ab6a-4284-b153-30aa6739d201 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffJuss-daam ;
 	sah:person sah:Person1 ;
@@ -6704,10 +6704,10 @@ aama:ID99d47c15-422b-4bca-9b85-851fc13bfe56 a aamas:Term ;
 sah:saho-VSuffAffJuss-dufu a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffJuss-dufu" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID13e1473b-5243-460d-a827-122f7c8b2a16 a aamas:Term ;
+aama:ID910d0751-1761-4c87-979a-fa1ec8ffdd05 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffJuss-dufu ;
 	sah:person sah:Person3 ;
@@ -6728,10 +6728,10 @@ aama:ID13e1473b-5243-460d-a827-122f7c8b2a16 a aamas:Term ;
 sah:saho-VSuffAffJuss-ki-alif a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffJuss-ki-alif" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDc4684a0d-ed6f-4bdf-a11f-b87493bdaf35 a aamas:Term ;
+aama:ID56cb304a-087d-4187-a4fa-c75525845c33 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffJuss-ki-alif ;
 	sah:person sah:Person1 ;
@@ -6752,10 +6752,10 @@ aama:IDc4684a0d-ed6f-4bdf-a11f-b87493bdaf35 a aamas:Term ;
 sah:saho-VSuffAffJuss-ki-daam a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffJuss-ki-daam" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID2ec3255e-d69e-4058-9cc9-8354c34107d0 a aamas:Term ;
+aama:IDae6f5503-0779-4de6-a162-d51aa86ab53e a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffJuss-ki-daam ;
 	sah:person sah:Person1 ;
@@ -6777,10 +6777,10 @@ aama:ID2ec3255e-d69e-4058-9cc9-8354c34107d0 a aamas:Term ;
 sah:saho-VSuffAffJuss-li-daam a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffJuss-li-daam" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID031bb82a-5c89-478d-ab0e-c3ecd14bcf09 a aamas:Term ;
+aama:ID2f91e8f8-0745-4cce-9c7b-4b59dd20bdb1 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffJuss-li-daam ;
 	sah:person sah:Person1 ;
@@ -6802,10 +6802,10 @@ aama:ID031bb82a-5c89-478d-ab0e-c3ecd14bcf09 a aamas:Term ;
 sah:saho-VSuffAffPart-daam a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPart-daam" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID8241fd9d-861d-46d7-9dc3-74ad758e5e28 a aamas:Term ;
+aama:IDef6aa5c6-12e1-433a-a0ae-eba620535627 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPart-daam ;
 	sah:vmorphClass sah:FinitePartial ;
@@ -6824,10 +6824,10 @@ aama:ID8241fd9d-861d-46d7-9dc3-74ad758e5e28 a aamas:Term ;
 sah:saho-VSuffAffPart-dufu a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPart-dufu" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDe7599e61-fda6-4482-841c-5df274666eb5 a aamas:Term ;
+aama:ID37427eec-8ce3-48cf-880e-3267ee4fdcf8 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPart-dufu ;
 	sah:vmorphClass sah:FinitePartial ;
@@ -6846,10 +6846,10 @@ aama:IDe7599e61-fda6-4482-841c-5df274666eb5 a aamas:Term ;
 sah:saho-VSuffAffPart-fi a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPart-fi" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID0d77a81b-929a-4b6c-a544-3aeecafa72f8 a aamas:Term ;
+aama:ID34fc5df4-fa4c-4522-930d-e173247469b6 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPart-fi ;
 	sah:vmorphClass sah:FinitePartial ;
@@ -6868,10 +6868,10 @@ aama:ID0d77a81b-929a-4b6c-a544-3aeecafa72f8 a aamas:Term ;
 sah:saho-VSuffAffPart-gur a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPart-gur" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID6d24d6ad-c556-45a7-804a-38674787aa81 a aamas:Term ;
+aama:ID2ed4a58f-0dab-467b-a72b-97ce6bc8a177 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPart-gur ;
 	sah:vmorphClass sah:FinitePartial ;
@@ -6890,10 +6890,10 @@ aama:ID6d24d6ad-c556-45a7-804a-38674787aa81 a aamas:Term ;
 sah:saho-VSuffAffPart-sa a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPart-sa" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDb96f3356-56ed-498b-8c31-b27c26ce718c a aamas:Term ;
+aama:IDa361f677-2adf-4e47-899f-cc4e9199a0b3 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPart-sa ;
 	sah:vmorphClass sah:FinitePartial ;
@@ -6912,10 +6912,10 @@ aama:IDb96f3356-56ed-498b-8c31-b27c26ce718c a aamas:Term ;
 sah:saho-VSuffAffPerf-ab a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPerf-ab" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID1f9c04ba-dfd8-48f3-9c89-4f85f89ba546 a aamas:Term ;
+aama:ID9c9e6e5c-4acc-4252-a5cf-3ec5001d78d6 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-ab ;
 	sah:person sah:Unmarked ;
@@ -6935,10 +6935,10 @@ aama:ID1f9c04ba-dfd8-48f3-9c89-4f85f89ba546 a aamas:Term ;
 sah:saho-VSuffAffPerf-abaar a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPerf-abaar" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDd331f87c-7cc0-4cbd-8e4d-c94b1f596d51 a aamas:Term ;
+aama:IDfc63defb-dfdf-498d-b105-5c9af9aced4b a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-abaar ;
 	sah:person sah:Unmarked ;
@@ -6958,10 +6958,10 @@ aama:IDd331f87c-7cc0-4cbd-8e4d-c94b1f596d51 a aamas:Term ;
 sah:saho-VSuffAffPerf-abaas a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPerf-abaas" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDd70c22f9-ca82-4466-b96a-a8f6eabe6b53 a aamas:Term ;
+aama:ID28f966b6-be9e-46c0-971e-1e485a847ac2 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-abaas ;
 	sah:person sah:Unmarked ;
@@ -6981,10 +6981,10 @@ aama:IDd70c22f9-ca82-4466-b96a-a8f6eabe6b53 a aamas:Term ;
 sah:saho-VSuffAffPerf-abah a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPerf-abah" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDdd6cd786-52ac-4163-9946-b381a346ef61 a aamas:Term ;
+aama:ID6e8dd71d-c7cd-4b68-bd0e-d50ae30b14f2 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-abah ;
 	sah:person sah:Unmarked ;
@@ -7004,10 +7004,10 @@ aama:IDdd6cd786-52ac-4163-9946-b381a346ef61 a aamas:Term ;
 sah:saho-VSuffAffPerf-baah a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPerf-baah" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID9a912d02-4fdc-47a9-88d2-6177c4a88bae a aamas:Term ;
+aama:ID702e0ec8-e1ba-4220-9638-d96cde3ec8d9 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-baah ;
 	sah:person sah:Unmarked ;
@@ -7027,10 +7027,10 @@ aama:ID9a912d02-4fdc-47a9-88d2-6177c4a88bae a aamas:Term ;
 sah:saho-VSuffAffPerf-bad a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPerf-bad" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDaf1ba0d0-13c8-49bb-8cae-f8cca95aea38 a aamas:Term ;
+aama:ID98826a45-d0f5-4534-be66-b6085ddcd51f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-bad ;
 	sah:person sah:Unmarked ;
@@ -7050,10 +7050,10 @@ aama:IDaf1ba0d0-13c8-49bb-8cae-f8cca95aea38 a aamas:Term ;
 sah:saho-VSuffAffPerf-beet a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPerf-beet" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID3c428caf-4024-4fcc-ab24-8e0099cd4d5d a aamas:Term ;
+aama:ID2b33cd75-8aca-47e1-b7ac-9930c569a256 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-beet ;
 	sah:person sah:Unmarked ;
@@ -7073,10 +7073,10 @@ aama:ID3c428caf-4024-4fcc-ab24-8e0099cd4d5d a aamas:Term ;
 sah:saho-VSuffAffPerf-biaak a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPerf-biaak" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID722d8e82-88a7-41c7-8ef2-c9ade7215492 a aamas:Term ;
+aama:ID0299fec6-ca67-40df-8fd3-71d698c47823 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-biaak ;
 	sah:person sah:Unmarked ;
@@ -7096,10 +7096,10 @@ aama:ID722d8e82-88a7-41c7-8ef2-c9ade7215492 a aamas:Term ;
 sah:saho-VSuffAffPerf-biil a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPerf-biil" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDb06236ba-0a9f-4aea-821e-f3fa03f245f8 a aamas:Term ;
+aama:ID10f8b901-797f-4ff0-a958-06ec658795bb a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-biil ;
 	sah:person sah:Unmarked ;
@@ -7119,10 +7119,10 @@ aama:IDb06236ba-0a9f-4aea-821e-f3fa03f245f8 a aamas:Term ;
 sah:saho-VSuffAffPerf-daam a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPerf-daam" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDd2829137-2319-4a72-92bf-09cb836227a3 a aamas:Term ;
+aama:ID597cb4ba-337f-4bcc-96fd-1f933054272d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-daam ;
 	sah:person sah:Unmarked ;
@@ -7142,10 +7142,10 @@ aama:IDd2829137-2319-4a72-92bf-09cb836227a3 a aamas:Term ;
 sah:saho-VSuffAffPerf-deer a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPerf-deer" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID0c896300-867a-476b-9912-20f38e7271a2 a aamas:Term ;
+aama:ID02bdb2b9-fbc3-40e6-8186-df31a0ee01bd a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-deer ;
 	sah:person sah:Unmarked ;
@@ -7165,10 +7165,10 @@ aama:ID0c896300-867a-476b-9912-20f38e7271a2 a aamas:Term ;
 sah:saho-VSuffAffPerf-di a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPerf-di" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID7c9a0d73-fb4d-443f-999a-330167470467 a aamas:Term ;
+aama:IDcb43126f-29d3-41cc-b7cc-65d9356b9eb4 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-di ;
 	sah:person sah:Unmarked ;
@@ -7188,10 +7188,10 @@ aama:ID7c9a0d73-fb4d-443f-999a-330167470467 a aamas:Term ;
 sah:saho-VSuffAffPerf-do a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPerf-do" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID9d6895f4-3a75-4bed-b4f9-ecbdd97f80fd a aamas:Term ;
+aama:IDd9054002-4069-4e8f-9cad-f8d24050fbfe a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-do ;
 	sah:person sah:Unmarked ;
@@ -7211,10 +7211,10 @@ aama:ID9d6895f4-3a75-4bed-b4f9-ecbdd97f80fd a aamas:Term ;
 sah:saho-VSuffAffPerf-fah a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPerf-fah" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDdbbb8ee3-34ed-4690-9207-3700fcc9b838 a aamas:Term ;
+aama:IDefb5b76b-72b5-4cc1-80f4-2742a6ac5cc7 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-fah ;
 	sah:person sah:Unmarked ;
@@ -7234,10 +7234,10 @@ aama:IDdbbb8ee3-34ed-4690-9207-3700fcc9b838 a aamas:Term ;
 sah:saho-VSuffAffPerf-fuu a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPerf-fuu" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDe37a5b7c-eb09-4566-b5d2-5adb9ab52773 a aamas:Term ;
+aama:ID2d9ea749-be18-461f-b069-4438e6b1e0b1 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-fuu ;
 	sah:person sah:Unmarked ;
@@ -7257,10 +7257,10 @@ aama:IDe37a5b7c-eb09-4566-b5d2-5adb9ab52773 a aamas:Term ;
 sah:saho-VSuffAffPerf-had a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPerf-had" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID9347c8f6-88b4-44ad-a3fd-d6606ddefb65 a aamas:Term ;
+aama:IDdd790da6-d0b9-4a4e-9b5b-ee1089e22340 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-had ;
 	sah:person sah:Unmarked ;
@@ -7280,10 +7280,10 @@ aama:ID9347c8f6-88b4-44ad-a3fd-d6606ddefb65 a aamas:Term ;
 sah:saho-VSuffAffPerf-m-rab a aamas:Termcluster ;
 	rdfs:label "saho-VSuffAffPerf-m-rab" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID24e534f2-dfb3-4bfc-8284-8ef93dd0b957 a aamas:Term ;
+aama:ID7b2d75b8-eee1-41df-a346-1c2b3f47060d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffAffPerf-m-rab ;
 	sah:person sah:Person3 ;
@@ -7305,10 +7305,10 @@ aama:ID24e534f2-dfb3-4bfc-8284-8ef93dd0b957 a aamas:Term ;
 sah:saho-VSuffJuss-ak a aamas:Termcluster ;
 	rdfs:label "saho-VSuffJuss-ak" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b p. 249" 
+	rdfs:comment "W52p.249" 
 	.
 
-aama:ID30e0490a-6d7a-44fe-90c2-fe76668fafba a aamas:Term ;
+aama:IDe6e32502-7aee-4ea0-91d7-7e82a719a0e7 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffJuss-ak ;
 	sah:vmorphClass sah:Finite ;
@@ -7322,7 +7322,7 @@ aama:ID30e0490a-6d7a-44fe-90c2-fe76668fafba a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:IDebf24083-e155-472f-8003-892af4bfae6d a aamas:Term ;
+aama:IDb47da525-0b32-48aa-850a-92883ec65a1c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffJuss-ak ;
 	sah:vmorphClass sah:Finite ;
@@ -7336,7 +7336,7 @@ aama:IDebf24083-e155-472f-8003-892af4bfae6d a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:ID401dc477-30e1-4169-81dd-b660dce0e523 a aamas:Term ;
+aama:ID57bdae65-3d6a-4f5c-9210-f3275a252dac a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffJuss-ak ;
 	sah:vmorphClass sah:Finite ;
@@ -7350,7 +7350,7 @@ aama:ID401dc477-30e1-4169-81dd-b660dce0e523 a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:ID513881fb-2342-485b-a8eb-c14dc859a79b a aamas:Term ;
+aama:ID342871aa-af0b-4977-8375-20d70326d9ac a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffJuss-ak ;
 	sah:vmorphClass sah:Finite ;
@@ -7364,7 +7364,7 @@ aama:ID513881fb-2342-485b-a8eb-c14dc859a79b a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:ID2c61f1fb-e828-4ae8-9a0e-156a49fbd868 a aamas:Term ;
+aama:IDa4e997f5-9b2b-4c4b-94be-67e01e33fb93 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffJuss-ak ;
 	sah:vmorphClass sah:Finite ;
@@ -7378,7 +7378,7 @@ aama:ID2c61f1fb-e828-4ae8-9a0e-156a49fbd868 a aamas:Term ;
 	sah:number sah:Plural ;
 	.
 
-aama:IDf36b34be-8ec2-4889-8f91-cd7020f16ee9 a aamas:Term ;
+aama:ID25fda74a-48ff-4d41-bbb8-181c7ae913cd a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffJuss-ak ;
 	sah:vmorphClass sah:Finite ;
@@ -7392,7 +7392,7 @@ aama:IDf36b34be-8ec2-4889-8f91-cd7020f16ee9 a aamas:Term ;
 	sah:number sah:Plural ;
 	.
 
-aama:IDe0efa3b5-76e3-4a45-a3ad-ab4dd9d4da0c a aamas:Term ;
+aama:ID56df7505-d2bd-4550-93b1-d4c0859df30d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffJuss-ak ;
 	sah:vmorphClass sah:Finite ;
@@ -7411,10 +7411,10 @@ aama:IDe0efa3b5-76e3-4a45-a3ad-ab4dd9d4da0c a aamas:Term ;
 sah:saho-VSuffNegImperf-ab a aamas:Termcluster ;
 	rdfs:label "saho-VSuffNegImperf-ab" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID71e24df1-0aaa-4c21-9252-d0db69bf2e64 a aamas:Term ;
+aama:ID491a61ac-09ad-4b3f-8d4e-7b94be7f0b21 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffNegImperf-ab ;
 	sah:person sah:Person3 ;
@@ -7435,10 +7435,10 @@ aama:ID71e24df1-0aaa-4c21-9252-d0db69bf2e64 a aamas:Term ;
 sah:saho-VSuffNegImperf-daam a aamas:Termcluster ;
 	rdfs:label "saho-VSuffNegImperf-daam" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDdc79f8da-4e02-4844-85da-7f44774f032d a aamas:Term ;
+aama:ID9cf23d8a-4075-440b-987e-eec78de1b492 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffNegImperf-daam ;
 	sah:person sah:Person1 ;
@@ -7459,10 +7459,10 @@ aama:IDdc79f8da-4e02-4844-85da-7f44774f032d a aamas:Term ;
 sah:saho-VSuffNegImprtv-daam a aamas:Termcluster ;
 	rdfs:label "saho-VSuffNegImprtv-daam" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDbedb75a6-6fab-47cf-ba10-ea3cc77846ca a aamas:Term ;
+aama:IDe68f9b55-36ba-4dda-9422-af4ac318b91a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffNegImprtv-daam ;
 	sah:person sah:Person2 ;
@@ -7483,10 +7483,10 @@ aama:IDbedb75a6-6fab-47cf-ba10-ea3cc77846ca a aamas:Term ;
 sah:saho-VSuffNegImprtv-fak a aamas:Termcluster ;
 	rdfs:label "saho-VSuffNegImprtv-fak" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDe4e42b72-c5f1-44a7-8763-1a3b4f6465d3 a aamas:Term ;
+aama:ID32e09002-8ec5-4c62-be0a-bc411055e66d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffNegImprtv-fak ;
 	sah:person sah:Person2 ;
@@ -7507,10 +7507,10 @@ aama:IDe4e42b72-c5f1-44a7-8763-1a3b4f6465d3 a aamas:Term ;
 sah:saho-VSuffNegImprtv-suu a aamas:Termcluster ;
 	rdfs:label "saho-VSuffNegImprtv-suu" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDbbd318fd-6259-4784-aaef-2108987de082 a aamas:Term ;
+aama:ID08282330-38b8-4fe6-8327-1ef3dc97ff90 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffNegImprtv-suu ;
 	sah:person sah:Person2 ;
@@ -7531,10 +7531,10 @@ aama:IDbbd318fd-6259-4784-aaef-2108987de082 a aamas:Term ;
 sah:saho-VSuffNegJuss-daam a aamas:Termcluster ;
 	rdfs:label "saho-VSuffNegJuss-daam" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:IDb2592729-155e-4381-8f1a-dc5be2976a8a a aamas:Term ;
+aama:IDc63bbb1e-f1e2-419f-9a0a-06c03d764b05 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffNegJuss-daam ;
 	sah:person sah:Person1 ;
@@ -7556,10 +7556,10 @@ aama:IDb2592729-155e-4381-8f1a-dc5be2976a8a a aamas:Term ;
 sah:saho-VSuffNegPerf-daam a aamas:Termcluster ;
 	rdfs:label "saho-VSuffNegPerf-daam" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b pp. 237–246." 
+	rdfs:comment "W52pp.237–246" 
 	.
 
-aama:ID89250b13-571c-47c3-b9a3-132d568b2c24 a aamas:Term ;
+aama:ID99e965f6-4e26-486b-b4b6-4d9bdc54ed9b a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffNegPerf-daam ;
 	sah:person sah:Person1 ;
@@ -7581,10 +7581,10 @@ aama:ID89250b13-571c-47c3-b9a3-132d568b2c24 a aamas:Term ;
 sah:saho-VSuffPast-hab a aamas:Termcluster ;
 	rdfs:label "saho-VSuffPast-hab" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b p. 236" 
+	rdfs:comment "W52p.236" 
 	.
 
-aama:ID63ead79f-8d52-4ea9-8153-242326ed33cb a aamas:Term ;
+aama:ID03e64e86-c4ce-4c1a-a272-96bf0f254b53 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-hab ;
 	sah:vmorphClass sah:Finite ;
@@ -7598,7 +7598,7 @@ aama:ID63ead79f-8d52-4ea9-8153-242326ed33cb a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:IDdcdc9ec2-afcc-4fb1-9719-7bbe7a1bb6d2 a aamas:Term ;
+aama:ID2f71dc2d-2be3-4f62-8fa6-0449bc5a54f1 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-hab ;
 	sah:vmorphClass sah:Finite ;
@@ -7612,7 +7612,7 @@ aama:IDdcdc9ec2-afcc-4fb1-9719-7bbe7a1bb6d2 a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:IDe3797ee6-7f5b-4284-9af3-9a173b9d5971 a aamas:Term ;
+aama:IDefbacfbf-d1e7-4544-b8af-c5492a96db22 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-hab ;
 	sah:vmorphClass sah:Finite ;
@@ -7626,7 +7626,7 @@ aama:IDe3797ee6-7f5b-4284-9af3-9a173b9d5971 a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:IDafe5b27e-2b14-43a1-8846-3ecc7f7467c6 a aamas:Term ;
+aama:ID7366b32d-d775-4860-b80f-c144cb9f91e9 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-hab ;
 	sah:vmorphClass sah:Finite ;
@@ -7640,7 +7640,7 @@ aama:IDafe5b27e-2b14-43a1-8846-3ecc7f7467c6 a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:ID5f2b8daf-9769-405e-9433-4fc48c102fbe a aamas:Term ;
+aama:ID484aca67-b470-4f9f-8041-fb62981ac897 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-hab ;
 	sah:vmorphClass sah:Finite ;
@@ -7654,7 +7654,7 @@ aama:ID5f2b8daf-9769-405e-9433-4fc48c102fbe a aamas:Term ;
 	sah:number sah:Plural ;
 	.
 
-aama:ID1b3f7e0a-c74c-4f90-8bca-fbb4968d5800 a aamas:Term ;
+aama:ID5b52c88c-d4cf-46f7-815e-bc7e1cf667e6 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-hab ;
 	sah:vmorphClass sah:Finite ;
@@ -7668,7 +7668,7 @@ aama:ID1b3f7e0a-c74c-4f90-8bca-fbb4968d5800 a aamas:Term ;
 	sah:number sah:Plural ;
 	.
 
-aama:IDe769cc05-c382-48db-8f36-4241550c51b1 a aamas:Term ;
+aama:IDecb89387-efd3-4e01-ad8a-545fb6fb6c4a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-hab ;
 	sah:vmorphClass sah:Finite ;
@@ -7687,10 +7687,10 @@ aama:IDe769cc05-c382-48db-8f36-4241550c51b1 a aamas:Term ;
 sah:saho-VSuffPast-ubl a aamas:Termcluster ;
 	rdfs:label "saho-VSuffPast-ubl" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b p. 236" 
+	rdfs:comment "W52p.236" 
 	.
 
-aama:IDdee97492-cdcf-4cd6-96e6-4d95b69e9346 a aamas:Term ;
+aama:ID22ce8247-916b-43b3-8a06-188936349fd1 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-ubl ;
 	sah:vmorphClass sah:Finite ;
@@ -7704,7 +7704,7 @@ aama:IDdee97492-cdcf-4cd6-96e6-4d95b69e9346 a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:ID24d50237-d5e7-4f98-848c-ad0f78d40213 a aamas:Term ;
+aama:ID0884eec9-d5c1-43c6-abdb-9f004ce16f57 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-ubl ;
 	sah:vmorphClass sah:Finite ;
@@ -7718,7 +7718,7 @@ aama:ID24d50237-d5e7-4f98-848c-ad0f78d40213 a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:ID533b647b-bf2a-45de-a12d-43f0451ae3bd a aamas:Term ;
+aama:ID2e22629e-5cf9-48c4-87b2-672448a46fe4 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-ubl ;
 	sah:vmorphClass sah:Finite ;
@@ -7732,7 +7732,7 @@ aama:ID533b647b-bf2a-45de-a12d-43f0451ae3bd a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:IDed8edc91-ac7c-4dcb-8842-f3cbebcdc60c a aamas:Term ;
+aama:ID8e2a13ea-f62b-4d03-86a9-b64d0d38805a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-ubl ;
 	sah:vmorphClass sah:Finite ;
@@ -7746,7 +7746,7 @@ aama:IDed8edc91-ac7c-4dcb-8842-f3cbebcdc60c a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:ID8cafebf6-643a-4d3b-894f-96b14fcb5227 a aamas:Term ;
+aama:IDeb2aaa56-96f7-4eed-8d7e-b8ffcf8bf512 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-ubl ;
 	sah:vmorphClass sah:Finite ;
@@ -7760,7 +7760,7 @@ aama:ID8cafebf6-643a-4d3b-894f-96b14fcb5227 a aamas:Term ;
 	sah:number sah:Plural ;
 	.
 
-aama:IDdfc2cc57-5894-46b1-b733-df2ca9a6a387 a aamas:Term ;
+aama:IDd5592f54-85d7-4e21-88ba-ae0fa00f941a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-ubl ;
 	sah:vmorphClass sah:Finite ;
@@ -7774,7 +7774,7 @@ aama:IDdfc2cc57-5894-46b1-b733-df2ca9a6a387 a aamas:Term ;
 	sah:number sah:Plural ;
 	.
 
-aama:IDc8ac9006-726c-4794-81ab-e8aebc7273e7 a aamas:Term ;
+aama:IDc5a15457-0e25-4901-9fe9-079dceae881c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPast-ubl ;
 	sah:vmorphClass sah:Finite ;
@@ -7793,10 +7793,10 @@ aama:IDc8ac9006-726c-4794-81ab-e8aebc7273e7 a aamas:Term ;
 sah:saho-VSuffPerf-ak a aamas:Termcluster ;
 	rdfs:label "saho-VSuffPerf-ak" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b p. 249" 
+	rdfs:comment "W52p.249" 
 	.
 
-aama:ID5dde4fd5-3e5e-4c45-99ec-30535f503263 a aamas:Term ;
+aama:ID7fcfb902-14c2-472b-ba27-d25787f4d00f a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPerf-ak ;
 	sah:vmorphClass sah:Finite ;
@@ -7810,7 +7810,7 @@ aama:ID5dde4fd5-3e5e-4c45-99ec-30535f503263 a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:IDdaa936e0-84b0-46ae-bdf5-cf567e3f6077 a aamas:Term ;
+aama:ID3a52deaa-6877-4c3d-b2f2-bf77b84db630 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPerf-ak ;
 	sah:vmorphClass sah:Finite ;
@@ -7824,7 +7824,7 @@ aama:IDdaa936e0-84b0-46ae-bdf5-cf567e3f6077 a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:ID3dd268cb-5c1a-4618-9b6b-d4e9b37c3dd8 a aamas:Term ;
+aama:ID4315e502-c71c-4337-af8b-9c0aa41037e2 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPerf-ak ;
 	sah:vmorphClass sah:Finite ;
@@ -7838,7 +7838,7 @@ aama:ID3dd268cb-5c1a-4618-9b6b-d4e9b37c3dd8 a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:ID8ea2a064-9c23-43b4-bee1-edb14946b0c3 a aamas:Term ;
+aama:IDe1a3e30c-9648-4d58-8eba-1866d41a8984 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPerf-ak ;
 	sah:vmorphClass sah:Finite ;
@@ -7852,7 +7852,7 @@ aama:ID8ea2a064-9c23-43b4-bee1-edb14946b0c3 a aamas:Term ;
 	sah:number sah:Singular ;
 	.
 
-aama:IDdd2c494e-e030-4332-a068-25415710feeb a aamas:Term ;
+aama:IDb51f3f31-990c-4e2f-a8c6-a9f6f91b0fbb a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPerf-ak ;
 	sah:vmorphClass sah:Finite ;
@@ -7866,7 +7866,7 @@ aama:IDdd2c494e-e030-4332-a068-25415710feeb a aamas:Term ;
 	sah:number sah:Plural ;
 	.
 
-aama:IDc6dc8233-22d1-4cb6-ae61-1e1847ca4486 a aamas:Term ;
+aama:IDd1ec228c-fb01-4a5a-bc68-3efad266cdc7 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPerf-ak ;
 	sah:vmorphClass sah:Finite ;
@@ -7880,7 +7880,7 @@ aama:IDc6dc8233-22d1-4cb6-ae61-1e1847ca4486 a aamas:Term ;
 	sah:number sah:Plural ;
 	.
 
-aama:ID4b02d4cf-4d34-49b7-aa47-03299b852b97 a aamas:Term ;
+aama:IDa319a72e-4640-4803-9832-d27f441181b5 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-VSuffPerf-ak ;
 	sah:vmorphClass sah:Finite ;
@@ -7899,11 +7899,10 @@ aama:ID4b02d4cf-4d34-49b7-aa47-03299b852b97 a aamas:Term ;
 sah:saho-PInd a aamas:Termcluster ;
 	rdfs:label "saho-PInd" ;
 	aamas:lang aama:Saho ;
-	rdfs:comment "Welmers1952b p. 236%%251. I am assuming that 2pl and 3pl forms are inverted in the
-            poss%%obj%%indir-obj and emph pronouns in the table on pl. 251" 
+	rdfs:comment "W52pp.236&amp;251 :: I am assuming that 2pl and 3pl forms are inverted in the poss%%obj%%indir-obj and emph pronouns in the table on pl. 251" 
 	.
 
-aama:IDb9e06c6d-d1a3-4f68-8277-a18bf9a09ee2 a aamas:Term ;
+aama:ID04342f13-d6ad-41ba-9958-5cfc84ec9d7a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
@@ -7914,7 +7913,7 @@ aama:IDb9e06c6d-d1a3-4f68-8277-a18bf9a09ee2 a aamas:Term ;
 	sah:proClass sah:Emphatic ;
 	.
 
-aama:ID28514d3d-2ed8-4c8f-a7c5-0d856211f5e8 a aamas:Term ;
+aama:ID19459bb5-2a71-4e63-b67c-e0c6a77b5175 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
@@ -7925,7 +7924,7 @@ aama:ID28514d3d-2ed8-4c8f-a7c5-0d856211f5e8 a aamas:Term ;
 	sah:proClass sah:Emphatic ;
 	.
 
-aama:IDd474f72c-6583-4c68-9ef5-bce014561646 a aamas:Term ;
+aama:IDcb9d809d-6ee2-4d7f-8489-efd291848f86 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
@@ -7936,7 +7935,7 @@ aama:IDd474f72c-6583-4c68-9ef5-bce014561646 a aamas:Term ;
 	sah:proClass sah:Emphatic ;
 	.
 
-aama:ID6e8409f7-39b9-4d6f-a8b7-9301bac41cfb a aamas:Term ;
+aama:IDdc662dff-3d7d-4b5b-871a-012012e13f41 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
@@ -7947,7 +7946,7 @@ aama:ID6e8409f7-39b9-4d6f-a8b7-9301bac41cfb a aamas:Term ;
 	sah:proClass sah:Emphatic ;
 	.
 
-aama:ID4b7d24b8-1dbd-4923-ae69-89f2ffbe9545 a aamas:Term ;
+aama:ID2943f83d-294e-4290-93d8-eeeb9f324506 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
@@ -7958,7 +7957,7 @@ aama:ID4b7d24b8-1dbd-4923-ae69-89f2ffbe9545 a aamas:Term ;
 	sah:proClass sah:Emphatic ;
 	.
 
-aama:ID9be39f0c-5449-4c26-9165-4608955ed05f a aamas:Term ;
+aama:ID2b2cca30-c4f0-4c4d-9744-d0ca9a32e607 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
@@ -7969,7 +7968,7 @@ aama:ID9be39f0c-5449-4c26-9165-4608955ed05f a aamas:Term ;
 	sah:proClass sah:Emphatic ;
 	.
 
-aama:ID04b6f879-173d-44d1-96ab-0346279e3361 a aamas:Term ;
+aama:IDb37cc19d-d408-4163-84cb-592b5a72f0d7 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
@@ -7980,7 +7979,7 @@ aama:ID04b6f879-173d-44d1-96ab-0346279e3361 a aamas:Term ;
 	sah:proClass sah:Emphatic ;
 	.
 
-aama:ID33401846-4ac3-4673-a773-da2ffa6e9492 a aamas:Term ;
+aama:ID3581290b-f315-4747-a0a6-a8a1eb8b59ff a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
@@ -7991,7 +7990,7 @@ aama:ID33401846-4ac3-4673-a773-da2ffa6e9492 a aamas:Term ;
 	sah:proClass sah:Independent ;
 	.
 
-aama:IDe4447a96-3b3c-428e-a29a-898c3931b220 a aamas:Term ;
+aama:ID0267cd0d-9ad5-4366-af8c-720a2254832b a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
@@ -8002,7 +8001,7 @@ aama:IDe4447a96-3b3c-428e-a29a-898c3931b220 a aamas:Term ;
 	sah:proClass sah:Independent ;
 	.
 
-aama:ID60bc64ac-bc36-49ec-9d9d-42cd527c5266 a aamas:Term ;
+aama:IDa8238ac1-672a-4f1b-b856-358a50f83298 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
@@ -8013,7 +8012,7 @@ aama:ID60bc64ac-bc36-49ec-9d9d-42cd527c5266 a aamas:Term ;
 	sah:proClass sah:Independent ;
 	.
 
-aama:IDa26570c1-db6d-4737-8783-15180d0a1fcb a aamas:Term ;
+aama:ID520cd152-647f-407c-ac99-57dca23b9fbf a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
@@ -8024,7 +8023,7 @@ aama:IDa26570c1-db6d-4737-8783-15180d0a1fcb a aamas:Term ;
 	sah:proClass sah:Independent ;
 	.
 
-aama:ID73b295d2-af07-4bfb-8fcf-b97efc609158 a aamas:Term ;
+aama:ID88ae14c2-9b61-4d72-b27b-15807da33fce a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
@@ -8035,7 +8034,7 @@ aama:ID73b295d2-af07-4bfb-8fcf-b97efc609158 a aamas:Term ;
 	sah:proClass sah:Independent ;
 	.
 
-aama:IDaa3e478e-e374-4e09-92f2-226baf877615 a aamas:Term ;
+aama:ID666ca371-8fec-4b71-beec-b027fc0d4d97 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
@@ -8046,7 +8045,7 @@ aama:IDaa3e478e-e374-4e09-92f2-226baf877615 a aamas:Term ;
 	sah:proClass sah:Independent ;
 	.
 
-aama:IDe5b57688-a0d4-4055-b3e6-3476e1ad3cc7 a aamas:Term ;
+aama:IDf86b2e58-7a93-41f0-a281-982db5b18bf7 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
@@ -8057,7 +8056,7 @@ aama:IDe5b57688-a0d4-4055-b3e6-3476e1ad3cc7 a aamas:Term ;
 	sah:proClass sah:Independent ;
 	.
 
-aama:IDc3efbbab-2254-485e-a643-756117f871c5 a aamas:Term ;
+aama:IDc2a97556-25b1-489b-a7bd-c40a73945ad6 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
@@ -8068,7 +8067,7 @@ aama:IDc3efbbab-2254-485e-a643-756117f871c5 a aamas:Term ;
 	sah:proClass sah:Object ;
 	.
 
-aama:ID94729c1c-a52f-4ecd-9846-84c91ecf68c6 a aamas:Term ;
+aama:IDae4c5cc5-4924-405e-b9f4-b699523731d2 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
@@ -8079,7 +8078,7 @@ aama:ID94729c1c-a52f-4ecd-9846-84c91ecf68c6 a aamas:Term ;
 	sah:proClass sah:Object ;
 	.
 
-aama:ID0c6e5a4d-2bc4-48dc-97ef-1dbd71981250 a aamas:Term ;
+aama:IDae1e2c63-82be-4d00-9920-ee12297f5230 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
@@ -8090,7 +8089,7 @@ aama:ID0c6e5a4d-2bc4-48dc-97ef-1dbd71981250 a aamas:Term ;
 	sah:proClass sah:Object ;
 	.
 
-aama:ID8f86a7c7-97bf-4cfb-b6e8-207e58a841bc a aamas:Term ;
+aama:IDf01e37e7-a07b-4a50-b426-362706e6b013 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
@@ -8101,7 +8100,7 @@ aama:ID8f86a7c7-97bf-4cfb-b6e8-207e58a841bc a aamas:Term ;
 	sah:proClass sah:Object ;
 	.
 
-aama:ID6ef837e0-40c3-460b-ba8a-9b2314cdd233 a aamas:Term ;
+aama:ID80e8adc8-7d3d-409b-b980-ac5f41b903d3 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
@@ -8112,7 +8111,7 @@ aama:ID6ef837e0-40c3-460b-ba8a-9b2314cdd233 a aamas:Term ;
 	sah:proClass sah:Object ;
 	.
 
-aama:ID89c80cec-fe80-4d10-bca0-3f2381617109 a aamas:Term ;
+aama:ID679e42b3-7cb2-46fe-a567-c5ce5e416baf a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
@@ -8123,7 +8122,7 @@ aama:ID89c80cec-fe80-4d10-bca0-3f2381617109 a aamas:Term ;
 	sah:proClass sah:Object ;
 	.
 
-aama:ID06514887-bca4-4206-bb11-635ce505957e a aamas:Term ;
+aama:IDee1eeac3-7ea6-4d5a-92ba-6e097225f22c a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
@@ -8134,7 +8133,7 @@ aama:ID06514887-bca4-4206-bb11-635ce505957e a aamas:Term ;
 	sah:proClass sah:Object ;
 	.
 
-aama:ID95780edf-fb3a-494b-bce4-04f3ddaf0b42 a aamas:Term ;
+aama:ID87e9de41-8dac-4e52-b4d3-d4178283c010 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
@@ -8145,7 +8144,7 @@ aama:ID95780edf-fb3a-494b-bce4-04f3ddaf0b42 a aamas:Term ;
 	sah:proClass sah:ObjectIndirect ;
 	.
 
-aama:ID5102cc15-bd75-4d20-9fb9-0f5120caaa7b a aamas:Term ;
+aama:IDc5091c88-b77f-422d-a5d9-cd1fc21bf24e a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
@@ -8156,7 +8155,7 @@ aama:ID5102cc15-bd75-4d20-9fb9-0f5120caaa7b a aamas:Term ;
 	sah:proClass sah:ObjectIndirect ;
 	.
 
-aama:ID0779217a-5a6b-4946-80b4-0726f0e6c1a0 a aamas:Term ;
+aama:ID692b89c3-3a0a-4831-abce-e8ff7b41bc6d a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
@@ -8167,7 +8166,7 @@ aama:ID0779217a-5a6b-4946-80b4-0726f0e6c1a0 a aamas:Term ;
 	sah:proClass sah:ObjectIndirect ;
 	.
 
-aama:IDb8b7d768-a928-494d-871b-e917f3615698 a aamas:Term ;
+aama:ID6d0b6f6c-fed5-424d-a5bf-3d61ed7f831a a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
@@ -8178,7 +8177,7 @@ aama:IDb8b7d768-a928-494d-871b-e917f3615698 a aamas:Term ;
 	sah:proClass sah:ObjectIndirect ;
 	.
 
-aama:ID963e0562-1cb6-419d-8d5a-1b6c29186e4c a aamas:Term ;
+aama:IDf133997e-b5b1-4c51-85e9-7522fa664dec a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
@@ -8189,7 +8188,7 @@ aama:ID963e0562-1cb6-419d-8d5a-1b6c29186e4c a aamas:Term ;
 	sah:proClass sah:ObjectIndirect ;
 	.
 
-aama:ID66dd8b0a-f90a-442d-9c1a-d6330ce12983 a aamas:Term ;
+aama:IDe136b8a5-2f02-4941-ba48-e28496a828ce a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
@@ -8200,7 +8199,7 @@ aama:ID66dd8b0a-f90a-442d-9c1a-d6330ce12983 a aamas:Term ;
 	sah:proClass sah:ObjectIndirect ;
 	.
 
-aama:ID64d02f33-733c-43df-baba-77238d389a84 a aamas:Term ;
+aama:ID0d1bd54c-2651-437c-86e0-16777e2640bd a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
@@ -8211,7 +8210,7 @@ aama:ID64d02f33-733c-43df-baba-77238d389a84 a aamas:Term ;
 	sah:proClass sah:ObjectIndirect ;
 	.
 
-aama:IDffd93989-3a76-4bd1-bc24-3e2c7acf681e a aamas:Term ;
+aama:ID8d7e11e2-9f14-43e5-9123-99fc714e921b a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
@@ -8222,7 +8221,7 @@ aama:IDffd93989-3a76-4bd1-bc24-3e2c7acf681e a aamas:Term ;
 	sah:proClass sah:Possessive ;
 	.
 
-aama:IDa8cbc94b-8ef2-4bcc-8bc9-8606228134bf a aamas:Term ;
+aama:ID84b37efc-f47a-4579-8532-199f1215f6a3 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
@@ -8233,7 +8232,7 @@ aama:IDa8cbc94b-8ef2-4bcc-8bc9-8606228134bf a aamas:Term ;
 	sah:proClass sah:Possessive ;
 	.
 
-aama:ID46e74703-8c9a-48aa-9d59-17c72f15e29c a aamas:Term ;
+aama:ID575c8e5f-67ac-48af-9174-86f1a697f2d7 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
@@ -8244,7 +8243,7 @@ aama:ID46e74703-8c9a-48aa-9d59-17c72f15e29c a aamas:Term ;
 	sah:proClass sah:Possessive ;
 	.
 
-aama:ID69e173cd-4d0d-4f9c-b3bc-fecfe04fcb08 a aamas:Term ;
+aama:ID76aa8097-1612-4793-b6dc-a3f7937932b5 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
@@ -8255,7 +8254,7 @@ aama:ID69e173cd-4d0d-4f9c-b3bc-fecfe04fcb08 a aamas:Term ;
 	sah:proClass sah:Possessive ;
 	.
 
-aama:IDac93c054-41ad-4e5b-bada-d5846aa796b4 a aamas:Term ;
+aama:IDeb221187-d5ed-4297-8540-e4ae84524947 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
@@ -8266,7 +8265,7 @@ aama:IDac93c054-41ad-4e5b-bada-d5846aa796b4 a aamas:Term ;
 	sah:proClass sah:Possessive ;
 	.
 
-aama:IDe4c75ec8-7dd5-40e7-86ea-35d70b8ac567 a aamas:Term ;
+aama:ID8723ccf9-a817-47e8-b685-75d57ac9242b a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
@@ -8277,7 +8276,7 @@ aama:IDe4c75ec8-7dd5-40e7-86ea-35d70b8ac567 a aamas:Term ;
 	sah:proClass sah:Possessive ;
 	.
 
-aama:ID8a2034e5-fc46-48cc-afcb-6210613ec48d a aamas:Term ;
+aama:ID2f65d2b6-3782-4551-ac70-87b1ec5f6815 a aamas:Term ;
 	aamas:lang aama:Saho ;
 	aamas:memberOf sah:saho-PInd ;
 	sah:pos sah:Pronoun ;
