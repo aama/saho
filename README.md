@@ -3,7 +3,7 @@
 
 ## :subfamily "Lowland East Cushitic Saho-Afar"
 
-## :datasource "Welmers1952 Banti-Vergari2003"
+## :datasource "Banti-Vergari2003,2010,2023"
 
 ## :geodemoURL "http://www.ethnologue.com/language/ssy"
 
