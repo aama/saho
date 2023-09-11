@@ -1,4740 +1,892 @@
 {
   "lang": "saho",
   "subfamily": "Lowland East Cushitic Saho-Afar",
-  "sgpref": "sah",
-  "datasource": "Welmers1952 Banti-Vergari2003; abbrev. W52 BV03",
+  "lgpref": "sah",
+  "datasource": " Banti, Giorgio, and Moreno Verbari. 2003. 'Grammatical Notes'. in Moreno and Roberta Vergari, A Basic Saho-English-Italian Dictionary. Asmara - Eritrea. pp. 15-38; [W52 BV03]",
+  "datasourceNotes": "Earlier material in: Welmers, W. E. 1952. 'Notes on the structure of Saho 1, 2 ', Word 8, 145-162; 236-251. In transcriptions BV03 use the IPA /j,ʃ/ where we use /y,š/; also note that '/ɖ/ is realized as [ɽ] when it is not word-initial, geminate, or following /n/'. [ ɖ, ʕ, ħ, š] ",
   "geodemoURL": "http://www.ethnologue.com/language/ssy",
   "geodemoTXT": "Varieties and subdialects of Saho are spoken in Eritrea and Ethiopia (Irob dialect only). The language is very closely related to Afar.",
   "schemata": {
-    "person": [
-      "Person1",
-      "Person2",
-      "Person3",
-      "Unmarked"
-    ],
-    "derivedStem": [
-      "B",
-      "B_Intens",
-      "M",
-      "S1",
-      "S1T",
-      "S1_Intens",
-      "S2",
-      "T",
-      "T_Intens"
-    ],
-    "number": [
-      "Plural",
-      "Singular"
-    ],
-    "vmorphClass": [
-      "Finite",
-      "FinitePartial"
-    ],
-    "pos": [
-      "Pronoun",
-      "Verb"
-    ],
-    "proClass": [
-      "Emphatic",
-      "Independent",
-      "Object",
-      "ObjectIndirect",
-      "Possessive"
-    ],
-    "conjClass": [
-      "Irregular",
-      "Prefix",
-      "Suffix"
-    ],
-    "polarity": [
-      "Affirmative",
-      "Negative"
-    ],
-    "tam": [
-      "Copula",
-      "Imperative",
-      "Imperfect",
-      "ImperfectInni",
-      "ImperfectLi",
-      "ImperfectM",
-      "Jussive",
-      "JussiveKi",
-      "JussiveLi",
-      "Participle",
-      "Past",
-      "Perfect",
-      "PerfectM"
-    ],
-    "gender": [
-      "Common",
-      "Fem",
-      "Masc"
+  "case": [
+    "Absolute",
+    "Genitive"
+  ],
+  "conjClass": [
+    "Compound",
+    "Irregular",
+    "Prefix",
+    "Stative",
+    "Suffix"
+  ],
+  "dervStem": [
+    "Base",
+    "Causative",
+    "Inchoative",
+    "Intensive",
+    "Middle",
+    "Passive"
+  ],
+  "gender": [
+    "Common",
+    "Fem",
+    "Masc"
+  ],
+  "lexeme": [
+    "ak",
+    "alife",
+    "baahe",
+    "beete",
+    "dame",
+    "data",
+    "eedege",
+    "erhe",
+    "esgelle",
+    "file",
+    "hab",
+    "igdife",
+    "igdile",
+    "inni",
+    "kafina",
+    "ki",
+    "kihina",
+    "li",
+    "mee",
+    "ohoye",
+    "oobbe",
+    "sik-erhe",
+    "ubl"
+  ],
+  "morphClass": [
+    "StemDerivation"
+  ],
+  "number": [
+    "Plural",
+    "Singular"
+  ],
+  "person": [
+    "Person1",
+    "Person2",
+    "Person2-3",
+    "Person3"
+  ],
+  "polarity": [
+    "Affirmative",
+    "Negative",
+    "Positive"
+  ],
+  "pos": [
+    "Postposition",
+    "Pronoun",
+    "Verb"
+  ],
+  "postposClass": [
+    "Comitative",
+    "Goal",
+    "GoalSource",
+    "InstrGoal",
+    "Locative",
+    "Source"
+  ],
+  "proClass": [
+    "EmphAbs",
+    "Nominative",
+    "Reciprocal",
+    "Reflexive",
+    "ShortAbsGen"
+  ],
+  "process": [
+    "C1Geminate",
+    "ConjClassChange",
+    "Pref-m-",
+    "Pref-s:š-",
+    "Pref-tt-",
+    "Pref-y:yš-",
+    "Redup",
+    "Suff-m",
+    "Suff-ow",
+    "Suff-t",
+    "Suff-š",
+    "Suff-šiš"
+  ],
+  "tam": [
+    "Copula",
+    "Imperative",
+    "Imperfect",
+    "Jussive",
+    "LongPast",
+    "Past",
+    "Perfect",
+    "Present",
+    "Relative",
+    "ShortPast",
+    "Subjunctive"
+  ]
+},
+  "lexemes": {
+  "": {
+    "pos": "Verb",
+    "lemma": "",
+    "gloss": ""
+  },
+  "ak": {
+    "pos": "Verb",
+    "lemma": "ak-",
+    "gloss": "say",
+    "conjClass": "Suffix"
+  },
+  "alife": {
+    "pos": "Verb",
+    "lemma": "alif-",
+    "gloss": "close",
+    "conjClass": "Suffix"
+  },
+  "baahe": {
+    "pos": "Verb",
+    "lemma": "baahe",
+    "gloss": "bring"
+  },
+  "beete": {
+    "pos": "Verb",
+    "lemma": "beete",
+    "gloss": "eat"
+  },
+  "dame": {
+    "pos": "Verb",
+    "lemma": "ɖame",
+    "gloss": "melt INT"
+  },
+  "data": {
+    "pos": "Verb",
+    "lemma": "data",
+    "gloss": "be black"
+  },
+  "eedege": {
+    "pos": "Verb",
+    "lemma": "eeɖege",
+    "gloss": "know"
+  },
+  "erhe": {
+    "pos": "Verb",
+    "lemma": "eɽħe",
+    "gloss": "say",
+    "conjClass": "Prefix"
+  },
+  "esgelle": {
+    "pos": "Verb",
+    "lemma": "esgelle",
+    "gloss": "mix"
+  },
+  "file": {
+    "pos": "Verb",
+    "lemma": "file",
+    "gloss": "comb"
+  },
+  "hab": {
+    "pos": "Verb",
+    "lemma": "ḥab-",
+    "gloss": "leave"
+  },
+  "igdile": {
+    "pos": "Verb",
+    "lemma": "igdile",
+    "gloss": "break TR"
+  },
+  "igife": {
+    "pos": "Verb",
+    "lemma": "igife",
+    "gloss": "kill"
+  },
+  "inni": {
+    "pos": "Verb",
+    "lemma": "inni-",
+    "gloss": "be in",
+    "conjClass": "SuffixIrregular"
+  },
+  "kafina": {
+    "pos": "Verb",
+    "lemma": "kafina",
+    "gloss": "be dry"
+  },
+  "ki": {
+    "pos": "Verb",
+    "lemma": "ki-",
+    "gloss": "be",
+    "conjClass": "Suffix"
+  },
+  "kihina": {
+    "pos": "Verb",
+    "lemma": "kiħina",
+    "gloss": "love",
+    "conjClass": "Stative"
+  },
+  "li": {
+    "pos": "Verb",
+    "lemma": "li-",
+    "gloss": "have"
+  },
+  "mee": {
+    "pos": "Verb",
+    "lemma": "meʕe",
+    "gloss": "be good"
+  },
+  "ohoye": {
+    "pos": "Verb",
+    "lemma": "oħoye",
+    "gloss": "give"
+  },
+  "oobbe": {
+    "pos": "Verb",
+    "lemma": "oobbe",
+    "gloss": "hear"
+  },
+  "sik-erhe": {
+    "pos": "Verb",
+    "lemma": "sik-eɽħe",
+    "gloss": "be silent",
+    "conjClass": "Compound"
+  },
+  "ubl": {
+    "pos": "Verb",
+    "lemma": "ubl-",
+    "gloss": "see"
+  }
+},
+  "pdgmPropOrder": ["pos", "proClass", "morphClass", "conjClass","lexeme","derivedStem","tam","polarity"],
+  "termclusters": [
+  {
+    "label": "sah-Postposition",
+    "note": "BV23 -Table 16.15",
+    "common": {
+      "pos": "Postposition"
+    },
+    "terms": [
+      ["postposClass" ,"token-bound" ,"token-free" ,"token-gloss"],
+      ["Locative" ,"-d(de)" ,"adde / ed(de)" ,"on, in, among"],
+      ["InstrGoal" ,"-h" ,"akah" ,"with, by, to"],
+      ["GoalSource" ,"-k" ,"ak" ,"to, from"],
+      ["Source" ,"-ko" ,"akko" ,"from"],
+      ["Goal" ,"-l(le)" ,"alle / elle" ,"to"],
+      ["Comitative" ,"-lih" ,"aalih" ,"with"]
     ]
   },
-  "lexemes": {
-    "di": {
-      "pos": "Verb",
-      "lemma": "ɗiʕ-",
-      "gloss": "be able",
-      "conjClass": "Suffix"
-    },
-    "eyteher": {
-      "pos": "Verb",
-      "lemma": "eyṭeher-",
-      "gloss": "cleanse",
-      "conjClass": "Prefix"
-    },
-    "biil": {
-      "pos": "Verb",
-      "lemma": "biil-",
-      "gloss": "bleed",
-      "conjClass": "Suffix"
-    },
-    "ubl": {
-      "pos": "Verb",
-      "lemma": "ubl-",
-      "gloss": "see"
-    },
-    "baah": {
-      "pos": "Verb",
-      "lemma": "baah-",
-      "gloss": "bring",
-      "conjClass": "Suffix"
-    },
-    "eemeg": {
-      "pos": "Verb",
-      "lemma": "eemeg-",
-      "gloss": "fill",
-      "conjClass": "Prefix"
-    },
-    "enge": {
-      "pos": "Verb",
-      "lemma": "engeʕ-",
-      "gloss": "fight",
-      "conjClass": "Prefix"
-    },
-    "eebeh": {
-      "pos": "Verb",
-      "lemma": "eebeḥ-",
-      "gloss": "sell",
-      "conjClass": "Prefix"
-    },
-    "ekkel": {
-      "pos": "Verb",
-      "lemma": "ekkel-",
-      "gloss": "think",
-      "conjClass": "Prefix"
-    },
-    "eyme": {
-      "pos": "Verb",
-      "lemma": "eymeeʕ- (S1 frm meʕe)",
-      "gloss": "repair",
-      "conjClass": "Prefix"
-    },
-    "edhet": {
-      "pos": "Verb",
-      "lemma": "eḥet-",
-      "gloss": "chew",
-      "conjClass": "Prefix"
-    },
-    "abaar": {
-      "pos": "Verb",
-      "lemma": "abaar-",
-      "gloss": "curse",
-      "conjClass": "Suffix"
-    },
-    "hab": {
-      "pos": "Verb",
-      "lemma": "ḥab-",
-      "gloss": "leave"
-    },
-    "ifriy": {
-      "pos": "Verb",
-      "lemma": "ifriy-",
-      "gloss": "bear fruit",
-      "conjClass": "Prefix"
-    },
-    "udud": {
-      "pos": "Verb",
-      "lemma": "uɗuɗ-",
-      "gloss": "shorten",
-      "conjClass": "Prefix",
-      "derivedStem": "S1"
-    },
-    "eedeg": {
-      "pos": "Verb",
-      "lemma": "eeɗeg-",
-      "gloss": "know",
-      "conjClass": "Prefix"
-    },
-    "fi": {
-      "pos": "Verb",
-      "lemma": "fi-",
-      "gloss": "sweep",
-      "conjClass": "Suffix"
-    },
-    "ul": {
-      "pos": "Verb",
-      "lemma": "ʕul-",
-      "gloss": "draw water",
-      "conjClass": "Suffix"
-    },
-    "do": {
-      "pos": "Verb",
-      "lemma": "ɗo-",
-      "gloss": "suck on",
-      "conjClass": "Suffix"
-    },
-    "ooob": {
-      "pos": "Verb",
-      "lemma": "ooʕob-",
-      "gloss": "drink",
-      "conjClass": "Prefix"
-    },
-    "imbiddil": {
-      "pos": "Verb",
-      "lemma": "imbiddil- (M)",
-      "gloss": "be charged (M)",
-      "conjClass": "Prefix"
-    },
-    "ifteh": {
-      "pos": "Verb",
-      "lemma": "ifteḥ-",
-      "gloss": "untie",
-      "conjClass": "Prefix"
-    },
-    "had": {
-      "pos": "Verb",
-      "lemma": "ḥaɗ-",
-      "gloss": "[x]"
-    },
-    "abaas": {
-      "pos": "Verb",
-      "lemma": "abaas-",
-      "gloss": "finish",
-      "conjClass": "Suffix"
-    },
-    "ooog": {
-      "pos": "Verb",
-      "lemma": "ooʕog-",
-      "gloss": "bury",
-      "conjClass": "Prefix"
-    },
-    "oho": {
-      "pos": "Verb",
-      "lemma": "oḥo- (?)",
-      "gloss": "give",
-      "conjClass": "Prefix"
-    },
-    "uuluus": {
-      "pos": "Verb",
-      "lemma": "uuluus- (?)",
-      "gloss": "knead",
-      "conjClass": "Prefix"
-    },
-    "fuu": {
-      "pos": "Verb",
-      "lemma": "fuuʕ-",
-      "gloss": "suck",
-      "conjClass": "Suffix"
-    },
-    "oosoom": {
-      "pos": "Verb",
-      "lemma": "oosoom-",
-      "gloss": "fast",
-      "conjClass": "Prefix"
-    },
-    "gur": {
-      "pos": "Verb",
-      "lemma": "gur-",
-      "gloss": "want",
-      "conjClass": "Suffix"
-    },
-    "li": {
-      "pos": "Verb",
-      "lemma": "li-",
-      "gloss": "have"
-    },
-    "ebh": {
-      "pos": "Verb",
-      "lemma": "ebḥ-",
-      "gloss": "say",
-      "conjClass": "Prefix"
-    },
-    "bolol": {
-      "pos": "Verb",
-      "lemma": "bolol-sis",
-      "gloss": "[x]",
-      "derivedStem": "S2"
-    },
-    "erd": {
-      "pos": "Verb",
-      "lemma": "erd-",
-      "gloss": "run",
-      "conjClass": "Prefix"
-    },
-    "oorof": {
-      "pos": "Verb",
-      "lemma": "oorof-",
-      "gloss": "sew",
-      "conjClass": "Prefix"
-    },
-    "ew": {
-      "pos": "Verb",
-      "lemma": "ewʕ-",
-      "gloss": "go out",
-      "conjClass": "Prefix"
-    },
-    "fak": {
-      "pos": "Verb",
-      "lemma": "fak-",
-      "gloss": "open",
-      "conjClass": "Suffix"
-    },
-    "uyku": {
-      "pos": "Verb",
-      "lemma": "uykuʕ- (S1?)",
-      "gloss": "carry",
-      "conjClass": "Prefix",
-      "derivedStem": "S1"
-    },
-    "err": {
-      "pos": "Verb",
-      "lemma": "err-",
-      "gloss": "load",
-      "conjClass": "Prefix"
-    },
-    "eeit": {
-      "pos": "Verb",
-      "lemma": "eeʕit-",
-      "gloss": "step on",
-      "conjClass": "Prefix"
-    },
-    "enzewer": {
-      "pos": "Verb",
-      "lemma": "enzewer- (M)",
-      "gloss": "travel (M)",
-      "conjClass": "Prefix"
-    },
-    "engeeg": {
-      "pos": "Verb",
-      "lemma": "engeeg- (M)",
-      "gloss": "be mistaken (M)",
-      "conjClass": "Prefix"
-    },
-    "daam": {
-      "pos": "Verb",
-      "lemma": "ɗaam-",
-      "gloss": "buy",
-      "conjClass": "Suffix"
-    },
-    "idhen": {
-      "pos": "Verb",
-      "lemma": "iɗḥen-",
-      "gloss": "grind",
-      "conjClass": "Prefix"
-    },
-    "oosol": {
-      "pos": "Verb",
-      "lemma": "oosol-",
-      "gloss": "laugh",
-      "conjClass": "Prefix"
-    },
-    "sa": {
-      "pos": "Verb",
-      "lemma": "sa-",
-      "gloss": "enter",
-      "conjClass": "Suffix"
-    },
-    "deer": {
-      "pos": "Verb",
-      "lemma": "deer-",
-      "gloss": "cry out",
-      "conjClass": "Suffix"
-    },
-    "unqusu": {
-      "pos": "Verb",
-      "lemma": "unqusuʕ- (M)",
-      "gloss": "be sprained (M)",
-      "conjClass": "Prefix"
-    },
-    "beet": {
-      "pos": "Verb",
-      "lemma": "beet-",
-      "gloss": "eat",
-      "conjClass": "Suffix"
-    },
-    "igziy": {
-      "pos": "Verb",
-      "lemma": "igziy-",
-      "gloss": "rule over",
-      "conjClass": "Prefix"
-    },
-    "ootok": {
-      "pos": "Verb",
-      "lemma": "ootok-",
-      "gloss": "hit",
-      "conjClass": "Prefix"
-    },
-    "inebe": {
-      "pos": "Verb",
-      "lemma": "inebeʕ-",
-      "gloss": "hate",
-      "conjClass": "Prefix"
-    },
-    "rab": {
-      "pos": "Verb",
-      "lemma": "rab-",
-      "gloss": "die",
-      "conjClass": "Suffix"
-    },
-    "iklib": {
-      "pos": "Verb",
-      "lemma": "iklib-",
-      "gloss": "turn over",
-      "conjClass": "Prefix"
-    },
-    "ed": {
-      "pos": "Verb",
-      "lemma": "ed-",
-      "gloss": "go",
-      "conjClass": "PrefIrregular"
-    },
-    "eeley": {
-      "pos": "Verb",
-      "lemma": "eeley-",
-      "gloss": "become lost",
-      "conjClass": "Prefix"
-    },
-    "igdil": {
-      "pos": "Verb",
-      "lemma": "igdil-",
-      "gloss": "break",
-      "conjClass": "Prefix"
-    },
-    "eehet": {
-      "pos": "Verb",
-      "lemma": "eeḥet-",
-      "gloss": "chew",
-      "conjClass": "Prefix"
-    },
-    "fah": {
-      "pos": "Verb",
-      "lemma": "faḥ-",
-      "gloss": "boil",
-      "conjClass": "Suffix"
-    },
-    "ehet": {
-      "pos": "Verb",
-      "lemma": "eḥey-",
-      "gloss": "[x]"
-    },
-    "emlelekk": {
-      "pos": "Verb",
-      "lemma": "emlelekk- (M)",
-      "gloss": "be mistaken (M)",
-      "conjClass": "Prefix"
-    },
-    "eeneb": {
-      "pos": "Verb",
-      "lemma": "eeneb-",
-      "gloss": "grow",
-      "conjClass": "Prefix"
-    },
-    "ookom": {
-      "pos": "Verb",
-      "lemma": "ookom-",
-      "gloss": "win over",
-      "conjClass": "Prefix"
-    },
-    "alif": {
-      "pos": "Verb",
-      "lemma": "alif-",
-      "gloss": "close (open?)",
-      "conjClass": "Suffix"
-    },
-    "eefe": {
-      "pos": "Verb",
-      "lemma": "eefeʕ-",
-      "gloss": "give water to",
-      "conjClass": "Prefix"
-    },
-    "usul": {
-      "pos": "z",
-      "lemma": "[y]",
-      "gloss": "[x]"
-    },
-    "ehzen": {
-      "pos": "Verb",
-      "lemma": "eḥzen-",
-      "gloss": "be sad",
-      "conjClass": "Prefix"
-    },
-    "defee": {
-      "pos": "Verb",
-      "lemma": "defee-",
-      "gloss": "set down",
-      "conjClass": "Suffix"
-    },
-    "oofo": {
-      "pos": "Verb",
-      "lemma": "oofo-",
-      "gloss": "breathe",
-      "conjClass": "Prefix"
-    },
-    "edebb": {
-      "pos": "Verb",
-      "lemma": "edebb-",
-      "gloss": "repay",
-      "conjClass": "Prefix"
-    },
-    "fad": {
-      "pos": "Verb",
-      "lemma": "faɗ-",
-      "gloss": "want",
-      "conjClass": "Suffix"
-    },
-    "aymaa": {
-      "pos": "Verb",
-      "lemma": "aymaaʕ-",
-      "gloss": "[x]"
-    },
-    "dufu": {
-      "pos": "Verb",
-      "lemma": "dufu-",
-      "gloss": "push",
-      "conjClass": "Suffix"
-    },
-    "efe": {
-      "pos": "Verb",
-      "lemma": "efeʕ-",
-      "gloss": "[x]"
-    },
-    "eemen": {
-      "pos": "Verb",
-      "lemma": "eemen-",
-      "gloss": "believe",
-      "conjClass": "Prefix"
-    },
-    "iskir": {
-      "pos": "Verb",
-      "lemma": "iskir-",
-      "gloss": "get drunk",
-      "conjClass": "Prefix"
-    },
-    "iksib": {
-      "pos": "Verb",
-      "lemma": "iksib-",
-      "gloss": "profit",
-      "conjClass": "Prefix"
-    },
-    "bad": {
-      "pos": "Verb",
-      "lemma": "bad-",
-      "gloss": "die (of an animal or fire)",
-      "conjClass": "Suffix"
-    },
-    "emeet": {
-      "pos": "Verb",
-      "lemma": "emeet-",
-      "gloss": "come",
-      "conjClass": "Prefix"
-    },
-    "emmeeed": {
-      "pos": "Verb",
-      "lemma": "emmeʕeʕed- (M)",
-      "gloss": "stretch self (M)",
-      "conjClass": "Prefix"
-    },
-    "meenge": {
-      "pos": "Verb",
-      "lemma": "méengeʕ",
-      "gloss": "[x]"
-    },
-    "emmeng": {
-      "pos": "Verb",
-      "lemma": "emmeng- (M)",
-      "gloss": "be many (M)",
-      "conjClass": "Prefix"
-    },
-    "uru": {
-      "pos": "Verb",
-      "lemma": "uru- (!)",
-      "gloss": "tie",
-      "conjClass": "Prefix"
-    },
-    "ifrid": {
-      "pos": "Verb",
-      "lemma": "ifrid-",
-      "gloss": "judge",
-      "conjClass": "Prefix"
-    },
-    "biaak": {
-      "pos": "Verb",
-      "lemma": "biaak-",
-      "gloss": "injure",
-      "conjClass": "Suffix"
-    },
-    "hankabit": {
-      "pos": "Verb",
-      "lemma": "hankabit- (T)",
-      "gloss": "be frightened",
-      "conjClass": "Suffix"
-    },
-    "isniq": {
-      "pos": "Verb",
-      "lemma": "isniq-",
-      "gloss": "strangle",
-      "conjClass": "Prefix"
-    },
-    "hay": {
-      "pos": "Verb",
-      "lemma": "hay-",
-      "gloss": "dress",
-      "conjClass": "Suffix"
-    },
-    "alaa": {
-      "pos": "Verb",
-      "lemma": "alaa-",
-      "gloss": "cook",
-      "conjClass": "Suffix"
-    },
-    "uhfus": {
-      "pos": "Verb",
-      "lemma": "uḥfus-",
-      "gloss": "scoop up",
-      "conjClass": "Prefix"
-    },
-    "TENSEFORMATION": {
-      "pos": "Verb",
-      "lemma": "[y]",
-      "gloss": "[x]"
-    },
-    "ikfil": {
-      "pos": "Verb",
-      "lemma": "ikfil-",
-      "gloss": "repay",
-      "conjClass": "Prefix"
-    },
-    "obb": {
-      "pos": "Verb",
-      "lemma": "obb-",
-      "gloss": "hear",
-      "conjClass": "Prefix"
-    },
-    "infili": {
-      "pos": "Verb",
-      "lemma": "infili- (M)",
-      "gloss": "be separated (M)",
-      "conjClass": "Prefix"
-    },
-    "uruf": {
-      "pos": "Verb",
-      "lemma": "uʕruf-",
-      "gloss": "rest",
-      "conjClass": "Prefix"
-    },
-    "ootob": {
-      "pos": "Verb",
-      "lemma": "ootob-",
-      "gloss": "repent",
-      "conjClass": "Prefix"
-    },
-    "holol": {
-      "pos": "Verb",
-      "lemma": "bolol-",
-      "gloss": "blaze up",
-      "conjClass": "Suffix"
-    },
-    "ekett": {
-      "pos": "Verb",
-      "lemma": "ekett-",
-      "gloss": "gather",
-      "conjClass": "Prefix"
-    },
-    "eelem": {
-      "pos": "Verb",
-      "lemma": "eelem-",
-      "gloss": "weave",
-      "conjClass": "Prefix"
-    },
-    "ab": {
-      "pos": "Verb",
-      "lemma": "ab-",
-      "gloss": "do",
-      "conjClass": "Suffix"
-    },
-    "oysoom": {
-      "pos": "Verb",
-      "lemma": "oysoom- (S1 frm um-)",
-      "gloss": "spoil",
-      "conjClass": "Prefix"
-    },
-    "eqri": {
-      "pos": "Verb",
-      "lemma": "eqri-",
-      "gloss": "read Koran",
-      "conjClass": "Prefix"
-    },
-    "igdif": {
-      "pos": "Verb",
-      "lemma": "igdif-",
-      "gloss": "kill",
-      "conjClass": "Prefix"
-    },
-    "ki": {
-      "pos": "Verb",
-      "lemma": "ki-",
-      "gloss": "be",
-      "conjClass": "Suffix"
-    },
-    "ad": {
-      "pos": "Verb",
-      "lemma": "ḥaɗ-",
-      "gloss": "pour out",
-      "conjClass": "Suffix"
-    },
-    "inni": {
-      "pos": "Verb",
-      "lemma": "inni-",
-      "gloss": "be in",
-      "conjClass": "SuffixIrregular"
-    },
-    "edirir": {
-      "pos": "Verb",
-      "lemma": "edirir-",
-      "gloss": "eat supper",
-      "conjClass": "Prefix"
-    },
-    "abah": {
-      "pos": "Verb",
-      "lemma": "abaḥ-",
-      "gloss": "spoil",
-      "conjClass": "Suffix"
-    },
-    "urkut": {
-      "pos": "Verb",
-      "lemma": "urkut-",
-      "gloss": "become thin",
-      "conjClass": "Prefix"
-    },
-    "igre": {
-      "pos": "Verb",
-      "lemma": "igreʕ-",
-      "gloss": "cut off",
-      "conjClass": "Prefix"
-    },
-    "ehlif": {
-      "pos": "Verb",
-      "lemma": "eḥlif-",
-      "gloss": "be annihilated",
-      "conjClass": "Prefix"
-    },
-    "eheeseb": {
-      "pos": "Verb",
-      "lemma": "eḥeeseb-",
-      "gloss": "think about",
-      "conjClass": "Prefix"
-    },
-    "eney": {
-      "pos": "Verb",
-      "lemma": "eney- (?)",
-      "gloss": "flay",
-      "conjClass": "Prefix"
-    },
-    "ak": {
-      "pos": "Verb",
-      "lemma": "ak-",
-      "gloss": "say",
-      "conjClass": "Suffix"
-    },
-    "onqoomot": {
-      "pos": "Verb",
-      "lemma": "onqoomot- (M)",
-      "gloss": "pay attention (M)",
-      "conjClass": "Prefix"
-    },
-    "immillik": {
-      "pos": "Verb",
-      "lemma": "immillik- (M)",
-      "gloss": "surrender (M)",
-      "conjClass": "Prefix"
-    },
-    "ibbid": {
-      "pos": "Verb",
-      "lemma": "ibbiɗ-",
-      "gloss": "hold",
-      "conjClass": "Prefix"
-    },
-    "anga": {
-      "pos": "Verb",
-      "lemma": "angaʕ-",
-      "gloss": "[x]"
-    },
-    "suu": {
-      "pos": "Verb",
-      "lemma": "suʕu-",
-      "gloss": "hide",
-      "conjClass": "Suffix"
-    },
-    "edh": {
-      "pos": "Verb",
-      "lemma": "eɗḥ-",
-      "gloss": "say",
-      "conjClass": "Prefix"
-    }
+  {
+    "label": "sah-PronounEmphAbs",
+    "note": "BV23 -Table 16.11. (Separate emphatic absolute forms are used for coordination, focus, and noun phrase predicates.)",
+    "common": {
+      "proClass": "EmphAbs",
+      "pos": "Pronoun"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"yoo / yowa / yoyya / yetta"],
+      ["Singular" ,"Person2" ,"Common" ,"kowa / koyya / kotta"],
+      ["Singular" ,"Person3" ,"Masc" ,"ka(yy)a"],
+      ["Singular" ,"Person3" ,"Fem" ,"tey(y)a"],
+      ["Plural" ,"Person1" ,"Common" ,"nowa / noyya / notta"],
+      ["Plural" ,"Person2" ,"Common" ,"sina"],
+      ["Plural" ,"Person3" ,"Common" ,"tena"]
+    ]
   },
-  "termclusters": [
-{
-"label": "saho-VPref-ed",
-"note": "W52p.249",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "ed",
- "polarity": "Affirmative",
- "pos": "Verb",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["tam", "number", "person", "token"],
- ["Imperative", "Singular", "Person2", "adu"],
- ["Imperfect", "Singular", "Person1", "adie"],
- ["Jussive", "Singular", "Person1", "adáo"],
- ["Perfect", "Singular", "Person1", "ede"]]
-},
-{
-"label": "saho-VPrefAffImprtv-ebh",
-"note": "W52pp.237–246 :: If imprtv,num=sg pers=2 gen=c. In B if perf/imperf num=sg pers=1 gen=c;in M num=sg pers=3 gen=m.",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "ebh",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ebeḥ"]]
-},
-{
-"label": "saho-VIrreg-li",
-"note": "W52p.250",
-"common": {"conjClass": "Irregular",
- "lexeme": "li",
- "pos": "Verb",
- "tam": "Copula",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "lio"],
- ["Singular", "Person2", "Common", "lito"],
- ["Singular", "Person3", "Masc", "linni"],
- ["Singular", "Person3", "Fem", "linni"],
- ["Plural", "Person1", "Common", "linu"],
- ["Plural", "Person2", "Common", "litin"],
- ["Plural", "Person3", "Common", "linun"]]
-},
-{
-"label": "saho-VPrefAffImperf-edebb",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "edebb",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["adabbe"]]
-},
-{
-"label": "saho-VPrefAffImperf-edh",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Masc",
- "lexeme": "edh",
- "number": "Singular",
- "person": "Person3",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["yaɗḥe"]]
-},
-{
-"label": "saho-VPrefAffImperf-eedeg",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "eedeg",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["aɗige"]]
-},
-{
-"label": "saho-VPrefAffImperf-eehet",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "eehet",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["aḥate"]]
-},
-{
-"label": "saho-VPrefAffImperf-eeley",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "eeley",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["alaye"]]
-},
-{
-"label": "saho-VPrefAffImperf-eeneb",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "eeneb",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["anabe"]]
-},
-{
-"label": "saho-VPrefAffImperf-ehzen",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "S1",
- "gender": "Common",
- "lexeme": "ehzen",
- "number": "Plural",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["tasḥezinin"]]
-},
-{
-"label": "saho-VPrefAffImperf-ekett",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "ekett",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["akatte"]]
-},
-{
-"label": "saho-VPrefAffImperf-ekkel",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "ekkel",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["akkale"]]
-},
-{
-"label": "saho-VPrefAffImperf-emeet",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "emeet",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["amate"]]
-},
-{
-"label": "saho-VPrefAffImperf-emlelekk",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "emlelekk",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["amlalakke"]]
-},
-{
-"label": "saho-VPrefAffImperf-eney",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "eney",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["anaye"]]
-},
-{
-"label": "saho-VPrefAffImperf-enge",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "anga",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["angaʕe"]]
-},
-{
-"label": "saho-VPrefAffImperf-eymee",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "S1",
- "gender": "Common",
- "lexeme": "aymaa",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["aymaaʕe"]]
-},
-{
-"label": "saho-VPrefAffImperf-ifriy",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Fem",
- "lexeme": "ifriy",
- "number": "Singular",
- "person": "Person3",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["tafriye"]]
-},
-{
-"label": "saho-VPrefAffImperf-inni-ubl",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Masc",
- "lexeme": "ubl",
- "number": "Singular",
- "person": "Person3",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "ImperfectInni",
- "token-note": "he has seen (it)",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["yubléhane"]]
-},
-{
-"label": "saho-VPrefAffImperf-inniPerf-ubl",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Masc",
- "lexeme": "ubl",
- "number": "Singular",
- "person": "Person3",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "ImperfectInni",
- "token-note": "he had seen (it)",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["yubléhine "]]
-},
-{
-"label": "saho-VPrefAffImperf-li-emeet",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "emeet",
- "number": "Plural",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "ImperfectLi",
- "token-note": "we will come (future)",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["nemeeté-lio"]]
-},
-{
-"label": "saho-VPrefAffImperf-m-uruf",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "uruf",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "ImperfectM",
- "token-note": "(I want) to rest (subordinate)",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["aʕrufe-m"]]
-},
-{
-"label": "saho-VPrefAffImperf-oho",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "oho",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["aḥaye"]]
-},
-{
-"label": "saho-VPrefAffImperf-oosol",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "oosol",
- "number": "Plural",
- "person": "Person3",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["yasulen"]]
-},
-{
-"label": "saho-VPrefAffImperf-oysoom",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "oysoom",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["aysaame"]]
-},
-{
-"label": "saho-VPrefAffImperf-ubl",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "S1",
- "gender": "Common",
- "lexeme": "ubl",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "token-note": "show",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ayballe"]]
-},
-{
-"label": "saho-VPrefAffImperf-udud",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "S1",
- "gender": "Masc",
- "lexeme": "udud",
- "number": "Singular",
- "person": "Person3",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["yaysuɗuɗe"]]
-},
-{
-"label": "saho-VPrefAffImperf-ul",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "ul",
- "number": "Plural",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ʕultan"]]
-},
-{
-"label": "saho-VPrefAffImperf-urkut",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Fem",
- "lexeme": "urkut",
- "number": "Singular",
- "person": "Person3",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["tarkute"]]
-},
-{
-"label": "saho-VPrefAffImperf-uruf",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Masc",
- "lexeme": "uruf",
- "number": "Singular",
- "person": "Person3",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["yaʕrufe"]]
-},
-{
-"label": "saho-VPrefAffImprtv-alaa",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "S1",
- "gender": "Common",
- "lexeme": "alaa",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["alas"]]
-},
-{
-"label": "saho-VPrefAffImprtv-edebb",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "edebb",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["edebba"]]
-},
-{
-"label": "saho-VPrefAffImprtv-edh",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "edh",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["eɗeḥ"]]
-},
-{
-"label": "saho-VPrefAffImprtv-edirir",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "T",
- "gender": "Common",
- "lexeme": "edirir",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["iddirir"]]
-},
-{
-"label": "saho-VPrefAffImprtv-eebeh",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "eebeh",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ibiiḥ"]]
-},
-{
-"label": "saho-VPrefAffImprtv-eedeg",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "S1",
- "gender": "Common",
- "lexeme": "eedeg",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["iysiɗig"]]
-},
-{
-"label": "saho-VPrefAffImprtv-eefe",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "efe",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["efeʕ"]]
-},
-{
-"label": "saho-VPrefAffImprtv-eehet",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "eehet",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["eḥet"]]
-},
-{
-"label": "saho-VPrefAffImprtv-eeit",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "eeit",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["eʕit"]]
-},
-{
-"label": "saho-VPrefAffImprtv-eelem",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "eelem",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ilim"]]
-},
-{
-"label": "saho-VPrefAffImprtv-eeley",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "S1_Intens",
- "gender": "Common",
- "lexeme": "eeley",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["eyleley"]]
-},
-{
-"label": "saho-VPrefAffImprtv-eemeg",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "eemeg",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["emeg"]]
-},
-{
-"label": "saho-VPrefAffImprtv-eemen",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "eemen",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["imin"]]
-},
-{
-"label": "saho-VPrefAffImprtv-eeneb",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "S1",
- "gender": "Common",
- "lexeme": "eeneb",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["eyneb"]]
-},
-{
-"label": "saho-VPrefAffImprtv-ehlif",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "ehlif",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["eḥlif"]]
-},
-{
-"label": "saho-VPrefAffImprtv-ehzen",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "S1",
- "gender": "Common",
- "lexeme": "ehzen",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["esḥezin"]]
-},
-{
-"label": "saho-VPrefAffImprtv-ekett",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "S1",
- "gender": "Common",
- "lexeme": "ekett",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["esketta"]]
-},
-{
-"label": "saho-VPrefAffImprtv-ekkel",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "ekkel",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ekkel"]]
-},
-{
-"label": "saho-VPrefAffImprtv-emeet",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "emeet",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["emet (?)"]]
-},
-{
-"label": "saho-VPrefAffImprtv-emlelekk",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "emlelekk",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["emlelekka"]]
-},
-{
-"label": "saho-VPrefAffImprtv-eney",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "eney",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ene"]]
-},
-{
-"label": "saho-VPrefAffImprtv-enge",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "enge",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["engeʕ"]]
-},
-{
-"label": "saho-VPrefAffImprtv-eqri",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B_Intens",
- "gender": "Common",
- "lexeme": "eqri",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "token-note": "read Koran to oneself",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["eqriri"]]
-},
-{
-"label": "saho-VPrefAffImprtv-erd",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "erd",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["erda"]]
-},
-{
-"label": "saho-VPrefAffImprtv-err",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "err",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["erra"]]
-},
-{
-"label": "saho-VPrefAffImprtv-ew",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "ew",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["eweʕ"]]
-},
-{
-"label": "saho-VPrefAffImprtv-eymee",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "S1",
- "gender": "Common",
- "lexeme": "eyme",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["eymeʕ"]]
-},
-{
-"label": "saho-VPrefAffImprtv-eyteher",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "T",
- "gender": "Common",
- "lexeme": "eyteher",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["eṭṭeher"]]
-},
-{
-"label": "saho-VPrefAffImprtv-ibbid",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "S1",
- "gender": "Common",
- "lexeme": "ibbid",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["iyɗibiɗ"]]
-},
-{
-"label": "saho-VPrefAffImprtv-ibbid",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "ibbid",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ibbiɗ"]]
-},
-{
-"label": "saho-VPrefAffImprtv-idhen",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "idhen",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["iɗḥen"]]
-},
-{
-"label": "saho-VPrefAffImprtv-ifrid",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "S1",
- "gender": "Common",
- "lexeme": "ifrid",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["iyfrid"]]
-},
-{
-"label": "saho-VPrefAffImprtv-ifriy",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "S1",
- "gender": "Common",
- "lexeme": "ifriy",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["iyfiri"]]
-},
-{
-"label": "saho-VPrefAffImprtv-ifteh",
-"note": "W52pp.237–246 ::  If imprtv,num=sg pers=2 gen=c. In B if perf/imperf       num=sg pers=1 gen=c;in M num=sg pers=3 gen=m",
-"common": {"conjClass": "Prefix",
- "derivedStem": "S1",
- "gender": "Common",
- "lexeme": "ifteh",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ihfiteḥ"]]
-},
-{
-"label": "saho-VPrefAffImprtv-igdif",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "S1",
- "gender": "Common",
- "lexeme": "igdif",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["iygidif"]]
-},
-{
-"label": "saho-VPrefAffImprtv-igdil",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "T_Intens",
- "gender": "Common",
- "lexeme": "igdil",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["eggedeedel"]]
-},
-{
-"label": "saho-VPrefAffImprtv-igre",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "T",
- "gender": "Common",
- "lexeme": "igre",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["iggireʕ"]]
-},
-{
-"label": "saho-VPrefAffImprtv-igziy",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "igziy",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["igzi"]]
-},
-{
-"label": "saho-VPrefAffImprtv-iksib",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "S1",
- "gender": "Common",
- "lexeme": "iksib",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["iskisib"]]
-},
-{
-"label": "saho-VPrefAffImprtv-inebe",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "inebe",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ineʕeb"]]
-},
-{
-"label": "saho-VPrefAffImprtv-obb",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "S1",
- "gender": "Common",
- "lexeme": "obb",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["oysobba"]]
-},
-{
-"label": "saho-VPrefAffImprtv-oho",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "oho",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["uḥu"]]
-},
-{
-"label": "saho-VPrefAffImprtv-oofo",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "M",
- "gender": "Common",
- "lexeme": "oofo",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["oymooofo"]]
-},
-{
-"label": "saho-VPrefAffImprtv-oofo",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "S1",
- "gender": "Common",
- "lexeme": "oofo",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["uysyfuʕ"]]
-},
-{
-"label": "saho-VPrefAffImprtv-ookom",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "S1_Intens",
- "gender": "Common",
- "lexeme": "ookom",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["oysokokom"]]
-},
-{
-"label": "saho-VPrefAffImprtv-ooob",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "ooob",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["uʕub"]]
-},
-{
-"label": "saho-VPrefAffImprtv-ooog",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "ooog",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["uʕug"]]
-},
-{
-"label": "saho-VPrefAffImprtv-oorof",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "oorof",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["uruf"]]
-},
-{
-"label": "saho-VPrefAffImprtv-oosol",
-"note": "W52p.237–246 :: If imprtv,num=sg pers=2 gen=c. In B if perf/imperf num=sg pers=1 gen=c;in M num=sg pers=3 gen=m",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "oosol",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["usul"]]
-},
-{
-"label": "saho-VPrefAffImprtv-oosoom",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "oosoom",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["osom"]]
-},
-{
-"label": "saho-VPrefAffImprtv-ootob",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "S1",
- "gender": "Common",
- "lexeme": "ootob",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["oytob"]]
-},
-{
-"label": "saho-VPrefAffImprtv-ootok",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "S1",
- "gender": "Common",
- "lexeme": "ootok",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["uysutuk"]]
-},
-{
-"label": "saho-VPrefAffImprtv-oysoom",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "S1",
- "gender": "Common",
- "lexeme": "oysoom",
- "number": "Singular",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["oysom"]]
-},
-{
-"label": "saho-VPrefAffImprtv-ubl",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "S1",
- "gender": "Common",
- "lexeme": "ubl",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "token-note": "show",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["uybullu ~ uybulla"]]
-},
-{
-"label": "saho-VPrefAffImprtv-uhfus",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "uhfus",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["uḥfus"]]
-},
-{
-"label": "saho-VPrefAffImprtv-uru-spec",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "uru",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["uru"]]
-},
-{
-"label": "saho-VPrefAffImprtv-usul",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "S1_Intens",
- "gender": "Common",
- "lexeme": "usul",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["uysulul"]]
-},
-{
-"label": "saho-VPrefAffImprtv-uuluus",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "uuluus",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ulus"]]
-},
-{
-"label": "saho-VPrefAffImprtv-uyku",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "S1",
- "gender": "Common",
- "lexeme": "uyku",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["uysukuʕ"]]
-},
-{
-"label": "saho-VPrefAffJuss-edh",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Masc",
- "lexeme": "edh",
- "number": "Singular",
- "person": "Person3",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Jussive",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["yáɗho"]]
-},
-{
-"label": "saho-VPrefAffJuss-eedeg",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "eedeg",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Jussive",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["aɗgo"]]
-},
-{
-"label": "saho-VPrefAffJuss-ehzen",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "S1",
- "gender": "Common",
- "lexeme": "ehzen",
- "number": "Plural",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Jussive",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["tasḥazánon"]]
-},
-{
-"label": "saho-VPrefAffJuss-ifriy",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Fem",
- "lexeme": "ifriy",
- "number": "Singular",
- "person": "Person3",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Jussive",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["tafráo"]]
-},
-{
-"label": "saho-VPrefAffJuss-ki-ehzen",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "S1",
- "gender": "Common",
- "lexeme": "ehzen",
- "number": "Plural",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "JussiveKi",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["tasḥazánon-kitin"]]
-},
-{
-"label": "saho-VPrefAffJuss-ki-ubl",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "ubl",
- "number": "Plural",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "JussiveKi",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["náblo-kinu"]]
-},
-{
-"label": "saho-VPrefAffJuss-ki-uruf",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Masc",
- "lexeme": "uruf",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "JussiveKi",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["yaʕráfo-kinni"]]
-},
-{
-"label": "saho-VPrefAffJuss-oosol",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "oosol",
- "number": "Plural",
- "person": "Person3",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Jussive",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["yasálon"]]
-},
-{
-"label": "saho-VPrefAffJuss-ubl",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "ubl",
- "number": "Plural",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Jussive",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["náblo"]]
-},
-{
-"label": "saho-VPrefAffJuss-udud",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "S1",
- "gender": "Masc",
- "lexeme": "udud",
- "number": "Singular",
- "person": "Person3",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Jussive",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["yaysaɗáɗon"]]
-},
-{
-"label": "saho-VPrefAffJuss-ul",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "ul",
- "number": "Plural",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Jussive",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ʕúlton"]]
-},
-{
-"label": "saho-VPrefAffJuss-urkut",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Fem",
- "lexeme": "urkut",
- "number": "Singular",
- "person": "Person3",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Jussive",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["tarkáto"]]
-},
-{
-"label": "saho-VPrefAffJuss-uruf",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Masc",
- "lexeme": "uruf",
- "number": "Singular",
- "person": "Person3",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Jussive",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["yaʕráfo"]]
-},
-{
-"label": "saho-VPrefAffPart-ehet",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "ehet",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Participle",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["aḥati"]]
-},
-{
-"label": "saho-VPrefAffPart-emeet",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "emeet",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Participle",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["amáti"]]
-},
-{
-"label": "saho-VPrefAffPart-ifriy",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "ifriy",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Participle",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["afríyi"]]
-},
-{
-"label": "saho-VPrefAffPart-uruf",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "uruf",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Participle",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["aʕrúfi"]]
-},
-{
-"label": "saho-VPrefAffPerf-alif",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "M",
- "gender": "Common",
- "lexeme": "alif",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["alifime"]]
-},
-{
-"label": "saho-VPrefAffPerf-edebb",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "edebb",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["edebbe"]]
-},
-{
-"label": "saho-VPrefAffPerf-edh",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "edh",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["eɗḥe"]]
-},
-{
-"label": "saho-VPrefAffPerf-eebeh",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "eebeh",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["eebeḥe"]]
-},
-{
-"label": "saho-VPrefAffPerf-eedeg",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "eedeg",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["eeɗege"]]
-},
-{
-"label": "saho-VPrefAffPerf-eefe",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "eefe",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["eefeʕe"]]
-},
-{
-"label": "saho-VPrefAffPerf-eehet",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "eehet",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["eeḥete"]]
-},
-{
-"label": "saho-VPrefAffPerf-eeit",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "eeit",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["eeʕite"]]
-},
-{
-"label": "saho-VPrefAffPerf-eelem",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "eelem",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["eeleme"]]
-},
-{
-"label": "saho-VPrefAffPerf-eeley",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "eeley",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["eeleye"]]
-},
-{
-"label": "saho-VPrefAffPerf-eemeg",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "M",
- "gender": "Common",
- "lexeme": "eemeg",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["yemmege"]]
-},
-{
-"label": "saho-VPrefAffPerf-eemen",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "eemen",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["eemene"]]
-},
-{
-"label": "saho-VPrefAffPerf-eeneb",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "eeneb",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["eenebe"]]
-},
-{
-"label": "saho-VPrefAffPerf-eheeseb",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "M",
- "gender": "Common",
- "lexeme": "eheeseb",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["yemḥeesebe"]]
-},
-{
-"label": "saho-VPrefAffPerf-ehlif",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "ehlif",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["eḥlife"]]
-},
-{
-"label": "saho-VPrefAffPerf-ekett",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "ekett",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ekette"]]
-},
-{
-"label": "saho-VPrefAffPerf-ekkel",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "ekkel",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ekkele"]]
-},
-{
-"label": "saho-VPrefAffPerf-emeet",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "emeet",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["emeete"]]
-},
-{
-"label": "saho-VPrefAffPerf-emlelekke",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "M",
- "gender": "Common",
- "lexeme": "emlelekke",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["yemlelekkee (M)"]]
-},
-{
-"label": "saho-VPrefAffPerf-emmeeed",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "M",
- "gender": "Common",
- "lexeme": "emmeeed",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["yemmeʕeʕede (M)"]]
-},
-{
-"label": "saho-VPrefAffPerf-emmeng",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "M",
- "gender": "Common",
- "lexeme": "emmeng",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["yemmenge (M)"]]
-},
-{
-"label": "saho-VPrefAffPerf-eney",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "eney",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["eneye (?)"]]
-},
-{
-"label": "saho-VPrefAffPerf-enge",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "enge",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["engeʕe"]]
-},
-{
-"label": "saho-VPrefAffPerf-engeeg",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "M",
- "gender": "Common",
- "lexeme": "engeeg",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["yengeege (M)"]]
-},
-{
-"label": "saho-VPrefAffPerf-enzewer",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "M",
- "gender": "Common",
- "lexeme": "enzewer",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["yenzewere (M)"]]
-},
-{
-"label": "saho-VPrefAffPerf-erd",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "erd",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["erde"]]
-},
-{
-"label": "saho-VPrefAffPerf-err",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "err",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["erre"]]
-},
-{
-"label": "saho-VPrefAffPerf-ew",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "ew",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ewʕe"]]
-},
-{
-"label": "saho-VPrefAffPerf-ibbid",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "ibbid",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ibbiɗe"]]
-},
-{
-"label": "saho-VPrefAffPerf-idhen",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "idhen",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["iɗḥene"]]
-},
-{
-"label": "saho-VPrefAffPerf-ifrid",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "ifrid",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ifride"]]
-},
-{
-"label": "saho-VPrefAffPerf-ifriy",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "ifriy",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ifriye"]]
-},
-{
-"label": "saho-VPrefAffPerf-ifteh",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "M",
- "gender": "Common",
- "lexeme": "ifteh",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["yimfiteḥe"]]
-},
-{
-"label": "saho-VPrefAffPerf-igdif",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "M",
- "gender": "Common",
- "lexeme": "igdif",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ingidife"]]
-},
-{
-"label": "saho-VPrefAffPerf-igdil",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "igdil",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["igdile"]]
-},
-{
-"label": "saho-VPrefAffPerf-igre",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "igre",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["igreʕe"]]
-},
-{
-"label": "saho-VPrefAffPerf-igziy",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "igziy",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["igziye"]]
-},
-{
-"label": "saho-VPrefAffPerf-ikfil",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "M",
- "gender": "Common",
- "lexeme": "ikfil",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["inkifile"]]
-},
-{
-"label": "saho-VPrefAffPerf-iklib",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "M",
- "gender": "Common",
- "lexeme": "iklib",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["inkilibe"]]
-},
-{
-"label": "saho-VPrefAffPerf-imbiddil",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "M",
- "gender": "Common",
- "lexeme": "imbiddil",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["yimbiddile (M)"]]
-},
-{
-"label": "saho-VPrefAffPerf-immillik",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "M",
- "gender": "Common",
- "lexeme": "immillik",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["yimmillike (M)"]]
-},
-{
-"label": "saho-VPrefAffPerf-inebe",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "inebe",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["inebeʕe"]]
-},
-{
-"label": "saho-VPrefAffPerf-infili",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "M",
- "gender": "Common",
- "lexeme": "infili",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["yinfiliye (M)"]]
-},
-{
-"label": "saho-VPrefAffPerf-isniq",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "M",
- "gender": "Common",
- "lexeme": "isniq",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["insiniqe"]]
-},
-{
-"label": "saho-VPrefAffPerf-m-emeet",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "emeet",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "PerfectM",
- "token-note": "temeetem uble ‘I saw you coming’",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["temeete-m "]]
-},
-{
-"label": "saho-VPrefAffPerf-obb",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "obb",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["obbe"]]
-},
-{
-"label": "saho-VPrefAffPerf-oho",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "oho",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["oḥoe (?)"]]
-},
-{
-"label": "saho-VPrefAffPerf-onqoomot",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "M",
- "gender": "Common",
- "lexeme": "onqoomot",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["yonqoomote (M)"]]
-},
-{
-"label": "saho-VPrefAffPerf-oofo",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "M",
- "gender": "Common",
- "lexeme": "oofo",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["yomoofoe"]]
-},
-{
-"label": "saho-VPrefAffPerf-ookom",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "M",
- "gender": "Common",
- "lexeme": "ookom",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["yommokoome"]]
-},
-{
-"label": "saho-VPrefAffPerf-ooob",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "ooob",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ooʕobe"]]
-},
-{
-"label": "saho-VPrefAffPerf-ooog",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "M",
- "gender": "Common",
- "lexeme": "ooog",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["yumuʕuge"]]
-},
-{
-"label": "saho-VPrefAffPerf-oorof",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "oorof",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["oorofe"]]
-},
-{
-"label": "saho-VPrefAffPerf-oosol",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "oosol",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["oosole"]]
-},
-{
-"label": "saho-VPrefAffPerf-oosoom",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "oosoom",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["oosoome"]]
-},
-{
-"label": "saho-VPrefAffPerf-ootob",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "ootob",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ootobe"]]
-},
-{
-"label": "saho-VPrefAffPerf-ootok",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "ootok",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ootoke"]]
-},
-{
-"label": "saho-VPrefAffPerf-ubl",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "ubl",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["uble"]]
-},
-{
-"label": "saho-VPrefAffPerf-uhfus",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "uhfus",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["uḥfuse"]]
-},
-{
-"label": "saho-VPrefAffPerf-unqusu",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "M",
- "gender": "Common",
- "lexeme": "unqusu",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["yunqusuʕe (M)"]]
-},
-{
-"label": "saho-VPrefAffPerf-uru-spec",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "uru",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["urue (!)"]]
-},
-{
-"label": "saho-VPrefAffPerf-uuluus",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "uuluus",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["uuluuse (?)"]]
-},
-{
-"label": "saho-VPrefCopula-inni",
-"note": "W52p.249",
-"common": {"conjClass": "Prefix",
- "lexeme": "inni",
- "pos": "Verb",
- "tam": "Copula",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "innio"],
- ["Singular", "Person2", "Common", "innito"],
- ["Singular", "Person3", "Masc", "inna"],
- ["Singular", "Person3", "Fem", "inna"],
- ["Plural", "Person1", "Common", "innino"],
- ["Plural", "Person2", "Common", "innitin"],
- ["Plural", "Person3", "Common", "innun"]]
-},
-{
-"label": "saho-VPrefImperf-inni",
-"note": "W52p.249",
-"common": {"conjClass": "Prefix",
- "lexeme": "inni",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ane ~ anio"],
- ["Singular", "Person2", "Common", "tane ~ tanito"],
- ["Singular", "Person3", "Masc", "yane"],
- ["Singular", "Person3", "Fem", "tane"],
- ["Plural", "Person1", "Common", "nane ~ nanino"],
- ["Plural", "Person2", "Common", "tanitin"],
- ["Plural", "Person3", "Common", "yanin"]]
-},
-{
-"label": "saho-VPrefNegImperf-eedeg",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "eedeg",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["máɗige"]]
-},
-{
-"label": "saho-VPrefNegImperf-ifriy",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Fem",
- "lexeme": "ifriy",
- "number": "Singular",
- "person": "Person3",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["mátafriye"]]
-},
-{
-"label": "saho-VPrefNegImperf-oosol",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "oosol",
- "number": "Plural",
- "person": "Person3",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["máyasulen"]]
-},
-{
-"label": "saho-VPrefNegImperf-ubl",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "ubl",
- "number": "Plural",
- "person": "Person1",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["mánable"]]
-},
-{
-"label": "saho-VPrefNegImprtv-enge",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "meenge",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["méengeʕin"]]
-},
-{
-"label": "saho-VPrefNegImprtv-erd",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "erd",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["méerdin"]]
-},
-{
-"label": "saho-VPrefNegImprtv-igdil",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "S1",
- "gender": "Common",
- "lexeme": "igdil",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["míisgidilin"]]
-},
-{
-"label": "saho-VPrefNegImprtv-iskir",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "iskir",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["míiskirin"]]
-},
-{
-"label": "saho-VPrefNegPerf-erd",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "erd",
- "number": "Plural",
- "person": "Person3",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Perfect",
- "token-note": "they didn’t run",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["méerdinnun"]]
-},
-{
-"label": "saho-VPrefNegPerf-iskir",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "gender": "Masc",
- "lexeme": "iskir",
- "number": "Singular",
- "person": "Person3",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Perfect",
- "token-note": "he didn’t get drunk",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["míiskirinna"]]
-},
-{
-"label": "saho-VPrefParticiple-ed",
-"note": "W52p.249",
-"common": {"conjClass": "Prefix",
- "derivedStem": "B",
- "lexeme": "ed",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Participle",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["adíi"]]
-},
-{
-"label": "saho-VPrefPerf-inni",
-"note": "W52p.249",
-"common": {"conjClass": "Prefix",
- "lexeme": "inni",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ine"],
- ["Singular", "Person2", "Common", "tine"],
- ["Singular", "Person3", "Masc", "ine"],
- ["Singular", "Person3", "Fem", "tine"],
- ["Plural", "Person1", "Common", "nine"],
- ["Plural", "Person2", "Common", "tinen"],
- ["Plural", "Person3", "Common", "yinen"]]
-},
-{
-"label": "saho-VSuff-ki",
-"note": "W52p.250",
-"common": {"conjClass": "Suffix",
- "lexeme": "ki",
- "pos": "Verb",
- "tam": "Copula",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "kio"],
- ["Singular", "Person2", "Common", "kito"],
- ["Singular", "Person3", "Masc", "kinni"],
- ["Singular", "Person3", "Fem", "kinni"],
- ["Plural", "Person1", "Common", "kinu"],
- ["Plural", "Person2", "Common", "kitin"],
- ["Plural", "Person3", "Common", "kinun"]]
-},
-{
-"label": "saho-VSuffAffImperf-ab",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "ab",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["abta"]]
-},
-{
-"label": "saho-VSuffAffImperf-alif",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "alif",
- "number": "Plural",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["alifna"]]
-},
-{
-"label": "saho-VSuffAffImperf-daam",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "daam",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ɗaama"]]
-},
-{
-"label": "saho-VSuffAffImperf-dufu",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "dufu",
- "number": "Plural",
- "person": "Person3",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["dufuan"]]
-},
-{
-"label": "saho-VSuffAffImperf-inni-beet",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "beet",
- "number": "Plural",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "ImperfectInni",
- "token-note": "we have eaten it",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["bennéhane"]]
-},
-{
-"label": "saho-VSuffAffImperf-inni-hankabit",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "T",
- "gender": "Common",
- "lexeme": "hankabit",
- "number": "Plural",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "ImperfectInni",
- "token-note": "you have been frightened",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ḥankabittéhane"]]
-},
-{
-"label": "saho-VSuffAffImperf-m-rab",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Fem",
- "lexeme": "rab",
- "number": "Singular",
- "person": "Person3",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "ImperfectM",
- "token-note": "rabtam mango ‘many are dying’ (subordinate)",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["rabta-m"]]
-},
-{
-"label": "saho-VSuffAffImprtv-ab",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "ab",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ab"]]
-},
-{
-"label": "saho-VSuffAffImprtv-abaar",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "abaar",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["abar"]]
-},
-{
-"label": "saho-VSuffAffImprtv-abaas",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "abaas",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["abas"]]
-},
-{
-"label": "saho-VSuffAffImprtv-abah",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "abah",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["abaḥ"]]
-},
-{
-"label": "saho-VSuffAffImprtv-baah",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "baah",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["bah"]]
-},
-{
-"label": "saho-VSuffAffImprtv-bad",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "S1",
- "gender": "Common",
- "lexeme": "bad",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["badis"]]
-},
-{
-"label": "saho-VSuffAffImprtv-beet",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "S2",
- "gender": "Common",
- "lexeme": "beet",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["bessis"]]
-},
-{
-"label": "saho-VSuffAffImprtv-biaak",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "T",
- "gender": "Common",
- "lexeme": "biaak",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["biaakit"]]
-},
-{
-"label": "saho-VSuffAffImprtv-biil",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "biil",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["bil"]]
-},
-{
-"label": "saho-VSuffAffImprtv-bolol",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "S2",
- "gender": "Common",
- "lexeme": "bolol",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "token-note": "have someone set fire",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["bololsis"]]
-},
-{
-"label": "saho-VSuffAffImprtv-daam",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "daam",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ɗaamit"]]
-},
-{
-"label": "saho-VSuffAffImprtv-deer",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "deer",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["der"]]
-},
-{
-"label": "saho-VSuffAffImprtv-defee",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "S1",
- "gender": "Common",
- "lexeme": "defee",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["defes"]]
-},
-{
-"label": "saho-VSuffAffImprtv-di",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "di",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ɗiʕ"]]
-},
-{
-"label": "saho-VSuffAffImprtv-do",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "do",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ɗo"]]
-},
-{
-"label": "saho-VSuffAffImprtv-fah",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "S1",
- "gender": "Common",
- "lexeme": "fah",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["faḥis"]]
-},
-{
-"label": "saho-VSuffAffImprtv-fuu",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "fuu",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["fuʕ"]]
-},
-{
-"label": "saho-VSuffAffImprtv-hay",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "S1T",
- "gender": "Common",
- "lexeme": "hay",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["haysit"]]
-},
-{
-"label": "saho-VSuffAffJuss-ab",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "ab",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Jussive",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ábto"]]
-},
-{
-"label": "saho-VSuffAffJuss-alif",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "alif",
- "number": "Plural",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Jussive",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["alífno"]]
-},
-{
-"label": "saho-VSuffAffJuss-daam",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "daam",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Jussive",
- "token-note": "ɗamo gura/faɗá-iane ‘I want to buy it’",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ɗáamo"]]
-},
-{
-"label": "saho-VSuffAffJuss-dufu",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "dufu",
- "number": "Plural",
- "person": "Person3",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Jussive",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["dufúon"]]
-},
-{
-"label": "saho-VSuffAffJuss-ki-alif",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "alif",
- "number": "Plural",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "JussiveKi",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["alífno-kinu"]]
-},
-{
-"label": "saho-VSuffAffJuss-ki-daam",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "daam",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "JussiveKi",
- "token-note": "I will buy it",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ɗáamo-kio"]]
-},
-{
-"label": "saho-VSuffAffJuss-li-daam",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "daam",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "JussiveLi",
- "token-note": "(I guess) I’ll buy it",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ɗáamo-lio"]]
-},
-{
-"label": "saho-VSuffAffPart-daam",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "daam",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Participle",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ɗáama"]]
-},
-{
-"label": "saho-VSuffAffPart-dufu",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "dufu",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Participle",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["dufúa"]]
-},
-{
-"label": "saho-VSuffAffPart-fi",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "fi",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Participle",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["fía"]]
-},
-{
-"label": "saho-VSuffAffPart-gur",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "gur",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Participle",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["gúra"]]
-},
-{
-"label": "saho-VSuffAffPart-sa",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "sa",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Participle",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["sáa"]]
-},
-{
-"label": "saho-VSuffAffPerf-ab",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "ab",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["abe"]]
-},
-{
-"label": "saho-VSuffAffPerf-abaar",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "abaar",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["abaare"]]
-},
-{
-"label": "saho-VSuffAffPerf-abaas",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "abaas",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["abaase"]]
-},
-{
-"label": "saho-VSuffAffPerf-abah",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "abah",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["abaḥe"]]
-},
-{
-"label": "saho-VSuffAffPerf-baah",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "baah",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["baahe"]]
-},
-{
-"label": "saho-VSuffAffPerf-bad",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "bad",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["bade"]]
-},
-{
-"label": "saho-VSuffAffPerf-beet",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "M",
- "gender": "Common",
- "lexeme": "beet",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["beetime"]]
-},
-{
-"label": "saho-VSuffAffPerf-biaak",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "biaak",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["biaake"]]
-},
-{
-"label": "saho-VSuffAffPerf-biil",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "biil",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["biile"]]
-},
-{
-"label": "saho-VSuffAffPerf-daam",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "M",
- "gender": "Common",
- "lexeme": "daam",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ɗaamime"]]
-},
-{
-"label": "saho-VSuffAffPerf-deer",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "deer",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["deere"]]
-},
-{
-"label": "saho-VSuffAffPerf-di",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "di",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ɗiʕe"]]
-},
-{
-"label": "saho-VSuffAffPerf-do",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "do",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ɗoe"]]
-},
-{
-"label": "saho-VSuffAffPerf-fah",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "M",
- "gender": "Common",
- "lexeme": "fah",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["faḥime"]]
-},
-{
-"label": "saho-VSuffAffPerf-fuu",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "fuu",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["fuuʕe"]]
-},
-{
-"label": "saho-VSuffAffPerf-had",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "M",
- "gender": "Common",
- "lexeme": "had",
- "person": "Unmarked",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["ḥaɗime"]]
-},
-{
-"label": "saho-VSuffAffPerf-m-rab",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Fem",
- "lexeme": "rab",
- "number": "Singular",
- "person": "Person3",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "PerfectM",
- "token-note": "rabtem mango ‘many died’",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["rabte-m"]]
-},
-{
-"label": "saho-VSuffJuss-ak",
-"note": "W52p.249",
-"common": {"conjClass": "Suffix",
- "lexeme": "ak",
- "pos": "Verb",
- "tam": "Jussive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "akkóowa ~ óowa "],
- ["Singular", "Person2", "Common", "aktóowa"],
- ["Singular", "Person3", "Masc", "akkóowa ~ óowa "],
- ["Singular", "Person3", "Fem", "aktóowa"],
- ["Plural", "Person1", "Common", "aknóowa"],
- ["Plural", "Person2", "Common", "aktóowan"],
- ["Plural", "Person3", "Common", "akóowan"]]
-},
-{
-"label": "saho-VSuffNegImperf-ab",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "ab",
- "number": "Plural",
- "person": "Person3",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["máaban"]]
-},
-{
-"label": "saho-VSuffNegImperf-daam",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "daam",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["máɗaama"]]
-},
-{
-"label": "saho-VSuffNegImprtv-daam",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "daam",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["máɗaamin"]]
-},
-{
-"label": "saho-VSuffNegImprtv-fak",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "fak",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["máfakin"]]
-},
-{
-"label": "saho-VSuffNegImprtv-suu",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "T",
- "gender": "Common",
- "lexeme": "suu",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["másuʕutin"]]
-},
-{
-"label": "saho-VSuffNegJuss-daam",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "daam",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Jussive",
- "token-note": "I didn’t (?) buy it",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["maɗáamo-ine"]]
-},
-{
-"label": "saho-VSuffNegPerf-daam",
-"note": "W52pp.237–246",
-"common": {"conjClass": "Suffix",
- "derivedStem": "B",
- "gender": "Common",
- "lexeme": "daam",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Perfect",
- "token-note": "I didn’t buy (it)",
- "vmorphClass": "FinitePartial"},
-"terms":  
-[["token"], ["máɗaaminnio "]]
-},
-{
-"label": "saho-VSuffPast-hab",
-"note": "W52p.236",
-"common": {"conjClass": "Suffix",
- "lexeme": "hab",
- "pos": "Verb",
- "tam": "Past",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ḥabe"],
- ["Singular", "Person2", "Common", "ḥabte"],
- ["Singular", "Person3", "Masc", "ḥabe"],
- ["Singular", "Person3", "Fem", "ḥabte"],
- ["Plural", "Person1", "Common", "ḥabne"],
- ["Plural", "Person2", "Common", "ḥabten"],
- ["Plural", "Person3", "Common", "ḥaben"]]
-},
-{
-"label": "saho-VSuffPast-ubl",
-"note": "W52p.236",
-"common": {"conjClass": "Suffix",
- "lexeme": "ubl",
- "pos": "Verb",
- "tam": "Past",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "uble"],
- ["Singular", "Person2", "Common", "tuble"],
- ["Singular", "Person3", "Masc", "yuble"],
- ["Singular", "Person3", "Fem", "tuble"],
- ["Plural", "Person1", "Common", "nuble"],
- ["Plural", "Person2", "Common", "tublin"],
- ["Plural", "Person3", "Common", "yublin"]]
-},
-{
-"label": "saho-VSuffPerf-ak",
-"note": "W52p.249",
-"common": {"conjClass": "Suffix",
- "lexeme": "ak",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "akke"],
- ["Singular", "Person2", "Common", "akte"],
- ["Singular", "Person3", "Masc", "akie"],
- ["Singular", "Person3", "Fem", "adte"],
- ["Plural", "Person1", "Common", "akne"],
- ["Plural", "Person2", "Common", "akten"],
- ["Plural", "Person3", "Common", "akken"]]
-},
-{
-"label": "saho-PInd",
-"note": "W52pp.236&251 :: I am assuming that 2pl and 3pl forms are inverted in the poss,obj,indir-obj and emph pronouns in the table on pl. 251",
-"common": {"pos": "Pronoun"},
-"terms":  
-[["proClass", "number", "person", "gender", "token"],
- ["Emphatic", "Singular", "Person1", "Common", "yóya"],
- ["Emphatic", "Singular", "Person2", "Common", "kóya"],
- ["Emphatic", "Singular", "Person3", "Masc", "káya"],
- ["Emphatic", "Singular", "Person3", "Fem", "téya"],
- ["Emphatic", "Plural", "Person1", "Common", "nóya"],
- ["Emphatic", "Plural", "Person2", "Common", "téna"],
- ["Emphatic", "Plural", "Person3", "Common", "sína"],
- ["Independent", "Singular", "Person1", "Common", "anu"],
- ["Independent", "Singular", "Person2", "Common", "atu"],
- ["Independent", "Singular", "Person3", "Masc", "úsuk"],
- ["Independent", "Singular", "Person3", "Fem", "íse"],
- ["Independent", "Plural", "Person1", "Common", "nanu"],
- ["Independent", "Plural", "Person2", "Common", "átin"],
- ["Independent", "Plural", "Person3", "Common", "úsun"],
- ["Object", "Singular", "Person1", "Common", "yi"],
- ["Object", "Singular", "Person2", "Common", "ku"],
- ["Object", "Singular", "Person3", "Masc", "ka"],
- ["Object", "Singular", "Person3", "Fem", "te"],
- ["Object", "Plural", "Person1", "Common", "ni"],
- ["Object", "Plural", "Person2", "Common", "ten"],
- ["Object", "Plural", "Person3", "Common", "sin"],
- ["ObjectIndirect", "Singular", "Person1", "Common", "yoh"],
- ["ObjectIndirect", "Singular", "Person2", "Common", "koh"],
- ["ObjectIndirect", "Singular", "Person3", "Masc", "ákah"],
- ["ObjectIndirect", "Singular", "Person3", "Fem", "téyah"],
- ["ObjectIndirect", "Plural", "Person1", "Common", "nóyah"],
- ["ObjectIndirect", "Plural", "Person2", "Common", "ténah"],
- ["ObjectIndirect", "Plural", "Person3", "Common", "sínah"],
- ["Possessive", "Singular", "Person1", "Common", "yi"],
- ["Possessive", "Singular", "Person2", "Common", "ku"],
- ["Possessive", "Singular", "Person3", "Masc", "kaa"],
- ["Possessive", "Singular", "Person3", "Fem", "tee"],
- ["Possessive", "Plural", "Person1", "Common", "ni"],
- ["Possessive", "Plural", "Person2", "Common", "ten"],
- ["Possessive", "Plural", "Person3", "Common", "sin"]]
-}]
-}
+  {
+    "label": "sah-PronounNominative",
+    "note": "BV23 -Table 16.11",
+    "common": {
+      "proClass": "Nominative",
+      "pos": "Pronoun"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"anu"],
+      ["Singular" ,"Person2" ,"Common" ,"atu"],
+      ["Singular" ,"Person3" ,"Masc" ,"usuk"],
+      ["Singular" ,"Person3" ,"Fem" ,"iši / iše / isi"],
+      ["Plural" ,"Person1" ,"Common" ,"nanu"],
+      ["Plural" ,"Person2" ,"Common" ,"atin"],
+      ["Plural" ,"Person3" ,"Common" ,"usun / isin"]
+    ]
+  },
+  {
+    "label": "sah-PronounReciprocal",
+    "note": "BV23 -Table 16.12",
+    "common": {
+      "proClass": "Reciprocal",
+      "pos": "Pronoun"
+    },
+    "terms": [
+      ["number" ,"person" ,"token"],
+      ["Singular" ,"Person1" ,"sitt(iy)a / ktitt(iy)a"],
+      ["Singular" ,"Person2-3" ,"sitt(iy)a / ktitt(iy)a"],
+      ["Plural" ,"Person1" ,"sitt(iy)a / ktitt(iy)a"],
+      ["Plural" ,"Person2-3" ,"sitt(iy)a / ktitt(iy)a"]
+    ]
+  },
+  {
+    "label": "sah-PronounReflexive",
+    "note": "BV23 -Table 16.12",
+    "common": {
+      "proClass": "Reflexive",
+      "pos": "Pronoun"
+    },
+    "terms": [
+      ["case" ,"number" ,"person" ,"token"],
+      ["Absolute" ,"Singular" ,"Person1" ,"inne"],
+      ["Absolute" ,"Singular" ,"Person2-3" ,"iše / ise"],
+      ["Absolute" ,"Plural" ,"Person1" ,"ninne"],
+      ["Absolute" ,"Plural" ,"Person2-3" ,"sinne"],
+      ["Genitive" ,"Singular" ,"Person1" ,"inni"],
+      ["Genitive" ,"Singular" ,"Person2-3" ,"iši / isi"],
+      ["Genitive" ,"Plural" ,"Person1" ,"ninni"],
+      ["Genitive" ,"Plural" ,"Person2-3" ,"sinni"]
+    ]
+  },
+  {
+    "label": "sah-PronounShortAbsGen",
+    "note": "BV23 -Table 16.11. (The short absolute/genitive pronouns are used for direct objects, with clitic postpositions (§16.6.4), and as possessives.)",
+    "common": {
+      "proClass": "ShortAbsGen",
+      "pos": "Pronoun"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"yi"],
+      ["Singular" ,"Person2" ,"Common" ,"ku"],
+      ["Singular" ,"Person3" ,"Masc" ,"kaa"],
+      ["Singular" ,"Person3" ,"Fem" ,"tee"],
+      ["Plural" ,"Person1" ,"Common" ,"ni"],
+      ["Plural" ,"Person2" ,"Common" ,"sin"],
+      ["Plural" ,"Person3" ,"Common" ,"ten"]
+    ]
+  },
+  {
+    "label": "sah-VerbCompound-sik-erhe-PastPositive",
+    "note": "BV23 -Table 16.8",
+    "common": {
+      "conjClass": "Compound",
+      "lexeme": "sik-erhe",
+      "polarity": "Positive",
+      "pos": "Verb",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"sik-eɽħe"],
+      ["Singular" ,"Person2" ,"Common" ,"sik-teɽħe"],
+      ["Singular" ,"Person3" ,"Masc" ,"sik-yeɽħe"],
+      ["Singular" ,"Person3" ,"Fem" ,"sik-teɽħe"],
+      ["Plural" ,"Person1" ,"Common" ,"sik-neɽħe"],
+      ["Plural" ,"Person2" ,"Common" ,"sik-teɽħin"],
+      ["Plural" ,"Person3" ,"Common" ,"sik-yeɽħin"]
+    ]
+  },
+  {
+    "label": "sah-VerbCompound-sik-erhe-PresentPositive",
+    "note": "BV23 -Table 16.7",
+    "common": {
+      "conjClass": "Compound",
+      "lexeme": "sik-erhe",
+      "polarity": "Positive",
+      "pos": "Verb",
+      "tam": "Present"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"sik-aɽħe"],
+      ["Singular" ,"Person2" ,"Common" ,"sik-taɽħe"],
+      ["Singular" ,"Person3" ,"Masc" ,"sik-yaɽħe"],
+      ["Singular" ,"Person3" ,"Fem" ,"sik-taɽħe"],
+      ["Plural" ,"Person1" ,"Common" ,"sik-naɽħe"],
+      ["Plural" ,"Person2" ,"Common" ,"sik-taɽħin"],
+      ["Plural" ,"Person3" ,"Common" ,"sik-yaɽħin"]
+    ]
+  },
+  {
+    "label": "sah-VerbIrregular-li-Copula",
+    "note": "W52p.250",
+    "common": {
+      "conjClass": "Irregular",
+      "lexeme": "li",
+      "pos": "Verb",
+      "tam": "Copula"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"lio"],
+      ["Singular" ,"Person2" ,"Common" ,"lito"],
+      ["Singular" ,"Person3" ,"Masc" ,"linni"],
+      ["Singular" ,"Person3" ,"Fem" ,"linni"],
+      ["Plural" ,"Person1" ,"Common" ,"linu"],
+      ["Plural" ,"Person2" ,"Common" ,"litin"],
+      ["Plural" ,"Person3" ,"Common" ,"linun"]
+    ]
+  },
+  {
+    "label": "sah-VerbPrefix-erhe-ImperativePositive",
+    "note": "BV23 -Table 16.9",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "erhe",
+      "polarity": "Positive",
+      "pos": "Verb",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"eɽeħ"],
+      ["Plural" ,"Person2" ,"Common" ,"eɽeħa/eɽeħanta"]
+    ]
+  },
+  {
+    "label": "sah-VerbPrefix-erhe-PastPositive",
+    "note": "BV23 -Table 16.8",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "erhe",
+      "polarity": "Positive",
+      "pos": "Verb",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"eɽħ-e"],
+      ["Singular" ,"Person2" ,"Common" ,"t-eɽħ-e"],
+      ["Singular" ,"Person3" ,"Masc" ,"y-eɽħ-e"],
+      ["Singular" ,"Person3" ,"Fem" ,"t-eɽħ-e"],
+      ["Plural" ,"Person1" ,"Common" ,"n-eɽħ-e"],
+      ["Plural" ,"Person2" ,"Common" ,"t-eɽħ-in"],
+      ["Plural" ,"Person3" ,"Common" ,"y-eɽħ-in"]
+    ]
+  },
+  {
+    "label": "sah-VerbPrefix-erhe-PresentPositive",
+    "note": "BV23 -Table 16.7",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "erhe",
+      "polarity": "Positive",
+      "pos": "Verb",
+      "tam": "Present"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"aɽħ-e"],
+      ["Singular" ,"Person2" ,"Common" ,"t-aɽħ-e"],
+      ["Singular" ,"Person3" ,"Masc" ,"y-aɽħ-e"],
+      ["Singular" ,"Person3" ,"Fem" ,"t-aɽħ-e"],
+      ["Plural" ,"Person1" ,"Common" ,"n-aɽħ-e"],
+      ["Plural" ,"Person2" ,"Common" ,"t-aɽħ-in"],
+      ["Plural" ,"Person3" ,"Common" ,"y-aɽħ-in"]
+    ]
+  },
+  {
+    "label": "sah-VerbPrefix-erhe-SubjunctivePositive",
+    "note": "BV23 -Table 16.9",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "erhe",
+      "polarity": "Positive",
+      "pos": "Verb",
+      "tam": "Subjunctive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"aɽħ-o"],
+      ["Singular" ,"Person2" ,"Common" ,"t-aɽħ-o"],
+      ["Singular" ,"Person3" ,"Masc" ,"y-aɽħ-o"],
+      ["Singular" ,"Person3" ,"Fem" ,"t-aɽħ-o"],
+      ["Plural" ,"Person1" ,"Common" ,"n-aɽħ-o"],
+      ["Plural" ,"Person2" ,"Common" ,"t-aɽħ-oona"],
+      ["Plural" ,"Person3" ,"Common" ,"y-aɽħ-oona"]
+    ]
+  },
+  {
+    "label": "sah-VerbPrefix-inni-Copula",
+    "note": "W52p.249",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "inni",
+      "pos": "Verb",
+      "tam": "Copula"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"innio"],
+      ["Singular" ,"Person2" ,"Common" ,"innito"],
+      ["Singular" ,"Person3" ,"Masc" ,"inna"],
+      ["Singular" ,"Person3" ,"Fem" ,"inna"],
+      ["Plural" ,"Person1" ,"Common" ,"innino"],
+      ["Plural" ,"Person2" ,"Common" ,"innitin"],
+      ["Plural" ,"Person3" ,"Common" ,"innun"]
+    ]
+  },
+  {
+    "label": "sah-VerbPrefix-inni-Imperfect",
+    "note": "W52p.249",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "inni",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ane ~ anio"],
+      ["Singular" ,"Person2" ,"Common" ,"tane ~ tanito"],
+      ["Singular" ,"Person3" ,"Masc" ,"yane"],
+      ["Singular" ,"Person3" ,"Fem" ,"tane"],
+      ["Plural" ,"Person1" ,"Common" ,"nane ~ nanino"],
+      ["Plural" ,"Person2" ,"Common" ,"tanitin"],
+      ["Plural" ,"Person3" ,"Common" ,"yanin"]
+    ]
+  },
+  {
+    "label": "sah-VerbPrefix-inni-Perfect",
+    "note": "W52p.249",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "inni",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ine"],
+      ["Singular" ,"Person2" ,"Common" ,"tine"],
+      ["Singular" ,"Person3" ,"Masc" ,"ine"],
+      ["Singular" ,"Person3" ,"Fem" ,"tine"],
+      ["Plural" ,"Person1" ,"Common" ,"nine"],
+      ["Plural" ,"Person2" ,"Common" ,"tinen"],
+      ["Plural" ,"Person3" ,"Common" ,"yinen"]
+    ]
+  },
+  {
+    "label": "sah-VerbStative-kihina-PastPositive",
+    "note": "BV23 -Table 16.8'; This construction uses the auxiliary verb ine Class 1 ʻbe, existʼ. The equivalent form in Northern Saaho has a variable  converb: kiħinijuk ine, kiħinituk tine, etc",
+    "common": {
+      "conjClass": "Stative",
+      "lexeme": "kihina",
+      "polarity": "Positive",
+      "pos": "Verb",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"kiħinii ine"],
+      ["Singular" ,"Person2" ,"Common" ,"kiħinii tine"],
+      ["Singular" ,"Person3" ,"Masc" ,"kiħinii yine"],
+      ["Singular" ,"Person3" ,"Fem" ,"kiħinii tine"],
+      ["Plural" ,"Person1" ,"Common" ,"kiħinii nine"],
+      ["Plural" ,"Person2" ,"Common" ,"kiħinii tinin"],
+      ["Plural" ,"Person3" ,"Common" ,"kiħinii yinin"]
+    ]
+  },
+  {
+    "label": "sah-VerbStative-kihina-PresentPositive",
+    "note": "BV23 -Table 16.7",
+    "common": {
+      "conjClass": "Stative",
+      "lexeme": "kihina",
+      "polarity": "Positive",
+      "pos": "Verb",
+      "tam": "Present"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"kiħin-iyo"],
+      ["Singular" ,"Person2" ,"Common" ,"kiħin-ito"],
+      ["Singular" ,"Person3" ,"Masc" ,"kiħina"],
+      ["Singular" ,"Person3" ,"Fem" ,"kiħina"],
+      ["Plural" ,"Person1" ,"Common" ,"kiħin-ino"],
+      ["Plural" ,"Person2" ,"Common" ,"kiħin-itin"],
+      ["Plural" ,"Person3" ,"Common" ,"kiħin-on"]
+    ]
+  },
+  {
+    "label": "sah-VerbSuffix-ak-Jussive",
+    "note": "W52p.249",
+    "common": {
+      "conjClass": "Suffix",
+      "lexeme": "ak",
+      "pos": "Verb",
+      "tam": "Jussive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"akkóowa ~ óowa "],
+      ["Singular" ,"Person2" ,"Common" ,"aktóowa"],
+      ["Singular" ,"Person3" ,"Masc" ,"akkóowa ~ óowa "],
+      ["Singular" ,"Person3" ,"Fem" ,"aktóowa"],
+      ["Plural" ,"Person1" ,"Common" ,"aknóowa"],
+      ["Plural" ,"Person2" ,"Common" ,"aktóowan"],
+      ["Plural" ,"Person3" ,"Common" ,"akóowan"]
+    ]
+  },
+  {
+    "label": "sah-VerbSuffix-ak-PerfectAffirmative",
+    "note": "W52p.249",
+    "common": {
+      "conjClass": "Suffix",
+      "dervStem": "Base",
+      "polarity": "Affirmative",
+      "lexeme": "ak",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"akke"],
+      ["Singular" ,"Person2" ,"Common" ,"akte"],
+      ["Singular" ,"Person3" ,"Masc" ,"akie"],
+      ["Singular" ,"Person3" ,"Fem" ,"akte"],
+      ["Plural" ,"Person1" ,"Common" ,"akne"],
+      ["Plural" ,"Person2" ,"Common" ,"akten"],
+      ["Plural" ,"Person3" ,"Common" ,"akken"]
+    ]
+  },
+  {
+    "label": "sah-VerbSuffix-alife-ImperativeNegative",
+    "note": "BV23 -Table 16.19",
+    "common": {
+      "conjClass": "Suffix",
+      "lexeme": "alife",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"maalifin"],
+      ["Plural" ,"Person2" ,"Common" ,"maalifina"]
+    ]
+  },
+  {
+    "label": "sah-VerbSuffix-alife-ImperativePositive",
+    "note": "BV23 -Table 16.9",
+    "common": {
+      "conjClass": "Suffix",
+      "lexeme": "alife",
+      "polarity": "Positive",
+      "pos": "Verb",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"alif"],
+      ["Plural" ,"Person2" ,"Common" ,"alifa/alifanta"]
+    ]
+  },
+  {
+    "label": "sah-VerbSuffix-alife-LongPastNegative",
+    "note": "BV23 -Table 16.19",
+    "common": {
+      "conjClass": "Suffix",
+      "lexeme": "alife",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "LongPast"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"maalifinnijo"],
+      ["Singular" ,"Person2" ,"Common" ,"maalifinnito"],
+      ["Singular" ,"Person3" ,"Masc" ,"maalifinna"],
+      ["Singular" ,"Person3" ,"Fem" ,"maalifinna"],
+      ["Plural" ,"Person1" ,"Common" ,"maalifinnino"],
+      ["Plural" ,"Person2" ,"Common" ,"maalifinnitiini"],
+      ["Plural" ,"Person3" ,"Common" ,"maalifinnooni"]
+    ]
+  },
+  {
+    "label": "sah-VerbSuffix-alife-PastPositive",
+    "note": "BV23 -Table 16.8",
+    "common": {
+      "conjClass": "Suffix",
+      "lexeme": "alife",
+      "polarity": "Positive",
+      "pos": "Verb",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"alif-e"],
+      ["Singular" ,"Person2" ,"Common" ,"alif-te"],
+      ["Singular" ,"Person3" ,"Masc" ,"alif-e"],
+      ["Singular" ,"Person3" ,"Fem" ,"alif-te"],
+      ["Plural" ,"Person1" ,"Common" ,"alif-ne"],
+      ["Plural" ,"Person2" ,"Common" ,"alif-ten"],
+      ["Plural" ,"Person3" ,"Common" ,"alif-en"]
+    ]
+  },
+  {
+    "label": "sah-VerbSuffix-alife-PresentPositive",
+    "note": "BV23 -Table 16.7",
+    "common": {
+      "conjClass": "Suffix",
+      "lexeme": "alife",
+      "polarity": "Positive",
+      "pos": "Verb",
+      "tam": "Present"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"alif-a"],
+      ["Singular" ,"Person2" ,"Common" ,"alif-ta"],
+      ["Singular" ,"Person3" ,"Masc" ,"alif-a"],
+      ["Singular" ,"Person3" ,"Fem" ,"alif-ta"],
+      ["Plural" ,"Person1" ,"Common" ,"alif-na"],
+      ["Plural" ,"Person2" ,"Common" ,"alif-tan"],
+      ["Plural" ,"Person3" ,"Common" ,"alif-an"]
+    ]
+  },
+  {
+    "label": "sah-VerbSuffix-alife-RelativeNegative",
+    "note": "BV23 -Table 16.19; Northern Saho only",
+    "common": {
+      "conjClass": "Suffix",
+      "lexeme": "alife",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Relative"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"alifinniħijo"],
+      ["Singular" ,"Person2" ,"Common" ,"alifinniħito"],
+      ["Singular" ,"Person3" ,"Masc" ,"alifinneħe"],
+      ["Singular" ,"Person3" ,"Fem" ,"alifinneħe"],
+      ["Plural" ,"Person1" ,"Common" ,"alifinniħino"],
+      ["Plural" ,"Person2" ,"Common" ,"alifinniħitin"],
+      ["Plural" ,"Person3" ,"Common" ,"alifinnoħon"]
+    ]
+  },
+  {
+    "label": "sah-VerbSuffix-alife-ShortPastNegative",
+    "note": "BV23 -Table 16.19",
+    "common": {
+      "conjClass": "Suffix",
+      "lexeme": "alife",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "ShortPast"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"maalifijo"],
+      ["Singular" ,"Person2" ,"Common" ,"maalifito"],
+      ["Singular" ,"Person3" ,"Masc" ,"maalifo"],
+      ["Singular" ,"Person3" ,"Fem" ,"maalifo"],
+      ["Plural" ,"Person1" ,"Common" ,"maalifino"],
+      ["Plural" ,"Person2" ,"Common" ,"maalifitiini"],
+      ["Plural" ,"Person3" ,"Common" ,"maalifini"]
+    ]
+  },
+  {
+    "label": "sah-VerbSuffix-alife-SubjunctivePositive",
+    "note": "BV23 -Table 16.9",
+    "common": {
+      "conjClass": "Suffix",
+      "lexeme": "alife",
+      "polarity": "Positive",
+      "pos": "Verb",
+      "tam": "Subjunctive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"alif-o"],
+      ["Singular" ,"Person2" ,"Common" ,"alif-to"],
+      ["Singular" ,"Person3" ,"Masc" ,"alif-o"],
+      ["Singular" ,"Person3" ,"Fem" ,"alif-to"],
+      ["Plural" ,"Person1" ,"Common" ,"alif-no"],
+      ["Plural" ,"Person2" ,"Common" ,"alif-toona"],
+      ["Plural" ,"Person3" ,"Common" ,"alif-oona"]
+    ]
+  },
+  {
+    "label": "sah-VerbSuffix-hab-PerfectAffirmative",
+    "note": "W52p.236",
+    "common": {
+      "conjClass": "Suffix",
+      "dervStem": "Base",
+      "lexeme": "hab",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ḥabe"],
+      ["Singular" ,"Person2" ,"Common" ,"ḥabte"],
+      ["Singular" ,"Person3" ,"Masc" ,"ḥabe"],
+      ["Singular" ,"Person3" ,"Fem" ,"ḥabte"],
+      ["Plural" ,"Person1" ,"Common" ,"ḥabne"],
+      ["Plural" ,"Person2" ,"Common" ,"ḥabten"],
+      ["Plural" ,"Person3" ,"Common" ,"ḥaben"]
+    ]
+  },
+  {
+    "label": "sah-VerbSuffix-ki-Copula",
+    "note": "W52p.250",
+    "common": {
+      "conjClass": "Suffix",
+      "lexeme": "ki",
+      "pos": "Verb",
+      "tam": "Copula"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"kio"],
+      ["Singular" ,"Person2" ,"Common" ,"kito"],
+      ["Singular" ,"Person3" ,"Masc" ,"kinni"],
+      ["Singular" ,"Person3" ,"Fem" ,"kinni"],
+      ["Plural" ,"Person1" ,"Common" ,"kinu"],
+      ["Plural" ,"Person2" ,"Common" ,"kitin"],
+      ["Plural" ,"Person3" ,"Common" ,"kinun"]
+    ]
+  },
+  {
+    "label": "sah-VerbSuffix-ubl-PerfectAffirmative",
+    "note": "W52p.236",
+    "common": {
+      "conjClass": "Suffix",
+      "dervStem": "Base",
+      "polarity": "Affirmative",
+      "lexeme": "ubl",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"uble"],
+      ["Singular" ,"Person2" ,"Common" ,"tuble"],
+      ["Singular" ,"Person3" ,"Masc" ,"yuble"],
+      ["Singular" ,"Person3" ,"Fem" ,"tuble"],
+      ["Plural" ,"Person1" ,"Common" ,"nuble"],
+      ["Plural" ,"Person2" ,"Common" ,"tublin"],
+      ["Plural" ,"Person3" ,"Common" ,"yublin"]
+    ]
+  },
+  {
+    "label": "sah-Verbmorph-StemDerivation-",
+    "note": "BV23 - 16.4.2 (3) - (7)",
+    "common": {
+      "pos": "Verb",
+      "morphClass": "StemDerivation"
+    },
+    "terms": [
+      ["dervStem" ,"conjClass" ,"process" ,"lexeme" ,"token"],
+      ["Intensive" ,"Prefix" ,"Redup" ,"esgelle" ,"esgeegelle 'mix thoroughly'"],
+      ["Intensive" ,"Suffix" ,"Redup" ,"beete" ,"bebbeete 'eat a little several times'"],
+      ["Causative" ,"Prefix" ,"Pref-s:š-" ,"igdife" ,"isgidife 'cause to kill'"],
+      ["Causative" ,"Prefix" ,"Pref-y:yš-" ,"eedege" ,"iyšiɖɖige 'inform'"],
+      ["Causative" ,"Suffix" ,"Suff-š" ,"dame" ,"ɖamiše 'melt TR'"],
+      ["Causative" ,"Suffix" ,"Suff-šiš" ,"baahe" ,"bahšiše 'cause to bring'"],
+      ["Middle" ,"Prefix" ,"C1Geminate" ,"igdile" ,"iggidile 'be broken'"],
+      ["Middle" ,"Prefix" ,"Pref-tt-" ,"ohoye" ,"ottoħoye 'give for one's benefit'"],
+      ["Middle" ,"Suffix" ,"Suff-t" ,"file" ,"filite 'comb 'one's hair)'"],
+      ["Passive" ,"Prefix" ,"Pref-m-" ,"oobbe" ,"omobbe 'be heard'"],
+      ["Passive" ,"Suffix" ,"Suff-m" ,"beete" ,"bettiime 'be eaten'"],
+      ["Inchoative" ,"Suffix" ,"Suff-ow" ,"data" ,"dattowe 'become black'"],
+      ["Inchoative" ,"Prefix" ,"ConjClassChange" ,"mee" ,"emʕe 'become good'"],
+      ["Inchoative" ,"Suffix" ,"ConjClassChange" ,"kafina" ,"kafe 'become dry'"]
+    ]
+  }
+]}
