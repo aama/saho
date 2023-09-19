@@ -1,792 +1,892 @@
 {
   "lang": "saho",
   "subfamily": "Lowland East Cushitic Saho-Afar",
-  "sgpref": "sah",
-  "datasource": " Banti, Giorgio, and Moreno Verbari. 2003. 'Grammatical Notes'. in Moreno and Roberta Vergari, A Basic Saho-English-Italian Dictionary. Asmara - Eritrea. pp. 15-38; [W52 BV03]
+  "lgpref": "sah",
+  "datasource": " Banti, Giorgio, and Moreno Verbari. 2003. 'Grammatical Notes'. in Moreno and Roberta Vergari, A Basic Saho-English-Italian Dictionary. Asmara - Eritrea. pp. 15-38; [W52 BV03]",
+  "datasourceNotes": "Earlier material in: Welmers, W. E. 1952. 'Notes on the structure of Saho 1, 2 ', Word 8, 145-162; 236-251. In transcriptions BV03 use the IPA /j,ʃ/ where we use /y,š/; also note that '/ɖ/ is realized as [ɽ] when it is not word-initial, geminate, or following /n/'. [ ɖ, ʕ, ħ, š] ",
   "geodemoURL": "http://www.ethnologue.com/language/ssy",
   "geodemoTXT": "Varieties and subdialects of Saho are spoken in Eritrea and Ethiopia (Irob dialect only). The language is very closely related to Afar.",
   "schemata": {
-    "person": [
-      "Person1",
-      "Person2",
-      "Person3",
-      "Unmarked"
-    ],
-    "derivedStem": [
-      "B",
-      "B_Intens",
-      "M",
-      "S1",
-      "S1T",
-      "S1_Intens",
-      "S2",
-      "T",
-      "T_Intens"
-    ],
-    "number": [
-      "Plural",
-      "Singular"
-    ],
-    "vmorphClass": [
-      "Finite",
-      "FinitePartial"
-    ],
-    "pos": [
-      "Pronoun",
-      "Verb"
-    ],
-    "proClass": [
-      "Emphatic",
-      "Independent",
-      "Object",
-      "ObjectIndirect",
-      "Possessive"
-    ],
-    "conjClass": [
-      "Irregular",
-      "Prefix",
-      "Suffix"
-    ],
-    "polarity": [
-      "Affirmative",
-      "Negative"
-    ],
-    "tam": [
-      "Copula",
-      "Imperative",
-      "Imperfect",
-      "ImperfectInni",
-      "ImperfectLi",
-      "ImperfectM",
-      "Jussive",
-      "JussiveKi",
-      "JussiveLi",
-      "Participle",
-      "Past",
-      "Perfect",
-      "PerfectM"
-    ],
-    "gender": [
-      "Common",
-      "Fem",
-      "Masc"
+  "case": [
+    "Absolute",
+    "Genitive"
+  ],
+  "conjClass": [
+    "Compound",
+    "Irregular",
+    "Prefix",
+    "Stative",
+    "Suffix"
+  ],
+  "dervStem": [
+    "Base",
+    "Causative",
+    "Inchoative",
+    "Intensive",
+    "Middle",
+    "Passive"
+  ],
+  "gender": [
+    "Common",
+    "Fem",
+    "Masc"
+  ],
+  "lexeme": [
+    "ak",
+    "alife",
+    "baahe",
+    "beete",
+    "dame",
+    "data",
+    "eedege",
+    "erhe",
+    "esgelle",
+    "file",
+    "hab",
+    "igdife",
+    "igdile",
+    "inni",
+    "kafina",
+    "ki",
+    "kihina",
+    "li",
+    "mee",
+    "ohoye",
+    "oobbe",
+    "sik-erhe",
+    "ubl"
+  ],
+  "morphClass": [
+    "StemDerivation"
+  ],
+  "number": [
+    "Plural",
+    "Singular"
+  ],
+  "person": [
+    "Person1",
+    "Person2",
+    "Person2-3",
+    "Person3"
+  ],
+  "polarity": [
+    "Affirmative",
+    "Negative",
+    "Positive"
+  ],
+  "pos": [
+    "Postposition",
+    "Pronoun",
+    "Verb"
+  ],
+  "postposClass": [
+    "Comitative",
+    "Goal",
+    "GoalSource",
+    "InstrGoal",
+    "Locative",
+    "Source"
+  ],
+  "proClass": [
+    "EmphAbs",
+    "Nominative",
+    "Reciprocal",
+    "Reflexive",
+    "ShortAbsGen"
+  ],
+  "process": [
+    "C1Geminate",
+    "ConjClassChange",
+    "Pref-m-",
+    "Pref-s:š-",
+    "Pref-tt-",
+    "Pref-y:yš-",
+    "Redup",
+    "Suff-m",
+    "Suff-ow",
+    "Suff-t",
+    "Suff-š",
+    "Suff-šiš"
+  ],
+  "tam": [
+    "Copula",
+    "Imperative",
+    "Imperfect",
+    "Jussive",
+    "LongPast",
+    "Past",
+    "Perfect",
+    "Present",
+    "Relative",
+    "ShortPast",
+    "Subjunctive"
+  ]
+},
+  "lexemes": {
+  "": {
+    "pos": "Verb",
+    "lemma": "",
+    "gloss": ""
+  },
+  "ak": {
+    "pos": "Verb",
+    "lemma": "ak-",
+    "gloss": "say",
+    "conjClass": "Suffix"
+  },
+  "alife": {
+    "pos": "Verb",
+    "lemma": "alif-",
+    "gloss": "close",
+    "conjClass": "Suffix"
+  },
+  "baahe": {
+    "pos": "Verb",
+    "lemma": "baahe",
+    "gloss": "bring"
+  },
+  "beete": {
+    "pos": "Verb",
+    "lemma": "beete",
+    "gloss": "eat"
+  },
+  "dame": {
+    "pos": "Verb",
+    "lemma": "ɖame",
+    "gloss": "melt INT"
+  },
+  "data": {
+    "pos": "Verb",
+    "lemma": "data",
+    "gloss": "be black"
+  },
+  "eedege": {
+    "pos": "Verb",
+    "lemma": "eeɖege",
+    "gloss": "know"
+  },
+  "erhe": {
+    "pos": "Verb",
+    "lemma": "eɽħe",
+    "gloss": "say",
+    "conjClass": "Prefix"
+  },
+  "esgelle": {
+    "pos": "Verb",
+    "lemma": "esgelle",
+    "gloss": "mix"
+  },
+  "file": {
+    "pos": "Verb",
+    "lemma": "file",
+    "gloss": "comb"
+  },
+  "hab": {
+    "pos": "Verb",
+    "lemma": "ḥab-",
+    "gloss": "leave"
+  },
+  "igdile": {
+    "pos": "Verb",
+    "lemma": "igdile",
+    "gloss": "break TR"
+  },
+  "igife": {
+    "pos": "Verb",
+    "lemma": "igife",
+    "gloss": "kill"
+  },
+  "inni": {
+    "pos": "Verb",
+    "lemma": "inni-",
+    "gloss": "be in",
+    "conjClass": "SuffixIrregular"
+  },
+  "kafina": {
+    "pos": "Verb",
+    "lemma": "kafina",
+    "gloss": "be dry"
+  },
+  "ki": {
+    "pos": "Verb",
+    "lemma": "ki-",
+    "gloss": "be",
+    "conjClass": "Suffix"
+  },
+  "kihina": {
+    "pos": "Verb",
+    "lemma": "kiħina",
+    "gloss": "love",
+    "conjClass": "Stative"
+  },
+  "li": {
+    "pos": "Verb",
+    "lemma": "li-",
+    "gloss": "have"
+  },
+  "mee": {
+    "pos": "Verb",
+    "lemma": "meʕe",
+    "gloss": "be good"
+  },
+  "ohoye": {
+    "pos": "Verb",
+    "lemma": "oħoye",
+    "gloss": "give"
+  },
+  "oobbe": {
+    "pos": "Verb",
+    "lemma": "oobbe",
+    "gloss": "hear"
+  },
+  "sik-erhe": {
+    "pos": "Verb",
+    "lemma": "sik-eɽħe",
+    "gloss": "be silent",
+    "conjClass": "Compound"
+  },
+  "ubl": {
+    "pos": "Verb",
+    "lemma": "ubl-",
+    "gloss": "see"
+  }
+},
+  "pdgmPropOrder": ["pos", "proClass", "morphClass", "conjClass","lexeme","derivedStem","tam","polarity"],
+  "termclusters": [
+  {
+    "label": "sah-Postposition",
+    "note": "BV23 -Table 16.15",
+    "common": {
+      "pos": "Postposition"
+    },
+    "terms": [
+      ["postposClass" ,"token-bound" ,"token-free" ,"token-gloss"],
+      ["Locative" ,"-d(de)" ,"adde / ed(de)" ,"on, in, among"],
+      ["InstrGoal" ,"-h" ,"akah" ,"with, by, to"],
+      ["GoalSource" ,"-k" ,"ak" ,"to, from"],
+      ["Source" ,"-ko" ,"akko" ,"from"],
+      ["Goal" ,"-l(le)" ,"alle / elle" ,"to"],
+      ["Comitative" ,"-lih" ,"aalih" ,"with"]
     ]
   },
-  "lexemes": {
-    "di": {
-      "pos": "Verb",
-      "lemma": "ɗiʕ-",
-      "gloss": "be able",
-      "conjClass": "Suffix"
-    },
-    "eyteher": {
-      "pos": "Verb",
-      "lemma": "eyṭeher-",
-      "gloss": "cleanse",
-      "conjClass": "Prefix"
-    },
-    "biil": {
-      "pos": "Verb",
-      "lemma": "biil-",
-      "gloss": "bleed",
-      "conjClass": "Suffix"
-    },
-    "ubl": {
-      "pos": "Verb",
-      "lemma": "ubl-",
-      "gloss": "see"
-    },
-    "baah": {
-      "pos": "Verb",
-      "lemma": "baah-",
-      "gloss": "bring",
-      "conjClass": "Suffix"
-    },
-    "eemeg": {
-      "pos": "Verb",
-      "lemma": "eemeg-",
-      "gloss": "fill",
-      "conjClass": "Prefix"
-    },
-    "enge": {
-      "pos": "Verb",
-      "lemma": "engeʕ-",
-      "gloss": "fight",
-      "conjClass": "Prefix"
-    },
-    "eebeh": {
-      "pos": "Verb",
-      "lemma": "eebeḥ-",
-      "gloss": "sell",
-      "conjClass": "Prefix"
-    },
-    "ekkel": {
-      "pos": "Verb",
-      "lemma": "ekkel-",
-      "gloss": "think",
-      "conjClass": "Prefix"
-    },
-    "eyme": {
-      "pos": "Verb",
-      "lemma": "eymeeʕ- (S1 frm meʕe)",
-      "gloss": "repair",
-      "conjClass": "Prefix"
-    },
-    "edhet": {
-      "pos": "Verb",
-      "lemma": "eḥet-",
-      "gloss": "chew",
-      "conjClass": "Prefix"
-    },
-    "abaar": {
-      "pos": "Verb",
-      "lemma": "abaar-",
-      "gloss": "curse",
-      "conjClass": "Suffix"
-    },
-    "hab": {
-      "pos": "Verb",
-      "lemma": "ḥab-",
-      "gloss": "leave"
-    },
-    "ifriy": {
-      "pos": "Verb",
-      "lemma": "ifriy-",
-      "gloss": "bear fruit",
-      "conjClass": "Prefix"
-    },
-    "udud": {
-      "pos": "Verb",
-      "lemma": "uɗuɗ-",
-      "gloss": "shorten",
-      "conjClass": "Prefix",
-      "derivedStem": "S1"
-    },
-    "eedeg": {
-      "pos": "Verb",
-      "lemma": "eeɗeg-",
-      "gloss": "know",
-      "conjClass": "Prefix"
-    },
-    "fi": {
-      "pos": "Verb",
-      "lemma": "fi-",
-      "gloss": "sweep",
-      "conjClass": "Suffix"
-    },
-    "ul": {
-      "pos": "Verb",
-      "lemma": "ʕul-",
-      "gloss": "draw water",
-      "conjClass": "Suffix"
-    },
-    "do": {
-      "pos": "Verb",
-      "lemma": "ɗo-",
-      "gloss": "suck on",
-      "conjClass": "Suffix"
-    },
-    "ooob": {
-      "pos": "Verb",
-      "lemma": "ooʕob-",
-      "gloss": "drink",
-      "conjClass": "Prefix"
-    },
-    "imbiddil": {
-      "pos": "Verb",
-      "lemma": "imbiddil- (M)",
-      "gloss": "be charged (M)",
-      "conjClass": "Prefix"
-    },
-    "ifteh": {
-      "pos": "Verb",
-      "lemma": "ifteḥ-",
-      "gloss": "untie",
-      "conjClass": "Prefix"
-    },
-    "had": {
-      "pos": "Verb",
-      "lemma": "ḥaɗ-",
-      "gloss": "[x]"
-    },
-    "abaas": {
-      "pos": "Verb",
-      "lemma": "abaas-",
-      "gloss": "finish",
-      "conjClass": "Suffix"
-    },
-    "ooog": {
-      "pos": "Verb",
-      "lemma": "ooʕog-",
-      "gloss": "bury",
-      "conjClass": "Prefix"
-    },
-    "oho": {
-      "pos": "Verb",
-      "lemma": "oḥo- (?)",
-      "gloss": "give",
-      "conjClass": "Prefix"
-    },
-    "uuluus": {
-      "pos": "Verb",
-      "lemma": "uuluus- (?)",
-      "gloss": "knead",
-      "conjClass": "Prefix"
-    },
-    "fuu": {
-      "pos": "Verb",
-      "lemma": "fuuʕ-",
-      "gloss": "suck",
-      "conjClass": "Suffix"
-    },
-    "oosoom": {
-      "pos": "Verb",
-      "lemma": "oosoom-",
-      "gloss": "fast",
-      "conjClass": "Prefix"
-    },
-    "gur": {
-      "pos": "Verb",
-      "lemma": "gur-",
-      "gloss": "want",
-      "conjClass": "Suffix"
-    },
-    "li": {
-      "pos": "Verb",
-      "lemma": "li-",
-      "gloss": "have"
-    },
-    "ebh": {
-      "pos": "Verb",
-      "lemma": "ebḥ-",
-      "gloss": "say",
-      "conjClass": "Prefix"
-    },
-    "bolol": {
-      "pos": "Verb",
-      "lemma": "bolol-sis",
-      "gloss": "[x]",
-      "derivedStem": "S2"
-    },
-    "erd": {
-      "pos": "Verb",
-      "lemma": "erd-",
-      "gloss": "run",
-      "conjClass": "Prefix"
-    },
-    "oorof": {
-      "pos": "Verb",
-      "lemma": "oorof-",
-      "gloss": "sew",
-      "conjClass": "Prefix"
-    },
-    "ew": {
-      "pos": "Verb",
-      "lemma": "ewʕ-",
-      "gloss": "go out",
-      "conjClass": "Prefix"
-    },
-    "fak": {
-      "pos": "Verb",
-      "lemma": "fak-",
-      "gloss": "open",
-      "conjClass": "Suffix"
-    },
-    "uyku": {
-      "pos": "Verb",
-      "lemma": "uykuʕ- (S1?)",
-      "gloss": "carry",
-      "conjClass": "Prefix",
-      "derivedStem": "S1"
-    },
-    "err": {
-      "pos": "Verb",
-      "lemma": "err-",
-      "gloss": "load",
-      "conjClass": "Prefix"
-    },
-    "eeit": {
-      "pos": "Verb",
-      "lemma": "eeʕit-",
-      "gloss": "step on",
-      "conjClass": "Prefix"
-    },
-    "enzewer": {
-      "pos": "Verb",
-      "lemma": "enzewer- (M)",
-      "gloss": "travel (M)",
-      "conjClass": "Prefix"
-    },
-    "engeeg": {
-      "pos": "Verb",
-      "lemma": "engeeg- (M)",
-      "gloss": "be mistaken (M)",
-      "conjClass": "Prefix"
-    },
-    "daam": {
-      "pos": "Verb",
-      "lemma": "ɗaam-",
-      "gloss": "buy",
-      "conjClass": "Suffix"
-    },
-    "idhen": {
-      "pos": "Verb",
-      "lemma": "iɗḥen-",
-      "gloss": "grind",
-      "conjClass": "Prefix"
-    },
-    "oosol": {
-      "pos": "Verb",
-      "lemma": "oosol-",
-      "gloss": "laugh",
-      "conjClass": "Prefix"
-    },
-    "sa": {
-      "pos": "Verb",
-      "lemma": "sa-",
-      "gloss": "enter",
-      "conjClass": "Suffix"
-    },
-    "deer": {
-      "pos": "Verb",
-      "lemma": "deer-",
-      "gloss": "cry out",
-      "conjClass": "Suffix"
-    },
-    "unqusu": {
-      "pos": "Verb",
-      "lemma": "unqusuʕ- (M)",
-      "gloss": "be sprained (M)",
-      "conjClass": "Prefix"
-    },
-    "beet": {
-      "pos": "Verb",
-      "lemma": "beet-",
-      "gloss": "eat",
-      "conjClass": "Suffix"
-    },
-    "igziy": {
-      "pos": "Verb",
-      "lemma": "igziy-",
-      "gloss": "rule over",
-      "conjClass": "Prefix"
-    },
-    "ootok": {
-      "pos": "Verb",
-      "lemma": "ootok-",
-      "gloss": "hit",
-      "conjClass": "Prefix"
-    },
-    "inebe": {
-      "pos": "Verb",
-      "lemma": "inebeʕ-",
-      "gloss": "hate",
-      "conjClass": "Prefix"
-    },
-    "rab": {
-      "pos": "Verb",
-      "lemma": "rab-",
-      "gloss": "die",
-      "conjClass": "Suffix"
-    },
-    "iklib": {
-      "pos": "Verb",
-      "lemma": "iklib-",
-      "gloss": "turn over",
-      "conjClass": "Prefix"
-    },
-    "ed": {
-      "pos": "Verb",
-      "lemma": "ed-",
-      "gloss": "go",
-      "conjClass": "PrefIrregular"
-    },
-    "eeley": {
-      "pos": "Verb",
-      "lemma": "eeley-",
-      "gloss": "become lost",
-      "conjClass": "Prefix"
-    },
-    "igdil": {
-      "pos": "Verb",
-      "lemma": "igdil-",
-      "gloss": "break",
-      "conjClass": "Prefix"
-    },
-    "eehet": {
-      "pos": "Verb",
-      "lemma": "eeḥet-",
-      "gloss": "chew",
-      "conjClass": "Prefix"
-    },
-    "fah": {
-      "pos": "Verb",
-      "lemma": "faḥ-",
-      "gloss": "boil",
-      "conjClass": "Suffix"
-    },
-    "ehet": {
-      "pos": "Verb",
-      "lemma": "eḥey-",
-      "gloss": "[x]"
-    },
-    "emlelekk": {
-      "pos": "Verb",
-      "lemma": "emlelekk- (M)",
-      "gloss": "be mistaken (M)",
-      "conjClass": "Prefix"
-    },
-    "eeneb": {
-      "pos": "Verb",
-      "lemma": "eeneb-",
-      "gloss": "grow",
-      "conjClass": "Prefix"
-    },
-    "ookom": {
-      "pos": "Verb",
-      "lemma": "ookom-",
-      "gloss": "win over",
-      "conjClass": "Prefix"
-    },
-    "alif": {
-      "pos": "Verb",
-      "lemma": "alif-",
-      "gloss": "close (open?)",
-      "conjClass": "Suffix"
-    },
-    "eefe": {
-      "pos": "Verb",
-      "lemma": "eefeʕ-",
-      "gloss": "give water to",
-      "conjClass": "Prefix"
-    },
-    "usul": {
-      "pos": "z",
-      "lemma": "[y]",
-      "gloss": "[x]"
-    },
-    "ehzen": {
-      "pos": "Verb",
-      "lemma": "eḥzen-",
-      "gloss": "be sad",
-      "conjClass": "Prefix"
-    },
-    "defee": {
-      "pos": "Verb",
-      "lemma": "defee-",
-      "gloss": "set down",
-      "conjClass": "Suffix"
-    },
-    "oofo": {
-      "pos": "Verb",
-      "lemma": "oofo-",
-      "gloss": "breathe",
-      "conjClass": "Prefix"
-    },
-    "edebb": {
-      "pos": "Verb",
-      "lemma": "edebb-",
-      "gloss": "repay",
-      "conjClass": "Prefix"
-    },
-    "fad": {
-      "pos": "Verb",
-      "lemma": "faɗ-",
-      "gloss": "want",
-      "conjClass": "Suffix"
-    },
-    "aymaa": {
-      "pos": "Verb",
-      "lemma": "aymaaʕ-",
-      "gloss": "[x]"
-    },
-    "dufu": {
-      "pos": "Verb",
-      "lemma": "dufu-",
-      "gloss": "push",
-      "conjClass": "Suffix"
-    },
-    "efe": {
-      "pos": "Verb",
-      "lemma": "efeʕ-",
-      "gloss": "[x]"
-    },
-    "eemen": {
-      "pos": "Verb",
-      "lemma": "eemen-",
-      "gloss": "believe",
-      "conjClass": "Prefix"
-    },
-    "iskir": {
-      "pos": "Verb",
-      "lemma": "iskir-",
-      "gloss": "get drunk",
-      "conjClass": "Prefix"
-    },
-    "iksib": {
-      "pos": "Verb",
-      "lemma": "iksib-",
-      "gloss": "profit",
-      "conjClass": "Prefix"
-    },
-    "bad": {
-      "pos": "Verb",
-      "lemma": "bad-",
-      "gloss": "die (of an animal or fire)",
-      "conjClass": "Suffix"
-    },
-    "emeet": {
-      "pos": "Verb",
-      "lemma": "emeet-",
-      "gloss": "come",
-      "conjClass": "Prefix"
-    },
-    "emmeeed": {
-      "pos": "Verb",
-      "lemma": "emmeʕeʕed- (M)",
-      "gloss": "stretch self (M)",
-      "conjClass": "Prefix"
-    },
-    "meenge": {
-      "pos": "Verb",
-      "lemma": "méengeʕ",
-      "gloss": "[x]"
-    },
-    "emmeng": {
-      "pos": "Verb",
-      "lemma": "emmeng- (M)",
-      "gloss": "be many (M)",
-      "conjClass": "Prefix"
-    },
-    "uru": {
-      "pos": "Verb",
-      "lemma": "uru- (!)",
-      "gloss": "tie",
-      "conjClass": "Prefix"
-    },
-    "ifrid": {
-      "pos": "Verb",
-      "lemma": "ifrid-",
-      "gloss": "judge",
-      "conjClass": "Prefix"
-    },
-    "biaak": {
-      "pos": "Verb",
-      "lemma": "biaak-",
-      "gloss": "injure",
-      "conjClass": "Suffix"
-    },
-    "hankabit": {
-      "pos": "Verb",
-      "lemma": "hankabit- (T)",
-      "gloss": "be frightened",
-      "conjClass": "Suffix"
-    },
-    "isniq": {
-      "pos": "Verb",
-      "lemma": "isniq-",
-      "gloss": "strangle",
-      "conjClass": "Prefix"
-    },
-    "hay": {
-      "pos": "Verb",
-      "lemma": "hay-",
-      "gloss": "dress",
-      "conjClass": "Suffix"
-    },
-    "alaa": {
-      "pos": "Verb",
-      "lemma": "alaa-",
-      "gloss": "cook",
-      "conjClass": "Suffix"
-    },
-    "uhfus": {
-      "pos": "Verb",
-      "lemma": "uḥfus-",
-      "gloss": "scoop up",
-      "conjClass": "Prefix"
-    },
-    "TENSEFORMATION": {
-      "pos": "Verb",
-      "lemma": "[y]",
-      "gloss": "[x]"
-    },
-    "ikfil": {
-      "pos": "Verb",
-      "lemma": "ikfil-",
-      "gloss": "repay",
-      "conjClass": "Prefix"
-    },
-    "obb": {
-      "pos": "Verb",
-      "lemma": "obb-",
-      "gloss": "hear",
-      "conjClass": "Prefix"
-    },
-    "infili": {
-      "pos": "Verb",
-      "lemma": "infili- (M)",
-      "gloss": "be separated (M)",
-      "conjClass": "Prefix"
-    },
-    "uruf": {
-      "pos": "Verb",
-      "lemma": "uʕruf-",
-      "gloss": "rest",
-      "conjClass": "Prefix"
-    },
-    "ootob": {
-      "pos": "Verb",
-      "lemma": "ootob-",
-      "gloss": "repent",
-      "conjClass": "Prefix"
-    },
-    "holol": {
-      "pos": "Verb",
-      "lemma": "bolol-",
-      "gloss": "blaze up",
-      "conjClass": "Suffix"
-    },
-    "ekett": {
-      "pos": "Verb",
-      "lemma": "ekett-",
-      "gloss": "gather",
-      "conjClass": "Prefix"
-    },
-    "eelem": {
-      "pos": "Verb",
-      "lemma": "eelem-",
-      "gloss": "weave",
-      "conjClass": "Prefix"
-    },
-    "ab": {
-      "pos": "Verb",
-      "lemma": "ab-",
-      "gloss": "do",
-      "conjClass": "Suffix"
-    },
-    "oysoom": {
-      "pos": "Verb",
-      "lemma": "oysoom- (S1 frm um-)",
-      "gloss": "spoil",
-      "conjClass": "Prefix"
-    },
-    "eqri": {
-      "pos": "Verb",
-      "lemma": "eqri-",
-      "gloss": "read Koran",
-      "conjClass": "Prefix"
-    },
-    "igdif": {
-      "pos": "Verb",
-      "lemma": "igdif-",
-      "gloss": "kill",
-      "conjClass": "Prefix"
-    },
-    "ki": {
-      "pos": "Verb",
-      "lemma": "ki-",
-      "gloss": "be",
-      "conjClass": "Suffix"
-    },
-    "ad": {
-      "pos": "Verb",
-      "lemma": "ḥaɗ-",
-      "gloss": "pour out",
-      "conjClass": "Suffix"
-    },
-    "inni": {
-      "pos": "Verb",
-      "lemma": "inni-",
-      "gloss": "be in",
-      "conjClass": "SuffixIrregular"
-    },
-    "edirir": {
-      "pos": "Verb",
-      "lemma": "edirir-",
-      "gloss": "eat supper",
-      "conjClass": "Prefix"
-    },
-    "abah": {
-      "pos": "Verb",
-      "lemma": "abaḥ-",
-      "gloss": "spoil",
-      "conjClass": "Suffix"
-    },
-    "urkut": {
-      "pos": "Verb",
-      "lemma": "urkut-",
-      "gloss": "become thin",
-      "conjClass": "Prefix"
-    },
-    "igre": {
-      "pos": "Verb",
-      "lemma": "igreʕ-",
-      "gloss": "cut off",
-      "conjClass": "Prefix"
-    },
-    "ehlif": {
-      "pos": "Verb",
-      "lemma": "eḥlif-",
-      "gloss": "be annihilated",
-      "conjClass": "Prefix"
-    },
-    "eheeseb": {
-      "pos": "Verb",
-      "lemma": "eḥeeseb-",
-      "gloss": "think about",
-      "conjClass": "Prefix"
-    },
-    "eney": {
-      "pos": "Verb",
-      "lemma": "eney- (?)",
-      "gloss": "flay",
-      "conjClass": "Prefix"
-    },
-    "ak": {
-      "pos": "Verb",
-      "lemma": "ak-",
-      "gloss": "say",
-      "conjClass": "Suffix"
-    },
-    "onqoomot": {
-      "pos": "Verb",
-      "lemma": "onqoomot- (M)",
-      "gloss": "pay attention (M)",
-      "conjClass": "Prefix"
-    },
-    "immillik": {
-      "pos": "Verb",
-      "lemma": "immillik- (M)",
-      "gloss": "surrender (M)",
-      "conjClass": "Prefix"
-    },
-    "ibbid": {
-      "pos": "Verb",
-      "lemma": "ibbiɗ-",
-      "gloss": "hold",
-      "conjClass": "Prefix"
-    },
-    "anga": {
-      "pos": "Verb",
-      "lemma": "angaʕ-",
-      "gloss": "[x]"
-    },
-    "suu": {
-      "pos": "Verb",
-      "lemma": "suʕu-",
-      "gloss": "hide",
-      "conjClass": "Suffix"
-    },
-    "edh": {
-      "pos": "Verb",
-      "lemma": "eɗḥ-",
-      "gloss": "say",
-      "conjClass": "Prefix"
-    }
+  {
+    "label": "sah-PronounEmphAbs",
+    "note": "BV23 -Table 16.11. (Separate emphatic absolute forms are used for coordination, focus, and noun phrase predicates.)",
+    "common": {
+      "proClass": "EmphAbs",
+      "pos": "Pronoun"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"yoo / yowa / yoyya / yetta"],
+      ["Singular" ,"Person2" ,"Common" ,"kowa / koyya / kotta"],
+      ["Singular" ,"Person3" ,"Masc" ,"ka(yy)a"],
+      ["Singular" ,"Person3" ,"Fem" ,"tey(y)a"],
+      ["Plural" ,"Person1" ,"Common" ,"nowa / noyya / notta"],
+      ["Plural" ,"Person2" ,"Common" ,"sina"],
+      ["Plural" ,"Person3" ,"Common" ,"tena"]
+    ]
   },
-  "termclusters": [
-
-
-  ]
-}
+  {
+    "label": "sah-PronounNominative",
+    "note": "BV23 -Table 16.11",
+    "common": {
+      "proClass": "Nominative",
+      "pos": "Pronoun"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"anu"],
+      ["Singular" ,"Person2" ,"Common" ,"atu"],
+      ["Singular" ,"Person3" ,"Masc" ,"usuk"],
+      ["Singular" ,"Person3" ,"Fem" ,"iši / iše / isi"],
+      ["Plural" ,"Person1" ,"Common" ,"nanu"],
+      ["Plural" ,"Person2" ,"Common" ,"atin"],
+      ["Plural" ,"Person3" ,"Common" ,"usun / isin"]
+    ]
+  },
+  {
+    "label": "sah-PronounReciprocal",
+    "note": "BV23 -Table 16.12",
+    "common": {
+      "proClass": "Reciprocal",
+      "pos": "Pronoun"
+    },
+    "terms": [
+      ["number" ,"person" ,"token"],
+      ["Singular" ,"Person1" ,"sitt(iy)a / ktitt(iy)a"],
+      ["Singular" ,"Person2-3" ,"sitt(iy)a / ktitt(iy)a"],
+      ["Plural" ,"Person1" ,"sitt(iy)a / ktitt(iy)a"],
+      ["Plural" ,"Person2-3" ,"sitt(iy)a / ktitt(iy)a"]
+    ]
+  },
+  {
+    "label": "sah-PronounReflexive",
+    "note": "BV23 -Table 16.12",
+    "common": {
+      "proClass": "Reflexive",
+      "pos": "Pronoun"
+    },
+    "terms": [
+      ["case" ,"number" ,"person" ,"token"],
+      ["Absolute" ,"Singular" ,"Person1" ,"inne"],
+      ["Absolute" ,"Singular" ,"Person2-3" ,"iše / ise"],
+      ["Absolute" ,"Plural" ,"Person1" ,"ninne"],
+      ["Absolute" ,"Plural" ,"Person2-3" ,"sinne"],
+      ["Genitive" ,"Singular" ,"Person1" ,"inni"],
+      ["Genitive" ,"Singular" ,"Person2-3" ,"iši / isi"],
+      ["Genitive" ,"Plural" ,"Person1" ,"ninni"],
+      ["Genitive" ,"Plural" ,"Person2-3" ,"sinni"]
+    ]
+  },
+  {
+    "label": "sah-PronounShortAbsGen",
+    "note": "BV23 -Table 16.11. (The short absolute/genitive pronouns are used for direct objects, with clitic postpositions (§16.6.4), and as possessives.)",
+    "common": {
+      "proClass": "ShortAbsGen",
+      "pos": "Pronoun"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"yi"],
+      ["Singular" ,"Person2" ,"Common" ,"ku"],
+      ["Singular" ,"Person3" ,"Masc" ,"kaa"],
+      ["Singular" ,"Person3" ,"Fem" ,"tee"],
+      ["Plural" ,"Person1" ,"Common" ,"ni"],
+      ["Plural" ,"Person2" ,"Common" ,"sin"],
+      ["Plural" ,"Person3" ,"Common" ,"ten"]
+    ]
+  },
+  {
+    "label": "sah-VerbCompound-sik-erhe-PastPositive",
+    "note": "BV23 -Table 16.8",
+    "common": {
+      "conjClass": "Compound",
+      "lexeme": "sik-erhe",
+      "polarity": "Positive",
+      "pos": "Verb",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"sik-eɽħe"],
+      ["Singular" ,"Person2" ,"Common" ,"sik-teɽħe"],
+      ["Singular" ,"Person3" ,"Masc" ,"sik-yeɽħe"],
+      ["Singular" ,"Person3" ,"Fem" ,"sik-teɽħe"],
+      ["Plural" ,"Person1" ,"Common" ,"sik-neɽħe"],
+      ["Plural" ,"Person2" ,"Common" ,"sik-teɽħin"],
+      ["Plural" ,"Person3" ,"Common" ,"sik-yeɽħin"]
+    ]
+  },
+  {
+    "label": "sah-VerbCompound-sik-erhe-PresentPositive",
+    "note": "BV23 -Table 16.7",
+    "common": {
+      "conjClass": "Compound",
+      "lexeme": "sik-erhe",
+      "polarity": "Positive",
+      "pos": "Verb",
+      "tam": "Present"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"sik-aɽħe"],
+      ["Singular" ,"Person2" ,"Common" ,"sik-taɽħe"],
+      ["Singular" ,"Person3" ,"Masc" ,"sik-yaɽħe"],
+      ["Singular" ,"Person3" ,"Fem" ,"sik-taɽħe"],
+      ["Plural" ,"Person1" ,"Common" ,"sik-naɽħe"],
+      ["Plural" ,"Person2" ,"Common" ,"sik-taɽħin"],
+      ["Plural" ,"Person3" ,"Common" ,"sik-yaɽħin"]
+    ]
+  },
+  {
+    "label": "sah-VerbIrregular-li-Copula",
+    "note": "W52p.250",
+    "common": {
+      "conjClass": "Irregular",
+      "lexeme": "li",
+      "pos": "Verb",
+      "tam": "Copula"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"lio"],
+      ["Singular" ,"Person2" ,"Common" ,"lito"],
+      ["Singular" ,"Person3" ,"Masc" ,"linni"],
+      ["Singular" ,"Person3" ,"Fem" ,"linni"],
+      ["Plural" ,"Person1" ,"Common" ,"linu"],
+      ["Plural" ,"Person2" ,"Common" ,"litin"],
+      ["Plural" ,"Person3" ,"Common" ,"linun"]
+    ]
+  },
+  {
+    "label": "sah-VerbPrefix-erhe-ImperativePositive",
+    "note": "BV23 -Table 16.9",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "erhe",
+      "polarity": "Positive",
+      "pos": "Verb",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"eɽeħ"],
+      ["Plural" ,"Person2" ,"Common" ,"eɽeħa/eɽeħanta"]
+    ]
+  },
+  {
+    "label": "sah-VerbPrefix-erhe-PastPositive",
+    "note": "BV23 -Table 16.8",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "erhe",
+      "polarity": "Positive",
+      "pos": "Verb",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"eɽħ-e"],
+      ["Singular" ,"Person2" ,"Common" ,"t-eɽħ-e"],
+      ["Singular" ,"Person3" ,"Masc" ,"y-eɽħ-e"],
+      ["Singular" ,"Person3" ,"Fem" ,"t-eɽħ-e"],
+      ["Plural" ,"Person1" ,"Common" ,"n-eɽħ-e"],
+      ["Plural" ,"Person2" ,"Common" ,"t-eɽħ-in"],
+      ["Plural" ,"Person3" ,"Common" ,"y-eɽħ-in"]
+    ]
+  },
+  {
+    "label": "sah-VerbPrefix-erhe-PresentPositive",
+    "note": "BV23 -Table 16.7",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "erhe",
+      "polarity": "Positive",
+      "pos": "Verb",
+      "tam": "Present"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"aɽħ-e"],
+      ["Singular" ,"Person2" ,"Common" ,"t-aɽħ-e"],
+      ["Singular" ,"Person3" ,"Masc" ,"y-aɽħ-e"],
+      ["Singular" ,"Person3" ,"Fem" ,"t-aɽħ-e"],
+      ["Plural" ,"Person1" ,"Common" ,"n-aɽħ-e"],
+      ["Plural" ,"Person2" ,"Common" ,"t-aɽħ-in"],
+      ["Plural" ,"Person3" ,"Common" ,"y-aɽħ-in"]
+    ]
+  },
+  {
+    "label": "sah-VerbPrefix-erhe-SubjunctivePositive",
+    "note": "BV23 -Table 16.9",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "erhe",
+      "polarity": "Positive",
+      "pos": "Verb",
+      "tam": "Subjunctive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"aɽħ-o"],
+      ["Singular" ,"Person2" ,"Common" ,"t-aɽħ-o"],
+      ["Singular" ,"Person3" ,"Masc" ,"y-aɽħ-o"],
+      ["Singular" ,"Person3" ,"Fem" ,"t-aɽħ-o"],
+      ["Plural" ,"Person1" ,"Common" ,"n-aɽħ-o"],
+      ["Plural" ,"Person2" ,"Common" ,"t-aɽħ-oona"],
+      ["Plural" ,"Person3" ,"Common" ,"y-aɽħ-oona"]
+    ]
+  },
+  {
+    "label": "sah-VerbPrefix-inni-Copula",
+    "note": "W52p.249",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "inni",
+      "pos": "Verb",
+      "tam": "Copula"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"innio"],
+      ["Singular" ,"Person2" ,"Common" ,"innito"],
+      ["Singular" ,"Person3" ,"Masc" ,"inna"],
+      ["Singular" ,"Person3" ,"Fem" ,"inna"],
+      ["Plural" ,"Person1" ,"Common" ,"innino"],
+      ["Plural" ,"Person2" ,"Common" ,"innitin"],
+      ["Plural" ,"Person3" ,"Common" ,"innun"]
+    ]
+  },
+  {
+    "label": "sah-VerbPrefix-inni-Imperfect",
+    "note": "W52p.249",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "inni",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ane ~ anio"],
+      ["Singular" ,"Person2" ,"Common" ,"tane ~ tanito"],
+      ["Singular" ,"Person3" ,"Masc" ,"yane"],
+      ["Singular" ,"Person3" ,"Fem" ,"tane"],
+      ["Plural" ,"Person1" ,"Common" ,"nane ~ nanino"],
+      ["Plural" ,"Person2" ,"Common" ,"tanitin"],
+      ["Plural" ,"Person3" ,"Common" ,"yanin"]
+    ]
+  },
+  {
+    "label": "sah-VerbPrefix-inni-Perfect",
+    "note": "W52p.249",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "inni",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ine"],
+      ["Singular" ,"Person2" ,"Common" ,"tine"],
+      ["Singular" ,"Person3" ,"Masc" ,"ine"],
+      ["Singular" ,"Person3" ,"Fem" ,"tine"],
+      ["Plural" ,"Person1" ,"Common" ,"nine"],
+      ["Plural" ,"Person2" ,"Common" ,"tinen"],
+      ["Plural" ,"Person3" ,"Common" ,"yinen"]
+    ]
+  },
+  {
+    "label": "sah-VerbStative-kihina-PastPositive",
+    "note": "BV23 -Table 16.8'; This construction uses the auxiliary verb ine Class 1 ʻbe, existʼ. The equivalent form in Northern Saaho has a variable  converb: kiħinijuk ine, kiħinituk tine, etc",
+    "common": {
+      "conjClass": "Stative",
+      "lexeme": "kihina",
+      "polarity": "Positive",
+      "pos": "Verb",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"kiħinii ine"],
+      ["Singular" ,"Person2" ,"Common" ,"kiħinii tine"],
+      ["Singular" ,"Person3" ,"Masc" ,"kiħinii yine"],
+      ["Singular" ,"Person3" ,"Fem" ,"kiħinii tine"],
+      ["Plural" ,"Person1" ,"Common" ,"kiħinii nine"],
+      ["Plural" ,"Person2" ,"Common" ,"kiħinii tinin"],
+      ["Plural" ,"Person3" ,"Common" ,"kiħinii yinin"]
+    ]
+  },
+  {
+    "label": "sah-VerbStative-kihina-PresentPositive",
+    "note": "BV23 -Table 16.7",
+    "common": {
+      "conjClass": "Stative",
+      "lexeme": "kihina",
+      "polarity": "Positive",
+      "pos": "Verb",
+      "tam": "Present"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"kiħin-iyo"],
+      ["Singular" ,"Person2" ,"Common" ,"kiħin-ito"],
+      ["Singular" ,"Person3" ,"Masc" ,"kiħina"],
+      ["Singular" ,"Person3" ,"Fem" ,"kiħina"],
+      ["Plural" ,"Person1" ,"Common" ,"kiħin-ino"],
+      ["Plural" ,"Person2" ,"Common" ,"kiħin-itin"],
+      ["Plural" ,"Person3" ,"Common" ,"kiħin-on"]
+    ]
+  },
+  {
+    "label": "sah-VerbSuffix-ak-Jussive",
+    "note": "W52p.249",
+    "common": {
+      "conjClass": "Suffix",
+      "lexeme": "ak",
+      "pos": "Verb",
+      "tam": "Jussive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"akkóowa ~ óowa "],
+      ["Singular" ,"Person2" ,"Common" ,"aktóowa"],
+      ["Singular" ,"Person3" ,"Masc" ,"akkóowa ~ óowa "],
+      ["Singular" ,"Person3" ,"Fem" ,"aktóowa"],
+      ["Plural" ,"Person1" ,"Common" ,"aknóowa"],
+      ["Plural" ,"Person2" ,"Common" ,"aktóowan"],
+      ["Plural" ,"Person3" ,"Common" ,"akóowan"]
+    ]
+  },
+  {
+    "label": "sah-VerbSuffix-ak-PerfectAffirmative",
+    "note": "W52p.249",
+    "common": {
+      "conjClass": "Suffix",
+      "dervStem": "Base",
+      "polarity": "Affirmative",
+      "lexeme": "ak",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"akke"],
+      ["Singular" ,"Person2" ,"Common" ,"akte"],
+      ["Singular" ,"Person3" ,"Masc" ,"akie"],
+      ["Singular" ,"Person3" ,"Fem" ,"akte"],
+      ["Plural" ,"Person1" ,"Common" ,"akne"],
+      ["Plural" ,"Person2" ,"Common" ,"akten"],
+      ["Plural" ,"Person3" ,"Common" ,"akken"]
+    ]
+  },
+  {
+    "label": "sah-VerbSuffix-alife-ImperativeNegative",
+    "note": "BV23 -Table 16.19",
+    "common": {
+      "conjClass": "Suffix",
+      "lexeme": "alife",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"maalifin"],
+      ["Plural" ,"Person2" ,"Common" ,"maalifina"]
+    ]
+  },
+  {
+    "label": "sah-VerbSuffix-alife-ImperativePositive",
+    "note": "BV23 -Table 16.9",
+    "common": {
+      "conjClass": "Suffix",
+      "lexeme": "alife",
+      "polarity": "Positive",
+      "pos": "Verb",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"alif"],
+      ["Plural" ,"Person2" ,"Common" ,"alifa/alifanta"]
+    ]
+  },
+  {
+    "label": "sah-VerbSuffix-alife-LongPastNegative",
+    "note": "BV23 -Table 16.19",
+    "common": {
+      "conjClass": "Suffix",
+      "lexeme": "alife",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "LongPast"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"maalifinnijo"],
+      ["Singular" ,"Person2" ,"Common" ,"maalifinnito"],
+      ["Singular" ,"Person3" ,"Masc" ,"maalifinna"],
+      ["Singular" ,"Person3" ,"Fem" ,"maalifinna"],
+      ["Plural" ,"Person1" ,"Common" ,"maalifinnino"],
+      ["Plural" ,"Person2" ,"Common" ,"maalifinnitiini"],
+      ["Plural" ,"Person3" ,"Common" ,"maalifinnooni"]
+    ]
+  },
+  {
+    "label": "sah-VerbSuffix-alife-PastPositive",
+    "note": "BV23 -Table 16.8",
+    "common": {
+      "conjClass": "Suffix",
+      "lexeme": "alife",
+      "polarity": "Positive",
+      "pos": "Verb",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"alif-e"],
+      ["Singular" ,"Person2" ,"Common" ,"alif-te"],
+      ["Singular" ,"Person3" ,"Masc" ,"alif-e"],
+      ["Singular" ,"Person3" ,"Fem" ,"alif-te"],
+      ["Plural" ,"Person1" ,"Common" ,"alif-ne"],
+      ["Plural" ,"Person2" ,"Common" ,"alif-ten"],
+      ["Plural" ,"Person3" ,"Common" ,"alif-en"]
+    ]
+  },
+  {
+    "label": "sah-VerbSuffix-alife-PresentPositive",
+    "note": "BV23 -Table 16.7",
+    "common": {
+      "conjClass": "Suffix",
+      "lexeme": "alife",
+      "polarity": "Positive",
+      "pos": "Verb",
+      "tam": "Present"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"alif-a"],
+      ["Singular" ,"Person2" ,"Common" ,"alif-ta"],
+      ["Singular" ,"Person3" ,"Masc" ,"alif-a"],
+      ["Singular" ,"Person3" ,"Fem" ,"alif-ta"],
+      ["Plural" ,"Person1" ,"Common" ,"alif-na"],
+      ["Plural" ,"Person2" ,"Common" ,"alif-tan"],
+      ["Plural" ,"Person3" ,"Common" ,"alif-an"]
+    ]
+  },
+  {
+    "label": "sah-VerbSuffix-alife-RelativeNegative",
+    "note": "BV23 -Table 16.19; Northern Saho only",
+    "common": {
+      "conjClass": "Suffix",
+      "lexeme": "alife",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Relative"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"alifinniħijo"],
+      ["Singular" ,"Person2" ,"Common" ,"alifinniħito"],
+      ["Singular" ,"Person3" ,"Masc" ,"alifinneħe"],
+      ["Singular" ,"Person3" ,"Fem" ,"alifinneħe"],
+      ["Plural" ,"Person1" ,"Common" ,"alifinniħino"],
+      ["Plural" ,"Person2" ,"Common" ,"alifinniħitin"],
+      ["Plural" ,"Person3" ,"Common" ,"alifinnoħon"]
+    ]
+  },
+  {
+    "label": "sah-VerbSuffix-alife-ShortPastNegative",
+    "note": "BV23 -Table 16.19",
+    "common": {
+      "conjClass": "Suffix",
+      "lexeme": "alife",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "ShortPast"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"maalifijo"],
+      ["Singular" ,"Person2" ,"Common" ,"maalifito"],
+      ["Singular" ,"Person3" ,"Masc" ,"maalifo"],
+      ["Singular" ,"Person3" ,"Fem" ,"maalifo"],
+      ["Plural" ,"Person1" ,"Common" ,"maalifino"],
+      ["Plural" ,"Person2" ,"Common" ,"maalifitiini"],
+      ["Plural" ,"Person3" ,"Common" ,"maalifini"]
+    ]
+  },
+  {
+    "label": "sah-VerbSuffix-alife-SubjunctivePositive",
+    "note": "BV23 -Table 16.9",
+    "common": {
+      "conjClass": "Suffix",
+      "lexeme": "alife",
+      "polarity": "Positive",
+      "pos": "Verb",
+      "tam": "Subjunctive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"alif-o"],
+      ["Singular" ,"Person2" ,"Common" ,"alif-to"],
+      ["Singular" ,"Person3" ,"Masc" ,"alif-o"],
+      ["Singular" ,"Person3" ,"Fem" ,"alif-to"],
+      ["Plural" ,"Person1" ,"Common" ,"alif-no"],
+      ["Plural" ,"Person2" ,"Common" ,"alif-toona"],
+      ["Plural" ,"Person3" ,"Common" ,"alif-oona"]
+    ]
+  },
+  {
+    "label": "sah-VerbSuffix-hab-PerfectAffirmative",
+    "note": "W52p.236",
+    "common": {
+      "conjClass": "Suffix",
+      "dervStem": "Base",
+      "lexeme": "hab",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ḥabe"],
+      ["Singular" ,"Person2" ,"Common" ,"ḥabte"],
+      ["Singular" ,"Person3" ,"Masc" ,"ḥabe"],
+      ["Singular" ,"Person3" ,"Fem" ,"ḥabte"],
+      ["Plural" ,"Person1" ,"Common" ,"ḥabne"],
+      ["Plural" ,"Person2" ,"Common" ,"ḥabten"],
+      ["Plural" ,"Person3" ,"Common" ,"ḥaben"]
+    ]
+  },
+  {
+    "label": "sah-VerbSuffix-ki-Copula",
+    "note": "W52p.250",
+    "common": {
+      "conjClass": "Suffix",
+      "lexeme": "ki",
+      "pos": "Verb",
+      "tam": "Copula"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"kio"],
+      ["Singular" ,"Person2" ,"Common" ,"kito"],
+      ["Singular" ,"Person3" ,"Masc" ,"kinni"],
+      ["Singular" ,"Person3" ,"Fem" ,"kinni"],
+      ["Plural" ,"Person1" ,"Common" ,"kinu"],
+      ["Plural" ,"Person2" ,"Common" ,"kitin"],
+      ["Plural" ,"Person3" ,"Common" ,"kinun"]
+    ]
+  },
+  {
+    "label": "sah-VerbSuffix-ubl-PerfectAffirmative",
+    "note": "W52p.236",
+    "common": {
+      "conjClass": "Suffix",
+      "dervStem": "Base",
+      "polarity": "Affirmative",
+      "lexeme": "ubl",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"uble"],
+      ["Singular" ,"Person2" ,"Common" ,"tuble"],
+      ["Singular" ,"Person3" ,"Masc" ,"yuble"],
+      ["Singular" ,"Person3" ,"Fem" ,"tuble"],
+      ["Plural" ,"Person1" ,"Common" ,"nuble"],
+      ["Plural" ,"Person2" ,"Common" ,"tublin"],
+      ["Plural" ,"Person3" ,"Common" ,"yublin"]
+    ]
+  },
+  {
+    "label": "sah-Verbmorph-StemDerivation-",
+    "note": "BV23 - 16.4.2 (3) - (7)",
+    "common": {
+      "pos": "Verb",
+      "morphClass": "StemDerivation"
+    },
+    "terms": [
+      ["dervStem" ,"conjClass" ,"process" ,"lexeme" ,"token"],
+      ["Intensive" ,"Prefix" ,"Redup" ,"esgelle" ,"esgeegelle 'mix thoroughly'"],
+      ["Intensive" ,"Suffix" ,"Redup" ,"beete" ,"bebbeete 'eat a little several times'"],
+      ["Causative" ,"Prefix" ,"Pref-s:š-" ,"igdife" ,"isgidife 'cause to kill'"],
+      ["Causative" ,"Prefix" ,"Pref-y:yš-" ,"eedege" ,"iyšiɖɖige 'inform'"],
+      ["Causative" ,"Suffix" ,"Suff-š" ,"dame" ,"ɖamiše 'melt TR'"],
+      ["Causative" ,"Suffix" ,"Suff-šiš" ,"baahe" ,"bahšiše 'cause to bring'"],
+      ["Middle" ,"Prefix" ,"C1Geminate" ,"igdile" ,"iggidile 'be broken'"],
+      ["Middle" ,"Prefix" ,"Pref-tt-" ,"ohoye" ,"ottoħoye 'give for one's benefit'"],
+      ["Middle" ,"Suffix" ,"Suff-t" ,"file" ,"filite 'comb 'one's hair)'"],
+      ["Passive" ,"Prefix" ,"Pref-m-" ,"oobbe" ,"omobbe 'be heard'"],
+      ["Passive" ,"Suffix" ,"Suff-m" ,"beete" ,"bettiime 'be eaten'"],
+      ["Inchoative" ,"Suffix" ,"Suff-ow" ,"data" ,"dattowe 'become black'"],
+      ["Inchoative" ,"Prefix" ,"ConjClassChange" ,"mee" ,"emʕe 'become good'"],
+      ["Inchoative" ,"Suffix" ,"ConjClassChange" ,"kafina" ,"kafe 'become dry'"]
+    ]
+  }
+]}
